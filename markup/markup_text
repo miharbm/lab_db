@@ -1,0 +1,116 @@
+Movies {
+	id integer pk increments
+	name string
+	release_date date
+	duration time
+	mpaa string null > undefined.undefined
+	rating float null
+	kp_id integer unique
+	desciption text
+}
+
+Cinemas {
+	id integer pk increments
+	name string
+	location string null unique
+	contact string null
+}
+
+Halls {
+	id integer pk increments
+	name string
+	cinema_id integer *> Cinemas.id
+	type string null
+}
+
+Seats {
+	id integer pk increments
+	row integer
+	place integer
+	hall_id integer *> Halls.id
+}
+
+Customers {
+	id integer pk increments
+	name string null
+	birthday date null
+	avatar string
+	phone string null unique
+	mail string null unique
+	password string unique
+}
+
+Sessions {
+	id integer pk increments
+	movie_id integer *> Movies.id
+	hall_id integer *> Halls.id
+	time timestamp
+}
+
+Tickets {
+	id integer pk increments
+	seat_id integer *> Seats.id
+	session_id integer *>* Sessions.id
+	price integer
+	order_id integer *> Orders.id
+}
+
+Films_crews {
+	id integer pk increments
+	movie_id integer *>* Movies.id
+	member_id integer *>* Film_crew_members.id
+	position string null *> positions.name
+}
+
+Film_crew_members {
+	id integer pk increments
+	name string
+}
+
+Genres {
+	name string pk unique
+}
+
+Staff {
+	id integer pk increments
+	cinema_id integer *> Cinemas.id
+	position string
+	login string
+	password string
+	birthday string
+	email string
+	name string
+}
+
+Primes {
+	id integer pk increments
+	name integer
+}
+
+Prime_nominations {
+	id integer pk increments
+	nominee_id integer *> Nominees.id
+	prime_id integer *> Primes.id
+	nominaiton string
+	year integer
+	isWon boolean def(False)
+}
+
+Nominees {
+	id integer pk increments
+	movie_id integer null *> Movies.id
+	film_crew_members_id integer null *> Film_crew_members.id
+}
+
+Orders {
+	id integer pk increments
+	customer_id integer >* Customers.id
+	total_price integer
+	payment_time timestamp null
+}
+
+Movies_genres {
+	id integer pk increments
+	movie_id integer *> Movies.id
+	genres_name integer null > Genres.name
+}
