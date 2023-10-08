@@ -114,3 +114,11 @@ Movies_genres {
 	movie_id integer *> Movies.id
 	genres_name integer null > Genres.name
 }
+
+Pictures_movie {
+	id integer pk increments
+	movie_id integer *> Movies.id
+	isMain boolean def(FALSE)
+	ref string
+}
+

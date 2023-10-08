@@ -3,9 +3,9 @@ CREATE TABLE "public.Movies" (
 	"name" VARCHAR(255) NOT NULL,
 	"release_date" DATE NOT NULL,
 	"duration" TIME NOT NULL,
-	"mpaa" VARCHAR(255),
+	"mpaa" VARCHAR(5),
 	"rating" FLOAT,
-	"genre" VARCHAR(255) NOT NULL,
+    "kp_id" integer UNIQUE ,
 	CONSTRAINT "Movies_pk" PRIMARY KEY ("id")
 ) WITH (
   OIDS=FALSE
@@ -26,9 +26,9 @@ CREATE TABLE "public.Cinemas" (
 
 CREATE TABLE "public.Halls" (
 	"id" serial NOT NULL,
-	"name" VARCHAR(255) NOT NULL,
+	"name" VARCHAR(5) NOT NULL,
 	"cinema_id" integer NOT NULL,
-	"type" VARCHAR(255),
+	"type" VARCHAR(20),
 	CONSTRAINT "Halls_pk" PRIMARY KEY ("id")
 ) WITH (
   OIDS=FALSE
@@ -47,12 +47,25 @@ CREATE TABLE "public.Seats" (
 );
 
 
+CREATE TABLE "public.Orders" (
+    "id" serial NOT NULL,
+    "customer_id" integer NOT NULL,
+    "total_price" integer NOT NULL,
+    "payment_time" TIMESTAMP,
+    CONSTRAINT "Orders_pk" PRIMARY KEY ("id")
+) WITH (
+  OIDS=FALSE
+);
 
-CREATE TABLE "public.Customer" (
+
+CREATE TABLE "public.Customers" (
 	"id" serial NOT NULL,
 	"name" VARCHAR(255),
 	"birthday" DATE,
-	"avatar" VARCHAR(255) NOT NULL,
+	"avatar_ref" VARCHAR(255),
+    "phone" VARCHAR(255),
+    "email" VARCHAR(255),
+    "password" VARCHAR(255),
 	CONSTRAINT "Customer_pk" PRIMARY KEY ("id")
 ) WITH (
   OIDS=FALSE
@@ -74,12 +87,10 @@ CREATE TABLE "public.Sessions" (
 
 CREATE TABLE "public.Tickets" (
 	"id" serial NOT NULL,
-	"customer_id" integer NOT NULL,
 	"seat_id" integer NOT NULL,
 	"session_id" integer NOT NULL,
-	"payment_time" TIMESTAMP NOT NULL,
 	"price" integer NOT NULL,
-	"isBought" BOOLEAN NOT NULL DEFAULT 'FALSE',
+    "order_id" integer,
 	CONSTRAINT "Tickets_pk" PRIMARY KEY ("id")
 ) WITH (
   OIDS=FALSE
@@ -87,7 +98,7 @@ CREATE TABLE "public.Tickets" (
 
 
 
-CREATE TABLE "public.films_crew" (
+CREATE TABLE "public.Films_crew" (
 	"id" serial NOT NULL,
 	"movie_id" integer NOT NULL,
 	"member_id" integer NOT NULL,
@@ -99,7 +110,7 @@ CREATE TABLE "public.films_crew" (
 
 
 
-CREATE TABLE "public.film_crew_member" (
+CREATE TABLE "public.Film_crew_member" (
 	"id" serial NOT NULL,
 	"name" VARCHAR(255) NOT NULL,
 	CONSTRAINT "film_crew_member_pk" PRIMARY KEY ("id")
@@ -107,10 +118,17 @@ CREATE TABLE "public.film_crew_member" (
   OIDS=FALSE
 );
 
+CREATE TABLE "public.Movies_genres" (
+    "id" serial NOT NULL,
+    "movie_id" integer NOT NULL,
+    "genres_name" 
+	CONSTRAINT "movies_genres_pk" PRIMARY KEY ("id")
+) WITH (
+    OIDS = FALSE
+)
 
-
-CREATE TABLE "public.genres" (
-	"name" VARCHAR(255) NOT NULL UNIQUE,
+CREATE TABLE "public.Genres" (
+	"name" VARCHAR(20) NOT NULL UNIQUE,
 	CONSTRAINT "genres_pk" PRIMARY KEY ("name")
 ) WITH (
   OIDS=FALSE
@@ -130,9 +148,11 @@ ALTER TABLE "Seats" ADD CONSTRAINT "Seats_fk0" FOREIGN KEY ("hall_id") REFERENCE
 ALTER TABLE "Sessions" ADD CONSTRAINT "Sessions_fk0" FOREIGN KEY ("movie_id") REFERENCES "Movies"("id");
 ALTER TABLE "Sessions" ADD CONSTRAINT "Sessions_fk1" FOREIGN KEY ("hall_id") REFERENCES "Halls"("id");
 
-ALTER TABLE "Tickets" ADD CONSTRAINT "Tickets_fk0" FOREIGN KEY ("customer_id") REFERENCES "Customer"("id");
+ALTER TABLE "Tickets" ADD CONSTRAINT "Tickets_fk0" FOREIGN KEY ("order_id") REFERENCES "Orders"("id");
 ALTER TABLE "Tickets" ADD CONSTRAINT "Tickets_fk1" FOREIGN KEY ("seat_id") REFERENCES "Seats"("id");
 ALTER TABLE "Tickets" ADD CONSTRAINT "Tickets_fk2" FOREIGN KEY ("session_id") REFERENCES "Sessions"("id");
+
+ALTER TABLE "Orders" ADD CONSTRAINT "Oreders_fk0" FOREIGN KEY ("customer_id") REFERENCES "Customers"("id")
 
 ALTER TABLE "films_crew" ADD CONSTRAINT "films_crew_fk0" FOREIGN KEY ("movie_id") REFERENCES "Movies"("id");
 ALTER TABLE "films_crew" ADD CONSTRAINT "films_crew_fk1" FOREIGN KEY ("member_id") REFERENCES "film_crew_member"("id");
