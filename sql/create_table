@@ -78,7 +78,8 @@ CREATE TABLE "public.Sessions" (
 	"movie_id" integer NOT NULL,
 	"hall_id" integer NOT NULL,
 	"time" TIMESTAMP NOT NULL,
-	CONSTRAINT "Sessions_pk" PRIMARY KEY ("id")
+	CONSTRAINT "Sessions_pk" PRIMARY KEY (id),
+    CONSTRAINT "Sessions_unique" UNIQUE(hall_id, time),
 ) WITH (
   OIDS=FALSE
 );
@@ -91,7 +92,8 @@ CREATE TABLE "public.Tickets" (
 	"session_id" integer NOT NULL,
 	"price" integer NOT NULL,
     "order_id" integer,
-	CONSTRAINT "Tickets_pk" PRIMARY KEY ("id")
+	CONSTRAINT "Tickets_pk" PRIMARY KEY (id),
+    CONSTRAINT "Tickets_unique" UNIQUE(seat_id, session_id),
 ) WITH (
   OIDS=FALSE
 );
