@@ -1,3 +1,5 @@
+// Это маркап с платформы https://erd.dbdesigner.net/
+
 Movies {
 	id integer pk increments
 	name string
