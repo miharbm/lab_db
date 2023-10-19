@@ -101,7 +101,7 @@ CREATE TABLE "public.Pictures_movie" (
 
 CREATE TABLE "public.Movies_genres" (
 	"movie_id" integer NOT NULL,
-	"genres_name" varchar(255) NOT NULL
+	"genres_name" integer NOT NULL
 ) WITH (
   OIDS=FALSE
 );
@@ -109,8 +109,9 @@ CREATE TABLE "public.Movies_genres" (
 
 
 CREATE TABLE "public.Genres" (
-	"name" serial(20) NOT NULL,
-	CONSTRAINT "Genres_pk" PRIMARY KEY ("name")
+	"id" serial NOT NULL,
+	"name" varchar(50) UNIQUE NOT NULL,
+	CONSTRAINT "Genres_pk" PRIMARY KEY ("id")
 ) WITH (
   OIDS=FALSE
 );
