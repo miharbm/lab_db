@@ -2,7 +2,7 @@ CREATE TABLE "public.Movies" (
 	"id" serial NOT NULL,
 	"name" varchar(255) NOT NULL,
 	"realease_date" DATE(255),
-	"duration" TIME(255) NOT NULL,
+	"duration" TIME NOT NULL,
 	"mpaa" varchar(10),
 	"rating" float4,
 	"kp_id" varchar(255),
@@ -79,7 +79,7 @@ CREATE TABLE "public.Staff" (
 
 
 CREATE TABLE "public.Cinemas_positions" (
-	"position" serial(255) NOT NULL UNIQUE,
+	"position" serial NOT NULL UNIQUE,
 	CONSTRAINT "Cinemas_positions_pk" PRIMARY KEY ("position")
 ) WITH (
   OIDS=FALSE
