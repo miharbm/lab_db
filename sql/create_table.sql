@@ -16,7 +16,7 @@ CREATE TABLE "public.Movies" (
 
 CREATE TABLE "public.Sessions" (
 	"id" serial NOT NULL,
-	"movie_id" serial NOT NULL,
+	"movie_id" serial NOT NULL ,
 	"time" TIME NOT NULL,
 	"hall_id" integer NOT NULL,
 	CONSTRAINT "Sessions_pk" PRIMARY KEY ("id")
@@ -101,7 +101,7 @@ CREATE TABLE "public.Pictures_movie" (
 
 CREATE TABLE "public.Movies_genres" (
 	"movie_id" integer NOT NULL,
-	"genres_name" integer NOT NULL
+	"genres_id" integer NOT NULL
 ) WITH (
   OIDS=FALSE
 );
@@ -149,8 +149,18 @@ CREATE TABLE "public.Customers" (
 CREATE TABLE "public.Orders" (
 	"id" serial NOT NULL,
 	"customer_id" integer NOT NULL,
-	"payment_time" TIMESTAMP,
+	"isBooked" BOOLEAN DEFAULT(false),
 	CONSTRAINT "Orders_pk" PRIMARY KEY ("id")
+) WITH (
+  OIDS=FALSE
+);
+
+CREATE TABLE "public.Payment" (
+	"id" serial NOT NULL,
+	"type" NOT NULL varchar(50),
+	"order_id" integer NOT NULL UNIQUE,
+	"payment_time" TIMESTAMP NOT NULL,
+	CONSTRAINT "Payment_pk" PRIMARY KEY ("id")
 ) WITH (
   OIDS=FALSE
 );
@@ -195,7 +205,7 @@ CREATE TABLE "public.Primes" (
 CREATE TABLE "public.Prime_nominations" (
 	"id" serial NOT NULL,
 	"nominee_id" integer NOT NULL,
-	"prime_id" serial NOT NULL,
+	"prime_id" integer NOT NULL,
 	"nominaiton" varchar(255) NOT NULL,
 	"description" TEXT,
 	"year" smallint NOT NULL,
