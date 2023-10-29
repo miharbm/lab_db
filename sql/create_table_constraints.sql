@@ -1,6 +1,6 @@
 ALTER TABLE "public.Sessions" ADD CONSTRAINT "Sessions_fk0" FOREIGN KEY ("movie_id") REFERENCES "public.Movies"("id");
 ALTER TABLE "public.Sessions" ADD CONSTRAINT "Sessions_fk1" FOREIGN KEY ("hall_id") REFERENCES "public.Halls"("id");
-ALTER TABLE "public.Sessions" ADD CONSTRAINT "Sessions_unique" UNIQUE(hall_id, time);
+ALTER TABLE "public.Sessions" ADD CONSTRAINT "Sessions_unique" UNIQUE(hall_id, time_start);
 
 
 ALTER TABLE "public.Halls" ADD CONSTRAINT "Halls_fk0" FOREIGN KEY ("cinema_id") REFERENCES "public.Cinemas"("id");
