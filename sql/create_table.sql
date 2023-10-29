@@ -1,7 +1,7 @@
 CREATE TABLE "public.Movies" (
 	"id" serial NOT NULL,
 	"name" varchar(255) NOT NULL,
-	"realease_date" DATE(255),
+	"realease_date" DATE,
 	"duration" TIME NOT NULL,
 	"mpaa" varchar(10),
 	"rating" float4,
@@ -30,7 +30,7 @@ CREATE TABLE "public.Halls" (
 	"id" serial NOT NULL,
 	"name" varchar(255) NOT NULL,
 	"type" varchar(255),
-	"cinema_id" integer(255) NOT NULL,
+	"cinema_id" integer NOT NULL,
 	CONSTRAINT "Halls_pk" PRIMARY KEY ("id")
 ) WITH (
   OIDS=FALSE
@@ -157,7 +157,7 @@ CREATE TABLE "public.Orders" (
 
 CREATE TABLE "public.Payment" (
 	"id" serial NOT NULL,
-	"type" NOT NULL varchar(50),
+	"type" varchar(50) NOT NULL,
 	"order_id" integer NOT NULL UNIQUE,
 	"payment_time" TIMESTAMP NOT NULL,
 	CONSTRAINT "Payment_pk" PRIMARY KEY ("id")
@@ -180,11 +180,11 @@ CREATE TABLE "public.Film_crew_members" (
 
 
 
-CREATE TABLE "public.Films_crews" (
+CREATE TABLE "public.Films_positions" (
 	"id" serial NOT NULL,
 	"movie_id" integer NOT NULL,
 	"member_id" integer NOT NULL,
-	"position" varchar(255) NOT NULL,
+	"name" varchar(255) NOT NULL,
 	CONSTRAINT "Films_crews_pk" PRIMARY KEY ("id")
 ) WITH (
   OIDS=FALSE
@@ -225,4 +225,3 @@ CREATE TABLE "public.Nominees" (
 ) WITH (
   OIDS=FALSE
 );
-

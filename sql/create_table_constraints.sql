@@ -16,7 +16,7 @@ ALTER TABLE "public.Staff" ADD CONSTRAINT "Staff_fk1" FOREIGN KEY ("position") R
 ALTER TABLE "public.Pictures_movie" ADD CONSTRAINT "Pictures_movie_fk0" FOREIGN KEY ("movie_id") REFERENCES "public.Movies"("id");
 
 ALTER TABLE "public.Movies_genres" ADD CONSTRAINT "Movies_genres_fk0" FOREIGN KEY ("movie_id") REFERENCES "public.Movies"("id");
-ALTER TABLE "public.Movies_genres" ADD CONSTRAINT "Movies_genres_fk1" FOREIGN KEY ("genres_name") REFERENCES "public.Genres"("name");
+ALTER TABLE "public.Movies_genres" ADD CONSTRAINT "Movies_genres_fk1" FOREIGN KEY ("genres_id") REFERENCES "public.Genres"("id");
 
 
 ALTER TABLE "public.Tickets" ADD CONSTRAINT "Tickets_fk0" FOREIGN KEY ("seat_id") REFERENCES "public.Seats"("id");
@@ -26,10 +26,10 @@ ALTER TABLE "public.Tickets" ADD CONSTRAINT "Tickets_unique" UNIQUE(seat_id, ses
 
 ALTER TABLE "public.Orders" ADD CONSTRAINT "Orders_fk0" FOREIGN KEY ("customer_id") REFERENCES "public.Customers"("id");
 
-ALTER TABLE "public.Payment"  ADD CONSTRAINT "Payment_fk0" FOREIGN KEY ("order_id") REFERENCES "public.Orders("id")";
+ALTER TABLE "public.Payment"  ADD CONSTRAINT "Payment_fk0" FOREIGN KEY ("order_id") REFERENCES "public.Orders"("id");
 
-ALTER TABLE "public.Films_crews" ADD CONSTRAINT "Films_crews_fk0" FOREIGN KEY ("movie_id") REFERENCES "public.Movies"("id");
-ALTER TABLE "public.Films_crews" ADD CONSTRAINT "Films_crews_fk1" FOREIGN KEY ("member_id") REFERENCES "public.Film_crew_members"("id");
+ALTER TABLE "public.Films_positions" ADD CONSTRAINT "Films_positions_fk0" FOREIGN KEY ("movie_id") REFERENCES "public.Movies"("id");
+ALTER TABLE "public.Films_positions" ADD CONSTRAINT "Films_positions_fk1" FOREIGN KEY ("member_id") REFERENCES "public.Film_crew_members"("id");
 
 
 ALTER TABLE "public.Prime_nominations" ADD CONSTRAINT "Prime_nominations_fk0" FOREIGN KEY ("nominee_id") REFERENCES "public.Nominees"("id");
