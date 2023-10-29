@@ -17,7 +17,8 @@ CREATE TABLE "public.Movies" (
 CREATE TABLE "public.Sessions" (
 	"id" serial NOT NULL,
 	"movie_id" serial NOT NULL ,
-	"time" TIME NOT NULL,
+	"time_start" TIME NOT NULL,
+	"time_end" TIME NOT NULL,
 	"hall_id" integer NOT NULL,
 	CONSTRAINT "Sessions_pk" PRIMARY KEY ("id")
 ) WITH (
