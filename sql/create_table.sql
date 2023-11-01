@@ -68,7 +68,7 @@ CREATE TABLE "public.Staff" (
 	"cinema_id" integer NOT NULL,
 	"position" integer NOT NULL,
 	"login" varchar(20) NOT NULL UNIQUE,
-	"password" varchar(255) NOT NULL UNIQUE,
+	"password" varchar(255) NOT NULL,
 	"birthday" DATE NOT NULL,
 	"email" varchar(255) NOT NULL UNIQUE,
 	"name" varchar(255) NOT NULL,
@@ -139,7 +139,7 @@ CREATE TABLE "public.Customers" (
 	"avatar_ref" varchar(255) UNIQUE,
 	"phone" integer UNIQUE,
 	"mail" varchar(255) UNIQUE,
-	"password" varchar(255) NOT NULL UNIQUE,
+	"password" varchar(255) NOT NULL,
 	CONSTRAINT "Customers_pk" PRIMARY KEY ("id")
 ) WITH (
   OIDS=FALSE
