@@ -37,3 +37,5 @@ ALTER TABLE "public.Prime_nominations" ADD CONSTRAINT "Prime_nominations_fk1" FO
 
 ALTER TABLE "public.Nominees" ADD CONSTRAINT "Nominees_fk0" FOREIGN KEY ("movie_id") REFERENCES "public.Movies"("id");
 ALTER TABLE "public.Nominees" ADD CONSTRAINT "Nominees_fk1" FOREIGN KEY ("film_crew_members_id") REFERENCES "public.Film_crew_members"("id");
+ALTER TABLE "public.Nominees" ADD CONSTRAINT "Nominees_unique" UNIQUE("movie_id","film_crew_members_id");
+
