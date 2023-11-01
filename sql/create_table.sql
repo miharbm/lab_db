@@ -1,7 +1,7 @@
 CREATE TABLE "public.Movies" (
 	"id" serial NOT NULL,
 	"name" varchar(255) NOT NULL,
-	"realease_date" DATE,
+	"release_date" DATE,
 	"duration" TIME NOT NULL,
 	"mpaa" varchar(10),
 	"rating" float4,
@@ -207,7 +207,7 @@ CREATE TABLE "public.Prime_nominations" (
 	"id" serial NOT NULL,
 	"nominee_id" integer NOT NULL,
 	"prime_id" integer NOT NULL,
-	"nominaiton" varchar(255) NOT NULL,
+	"nomination" varchar(255) NOT NULL,
 	"description" TEXT,
 	"year" smallint NOT NULL,
 	"isWon" BOOLEAN NOT NULL DEFAULT 'false',
@@ -219,8 +219,8 @@ CREATE TABLE "public.Prime_nominations" (
 
 
 CREATE TABLE "public.Nominees" (
-	"movie_id" integer NOT NULL,
-	"film_crew_members_id" integer NOT NULL,
+	"movie_id" integer,
+	"film_crew_members_id" integer,
 	"id" serial NOT NULL,
 	CONSTRAINT "Nominees_pk" PRIMARY KEY ("id")
 ) WITH (
