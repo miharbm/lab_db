@@ -546,32 +546,6 @@ INSERT INTO "public.Primes" (name) VALUES
 	('Золотая малина');
 
 
-DO $$
-DECLARE id_member_0 INT;
-DECLARE id_movie_0 INT;
-DECLARE id_member_1 INT;
-DECLARE id_movie_1 INT;
-BEGIN
-	SELECT cm.id INTO id_member_0
-	FROM "public.Film_crew_members" cm
-	WHERE cm.name = 'Том Хэнкс';
-
-	SELECT m.id INTO id_movie_0
-	FROM "public.Movies" m
-	WHERE m.name = 'Зеленая миля';
-    
-	id_member_1 = id_member_0;
-
-	SELECT m.id INTO id_movie_1
-	FROM "public.Movies" m
-	WHERE m.name = 'Форрест Гамп';
-    
-	INSERT INTO "public.Nominees" (film_crew_members_id, movie_id) VALUES
-		(id_member_0, id_movie_0),
-		(id_member_1, id_movie_1);
-END $$;
-
-
 
 DO $$
 DECLARE id_member_0 INT;
