@@ -156,6 +156,8 @@ CREATE TABLE "public.Orders" (
   OIDS=FALSE
 );
 
+
+
 CREATE TABLE "public.Payment" (
 	"id" serial NOT NULL,
 	"type" varchar(50) NOT NULL,
@@ -219,9 +221,9 @@ CREATE TABLE "public.Prime_nominations" (
 
 
 CREATE TABLE "public.Nominees" (
+	"id" serial NOT NULL,
 	"movie_id" integer,
 	"film_crew_members_id" integer,
-	"id" serial NOT NULL,
 	CONSTRAINT "Nominees_pk" PRIMARY KEY ("id")
 ) WITH (
   OIDS=FALSE
