@@ -1,4 +1,4 @@
-CREATE TABLE "public.Movies" (
+CREATE TABLE IF NOT EXISTS "public.Movies" (
 	"id" serial NOT NULL,
 	"name" varchar(255) NOT NULL,
 	"release_date" DATE,
@@ -14,7 +14,7 @@ CREATE TABLE "public.Movies" (
 
 
 
-CREATE TABLE "public.Sessions" (
+CREATE TABLE IF NOT EXISTS "public.Sessions" (
 	"id" serial NOT NULL,
 	"movie_id" serial NOT NULL ,
 	"time_start" TIME NOT NULL,
@@ -27,7 +27,7 @@ CREATE TABLE "public.Sessions" (
 
 
 
-CREATE TABLE "public.Halls" (
+CREATE TABLE IF NOT EXISTS "public.Halls" (
 	"id" serial NOT NULL,
 	"name" varchar(255) NOT NULL,
 	"type" varchar(255),
@@ -39,7 +39,7 @@ CREATE TABLE "public.Halls" (
 
 
 
-CREATE TABLE "public.Cinemas" (
+CREATE TABLE IF NOT EXISTS "public.Cinemas" (
 	"id" serial NOT NULL,
 	"name" varchar(50) NOT NULL UNIQUE,
 	"location" varchar(255) UNIQUE,
@@ -51,7 +51,7 @@ CREATE TABLE "public.Cinemas" (
 
 
 
-CREATE TABLE "public.Seats" (
+CREATE TABLE IF NOT EXISTS "public.Seats" (
 	"id" serial NOT NULL,
 	"row" smallint NOT NULL,
 	"place" smallint NOT NULL,
@@ -63,7 +63,7 @@ CREATE TABLE "public.Seats" (
 
 
 
-CREATE TABLE "public.Staff" (
+CREATE TABLE IF NOT EXISTS "public.Staff" (
 	"id" serial NOT NULL,
 	"cinema_id" integer NOT NULL,
 	"position" integer NOT NULL,
@@ -79,7 +79,7 @@ CREATE TABLE "public.Staff" (
 
 
 
-CREATE TABLE "public.Cinemas_positions" (
+CREATE TABLE IF NOT EXISTS "public.Cinemas_positions" (
 	"position" serial NOT NULL UNIQUE,
 	CONSTRAINT "Cinemas_positions_pk" PRIMARY KEY ("position")
 ) WITH (
@@ -88,7 +88,7 @@ CREATE TABLE "public.Cinemas_positions" (
 
 
 
-CREATE TABLE "public.Pictures_movie" (
+CREATE TABLE IF NOT EXISTS "public.Pictures_movie" (
 	"id" serial NOT NULL,
 	"movie_id" integer NOT NULL,
 	"isMain" BOOLEAN NOT NULL DEFAULT 'false',
@@ -100,7 +100,7 @@ CREATE TABLE "public.Pictures_movie" (
 
 
 
-CREATE TABLE "public.Movies_genres" (
+CREATE TABLE IF NOT EXISTS "public.Movies_genres" (
 	"movie_id" integer NOT NULL,
 	"genres_id" integer NOT NULL
 ) WITH (
@@ -109,7 +109,7 @@ CREATE TABLE "public.Movies_genres" (
 
 
 
-CREATE TABLE "public.Genres" (
+CREATE TABLE IF NOT EXISTS "public.Genres" (
 	"id" serial NOT NULL,
 	"name" varchar(50) UNIQUE NOT NULL,
 	CONSTRAINT "Genres_pk" PRIMARY KEY ("id")
@@ -119,7 +119,7 @@ CREATE TABLE "public.Genres" (
 
 
 
-CREATE TABLE "public.Tickets" (
+CREATE TABLE IF NOT EXISTS "public.Tickets" (
 	"id" serial NOT NULL,
 	"seat_id" integer NOT NULL,
 	"session_id" integer NOT NULL,
@@ -132,7 +132,7 @@ CREATE TABLE "public.Tickets" (
 
 
 
-CREATE TABLE "public.Customers" (
+CREATE TABLE IF NOT EXISTS "public.Customers" (
 	"id" serial NOT NULL,
 	"name" varchar(255),
 	"birthday" DATE,
@@ -147,7 +147,7 @@ CREATE TABLE "public.Customers" (
 
 
 
-CREATE TABLE "public.Orders" (
+CREATE TABLE IF NOT EXISTS "public.Orders" (
 	"id" serial NOT NULL,
 	"customer_id" integer NOT NULL,
 	"isBooked" BOOLEAN DEFAULT(false),
@@ -158,7 +158,7 @@ CREATE TABLE "public.Orders" (
 
 
 
-CREATE TABLE "public.Payment" (
+CREATE TABLE IF NOT EXISTS "public.Payment" (
 	"id" serial NOT NULL,
 	"type" varchar(50) NOT NULL,
 	"order_id" integer NOT NULL UNIQUE,
@@ -170,7 +170,7 @@ CREATE TABLE "public.Payment" (
 
 
 
-CREATE TABLE "public.Film_crew_members" (
+CREATE TABLE IF NOT EXISTS "public.Film_crew_members" (
 	"id" serial NOT NULL,
 	"name" varchar(255) NOT NULL,
 	"birthday" DATE,
@@ -183,7 +183,7 @@ CREATE TABLE "public.Film_crew_members" (
 
 
 
-CREATE TABLE "public.Films_positions" (
+CREATE TABLE IF NOT EXISTS "public.Films_positions" (
 	"id" serial NOT NULL,
 	"movie_id" integer NOT NULL,
 	"member_id" integer NOT NULL,
@@ -195,7 +195,7 @@ CREATE TABLE "public.Films_positions" (
 
 
 
-CREATE TABLE "public.Primes" (
+CREATE TABLE IF NOT EXISTS "public.Primes" (
 	"id" serial NOT NULL,
 	"name" varchar(50) NOT NULL UNIQUE,
 	CONSTRAINT "Primes_pk" PRIMARY KEY ("id")
@@ -205,7 +205,7 @@ CREATE TABLE "public.Primes" (
 
 
 
-CREATE TABLE "public.Prime_nominations" (
+CREATE TABLE IF NOT EXISTS "public.Prime_nominations" (
 	"id" serial NOT NULL,
 	"nominee_id" integer NOT NULL,
 	"prime_id" integer NOT NULL,
@@ -220,7 +220,7 @@ CREATE TABLE "public.Prime_nominations" (
 
 
 
-CREATE TABLE "public.Nominees" (
+CREATE TABLE IF NOT EXISTS "public.Nominees" (
 	"id" serial NOT NULL,
 	"movie_id" integer,
 	"film_crew_members_id" integer,
