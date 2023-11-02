@@ -80,8 +80,9 @@ CREATE TABLE IF NOT EXISTS "public.Staff" (
 
 
 CREATE TABLE IF NOT EXISTS "public.Cinemas_positions" (
-	"position" serial NOT NULL UNIQUE,
-	CONSTRAINT "Cinemas_positions_pk" PRIMARY KEY ("position")
+	"id" serial NOT NULL,
+	"position" varchar(30) NOT NULL UNIQUE,
+	CONSTRAINT "Cinemas_positions_pk" PRIMARY KEY ("id")
 ) WITH (
   OIDS=FALSE
 );
@@ -103,6 +104,7 @@ CREATE TABLE IF NOT EXISTS "public.Pictures_movie" (
 CREATE TABLE IF NOT EXISTS "public.Movies_genres" (
 	"movie_id" integer NOT NULL,
 	"genres_id" integer NOT NULL
+	CONSTRAINT "Movies_pk" PRIMARY KEY ("movie_id", "genres_id")
 ) WITH (
   OIDS=FALSE
 );

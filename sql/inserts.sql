@@ -711,3 +711,118 @@ BEGIN
 		(id_nominee_12, id_prime_12, 'Лучший фильм', 1995, False),
 		(id_nominee_13, id_prime_13, 'Лучшие визуальные эффекты', 1995, True);
 END $$;
+
+INSERT INTO "public.Cinemas" (name) VALUES
+	('Альфа'),
+	('Бета'),
+	('Гамма');
+
+INSERT INTO "public.Cinemas_positions" (position) VALUES
+	('Директор'),
+	('Кассир'),
+	('Бармен'),
+	('Сисадмин'),
+	('Менеджер'),
+	('Киномеханик');
+
+DO $$
+DECLARE id_position INT;
+DECLARE id_cinema INT;
+
+BEGIN
+	SELECT cp.id INTO id_position
+	FROM "public.Cinemas_positions" cp
+	WHERE cp.position = 'Директор';
+
+	SELECT c.id INTO id_cinema
+	FROM "public.Cinemas" c
+	WHERE c.name = 'Альфа';
+
+	INSERT INTO "public.Staff" (cinema_id, position, login, password, birthday, email, name) VALUES
+		(id_cinema, id_position, "login_1", "password_1", 02-02-1985, "email1@mail.com", "Нагорнов Олег Викторович");
+END $$;
+
+DO $$Ы
+DECLARE id_position INT;
+DECLARE id_cinema INT;
+
+BEGIN
+	SELECT cp.id INTO id_position
+	FROM "public.Cinemas_positions" cp
+	WHERE cp.position = 'Кассир';
+
+	SELECT c.id INTO id_cinema
+	FROM "public.Cinemas" c
+	WHERE c.name = 'Альфа';
+
+	INSERT INTO "public.Staff" (cinema_id, position, login, password, birthday, email, name) VALUES
+		(id_cinema, id_position, "login_2", "password_2", 01-01-1986, "email2@mail.com", "Волков Владимир Евгеньевич");
+END $$;
+
+DO $$
+DECLARE id_position INT;
+DECLARE id_cinema INT;
+
+BEGIN
+	SELECT cp.id INTO id_position
+	FROM "public.Cinemas_positions" cp
+	WHERE cp.position = 'Бармен';
+
+	SELECT c.id INTO id_cinema
+	FROM "public.Cinemas" c
+	WHERE c.name = 'Альфа';
+
+	INSERT INTO "public.Staff" (cinema_id, position, login, password, birthday, email, name) VALUES
+		(id_cinema, id_position, "login_3", "password_3", 12-12-1987, "email3@mail.com", "Гани Вахид Абдулович");
+END $$;
+
+DO $$
+DECLARE id_position INT;
+DECLARE id_cinema INT;
+
+BEGIN
+	SELECT cp.id INTO id_position
+	FROM "public.Cinemas_positions" cp
+	WHERE cp.position = 'Сисадмин';
+
+	SELECT c.id INTO id_cinema
+	FROM "public.Cinemas" c
+	WHERE c.name = 'Альфа';
+
+	INSERT INTO "public.Staff" (cinema_id, position, login, password, birthday, email, name) VALUES
+		(id_cinema, id_position, "login_4", "password_4", 12-12-1987, "email4@mail.com", "Костин Андрей Борисович");
+END $$;
+
+DO $$
+DECLARE id_position INT;
+DECLARE id_cinema INT;
+
+BEGIN
+	SELECT cp.id INTO id_position
+	FROM "public.Cinemas_positions" cp
+	WHERE cp.position = 'Менеджер';
+
+	SELECT c.id INTO id_cinema
+	FROM "public.Cinemas" c
+	WHERE c.name = 'Альфа';
+
+	INSERT INTO "public.Staff" (cinema_id, position, login, password, birthday, email, name) VALUES
+		(id_cinema, id_position, "login_5", "password_5", 11-11-1980, "email5@mail.com", "Чечкина Татьяна Петровна");
+END $$;
+
+DO $$
+DECLARE id_position INT;
+DECLARE id_cinema INT;
+
+BEGIN
+	SELECT cp.id INTO id_position
+	FROM "public.Cinemas_positions" cp
+	WHERE cp.position = 'Киномеханик';
+
+	SELECT c.id INTO id_cinema
+	FROM "public.Cinemas" c
+	WHERE c.name = 'Альфа';
+
+	INSERT INTO "public.Staff" (cinema_id, position, login, password, birthday, email, name) VALUES
+		(id_cinema, id_position, "login_6", "password_6", 11-11-1980, "email6@mail.com", "Тюфлин Сергей Александрович");
+END $$;
