@@ -7,7 +7,7 @@ ALTER TABLE "public.Halls" ADD CONSTRAINT "Halls_fk0" FOREIGN KEY ("cinema_id") 
 
 
 ALTER TABLE "public.Seats" ADD CONSTRAINT "Seats_fk0" FOREIGN KEY ("hall_id") REFERENCES "public.Halls"("id");
-ALTER TABLE "public.Seats" ADD CONSTRAINT "Seats_unique" UNIQUE("row", "place");
+ALTER TABLE "public.Seats" ADD CONSTRAINT "Seats_unique" UNIQUE("row", "place", "hall_id");
 
 ALTER TABLE "public.Staff" ADD CONSTRAINT "Staff_fk0" FOREIGN KEY ("cinema_id") REFERENCES "public.Cinemas"("id");
 ALTER TABLE "public.Staff" ADD CONSTRAINT "Staff_fk1" FOREIGN KEY ("position") REFERENCES "public.Cinemas_positions"("position");
@@ -38,4 +38,3 @@ ALTER TABLE "public.Prime_nominations" ADD CONSTRAINT "Prime_nominations_fk1" FO
 ALTER TABLE "public.Nominees" ADD CONSTRAINT "Nominees_fk0" FOREIGN KEY ("movie_id") REFERENCES "public.Movies"("id");
 ALTER TABLE "public.Nominees" ADD CONSTRAINT "Nominees_fk1" FOREIGN KEY ("film_crew_members_id") REFERENCES "public.Film_crew_members"("id");
 ALTER TABLE "public.Nominees" ADD CONSTRAINT "Nominees_unique" UNIQUE("movie_id","film_crew_members_id");
-
