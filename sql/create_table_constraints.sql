@@ -10,7 +10,7 @@ ALTER TABLE "public.Seats" ADD CONSTRAINT "Seats_fk0" FOREIGN KEY ("hall_id") RE
 ALTER TABLE "public.Seats" ADD CONSTRAINT "Seats_unique" UNIQUE("row", "place", "hall_id");
 
 ALTER TABLE "public.Staff" ADD CONSTRAINT "Staff_fk0" FOREIGN KEY ("cinema_id") REFERENCES "public.Cinemas"("id");
-ALTER TABLE "public.Staff" ADD CONSTRAINT "Staff_fk1" FOREIGN KEY ("position") REFERENCES "public.Cinemas_positions"("id");
+ALTER TABLE "public.Staff" ADD CONSTRAINT "Staff_fk1" FOREIGN KEY ("position_id") REFERENCES "public.Cinemas_positions"("id");
 
 
 ALTER TABLE "public.Pictures_movie" ADD CONSTRAINT "Pictures_movie_fk0" FOREIGN KEY ("movie_id") REFERENCES "public.Movies"("id");
