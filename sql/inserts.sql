@@ -1021,3 +1021,105 @@ BEGIN
 		(id_cinema, 'Г-407', 'IMAX'),
 		(id_cinema, 'Г-408', 'Детский зал');
 END $$;
+
+DO $$
+DECLARE id_hall_0 INT;
+DECLARE id_hall_1 INT;
+DECLARE id_hall_2 INT;
+DECLARE id_hall_3 INT;
+DECLARE id_hall_4 INT;
+DECLARE id_hall_5 INT;
+DECLARE id_movie_0 INT;
+DECLARE id_movie_1 INT;
+DECLARE id_movie_2 INT;
+DECLARE id_movie_3 INT;
+DECLARE id_movie_4 INT;
+DECLARE id_movie_5 INT;
+DECLARE id_movie_6 INT;
+DECLARE id_movie_7 INT;
+DECLARE id_movie_8 INT;
+DECLARE id_movie_9 INT;
+
+BEGIN
+	SELECT h.id INTO id_hall_0
+	FROM "public.Halls" h
+	JOIN "public.Cinemas" c ON h.cinema_id = c.id
+	WHERE c.name = 'Альфа' AND h.name = 'Г-401';
+
+	SELECT h.id INTO id_hall_1
+	FROM "public.Halls" h
+	JOIN "public.Cinemas" c ON h.cinema_id = c.id
+	WHERE c.name = 'Альфа' AND h.name = 'Г-402';
+
+	SELECT h.id INTO id_hall_2
+	FROM "public.Halls" h
+	JOIN "public.Cinemas" c ON h.cinema_id = c.id
+	WHERE c.name = 'Альфа' AND h.name = 'Г-403';
+
+	SELECT h.id INTO id_hall_3
+	FROM "public.Halls" h
+	JOIN "public.Cinemas" c ON h.cinema_id = c.id
+	WHERE c.name = 'Альфа' AND h.name = 'Г-405';
+
+	SELECT h.id INTO id_hall_4
+	FROM "public.Halls" h
+	JOIN "public.Cinemas" c ON h.cinema_id = c.id
+	WHERE c.name = 'Альфа' AND h.name = 'Г-407';
+
+	SELECT h.id INTO id_hall_5
+	FROM "public.Halls" h
+	JOIN "public.Cinemas" c ON h.cinema_id = c.id
+	WHERE c.name = 'Альфа' AND h.name = 'Г-408';
+
+	SELECT m.id INTO id_movie_0
+	FROM "public.Movies" m
+	WHERE m.name = 'Зеленая миля';
+
+	SELECT m.id INTO id_movie_1
+	FROM "public.Movies" m
+	WHERE m.name = 'Форрест Гамп';
+
+	SELECT m.id INTO id_movie_2
+	FROM "public.Movies" m
+	WHERE m.name = 'Побег из Шоушенка';
+
+	SELECT m.id INTO id_movie_3
+	FROM "public.Movies" m
+	WHERE m.name = '1+1';
+
+	SELECT m.id INTO id_movie_4
+	FROM "public.Movies" m
+	WHERE m.name = 'Список Шиндлера';
+
+	SELECT m.id INTO id_movie_5
+	FROM "public.Movies" m
+	WHERE m.name = 'Интерстеллар';
+
+	SELECT m.id INTO id_movie_6
+	FROM "public.Movies" m
+	WHERE m.name = 'Властелин колец: Возвращение короля';
+
+	SELECT m.id INTO id_movie_7
+	FROM "public.Movies" m
+	WHERE m.name = 'Бойцовский клуб';
+
+	SELECT m.id INTO id_movie_8
+	FROM "public.Movies" m
+	WHERE m.name = 'Унесённые призраками';
+
+	SELECT m.id INTO id_movie_9
+	FROM "public.Movies" m
+	WHERE m.name = 'Тайна Коко';
+
+	INSERT INTO "public.Sessions" (hall_id, movie_id, time_start, time_end) VALUES
+		(id_hall_0, id_movie_0, '2023-11-03 11:00:00', '2023-11-03 14:10:00'),
+		(id_hall_0, id_movie_1, '2023-11-03 14:30:00', '2023-11-03 17:00:00'),
+		(id_hall_1, id_movie_2, '2023-11-03 12:00:00', '2023-11-03 14:30:00'),
+		(id_hall_1, id_movie_3, '2023-11-03 15:00:00', '2023-11-03 17:00:00'),
+		(id_hall_2, id_movie_4, '2023-11-03 13:00:00', '2023-11-03 16:20:00'),
+		(id_hall_3, id_movie_5, '2023-11-03 11:30:00', '2023-11-03 14:30:00'),
+		(id_hall_4, id_movie_6, '2023-11-03 12:30:00', '2023-11-03 16:00:00'),
+		(id_hall_4, id_movie_7, '2023-11-03 16:30:00', '2023-11-03 19:00:00'),
+		(id_hall_5, id_movie_8, '2023-11-03 10:30:00', '2023-11-03 12:45:00'),
+		(id_hall_5, id_movie_9, '2023-11-03 13:30:00', '2023-11-03 15:30:00');
+END $$;
