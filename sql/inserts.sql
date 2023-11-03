@@ -529,13 +529,69 @@ INSERT INTO "public.Primes" (name) VALUES
 
 DO $$
 DECLARE id_member_0 INT;
+DECLARE id_member_1 INT;
+DECLARE id_member_2 INT;
+DECLARE id_member_3 INT;
+DECLARE id_member_4 INT;
+DECLARE id_member_5 INT;
+DECLARE id_member_6 INT;
+DECLARE id_member_7 INT;
+DECLARE id_member_8 INT;
+DECLARE id_member_9 INT;
+DECLARE id_member_10 INT;
 DECLARE id_movie_0 INT;
 DECLARE id_movie_1 INT;
+DECLARE id_movie_2 INT;
+DECLARE id_movie_3 INT;
+DECLARE id_movie_4 INT;
+DECLARE id_movie_5 INT;
+DECLARE id_movie_6 INT;
+DECLARE id_movie_7 INT;
 
 BEGIN
 	SELECT cm.id INTO id_member_0
 	FROM "public.Film_crew_members" cm
 	WHERE cm.name = 'Том Хэнкс';
+
+	SELECT cm.id INTO id_member_1
+	FROM "public.Film_crew_members" cm
+	WHERE cm.name = 'Тим Роббинс';
+
+	SELECT cm.id INTO id_member_2
+	FROM "public.Film_crew_members" cm
+	WHERE cm.name = 'Морган Фриман';
+
+	SELECT cm.id INTO id_member_3
+	FROM "public.Film_crew_members" cm
+	WHERE cm.name = 'Франсуа Клюзе';
+
+	SELECT cm.id INTO id_member_4
+	FROM "public.Film_crew_members" cm
+	WHERE cm.name = 'Омар Си';
+
+	SELECT cm.id INTO id_member_5
+	FROM "public.Film_crew_members" cm
+	WHERE cm.name = 'Лиам Нисон';
+
+	SELECT cm.id INTO id_member_6
+	FROM "public.Film_crew_members" cm
+	WHERE cm.name = 'Мэттью МакКонахи';
+
+	SELECT cm.id INTO id_member_7
+	FROM "public.Film_crew_members" cm
+	WHERE cm.name = 'Энн Хэтэуэй';
+
+	SELECT cm.id INTO id_member_8
+	FROM "public.Film_crew_members" cm
+	WHERE cm.name = 'Элайджа Вуд';
+
+	SELECT cm.id INTO id_member_9
+	FROM "public.Film_crew_members" cm
+	WHERE cm.name = 'Орландо Блум';
+
+	SELECT cm.id INTO id_member_10
+	FROM "public.Film_crew_members" cm
+	WHERE cm.name = 'Эдвард Нортон';
 
 	SELECT m.id INTO id_movie_0
 	FROM "public.Movies" m
@@ -545,11 +601,51 @@ BEGIN
 	FROM "public.Movies" m
 	WHERE m.name = 'Форрест Гамп';
 
+	SELECT m.id INTO id_movie_2
+	FROM "public.Movies" m
+	WHERE m.name = 'Побег из Шоушенка';
+
+	SELECT m.id INTO id_movie_3
+	FROM "public.Movies" m
+	WHERE m.name = '1+1';
+
+	SELECT m.id INTO id_movie_4
+	FROM "public.Movies" m
+	WHERE m.name = 'Список Шиндлера';
+
+	SELECT m.id INTO id_movie_5
+	FROM "public.Movies" m
+	WHERE m.name = 'Интерстеллар';
+
+	SELECT m.id INTO id_movie_6
+	FROM "public.Movies" m
+	WHERE m.name = 'Властелин колец: Возвращение короля';
+
+	SELECT m.id INTO id_movie_7
+	FROM "public.Movies" m
+	WHERE m.name = 'Бойцовский клуб';
+
 	INSERT INTO "public.Nominees" (film_crew_members_id, movie_id) VALUES
 		(id_member_0, id_movie_0),
 		(null, id_movie_0),
 		(id_member_0, id_movie_1),
-		(null, id_movie_1);
+		(null, id_movie_1),
+		(id_member_1, id_movie_2),
+		(id_member_2, id_movie_2),
+		(null, id_movie_2),
+		(id_member_3, id_movie_3),
+		(id_member_4, id_movie_3),
+		(null, id_movie_3),
+		(id_member_5, id_movie_4),
+		(null, id_movie_4),
+		(id_member_6, id_movie_5),
+		(id_member_7, id_movie_5),
+		(null, id_movie_5),
+		(id_member_8, id_movie_6),
+		(id_member_9, id_movie_6),
+		(null, id_movie_6),
+		(id_member_10, id_movie_7),
+		(null, id_movie_7);
 END $$;
 
 
@@ -559,12 +655,31 @@ DECLARE id_nominee_0 INT;
 DECLARE id_nominee_1 INT;
 DECLARE id_nominee_2 INT;
 DECLARE id_nominee_3 INT;
+DECLARE id_nominee_4 INT;
+DECLARE id_nominee_5 INT;
+DECLARE id_nominee_6 INT;
+DECLARE id_nominee_7 INT;
+DECLARE id_nominee_8 INT;
+DECLARE id_nominee_9 INT;
+DECLARE id_nominee_10 INT;
+DECLARE id_nominee_11 INT;
+DECLARE id_nominee_12 INT;
+DECLARE id_nominee_13 INT;
+DECLARE id_nominee_14 INT;
+DECLARE id_nominee_15 INT;
+DECLARE id_nominee_16 INT;
+DECLARE id_nominee_17 INT;
+DECLARE id_nominee_18 INT;
+DECLARE id_nominee_19 INT;
 DECLARE id_prime_0 INT;
 DECLARE id_prime_1 INT;
 DECLARE id_prime_2 INT;
 DECLARE id_prime_3 INT;
 DECLARE id_prime_4 INT;
 DECLARE id_prime_5 INT;
+DECLARE id_prime_6 INT;
+DECLARE id_prime_7 INT;
+DECLARE id_prime_8 INT;
 
 BEGIN
 	SELECT nom.id INTO id_nominee_0
@@ -588,6 +703,96 @@ BEGIN
 	FROM "public.Nominees" nom
 	JOIN "public.Movies" m ON nom.movie_id = m.id
 	WHERE m.name = 'Форрест Гамп' AND nom.film_crew_members_id IS NULL;
+
+	SELECT nom.id INTO id_nominee_4
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	JOIN "public.Film_crew_members" cm ON nom.film_crew_members_id = cm.id
+	WHERE m.name = 'Побег из Шоушенка' AND cm.name = 'Тим Роббинс';
+
+	SELECT nom.id INTO id_nominee_5
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	JOIN "public.Film_crew_members" cm ON nom.film_crew_members_id = cm.id
+	WHERE m.name = 'Побег из Шоушенка' AND cm.name = 'Морган Фриман';
+
+	SELECT nom.id INTO id_nominee_6
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	WHERE m.name = 'Побег из Шоушенка' AND nom.film_crew_members_id IS NULL;
+
+	SELECT nom.id INTO id_nominee_7
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	JOIN "public.Film_crew_members" cm ON nom.film_crew_members_id = cm.id
+	WHERE m.name = '1+1' AND cm.name = 'Франсуа Клюзе';
+
+	SELECT nom.id INTO id_nominee_8
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	JOIN "public.Film_crew_members" cm ON nom.film_crew_members_id = cm.id
+	WHERE m.name = '1+1' AND cm.name = 'Омар Си';
+
+	SELECT nom.id INTO id_nominee_9
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	WHERE m.name = '1+1' AND nom.film_crew_members_id IS NULL;
+
+	SELECT nom.id INTO id_nominee_10
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	JOIN "public.Film_crew_members" cm ON nom.film_crew_members_id = cm.id
+	WHERE m.name = 'Список Шиндлера' AND cm.name = 'Лиам Нисон';
+
+	SELECT nom.id INTO id_nominee_11
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	WHERE m.name = 'Список Шиндлера' AND nom.film_crew_members_id IS NULL;
+
+	SELECT nom.id INTO id_nominee_12
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	JOIN "public.Film_crew_members" cm ON nom.film_crew_members_id = cm.id
+	WHERE m.name = 'Интерстеллар' AND cm.name = 'Мэттью МакКонахи';
+
+	SELECT nom.id INTO id_nominee_13
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	JOIN "public.Film_crew_members" cm ON nom.film_crew_members_id = cm.id
+	WHERE m.name = 'Интерстеллар' AND cm.name = 'Энн Хэтэуэй';
+
+	SELECT nom.id INTO id_nominee_14
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	WHERE m.name = 'Интерстеллар' AND nom.film_crew_members_id IS NULL;
+
+	SELECT nom.id INTO id_nominee_15
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	JOIN "public.Film_crew_members" cm ON nom.film_crew_members_id = cm.id
+	WHERE m.name = 'Властелин колец: Возвращение короля' AND cm.name = 'Элайджа Вуд';
+
+	SELECT nom.id INTO id_nominee_16
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	JOIN "public.Film_crew_members" cm ON nom.film_crew_members_id = cm.id
+	WHERE m.name = 'Властелин колец: Возвращение короля' AND cm.name = 'Орландо Блум';
+
+	SELECT nom.id INTO id_nominee_17
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	WHERE m.name = 'Властелин колец: Возвращение короля' AND nom.film_crew_members_id IS NULL;
+
+	SELECT nom.id INTO id_nominee_18
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	JOIN "public.Film_crew_members" cm ON nom.film_crew_members_id = cm.id
+	WHERE m.name = 'Бойцовский клуб' AND cm.name = 'Эдвард Нортон';
+
+	SELECT nom.id INTO id_nominee_19
+	FROM "public.Nominees" nom
+	JOIN "public.Movies" m ON nom.movie_id = m.id
+	WHERE m.name = 'Бойцовский клуб' AND nom.film_crew_members_id IS NULL;
 
 	SELECT p.id INTO id_prime_0
 	FROM "public.Primes" p
@@ -613,6 +818,18 @@ BEGIN
 	FROM "public.Primes" p
 	WHERE p.name = 'Сатурн';
 
+	SELECT p.id INTO id_prime_6
+	FROM "public.Primes" p
+	WHERE p.name = 'Сезар';
+
+	SELECT p.id INTO id_prime_7
+	FROM "public.Primes" p
+	WHERE p.name = 'Европейская киноакадемия';
+
+	SELECT p.id INTO id_prime_8
+	FROM "public.Primes" p
+	WHERE p.name = 'Гойя';
+
 	INSERT INTO "public.Prime_nominations" (nominee_id, prime_id, nomination, year, "isWon") VALUES
 		(id_nominee_0, id_prime_0, 'Лучший актерский состав', 2000, False),
 		(id_nominee_1, id_prime_1, 'Лучшая мужская роль', 1995, True),
@@ -627,8 +844,49 @@ BEGIN
 		(id_nominee_3, id_prime_1, 'Лучший фильм', 1995, True),
 		(id_nominee_3, id_prime_2, 'Лучший фильм (драма)', 1995, True),
 		(id_nominee_3, id_prime_3, 'Лучший фильм', 1995, False),
-		(id_nominee_3, id_prime_4, 'Лучшие визуальные эффекты', 1995, True);
+		(id_nominee_3, id_prime_4, 'Лучшие визуальные эффекты', 1995, True),
+		(id_nominee_4, id_prime_0, 'Лучшая мужская роль', 1995, False),
+		(id_nominee_5, id_prime_1, 'Лучшая мужская роль', 1995, False),
+		(id_nominee_5, id_prime_2, 'Лучшая мужская роль (драма)', 1995, False),
+		(id_nominee_5, id_prime_0, 'Лучшая мужская роль', 1995, False),
+		(id_nominee_6, id_prime_1, 'Лучший фильм', 1995, False),
+		(id_nominee_6, id_prime_2, 'Лучший сценарий', 1995, False),
+		(id_nominee_6, id_prime_5, 'Лучший сценарий', 1995, False),
+		(id_nominee_7, id_prime_6, 'Лучший актер', 2012, False),
+		(id_nominee_7, id_prime_7, 'Лучшая мужская роль', 2012, False),
+		(id_nominee_8, id_prime_6, 'Лучший актер', 2012, True),
+		(id_nominee_8, id_prime_7, 'Лучшая мужская роль', 2012, False),
+		(id_nominee_9, id_prime_2, 'Лучший фильм на иностранном языке', 2012, False),
+		(id_nominee_9, id_prime_4, 'Лучший фильм на иностранном языке', 2012, False),
+		(id_nominee_9, id_prime_8, 'Лучший европейский фильм', 2012, True),
+		(id_nominee_9, id_prime_6, 'Лучший фильм', 2012, False),
+		(id_nominee_10, id_prime_1, 'Лучшая мужская роль', 1994, False),
+		(id_nominee_10, id_prime_2, 'Лучший фильм (драма)', 1994, False),
+		(id_nominee_10, id_prime_4, 'Лучшая мужская роль', 1994, False),
+		(id_nominee_11, id_prime_6, 'Лучший фильм на иностранном языке', 1994, False),
+		(id_nominee_11, id_prime_1, 'Лучший фильм', 1994, True),
+		(id_nominee_11, id_prime_2, 'Лучший фильм (драма)', 1994, True),
+		(id_nominee_11, id_prime_3, 'Лучший фильм', 1994, False),
+		(id_nominee_11, id_prime_4, 'Лучший фильм', 1994, True),
+		(id_nominee_12, id_prime_5, 'Лучший актер', 2015, False),
+		(id_nominee_13, id_prime_5, 'Лучшая актриса', 2015, False),
+		(id_nominee_14, id_prime_1, 'Лучшие визуальные эффекты', 2015, True),
+		(id_nominee_14, id_prime_2, 'Лучший саундтрек', 2015, False),
+		(id_nominee_14, id_prime_4, 'Лучшие визуальные эффекты', 2015, True),
+		(id_nominee_14, id_prime_5, 'Лучший научно-фантастический фильм', 2015, True),
+		(id_nominee_15, id_prime_5, 'Лучший актер', 2004, True),
+		(id_nominee_15, id_prime_0, 'Лучший актерский состав', 2004, True),
+		(id_nominee_16, id_prime_0, 'Лучший актерский состав', 2004, True),
+		(id_nominee_17, id_prime_5, 'Лучшее специальное DVD-издание', 2004, True),
+		(id_nominee_17, id_prime_1, 'Лучший фильм', 2004, True),
+		(id_nominee_17, id_prime_2, 'Лучший фильм (драма)', 2004, True),
+		(id_nominee_17, id_prime_3, 'Лучший фильм', 2004, True),
+		(id_nominee_17, id_prime_4, 'Лучший фильм', 2004, True),
+		(id_nominee_17, id_prime_5, 'Лучший фэнтези-фильм', 2004, True),
+		(id_nominee_18, id_prime_3, 'Лучшая драка', 2000, False),
+		(id_nominee_19, id_prime_1, 'Лучший монтаж звука', 2000, False);
 END $$;
+
 
 INSERT INTO "public.Cinemas" (name) VALUES
 	('Альфа'),
