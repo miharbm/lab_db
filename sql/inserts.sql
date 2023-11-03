@@ -656,11 +656,11 @@ BEGIN
 	FROM "public.Cinemas" c
 	WHERE c.name = 'Альфа';
 
-	INSERT INTO "public.Staff" (cinema_id, position, login, password, birthday, email, name) VALUES
-		(id_cinema, id_position, "login_1", "password_1", 02-02-1985, "email1@mail.com", "Нагорнов Олег Викторович");
+	INSERT INTO "public.Staff" (cinema_id, position_id, login, password, birthday, email, name) VALUES
+		(id_cinema, id_position, 'login_1', 'password_1', '1985-02-02', 'email1@mail.com', 'Нагорнов Олег Викторович');
 END $$;
 
-DO $$Ы
+DO $$
 DECLARE id_position INT;
 DECLARE id_cinema INT;
 
@@ -673,8 +673,8 @@ BEGIN
 	FROM "public.Cinemas" c
 	WHERE c.name = 'Альфа';
 
-	INSERT INTO "public.Staff" (cinema_id, position, login, password, birthday, email, name) VALUES
-		(id_cinema, id_position, "login_2", "password_2", 01-01-1986, "email2@mail.com", "Волков Владимир Евгеньевич");
+	INSERT INTO "public.Staff" (cinema_id, position_id, login, password, birthday, email, name) VALUES
+		(id_cinema, id_position, 'login_2', 'password_2', '1986-01-01', 'email2@mail.com', 'Волков Владимир Евгеньевич');
 END $$;
 
 DO $$
@@ -690,8 +690,8 @@ BEGIN
 	FROM "public.Cinemas" c
 	WHERE c.name = 'Альфа';
 
-	INSERT INTO "public.Staff" (cinema_id, position, login, password, birthday, email, name) VALUES
-		(id_cinema, id_position, "login_3", "password_3", 12-12-1987, "email3@mail.com", "Гани Вахид Абдулович");
+	INSERT INTO "public.Staff" (cinema_id, position_id, login, password, birthday, email, name) VALUES
+		(id_cinema, id_position, 'login_3', 'password_3', '1987-12-12', 'email3@mail.com', 'Гани Вахид Абдулович');
 END $$;
 
 DO $$
@@ -707,8 +707,8 @@ BEGIN
 	FROM "public.Cinemas" c
 	WHERE c.name = 'Альфа';
 
-	INSERT INTO "public.Staff" (cinema_id, position, login, password, birthday, email, name) VALUES
-		(id_cinema, id_position, "login_4", "password_4", 12-12-1987, "email4@mail.com", "Костин Андрей Борисович");
+	INSERT INTO "public.Staff" (cinema_id, position_id, login, password, birthday, email, name) VALUES
+		(id_cinema, id_position, 'login_4', 'password_4', '1987-12-12', 'email4@mail.com', 'Костин Андрей Борисович');
 END $$;
 
 DO $$
@@ -724,8 +724,8 @@ BEGIN
 	FROM "public.Cinemas" c
 	WHERE c.name = 'Альфа';
 
-	INSERT INTO "public.Staff" (cinema_id, position, login, password, birthday, email, name) VALUES
-		(id_cinema, id_position, "login_5", "password_5", 11-11-1980, "email5@mail.com", "Чечкина Татьяна Петровна");
+	INSERT INTO "public.Staff" (cinema_id, position_id, login, password, birthday, email, name) VALUES
+		(id_cinema, id_position, 'login_5', 'password_5', '1980-11-11', 'email5@mail.com', 'Чечкина Татьяна Петровна');
 END $$;
 
 DO $$
@@ -741,6 +741,6 @@ BEGIN
 	FROM "public.Cinemas" c
 	WHERE c.name = 'Альфа';
 
-	INSERT INTO "public.Staff" (cinema_id, position, login, password, birthday, email, name) VALUES
-		(id_cinema, id_position, "login_6", "password_6", 11-11-1980, "email6@mail.com", "Тюфлин Сергей Александрович");
+	INSERT INTO "public.Staff" (cinema_id, position_id, login, password, birthday, email, name) VALUES
+		(id_cinema, id_position, 'login_6', 'password_6', '1980-11-11', 'email6@mail.com', 'Тюфлин Сергей Александрович');
 END $$;
