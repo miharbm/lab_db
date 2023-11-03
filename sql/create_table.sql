@@ -104,7 +104,7 @@ CREATE TABLE IF NOT EXISTS "public.Pictures_movie" (
 CREATE TABLE IF NOT EXISTS "public.Movies_genres" (
 	"movie_id" integer NOT NULL,
 	"genres_id" integer NOT NULL,
-	CONSTRAINT "Movies_pk" PRIMARY KEY ("movie_id", "genres_id")
+	CONSTRAINT "Movies_genres_pk" PRIMARY KEY ("movie_id", "genres_id")
 ) WITH (
   OIDS=FALSE
 );
