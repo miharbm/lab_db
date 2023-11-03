@@ -1002,3 +1002,22 @@ BEGIN
 	INSERT INTO "public.Staff" (cinema_id, position_id, login, password, birthday, email, name) VALUES
 		(id_cinema, id_position, 'login_6', 'password_6', '1980-11-11', 'email6@mail.com', 'Тюфлин Сергей Александрович');
 END $$;
+
+DO $$
+DECLARE id_cinema INT;
+
+BEGIN
+	SELECT c.id INTO id_cinema
+	FROM "public.Cinemas" c
+	WHERE c.name = 'Альфа';
+
+	INSERT INTO "public.Halls" (cinema_id, name, type) VALUES
+		(id_cinema, 'Г-401', 'Стандартный'),
+		(id_cinema, 'Г-402', 'Стандартный'),
+		(id_cinema, 'Г-403', 'Комфорт'),
+		(id_cinema, 'Г-404', 'Комфорт'),
+		(id_cinema, 'Г-405', 'VIP'),
+		(id_cinema, 'Г-406', 'VIP'),
+		(id_cinema, 'Г-407', 'IMAX'),
+		(id_cinema, 'Г-408', 'Детский зал');
+END $$;
