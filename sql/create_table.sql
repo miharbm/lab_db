@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS "public.Seats" (
 CREATE TABLE IF NOT EXISTS "public.Staff" (
 	"id" serial NOT NULL,
 	"cinema_id" integer NOT NULL,
-	"position" varchar(255) NOT NULL,
+	"position_id" integer NOT NULL,
 	"login" varchar(20) NOT NULL UNIQUE,
 	"password" varchar(255) NOT NULL,
 	"birthday" DATE NOT NULL,
