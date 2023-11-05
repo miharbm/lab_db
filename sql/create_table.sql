@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS "public.Cinemas" (
 	"id" serial NOT NULL,
 	"name" varchar(50) NOT NULL UNIQUE,
 	"location" varchar(255) UNIQUE,
-	"phone" integer,
+	"phone" varchar(20),
 	CONSTRAINT "Cinemas_pk" PRIMARY KEY ("id")
 ) WITH (
   OIDS=FALSE
@@ -70,6 +70,7 @@ CREATE TABLE IF NOT EXISTS "public.Staff" (
 	"login" varchar(20) NOT NULL UNIQUE,
 	"password" varchar(255) NOT NULL,
 	"birthday" DATE NOT NULL,
+	"phone" varchar(20) NOT NULL UNIQUE,
 	"email" varchar(255) NOT NULL UNIQUE,
 	"name" varchar(255) NOT NULL,
 	CONSTRAINT "Staff_pk" PRIMARY KEY ("id")
@@ -139,7 +140,7 @@ CREATE TABLE IF NOT EXISTS "public.Customers" (
 	"name" varchar(255),
 	"birthday" DATE,
 	"avatar_ref" varchar(255) UNIQUE,
-	"phone" integer UNIQUE,
+	"phone" varchar(20) UNIQUE,
 	"mail" varchar(255) UNIQUE,
 	"password" varchar(255) NOT NULL,
 	CONSTRAINT "Customers_pk" PRIMARY KEY ("id")
