@@ -139,6 +139,7 @@ CREATE TABLE IF NOT EXISTS "public.Customers" (
 	"id" serial NOT NULL,
 	"name" varchar(255),
 	"birthday" DATE,
+	"login" varchar(20) UNIQUE,
 	"avatar_ref" varchar(255) UNIQUE,
 	"phone" varchar(20) UNIQUE,
 	"mail" varchar(255) UNIQUE,
@@ -165,7 +166,7 @@ CREATE TABLE IF NOT EXISTS "public.Payment" (
 	"id" serial NOT NULL,
 	"type" varchar(50) NOT NULL,
 	"order_id" integer NOT NULL UNIQUE,
-	"payment_time" TIMESTAMP NOT NULL,
+	"payment_time" TIMESTAMP,
 	CONSTRAINT "Payment_pk" PRIMARY KEY ("id")
 ) WITH (
   OIDS=FALSE
