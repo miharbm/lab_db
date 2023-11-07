@@ -1,2 +1,5 @@
-package com.lab_db.cinema.models;public class Session {
+package com.lab_db.cinema.models;
+
+public class Session {
+
 }

@@ -1,2 +1,4 @@
-package com.lab_db.cinema.models;public class Ticket {
+package com.lab_db.cinema.models;
+
+public class Ticket {
 }

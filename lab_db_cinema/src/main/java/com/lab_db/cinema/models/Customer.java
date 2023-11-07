@@ -1,2 +1,4 @@
-package com.lab_db.cinema.models;public class Customer {
+package com.lab_db.cinema.models;
+
+public class Customer {
 }
