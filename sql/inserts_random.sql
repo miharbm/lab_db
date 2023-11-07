@@ -22477,3 +22477,12 @@ BEGIN
 		(id_order_105, id_session_114, id_seat_515, 400),
 		(id_order_105, id_session_114, id_seat_516, 450);
 END $$;
+
+
+
+UPDATE "public.Orders" o
+SET total_price = (
+    SELECT COALESCE(SUM(price), 0)
+    FROM "public.Tickets" t
+    WHERE t.order_id = o.id
+);
