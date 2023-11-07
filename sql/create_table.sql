@@ -155,6 +155,7 @@ CREATE TABLE IF NOT EXISTS "public.Orders" (
 	"id" serial NOT NULL,
 	"customer_id" integer NOT NULL,
 	"isBooked" BOOLEAN DEFAULT(false),
+	"total_price" integer NOT NULL DEFAULT 0,
 	CONSTRAINT "Orders_pk" PRIMARY KEY ("id")
 ) WITH (
   OIDS=FALSE
