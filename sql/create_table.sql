@@ -215,7 +215,6 @@ CREATE TABLE IF NOT EXISTS "public.Prime_nominations" (
 	"nominee_id" integer NOT NULL,
 	"prime_id" integer NOT NULL,
 	"nomination" varchar(255) NOT NULL,
-	"description" TEXT,
 	"year" smallint NOT NULL,
 	"isWon" BOOLEAN NOT NULL DEFAULT 'false',
 	CONSTRAINT "Prime_nominations_pk" PRIMARY KEY ("id")
