@@ -22482,7 +22482,7 @@ END $$;
 
 UPDATE "public.Orders" o
 SET total_price = (
-    SELECT COALESCE(SUM(price), 0)
+    SELECT COALESCE(SUM(t.price), 0)
     FROM "public.Tickets" t
     WHERE t.order_id = o.id
 );
