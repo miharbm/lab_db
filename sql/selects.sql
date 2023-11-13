@@ -1,11 +1,11 @@
 -- получить неоплаченные заказы и кто не оплатил
-SELECT (o.id, c.name)
+SELECT o.id, c.name
 FROM "public.Orders" o
 JOIN "public.Customers" c on c.id = o.customer_id
 WHERE "isBooked" = FALSE;
 
 -- получить все сеансы на день в кинотеатре
-SELECT (m.name, m.description, m.duration, m.mpaa, s.time_start, h.type)
+SELECT m.name, m.description, m.duration, m.mpaa, s.time_start, h.type
 FROM "public.Sessions" s
 JOIN "public.Movies" m on m.id = s.movie_id
 JOIN "public.Halls" h on s.hall_id = s.id
@@ -13,13 +13,13 @@ JOIN "public.Cinemas" c on h.cinema_id = c.id
 WHERE s.time_start::date = '2023-11-05' AND c.name = 'Четвертый';
 
 -- получить клиентов с почтой для рассылки родившихся в 90е
-SELECT (c.mail)
+SELECT c.mail
 FROM "public.Customers" c
 WHERE c.mail IS NOT NULL
   AND c.birthday < '2000-01-01' AND c.birthday > '1990-01-01';
 
 -- получить фильмы, билеты которых есть стоимостью не выше 450
-SELECT (m.name, t.price, s.time_start)
+SELECT m.name, t.price, s.time_start
 FROM "public.Tickets" t
 JOIN "public.Sessions" s on t.session_id = s.id
 JOIN "public.Movies" m on s.movie_id = m.id
@@ -27,7 +27,7 @@ WHERE t.price <= 450
 ORDER BY t.price DESC;
 
 -- получить всех актеров какого-нибудь фильма сортированных по возрастанию возраста
-SELECT (fcm.id, fcm.name, fcm.birthday)
+SELECT fcm.id, fcm.name, fcm.birthday
 FROM "public.Film_crew_members" fcm
 JOIN "public.Films_positions" fp ON fcm.id = fp.member_id
 JOIN "public.Movies" m ON fp.movie_id = m.id
@@ -35,7 +35,7 @@ WHERE m.name = 'Тип семейства'
 ORDER BY fcm.birthday;
 
 -- получить фильмы которые идут в этом кинотеатре в жанре Мультфильмы
-SELECT (m.name, m.description, m.duration, m.mpaa, s.time_start)
+SELECT m.name, m.description, m.duration, m.mpaa, s.time_start
 FROM "public.Sessions" s
 JOIN "public.Movies" m ON m.id = s.movie_id
 JOIN "public.Movies_genres" mg ON m.id = mg.movie_id
@@ -47,7 +47,7 @@ WHERE g.name = 'Мультфильмы'
 
 
 -- получить количество фильмов по жанрам
-SELECT DISTINCT (g.name, count(m.id))
+SELECT g.name, count(m.id)
 FROM "public.Movies" m
 JOIN "public.Movies_genres" mg ON m.id = mg.movie_id
 JOIN "public.Genres" g ON mg.genres_id = g.id
@@ -88,7 +88,7 @@ JOIN "public.Payment" p ON o.id = p.order_id
 WHERE p.payment_time IS NULL;
 
 -- Вывести фильмы в n-ом кинотеатре, где снимался оскароносный актёр
-SELECT DISTINCT (m.name)
+SELECT m.name
 FROM "public.Sessions" s
 JOIN "public.Movies" m ON m.id = s.movie_id
 JOIN "public.Halls" h ON s.hall_id = h.id
