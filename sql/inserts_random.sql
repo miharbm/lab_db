@@ -17519,6 +17519,25 @@ DECLARE id_order_102 INT;
 DECLARE id_order_103 INT;
 DECLARE id_order_104 INT;
 DECLARE id_order_105 INT;
+DECLARE id_order_106 INT;
+DECLARE id_order_107 INT;
+DECLARE id_order_108 INT;
+DECLARE id_order_109 INT;
+DECLARE id_order_110 INT;
+DECLARE id_order_111 INT;
+DECLARE id_order_112 INT;
+DECLARE id_order_113 INT;
+DECLARE id_order_114 INT;
+DECLARE id_order_115 INT;
+DECLARE id_order_116 INT;
+DECLARE id_order_117 INT;
+DECLARE id_order_118 INT;
+DECLARE id_order_119 INT;
+DECLARE id_order_120 INT;
+DECLARE id_order_121 INT;
+DECLARE id_order_122 INT;
+DECLARE id_order_123 INT;
+DECLARE id_order_124 INT;
 DECLARE id_session_0 INT;
 DECLARE id_session_1 INT;
 DECLARE id_session_2 INT;
@@ -17558,82 +17577,6 @@ DECLARE id_session_35 INT;
 DECLARE id_session_36 INT;
 DECLARE id_session_37 INT;
 DECLARE id_session_38 INT;
-DECLARE id_session_39 INT;
-DECLARE id_session_40 INT;
-DECLARE id_session_41 INT;
-DECLARE id_session_42 INT;
-DECLARE id_session_43 INT;
-DECLARE id_session_44 INT;
-DECLARE id_session_45 INT;
-DECLARE id_session_46 INT;
-DECLARE id_session_47 INT;
-DECLARE id_session_48 INT;
-DECLARE id_session_49 INT;
-DECLARE id_session_50 INT;
-DECLARE id_session_51 INT;
-DECLARE id_session_52 INT;
-DECLARE id_session_53 INT;
-DECLARE id_session_54 INT;
-DECLARE id_session_55 INT;
-DECLARE id_session_56 INT;
-DECLARE id_session_57 INT;
-DECLARE id_session_58 INT;
-DECLARE id_session_59 INT;
-DECLARE id_session_60 INT;
-DECLARE id_session_61 INT;
-DECLARE id_session_62 INT;
-DECLARE id_session_63 INT;
-DECLARE id_session_64 INT;
-DECLARE id_session_65 INT;
-DECLARE id_session_66 INT;
-DECLARE id_session_67 INT;
-DECLARE id_session_68 INT;
-DECLARE id_session_69 INT;
-DECLARE id_session_70 INT;
-DECLARE id_session_71 INT;
-DECLARE id_session_72 INT;
-DECLARE id_session_73 INT;
-DECLARE id_session_74 INT;
-DECLARE id_session_75 INT;
-DECLARE id_session_76 INT;
-DECLARE id_session_77 INT;
-DECLARE id_session_78 INT;
-DECLARE id_session_79 INT;
-DECLARE id_session_80 INT;
-DECLARE id_session_81 INT;
-DECLARE id_session_82 INT;
-DECLARE id_session_83 INT;
-DECLARE id_session_84 INT;
-DECLARE id_session_85 INT;
-DECLARE id_session_86 INT;
-DECLARE id_session_87 INT;
-DECLARE id_session_88 INT;
-DECLARE id_session_89 INT;
-DECLARE id_session_90 INT;
-DECLARE id_session_91 INT;
-DECLARE id_session_92 INT;
-DECLARE id_session_93 INT;
-DECLARE id_session_94 INT;
-DECLARE id_session_95 INT;
-DECLARE id_session_96 INT;
-DECLARE id_session_97 INT;
-DECLARE id_session_98 INT;
-DECLARE id_session_99 INT;
-DECLARE id_session_100 INT;
-DECLARE id_session_101 INT;
-DECLARE id_session_102 INT;
-DECLARE id_session_103 INT;
-DECLARE id_session_104 INT;
-DECLARE id_session_105 INT;
-DECLARE id_session_106 INT;
-DECLARE id_session_107 INT;
-DECLARE id_session_108 INT;
-DECLARE id_session_109 INT;
-DECLARE id_session_110 INT;
-DECLARE id_session_111 INT;
-DECLARE id_session_112 INT;
-DECLARE id_session_113 INT;
-DECLARE id_session_114 INT;
 DECLARE id_seat_0 INT;
 DECLARE id_seat_1 INT;
 DECLARE id_seat_2 INT;
@@ -18151,187 +18094,281 @@ DECLARE id_seat_513 INT;
 DECLARE id_seat_514 INT;
 DECLARE id_seat_515 INT;
 DECLARE id_seat_516 INT;
+DECLARE id_seat_517 INT;
+DECLARE id_seat_518 INT;
+DECLARE id_seat_519 INT;
+DECLARE id_seat_520 INT;
+DECLARE id_seat_521 INT;
+DECLARE id_seat_522 INT;
+DECLARE id_seat_523 INT;
+DECLARE id_seat_524 INT;
+DECLARE id_seat_525 INT;
+DECLARE id_seat_526 INT;
+DECLARE id_seat_527 INT;
+DECLARE id_seat_528 INT;
+DECLARE id_seat_529 INT;
+DECLARE id_seat_530 INT;
+DECLARE id_seat_531 INT;
+DECLARE id_seat_532 INT;
+DECLARE id_seat_533 INT;
+DECLARE id_seat_534 INT;
+DECLARE id_seat_535 INT;
+DECLARE id_seat_536 INT;
+DECLARE id_seat_537 INT;
+DECLARE id_seat_538 INT;
+DECLARE id_seat_539 INT;
+DECLARE id_seat_540 INT;
+DECLARE id_seat_541 INT;
+DECLARE id_seat_542 INT;
+DECLARE id_seat_543 INT;
+DECLARE id_seat_544 INT;
+DECLARE id_seat_545 INT;
+DECLARE id_seat_546 INT;
+DECLARE id_seat_547 INT;
+DECLARE id_seat_548 INT;
+DECLARE id_seat_549 INT;
+DECLARE id_seat_550 INT;
+DECLARE id_seat_551 INT;
+DECLARE id_seat_552 INT;
+DECLARE id_seat_553 INT;
+DECLARE id_seat_554 INT;
+DECLARE id_seat_555 INT;
+DECLARE id_seat_556 INT;
+DECLARE id_seat_557 INT;
+DECLARE id_seat_558 INT;
+DECLARE id_seat_559 INT;
+DECLARE id_seat_560 INT;
+DECLARE id_seat_561 INT;
+DECLARE id_seat_562 INT;
+DECLARE id_seat_563 INT;
+DECLARE id_seat_564 INT;
+DECLARE id_seat_565 INT;
+DECLARE id_seat_566 INT;
+DECLARE id_seat_567 INT;
+DECLARE id_seat_568 INT;
+DECLARE id_seat_569 INT;
+DECLARE id_seat_570 INT;
+DECLARE id_seat_571 INT;
+DECLARE id_seat_572 INT;
+DECLARE id_seat_573 INT;
+DECLARE id_seat_574 INT;
+DECLARE id_seat_575 INT;
+DECLARE id_seat_576 INT;
+DECLARE id_seat_577 INT;
+DECLARE id_seat_578 INT;
+DECLARE id_seat_579 INT;
+DECLARE id_seat_580 INT;
+DECLARE id_seat_581 INT;
+DECLARE id_seat_582 INT;
+DECLARE id_seat_583 INT;
+DECLARE id_seat_584 INT;
+DECLARE id_seat_585 INT;
+DECLARE id_seat_586 INT;
+DECLARE id_seat_587 INT;
+DECLARE id_seat_588 INT;
+DECLARE id_seat_589 INT;
+DECLARE id_seat_590 INT;
+DECLARE id_seat_591 INT;
+DECLARE id_seat_592 INT;
+DECLARE id_seat_593 INT;
+DECLARE id_seat_594 INT;
+DECLARE id_seat_595 INT;
+DECLARE id_seat_596 INT;
+DECLARE id_seat_597 INT;
+DECLARE id_seat_598 INT;
+DECLARE id_seat_599 INT;
+DECLARE id_seat_600 INT;
+DECLARE id_seat_601 INT;
+DECLARE id_seat_602 INT;
+DECLARE id_seat_603 INT;
+DECLARE id_seat_604 INT;
+DECLARE id_seat_605 INT;
+DECLARE id_seat_606 INT;
+DECLARE id_seat_607 INT;
+DECLARE id_seat_608 INT;
+DECLARE id_seat_609 INT;
+DECLARE id_seat_610 INT;
 
 BEGIN
 	SELECT o.id INTO id_order_0
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Януарий Вилорович Федосеев';
+	WHERE cs.name = 'Гришина Надежда Тимофеевна';
 
 	SELECT o.id INTO id_order_1
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Антонина Матвеевна Хохлова';
+	WHERE cs.name = 'Суханова Лариса Афанасьевна';
 
 	SELECT o.id INTO id_order_2
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Раиса Макаровна Борисова';
+	WHERE cs.name = 'Лукия Харитоновна Дементьева';
 
 	SELECT o.id INTO id_order_3
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Миронова Элеонора Борисовна';
+	WHERE cs.name = 'Олимпий Игнатович Егоров';
 
 	SELECT o.id INTO id_order_4
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Лукия Харитоновна Дементьева';
+	WHERE cs.name = 'Родионов Софрон Иосифович';
 
 	SELECT o.id INTO id_order_5
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Жанна Богдановна Назарова';
+	WHERE cs.name = 'Игнатьев Наум Харлампович';
 
 	SELECT o.id INTO id_order_6
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Мясников Остромир Чеславович';
+	WHERE cs.name = 'Павлова Прасковья Аскольдовна';
 
 	SELECT o.id INTO id_order_7
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Олимпий Игнатович Егоров';
+	WHERE cs.name = 'Изот Матвеевич Буров';
 
 	SELECT o.id INTO id_order_8
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Агата Вадимовна Зыкова';
+	WHERE cs.name = 'Марина Александровна Герасимова';
 
 	SELECT o.id INTO id_order_9
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Воронцов Корнил Тарасович';
+	WHERE cs.name = 'Кошелев Милан Вячеславович';
 
 	SELECT o.id INTO id_order_10
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'тов. Дементьев Натан Игоревич';
+	WHERE cs.name = 'Никандр Венедиктович Стрелков';
 
 	SELECT o.id INTO id_order_11
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Голубева Варвара Васильевна';
+	WHERE cs.name = 'Лобанов Пахом Евсеевич';
 
 	SELECT o.id INTO id_order_12
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'г-н Горшков Флорентин Глебович';
+	WHERE cs.name = 'Николай Тимурович Дементьев';
 
 	SELECT o.id INTO id_order_13
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Осипов Любомир Устинович';
+	WHERE cs.name = 'Елисеев Пахом Бенедиктович';
 
 	SELECT o.id INTO id_order_14
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Епифан Демьянович Попов';
+	WHERE cs.name = 'Воронцов Корнил Тарасович';
 
 	SELECT o.id INTO id_order_15
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Марина Александровна Герасимова';
+	WHERE cs.name = 'Филимон Измаилович Рыбаков';
 
 	SELECT o.id INTO id_order_16
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Тихонова Майя Аскольдовна';
+	WHERE cs.name = 'Савельева Раиса Геннадьевна';
 
 	SELECT o.id INTO id_order_17
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Терентьева Анастасия Альбертовна';
+	WHERE cs.name = 'Кондратьев Измаил Валерианович';
 
 	SELECT o.id INTO id_order_18
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Алла Леоновна Жданова';
+	WHERE cs.name = 'Фаина Геннадиевна Федосеева';
 
 	SELECT o.id INTO id_order_19
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Григорий Александрович Семенов';
+	WHERE cs.name = 'Алла Леоновна Жданова';
 
 	SELECT o.id INTO id_order_20
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Одинцов Изяслав Изотович';
+	WHERE cs.name = 'Артемий Иосипович Сидоров';
 
 	SELECT o.id INTO id_order_21
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Владимиров Евгений Демидович';
+	WHERE cs.name = 'Зинаида Архиповна Лобанова';
 
 	SELECT o.id INTO id_order_22
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Уваров Архип Владиславович';
+	WHERE cs.name = 'Ильин Демьян Ефремович';
 
 	SELECT o.id INTO id_order_23
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Вишнякова Майя Григорьевна';
+	WHERE cs.name = 'Макарова Антонина Михайловна';
 
 	SELECT o.id INTO id_order_24
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Мельников Святополк Давидович';
+	WHERE cs.name = 'Галина Константиновна Кабанова';
 
 	SELECT o.id INTO id_order_25
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Сафонова Пелагея Артемовна';
+	WHERE cs.name = 'Рюрик Даниилович Куликов';
 
 	SELECT o.id INTO id_order_26
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Марина Юльевна Боброва';
+	WHERE cs.name = 'Агата Руслановна Самсонова';
 
 	SELECT o.id INTO id_order_27
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Полякова Анжела Матвеевна';
+	WHERE cs.name = 'Емельянова Марина Григорьевна';
 
 	SELECT o.id INTO id_order_28
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Соколова Дарья Макаровна';
+	WHERE cs.name = 'Артемьев Федосий Валентинович';
 
 	SELECT o.id INTO id_order_29
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Лобанов Пахом Евсеевич';
+	WHERE cs.name = 'Власов Любим Арсеньевич';
 
 	SELECT o.id INTO id_order_30
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Белозеров Афанасий Аксёнович';
+	WHERE cs.name = 'Лапина Элеонора Даниловна';
 
 	SELECT o.id INTO id_order_31
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Воронцов Ферапонт Богданович';
+	WHERE cs.name = 'Субботина Фёкла Феликсовна';
 
 	SELECT o.id INTO id_order_32
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Август Матвеевич Устинов';
+	WHERE cs.name = 'г-н Горшков Флорентин Глебович';
 
 	SELECT o.id INTO id_order_33
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Власова Дарья Геннадиевна';
+	WHERE cs.name = 'Вера Геннадьевна Матвеева';
 
 	SELECT o.id INTO id_order_34
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Алексеева Галина Феликсовна';
+	WHERE cs.name = 'Фомин Мокей Захарьевич';
 
 	SELECT o.id INTO id_order_35
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Эмилия Константиновна Дмитриева';
+	WHERE cs.name = 'Якуб Игнатьевич Молчанов';
 
 	SELECT o.id INTO id_order_36
 	FROM "public.Orders" o
@@ -18341,4141 +18378,4344 @@ BEGIN
 	SELECT o.id INTO id_order_37
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Бажен Ануфриевич Фролов';
+	WHERE cs.name = 'Творимир Демидович Поляков';
 
 	SELECT o.id INTO id_order_38
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Федосеева Нонна Александровна';
+	WHERE cs.name = 'Давыдова Екатерина Андреевна';
 
 	SELECT o.id INTO id_order_39
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Стрелкова Фаина Харитоновна';
+	WHERE cs.name = 'Стрелков Иннокентий Гаврилович';
 
 	SELECT o.id INTO id_order_40
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Субботина Фёкла Феликсовна';
+	WHERE cs.name = 'Сафонова Пелагея Артемовна';
 
 	SELECT o.id INTO id_order_41
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Копылов Самуил Эдуардович';
+	WHERE cs.name = 'Любовь Артемовна Исаева';
 
 	SELECT o.id INTO id_order_42
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Кондратьев Измаил Валерианович';
+	WHERE cs.name = 'Боян Филиппович Афанасьев';
 
 	SELECT o.id INTO id_order_43
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Симонов Святослав Юльевич';
+	WHERE cs.name = 'Воронцов Ферапонт Богданович';
 
 	SELECT o.id INTO id_order_44
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Фока Фролович Родионов';
+	WHERE cs.name = 'Кононова Варвара Владиславовна';
 
 	SELECT o.id INTO id_order_45
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Суханова Лариса Афанасьевна';
+	WHERE cs.name = 'Бажен Ануфриевич Фролов';
 
 	SELECT o.id INTO id_order_46
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Ермил Викторович Ситников';
+	WHERE cs.name = 'Милован Игнатьевич Тимофеев';
 
 	SELECT o.id INTO id_order_47
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Архипов Моисей Гордеевич';
+	WHERE cs.name = 'Фока Фролович Родионов';
 
 	SELECT o.id INTO id_order_48
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Игнатьев Наум Харлампович';
+	WHERE cs.name = 'Пелагея Кирилловна Борисова';
 
 	SELECT o.id INTO id_order_49
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Журавлева Фёкла Игоревна';
+	WHERE cs.name = 'Раиса Даниловна Гурьева';
 
 	SELECT o.id INTO id_order_50
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Милован Игнатьевич Тимофеев';
+	WHERE cs.name = 'Голубева Варвара Васильевна';
 
 	SELECT o.id INTO id_order_51
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Никифорова Эмилия Афанасьевна';
+	WHERE cs.name = 'Мельников Святополк Давидович';
 
 	SELECT o.id INTO id_order_52
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Емельянова Марина Григорьевна';
+	WHERE cs.name = 'Вишнякова Майя Григорьевна';
 
 	SELECT o.id INTO id_order_53
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Буров Стоян Филатович';
+	WHERE cs.name = 'Ершова Лидия Эльдаровна';
 
 	SELECT o.id INTO id_order_54
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Вера Геннадьевна Матвеева';
+	WHERE cs.name = 'Макар Ермолаевич Петухов';
 
 	SELECT o.id INTO id_order_55
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Владилен Харлампьевич Сидоров';
+	WHERE cs.name = 'Григорий Александрович Семенов';
 
 	SELECT o.id INTO id_order_56
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Фаина Геннадиевна Федосеева';
+	WHERE cs.name = 'Буров Стоян Филатович';
 
 	SELECT o.id INTO id_order_57
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Лебедев Елисей Августович';
+	WHERE cs.name = 'Владилен Харлампьевич Сидоров';
 
 	SELECT o.id INTO id_order_58
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Дмитриев Лазарь Эдуардович';
+	WHERE cs.name = 'Константинов Влас Елисеевич';
 
 	SELECT o.id INTO id_order_59
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Никандр Венедиктович Стрелков';
+	WHERE cs.name = 'Лихачева Зинаида Натановна';
 
 	SELECT o.id INTO id_order_60
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Азарий Борисович Прохоров';
+	WHERE cs.name = 'Кондратьев Василий Ефимьевич';
 
 	SELECT o.id INTO id_order_61
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Носкова Ирина Альбертовна';
+	WHERE cs.name = 'Шашков Всемил Антипович';
 
 	SELECT o.id INTO id_order_62
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Доронин Конон Исидорович';
+	WHERE cs.name = 'Лукия Николаевна Беспалова';
 
 	SELECT o.id INTO id_order_63
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Терентьева Майя Рудольфовна';
+	WHERE cs.name = 'Суханов Федот Феофанович';
 
 	SELECT o.id INTO id_order_64
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Анна Дмитриевна Осипова';
+	WHERE cs.name = 'Терентьева Марфа Вениаминовна';
 
 	SELECT o.id INTO id_order_65
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Валентина Александровна Быкова';
+	WHERE cs.name = 'Уваров Архип Владиславович';
 
 	SELECT o.id INTO id_order_66
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Филимон Измаилович Рыбаков';
+	WHERE cs.name = 'Одинцов Изяслав Изотович';
 
 	SELECT o.id INTO id_order_67
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Олимпиада Егоровна Герасимова';
+	WHERE cs.name = 'Копылов Самуил Эдуардович';
 
 	SELECT o.id INTO id_order_68
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Артемьев Федосий Валентинович';
+	WHERE cs.name = 'Елизавета Тимофеевна Овчинникова';
 
 	SELECT o.id INTO id_order_69
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Спиридон Брониславович Сорокин';
+	WHERE cs.name = 'Бирюкова Лора Ивановна';
 
 	SELECT o.id INTO id_order_70
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Мартынова Лукия Леоновна';
+	WHERE cs.name = 'Антонина Матвеевна Хохлова';
 
 	SELECT o.id INTO id_order_71
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Лихачева Зинаида Натановна';
+	WHERE cs.name = 'Мясников Остромир Чеславович';
 
 	SELECT o.id INTO id_order_72
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Творимир Демидович Поляков';
+	WHERE cs.name = 'Тихонова Эмилия Вячеславовна';
 
 	SELECT o.id INTO id_order_73
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Аристарх Гордеевич Евдокимов';
+	WHERE cs.name = 'Зуева Ангелина Дмитриевна';
 
 	SELECT o.id INTO id_order_74
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Кузнецова Глафира Эдуардовна';
+	WHERE cs.name = 'Петухова Зоя Степановна';
 
 	SELECT o.id INTO id_order_75
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Пелагея Кирилловна Борисова';
+	WHERE cs.name = 'Терентьева Анастасия Альбертовна';
 
 	SELECT o.id INTO id_order_76
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Лапина Элеонора Даниловна';
+	WHERE cs.name = 'Спиридон Брониславович Сорокин';
 
 	SELECT o.id INTO id_order_77
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Боян Филиппович Афанасьев';
+	WHERE cs.name = 'Лидия Алексеевна Шубина';
 
 	SELECT o.id INTO id_order_78
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Алевтина Аркадьевна Никитина';
+	WHERE cs.name = 'Белозеров Афанасий Аксёнович';
 
 	SELECT o.id INTO id_order_79
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Якушева Дарья Антоновна';
+	WHERE cs.name = 'Афанасьева Майя Анатольевна';
 
 	SELECT o.id INTO id_order_80
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Денис Эдгардович Дорофеев';
+	WHERE cs.name = 'Аристарх Гордеевич Евдокимов';
 
 	SELECT o.id INTO id_order_81
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Власов Любим Арсеньевич';
+	WHERE cs.name = 'Соколова Дарья Макаровна';
 
 	SELECT o.id INTO id_order_82
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Кошелев Милан Вячеславович';
+	WHERE cs.name = 'Миронова Элеонора Борисовна';
 
 	SELECT o.id INTO id_order_83
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Любовь Артемовна Исаева';
+	WHERE cs.name = 'Агата Вадимовна Зыкова';
 
 	SELECT o.id INTO id_order_84
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Жанна Сергеевна Фомичева';
+	WHERE cs.name = 'Эмилия Константиновна Дмитриева';
 
 	SELECT o.id INTO id_order_85
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Медведева Марина Ильинична';
+	WHERE cs.name = 'Алексеева Галина Феликсовна';
 
 	SELECT o.id INTO id_order_86
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Селиван Игнатьевич Соболев';
+	WHERE cs.name = 'Якушева Дарья Антоновна';
 
 	SELECT o.id INTO id_order_87
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Фомин Мокей Захарьевич';
+	WHERE cs.name = 'Карпов Владимир Теймуразович';
 
 	SELECT o.id INTO id_order_88
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Синклитикия Феликсовна Архипова';
+	WHERE cs.name = 'Богданов Януарий Васильевич';
 
 	SELECT o.id INTO id_order_89
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Афанасьева Майя Анатольевна';
+	WHERE cs.name = 'Власова Дарья Геннадиевна';
 
 	SELECT o.id INTO id_order_90
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Лукьян Георгиевич Муравьев';
+	WHERE cs.name = 'Дмитриев Лазарь Эдуардович';
 
 	SELECT o.id INTO id_order_91
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Вероника Эльдаровна Мамонтова';
+	WHERE cs.name = 'Епифан Демьянович Попов';
 
 	SELECT o.id INTO id_order_92
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Селиверстова Ульяна Владимировна';
+	WHERE cs.name = 'Жанна Сергеевна Фомичева';
 
 	SELECT o.id INTO id_order_93
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Белов Родион Гаврилович';
+	WHERE cs.name = 'Элеонора Рудольфовна Третьякова';
 
 	SELECT o.id INTO id_order_94
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Давыдова Екатерина Андреевна';
+	WHERE cs.name = 'Азарий Борисович Прохоров';
 
 	SELECT o.id INTO id_order_95
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Агата Руслановна Самсонова';
+	WHERE cs.name = 'Никифорова Эмилия Афанасьевна';
 
 	SELECT o.id INTO id_order_96
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Лидия Алексеевна Шубина';
+	WHERE cs.name = 'Котов Панкрат Ефстафьевич';
 
 	SELECT o.id INTO id_order_97
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Пестов Максим Исидорович';
+	WHERE cs.name = 'Егоров Мирон Марсович';
 
 	SELECT o.id INTO id_order_98
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Элеонора Рудольфовна Третьякова';
+	WHERE cs.name = 'Селиван Игнатьевич Соболев';
 
 	SELECT o.id INTO id_order_99
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Макарова Антонина Михайловна';
+	WHERE cs.name = 'Август Матвеевич Устинов';
 
 	SELECT o.id INTO id_order_100
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Милица Павловна Зыкова';
+	WHERE cs.name = 'Белов Родион Гаврилович';
 
 	SELECT o.id INTO id_order_101
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Котов Панкрат Ефстафьевич';
+	WHERE cs.name = 'Архипов Моисей Гордеевич';
 
 	SELECT o.id INTO id_order_102
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Фёкла Захаровна Рогова';
+	WHERE cs.name = 'Тихонова Майя Аскольдовна';
 
 	SELECT o.id INTO id_order_103
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Мишин Митофан Эдгардович';
+	WHERE cs.name = 'Мстислав Георгиевич Никифоров';
 
 	SELECT o.id INTO id_order_104
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Прохоров Степан Архипович';
+	WHERE cs.name = 'Журавлева Фёкла Игоревна';
 
 	SELECT o.id INTO id_order_105
 	FROM "public.Orders" o
 	JOIN "public.Customers" cs ON o.customer_id = cs.id
-	WHERE cs.name = 'Кондратьев Василий Ефимьевич';
+	WHERE cs.name = 'Терентьева Майя Рудольфовна';
+
+	SELECT o.id INTO id_order_106
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Денис Эдгардович Дорофеев';
+
+	SELECT o.id INTO id_order_107
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Симонов Святослав Юльевич';
+
+	SELECT o.id INTO id_order_108
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Пестов Максим Исидорович';
+
+	SELECT o.id INTO id_order_109
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Савелий Аксёнович Нестеров';
+
+	SELECT o.id INTO id_order_110
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Мартынова Лукия Леоновна';
+
+	SELECT o.id INTO id_order_111
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Лебедев Елисей Августович';
+
+	SELECT o.id INTO id_order_112
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Селиверстова Ульяна Владимировна';
+
+	SELECT o.id INTO id_order_113
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Стрелкова Фаина Харитоновна';
+
+	SELECT o.id INTO id_order_114
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Каллистрат Матвеевич Ермаков';
+
+	SELECT o.id INTO id_order_115
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Олимпиада Егоровна Герасимова';
+
+	SELECT o.id INTO id_order_116
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Самуил Власович Мишин';
+
+	SELECT o.id INTO id_order_117
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'тов. Дементьев Натан Игоревич';
+
+	SELECT o.id INTO id_order_118
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Полякова Анжела Матвеевна';
+
+	SELECT o.id INTO id_order_119
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Зыкова Октябрина Анатольевна';
+
+	SELECT o.id INTO id_order_120
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Доронин Конон Исидорович';
+
+	SELECT o.id INTO id_order_121
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Синклитикия Феликсовна Архипова';
+
+	SELECT o.id INTO id_order_122
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Вероника Эльдаровна Мамонтова';
+
+	SELECT o.id INTO id_order_123
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Раиса Макаровна Борисова';
+
+	SELECT o.id INTO id_order_124
+	FROM "public.Orders" o
+	JOIN "public.Customers" cs ON o.customer_id = cs.id
+	WHERE cs.name = 'Жанна Богдановна Назарова';
 
 	SELECT ses.id INTO id_session_0
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сотый' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Семьдесять девятый' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_1
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девятый' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Тридцать шестой' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_2
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестнадцатый' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Семьдесять восьмой' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_3
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девятнадцатый' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Девяностый' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_4
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят третий' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Восемнадцатый' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_5
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девятнадцатый' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Тридцать девятый' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_6
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять первый' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Пятьдесят седьмой' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_7
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят шестой' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Девяносто третий' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_8
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять второй' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Двадцать второй' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_9
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семидесятый' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Пятьдесят восьмой' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_10
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят восьмой' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Семьдесять девятый' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_11
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двенадцатый' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Девяносто четвертый' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_12
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять третий' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Восемнадцатый' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_13
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемнадцатый' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Шестидесятый' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_14
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Второй' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Семьдесять восьмой' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_15
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят второй' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Девяностый' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_16
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать девятый' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Шестидесятый' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_17
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок шестой' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Четырнадцатый' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_18
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят восьмой' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Пятьдесят седьмой' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_19
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять восьмой' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Девяносто четвертый' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_20
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Одиннадцатый' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Тридцать шестой' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_21
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестой' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Пятьдесят девятый' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_22
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят седьмой' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Семидесятый' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_23
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят первый' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Пятьдесят четвертый' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_24
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять пятый' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Двадцать второй' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_25
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восьмидесятый' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Шестьдесят первый' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_26
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят четвертый' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Четырнадцатый' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_27
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять седьмой' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Семидесятый' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_28
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять первый' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Шестьдесят первый' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_29
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят пятый' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Пятьдесят четвертый' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_30
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать пятый' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Шестьдесят пятый' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_31
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто третий' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Восемьдесять седьмой' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_32
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать второй' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Восемьдесять пятый' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_33
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятидесятый' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Восемьдесять пятый' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_34
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять седьмой' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Восемьдесять седьмой' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_35
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестнадцатый' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Девяносто третий' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_36
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяностый' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Пятьдесят девятый' AND ses.time_start = '2023-11-05 15:00:00';
 
 	SELECT ses.id INTO id_session_37
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцатый' AND ses.time_start = '2023-11-05 15:00:00';
+	WHERE c.name = 'Тридцать девятый' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT ses.id INTO id_session_38
 	FROM "public.Sessions" ses
 	JOIN "public.Halls" h ON ses.hall_id = h.id
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто седьмой' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_39
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят третий' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_40
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать седьмой' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_41
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать третий' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_42
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят девятый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_43
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять шестой' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_44
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восьмидесятый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_45
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто шестой' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_46
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят второй' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_47
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцатый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_48
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать четвертый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_49
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто девятый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_50
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять пятый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_51
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять восьмой' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_52
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать пятый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_53
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто четвертый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_54
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_55
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок восьмой' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_56
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят пятый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_57
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто пятый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_58
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять второй' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_59
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок первый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_60
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать первый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_61
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_62
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто второй' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_63
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать первый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_64
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят второй' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_65
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто первый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_66
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят третий' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_67
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать шестой' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_68
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестидесятый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_69
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Четвертый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_70
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать первый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_71
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двенадцатый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_72
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сотый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_73
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать второй' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_74
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Седьмой' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_75
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тринадцатый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_76
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок четвертый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_77
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Первый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_78
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать восьмой' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_79
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят пятый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_80
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать девятый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_81
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Третий' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_82
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяностый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_83
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок третий' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_84
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Второй' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_85
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцатый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_86
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят четвертый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_87
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать шестой' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_88
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятнадцатый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_89
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять третий' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_90
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Десятый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_91
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать четвертый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_92
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Одиннадцатый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_93
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят восьмой' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_94
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят третий' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_95
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять восьмой' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_96
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять девятый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_97
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят шестой' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_98
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят первый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_99
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто восьмой' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_100
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать второй' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_101
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятидесятый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_102
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять первый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_103
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок третий' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_104
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок седьмой' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_105
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Четвертый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_106
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят седьмой' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_107
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок восьмой' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_108
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок пятый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_109
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто седьмой' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_110
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят первый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_111
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семнадцатый' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_112
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят четвертый' AND ses.time_start = '2023-11-05 12:00:00';
-
-	SELECT ses.id INTO id_session_113
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять восьмой' AND ses.time_start = '2023-11-05 15:00:00';
-
-	SELECT ses.id INTO id_session_114
-	FROM "public.Sessions" ses
-	JOIN "public.Halls" h ON ses.hall_id = h.id
-	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восьмой' AND ses.time_start = '2023-11-05 12:00:00';
+	WHERE c.name = 'Пятьдесят восьмой' AND ses.time_start = '2023-11-05 12:00:00';
 
 	SELECT st.id INTO id_seat_0
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_0 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_0 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_1
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_0 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_0 AND st.row = 5 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_2
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_1 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_0 AND st.row = 5 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_3
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_1 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_0 AND st.row = 5 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_4
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_1 AND st.row = 4 AND st.place = 3;
+	WHERE ses.id = id_session_1 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_5
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_2 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_1 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_6
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_2 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_1 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_7
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_2 AND st.row = 3 AND st.place = 3;
+	WHERE ses.id = id_session_1 AND st.row = 2 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_8
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_3 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_1 AND st.row = 2 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_9
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_4 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_2 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_10
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_4 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_3 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_11
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_4 AND st.row = 3 AND st.place = 3;
+	WHERE ses.id = id_session_3 AND st.row = 4 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_12
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_4 AND st.row = 3 AND st.place = 4;
+	WHERE ses.id = id_session_3 AND st.row = 4 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_13
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_4 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_3 AND st.row = 4 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_14
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_4 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_3 AND st.row = 4 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_15
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_5 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_3 AND st.row = 4 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_16
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_5 AND st.row = 2 AND st.place = 2;
+	WHERE ses.id = id_session_4 AND st.row = 3 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_17
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_5 AND st.row = 2 AND st.place = 3;
+	WHERE ses.id = id_session_4 AND st.row = 3 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_18
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_5 AND st.row = 2 AND st.place = 4;
+	WHERE ses.id = id_session_4 AND st.row = 3 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_19
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_5 AND st.row = 2 AND st.place = 5;
+	WHERE ses.id = id_session_4 AND st.row = 3 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_20
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_6 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_4 AND st.row = 3 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_21
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_7 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_4 AND st.row = 3 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_22
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_8 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_4 AND st.row = 3 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_23
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_8 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_4 AND st.row = 3 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_24
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_8 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_5 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_25
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_9 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_5 AND st.row = 4 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_26
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_9 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_6 AND st.row = 1 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_27
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_9 AND st.row = 3 AND st.place = 3;
+	WHERE ses.id = id_session_6 AND st.row = 1 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_28
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_9 AND st.row = 3 AND st.place = 4;
+	WHERE ses.id = id_session_0 AND st.row = 7 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_29
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_9 AND st.row = 3 AND st.place = 5;
+	WHERE ses.id = id_session_0 AND st.row = 7 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_30
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_10 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_0 AND st.row = 7 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_31
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_10 AND st.row = 1 AND st.place = 2;
+	WHERE ses.id = id_session_0 AND st.row = 7 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_32
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_10 AND st.row = 1 AND st.place = 3;
+	WHERE ses.id = id_session_0 AND st.row = 7 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_33
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_10 AND st.row = 1 AND st.place = 4;
+	WHERE ses.id = id_session_0 AND st.row = 7 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_34
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_11 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_0 AND st.row = 7 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_35
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_11 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_0 AND st.row = 7 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_36
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_11 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_2 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_37
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_12 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_2 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_38
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_12 AND st.row = 2 AND st.place = 2;
+	WHERE ses.id = id_session_2 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_39
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_12 AND st.row = 2 AND st.place = 3;
+	WHERE ses.id = id_session_2 AND st.row = 2 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_40
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_13 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_2 AND st.row = 2 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_41
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_13 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_2 AND st.row = 2 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_42
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_13 AND st.row = 4 AND st.place = 3;
+	WHERE ses.id = id_session_2 AND st.row = 2 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_43
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_13 AND st.row = 4 AND st.place = 4;
+	WHERE ses.id = id_session_7 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_44
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_13 AND st.row = 4 AND st.place = 5;
+	WHERE ses.id = id_session_7 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_45
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_14 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_7 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_46
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_15 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_7 AND st.row = 2 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_47
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_15 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_7 AND st.row = 2 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_48
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_15 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_7 AND st.row = 2 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_49
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_16 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_7 AND st.row = 2 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_50
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_17 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_8 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_51
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_18 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_8 AND st.row = 4 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_52
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_18 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_8 AND st.row = 4 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_53
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_4 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_8 AND st.row = 4 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_54
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_4 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_8 AND st.row = 4 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_55
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_4 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_8 AND st.row = 4 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_56
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_19 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_8 AND st.row = 4 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_57
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_19 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_8 AND st.row = 4 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_58
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_19 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_8 AND st.row = 6 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_59
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_19 AND st.row = 6 AND st.place = 4;
+	WHERE ses.id = id_session_8 AND st.row = 6 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_60
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_20 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_8 AND st.row = 6 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_61
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_21 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_9 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_62
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_21 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_9 AND st.row = 4 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_63
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_22 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_9 AND st.row = 4 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_64
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_22 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_10 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_65
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_22 AND st.row = 4 AND st.place = 3;
+	WHERE ses.id = id_session_10 AND st.row = 4 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_66
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_22 AND st.row = 4 AND st.place = 4;
+	WHERE ses.id = id_session_10 AND st.row = 4 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_67
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_22 AND st.row = 4 AND st.place = 5;
+	WHERE ses.id = id_session_10 AND st.row = 4 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_68
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_21 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_10 AND st.row = 4 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_69
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_21 AND st.row = 6 AND st.place = 4;
+	WHERE ses.id = id_session_11 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_70
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_21 AND st.row = 6 AND st.place = 5;
+	WHERE ses.id = id_session_11 AND st.row = 5 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_71
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_23 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_11 AND st.row = 5 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_72
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_23 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_4 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_73
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_23 AND st.row = 4 AND st.place = 3;
+	WHERE ses.id = id_session_4 AND st.row = 4 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_74
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_23 AND st.row = 4 AND st.place = 4;
+	WHERE ses.id = id_session_4 AND st.row = 4 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_75
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_23 AND st.row = 4 AND st.place = 5;
+	WHERE ses.id = id_session_4 AND st.row = 4 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_76
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_24 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_4 AND st.row = 4 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_77
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_25 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_4 AND st.row = 4 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_78
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_25 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_12 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_79
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_25 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_12 AND st.row = 4 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_80
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_26 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_12 AND st.row = 4 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_81
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_26 AND st.row = 2 AND st.place = 2;
+	WHERE ses.id = id_session_12 AND st.row = 4 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_82
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_27 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_12 AND st.row = 4 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_83
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_27 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_12 AND st.row = 4 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_84
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_27 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_12 AND st.row = 4 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_85
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_27 AND st.row = 6 AND st.place = 4;
+	WHERE ses.id = id_session_12 AND st.row = 4 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_86
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_27 AND st.row = 6 AND st.place = 5;
+	WHERE ses.id = id_session_13 AND st.row = 1 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_87
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_28 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_13 AND st.row = 1 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_88
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_28 AND st.row = 1 AND st.place = 2;
+	WHERE ses.id = id_session_13 AND st.row = 1 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_89
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_28 AND st.row = 1 AND st.place = 3;
+	WHERE ses.id = id_session_13 AND st.row = 1 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_90
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_28 AND st.row = 1 AND st.place = 4;
+	WHERE ses.id = id_session_11 AND st.row = 6 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_91
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_28 AND st.row = 1 AND st.place = 5;
+	WHERE ses.id = id_session_11 AND st.row = 6 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_92
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_29 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_11 AND st.row = 6 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_93
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_29 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_11 AND st.row = 6 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_94
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_29 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_11 AND st.row = 6 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_95
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_29 AND st.row = 6 AND st.place = 4;
+	WHERE ses.id = id_session_14 AND st.row = 3 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_96
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_30 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_14 AND st.row = 3 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_97
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_30 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_14 AND st.row = 3 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_98
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_30 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_14 AND st.row = 3 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_99
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_30 AND st.row = 7 AND st.place = 4;
+	WHERE ses.id = id_session_15 AND st.row = 6 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_100
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_15 AND st.row = 6 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_101
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_15 AND st.row = 6 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_102
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_15 AND st.row = 6 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_103
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 6 AND st.place = 4;
+	WHERE ses.id = id_session_15 AND st.row = 6 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_104
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 6 AND st.place = 5;
+	WHERE ses.id = id_session_16 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_105
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_32 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_16 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_106
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_32 AND st.row = 2 AND st.place = 2;
+	WHERE ses.id = id_session_16 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_107
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_32 AND st.row = 2 AND st.place = 3;
+	WHERE ses.id = id_session_16 AND st.row = 2 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_108
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_32 AND st.row = 2 AND st.place = 4;
+	WHERE ses.id = id_session_16 AND st.row = 2 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_109
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_16 AND st.row = 2 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_110
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_16 AND st.row = 2 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_111
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_16 AND st.row = 2 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_112
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_34 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_17 AND st.row = 7 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_113
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_34 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_17 AND st.row = 7 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_114
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_35 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_17 AND st.row = 7 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_115
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_35 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_17 AND st.row = 7 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_116
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_35 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_17 AND st.row = 7 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_117
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_35 AND st.row = 6 AND st.place = 4;
+	WHERE ses.id = id_session_17 AND st.row = 7 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_118
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_9 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_17 AND st.row = 7 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_119
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_9 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_17 AND st.row = 7 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_120
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_9 AND st.row = 4 AND st.place = 3;
+	WHERE ses.id = id_session_1 AND st.row = 3 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_121
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_9 AND st.row = 4 AND st.place = 4;
+	WHERE ses.id = id_session_1 AND st.row = 3 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_122
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_36 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_1 AND st.row = 3 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_123
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_36 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_1 AND st.row = 3 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_124
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_37 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_1 AND st.row = 3 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_125
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_37 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_1 AND st.row = 3 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_126
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_17 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_18 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_127
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_38 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_18 AND st.row = 5 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_128
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_38 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_18 AND st.row = 5 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_129
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_38 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_18 AND st.row = 5 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_130
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_39 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_19 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_131
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_39 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_3 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_132
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_39 AND st.row = 4 AND st.place = 3;
+	WHERE ses.id = id_session_3 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_133
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_39 AND st.row = 4 AND st.place = 4;
+	WHERE ses.id = id_session_3 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_134
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_39 AND st.row = 4 AND st.place = 5;
+	WHERE ses.id = id_session_3 AND st.row = 2 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_135
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_40 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_3 AND st.row = 2 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_136
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_40 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_3 AND st.row = 2 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_137
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_40 AND st.row = 3 AND st.place = 3;
+	WHERE ses.id = id_session_3 AND st.row = 2 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_138
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_40 AND st.row = 3 AND st.place = 4;
+	WHERE ses.id = id_session_3 AND st.row = 2 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_139
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_40 AND st.row = 3 AND st.place = 5;
+	WHERE ses.id = id_session_20 AND st.row = 1 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_140
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_41 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_20 AND st.row = 1 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_141
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_41 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_20 AND st.row = 1 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_142
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_41 AND st.row = 3 AND st.place = 3;
+	WHERE ses.id = id_session_20 AND st.row = 1 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_143
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_41 AND st.row = 3 AND st.place = 4;
+	WHERE ses.id = id_session_20 AND st.row = 1 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_144
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_42 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_20 AND st.row = 1 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_145
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_42 AND st.row = 1 AND st.place = 2;
+	WHERE ses.id = id_session_20 AND st.row = 1 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_146
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_43 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_20 AND st.row = 1 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_147
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_43 AND st.row = 1 AND st.place = 2;
+	WHERE ses.id = id_session_21 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_148
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_43 AND st.row = 1 AND st.place = 3;
+	WHERE ses.id = id_session_21 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_149
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_44 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_21 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_150
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_44 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_21 AND st.row = 2 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_151
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_44 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_5 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_152
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_45 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_5 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_153
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_45 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_5 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_154
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_45 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_5 AND st.row = 2 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_155
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_45 AND st.row = 5 AND st.place = 4;
+	WHERE ses.id = id_session_5 AND st.row = 2 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_156
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_45 AND st.row = 5 AND st.place = 5;
+	WHERE ses.id = id_session_5 AND st.row = 2 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_157
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_46 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_5 AND st.row = 2 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_158
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_46 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_22 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_159
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_46 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_22 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_160
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_46 AND st.row = 5 AND st.place = 4;
+	WHERE ses.id = id_session_22 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_161
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_46 AND st.row = 5 AND st.place = 5;
+	WHERE ses.id = id_session_15 AND st.row = 3 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_162
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_47 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_15 AND st.row = 3 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_163
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_48 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_15 AND st.row = 3 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_164
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_9 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_15 AND st.row = 3 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_165
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_1 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_15 AND st.row = 3 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_166
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_49 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_15 AND st.row = 3 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_167
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_47 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_15 AND st.row = 3 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_168
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_47 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_15 AND st.row = 3 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_169
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_47 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_20 AND st.row = 3 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_170
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_50 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_20 AND st.row = 3 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_171
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_50 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_20 AND st.row = 3 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_172
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_50 AND st.row = 4 AND st.place = 3;
+	WHERE ses.id = id_session_20 AND st.row = 3 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_173
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_50 AND st.row = 4 AND st.place = 4;
+	WHERE ses.id = id_session_20 AND st.row = 3 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_174
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_51 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_20 AND st.row = 3 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_175
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_51 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_20 AND st.row = 3 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_176
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_51 AND st.row = 4 AND st.place = 3;
+	WHERE ses.id = id_session_2 AND st.row = 3 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_177
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_51 AND st.row = 4 AND st.place = 4;
+	WHERE ses.id = id_session_2 AND st.row = 3 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_178
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_51 AND st.row = 4 AND st.place = 5;
+	WHERE ses.id = id_session_2 AND st.row = 3 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_179
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_2 AND st.row = 3 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_180
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_2 AND st.row = 3 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_181
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_2 AND st.row = 3 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_182
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 5 AND st.place = 4;
+	WHERE ses.id = id_session_2 AND st.row = 3 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_183
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 5 AND st.place = 5;
+	WHERE ses.id = id_session_2 AND st.row = 3 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_184
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_52 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_23 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_185
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_52 AND st.row = 1 AND st.place = 2;
+	WHERE ses.id = id_session_23 AND st.row = 4 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_186
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_52 AND st.row = 1 AND st.place = 3;
+	WHERE ses.id = id_session_23 AND st.row = 4 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_187
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_53 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_23 AND st.row = 4 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_188
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_53 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_23 AND st.row = 4 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_189
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_53 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_23 AND st.row = 4 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_190
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_53 AND st.row = 7 AND st.place = 4;
+	WHERE ses.id = id_session_23 AND st.row = 4 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_191
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_54 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_23 AND st.row = 4 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_192
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_54 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_24 AND st.row = 6 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_193
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_54 AND st.row = 4 AND st.place = 3;
+	WHERE ses.id = id_session_24 AND st.row = 6 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_194
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_54 AND st.row = 4 AND st.place = 4;
+	WHERE ses.id = id_session_24 AND st.row = 6 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_195
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_55 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_24 AND st.row = 6 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_196
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_55 AND st.row = 2 AND st.place = 2;
+	WHERE ses.id = id_session_24 AND st.row = 6 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_197
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_56 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_24 AND st.row = 6 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_198
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_56 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_23 AND st.row = 7 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_199
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_57 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_23 AND st.row = 7 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_200
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_49 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_23 AND st.row = 7 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_201
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_58 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_23 AND st.row = 7 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_202
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_58 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_23 AND st.row = 7 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_203
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_58 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_23 AND st.row = 7 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_204
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_58 AND st.row = 7 AND st.place = 4;
+	WHERE ses.id = id_session_23 AND st.row = 7 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_205
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_58 AND st.row = 7 AND st.place = 5;
+	WHERE ses.id = id_session_23 AND st.row = 7 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_206
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_32 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_18 AND st.row = 7 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_207
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_32 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_18 AND st.row = 7 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_208
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_32 AND st.row = 3 AND st.place = 3;
+	WHERE ses.id = id_session_18 AND st.row = 7 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_209
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_32 AND st.row = 3 AND st.place = 4;
+	WHERE ses.id = id_session_18 AND st.row = 1 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_210
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_59 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_18 AND st.row = 1 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_211
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_59 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_18 AND st.row = 1 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_212
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_59 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_18 AND st.row = 1 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_213
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_59 AND st.row = 7 AND st.place = 4;
+	WHERE ses.id = id_session_18 AND st.row = 1 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_214
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_59 AND st.row = 7 AND st.place = 5;
+	WHERE ses.id = id_session_18 AND st.row = 1 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_215
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_60 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_12 AND st.row = 1 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_216
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_60 AND st.row = 1 AND st.place = 2;
+	WHERE ses.id = id_session_12 AND st.row = 1 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_217
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_61 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_12 AND st.row = 1 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_218
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_41 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_12 AND st.row = 1 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_219
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_62 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_12 AND st.row = 1 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_220
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_62 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_12 AND st.row = 1 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_221
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_63 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_12 AND st.row = 1 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_222
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_63 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_12 AND st.row = 1 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_223
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_59 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_25 AND st.row = 3 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_224
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_59 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_25 AND st.row = 3 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_225
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_59 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_25 AND st.row = 3 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_226
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_59 AND st.row = 6 AND st.place = 4;
+	WHERE ses.id = id_session_25 AND st.row = 3 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_227
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_64 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_25 AND st.row = 3 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_228
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_64 AND st.row = 1 AND st.place = 2;
+	WHERE ses.id = id_session_25 AND st.row = 3 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_229
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_64 AND st.row = 1 AND st.place = 3;
+	WHERE ses.id = id_session_17 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_230
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_65 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_17 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_231
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_66 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_21 AND st.row = 7 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_232
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_67 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_21 AND st.row = 7 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_233
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_67 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_21 AND st.row = 7 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_234
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_67 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_26 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_235
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_67 AND st.row = 6 AND st.place = 4;
+	WHERE ses.id = id_session_26 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_236
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_68 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_26 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_237
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_68 AND st.row = 1 AND st.place = 2;
+	WHERE ses.id = id_session_26 AND st.row = 2 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_238
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_68 AND st.row = 1 AND st.place = 3;
+	WHERE ses.id = id_session_26 AND st.row = 2 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_239
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_69 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_3 AND st.row = 6 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_240
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_69 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_3 AND st.row = 6 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_241
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_69 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_3 AND st.row = 6 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_242
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_70 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_27 AND st.row = 7 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_243
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_70 AND st.row = 1 AND st.place = 2;
+	WHERE ses.id = id_session_27 AND st.row = 7 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_244
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_70 AND st.row = 1 AND st.place = 3;
+	WHERE ses.id = id_session_28 AND st.row = 1 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_245
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_21 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_28 AND st.row = 1 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_246
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_21 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_28 AND st.row = 1 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_247
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_21 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_28 AND st.row = 1 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_248
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_21 AND st.row = 5 AND st.place = 4;
+	WHERE ses.id = id_session_28 AND st.row = 1 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_249
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_71 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_28 AND st.row = 1 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_250
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_71 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_28 AND st.row = 1 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_251
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_72 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_28 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_252
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_73 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_28 AND st.row = 5 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_253
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_73 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_28 AND st.row = 5 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_254
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_74 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_28 AND st.row = 5 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_255
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_74 AND st.row = 2 AND st.place = 2;
+	WHERE ses.id = id_session_6 AND st.row = 3 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_256
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_51 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_6 AND st.row = 3 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_257
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_51 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_17 AND st.row = 1 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_258
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_51 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_17 AND st.row = 1 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_259
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_51 AND st.row = 7 AND st.place = 4;
+	WHERE ses.id = id_session_17 AND st.row = 1 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_260
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_51 AND st.row = 7 AND st.place = 5;
+	WHERE ses.id = id_session_17 AND st.row = 1 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_261
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_75 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_17 AND st.row = 1 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_262
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_76 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_17 AND st.row = 1 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_263
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_76 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_17 AND st.row = 1 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_264
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_44 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_15 AND st.row = 1 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_265
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_44 AND st.row = 1 AND st.place = 2;
+	WHERE ses.id = id_session_15 AND st.row = 1 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_266
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_77 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_15 AND st.row = 1 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_267
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_77 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_22 AND st.row = 7 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_268
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_77 AND st.row = 3 AND st.place = 3;
+	WHERE ses.id = id_session_22 AND st.row = 7 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_269
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_77 AND st.row = 3 AND st.place = 4;
+	WHERE ses.id = id_session_22 AND st.row = 7 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_270
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_78 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_22 AND st.row = 7 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_271
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_78 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_22 AND st.row = 7 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_272
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_78 AND st.row = 3 AND st.place = 3;
+	WHERE ses.id = id_session_22 AND st.row = 7 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_273
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_78 AND st.row = 3 AND st.place = 4;
+	WHERE ses.id = id_session_6 AND st.row = 7 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_274
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_78 AND st.row = 3 AND st.place = 5;
+	WHERE ses.id = id_session_6 AND st.row = 7 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_275
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_64 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_6 AND st.row = 7 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_276
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_79 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_6 AND st.row = 7 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_277
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_79 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_6 AND st.row = 7 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_278
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_79 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_18 AND st.row = 3 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_279
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_0 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_18 AND st.row = 3 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_280
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_0 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_18 AND st.row = 3 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_281
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_0 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_18 AND st.row = 3 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_282
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_0 AND st.row = 7 AND st.place = 4;
+	WHERE ses.id = id_session_18 AND st.row = 3 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_283
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_0 AND st.row = 7 AND st.place = 5;
+	WHERE ses.id = id_session_18 AND st.row = 3 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_284
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_46 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_18 AND st.row = 3 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_285
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_0 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_12 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_286
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_0 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_12 AND st.row = 5 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_287
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_0 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_12 AND st.row = 5 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_288
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_0 AND st.row = 6 AND st.place = 4;
+	WHERE ses.id = id_session_12 AND st.row = 5 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_289
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_32 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_14 AND st.row = 1 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_290
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_80 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_14 AND st.row = 1 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_291
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_80 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_14 AND st.row = 1 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_292
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_10 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_14 AND st.row = 1 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_293
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_14 AND st.row = 1 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_294
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_14 AND st.row = 1 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_295
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_14 AND st.row = 1 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_296
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_49 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_14 AND st.row = 1 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_297
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_49 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_22 AND st.row = 3 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_298
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_49 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_22 AND st.row = 3 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_299
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_49 AND st.row = 6 AND st.place = 4;
+	WHERE ses.id = id_session_22 AND st.row = 3 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_300
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_49 AND st.row = 6 AND st.place = 5;
+	WHERE ses.id = id_session_22 AND st.row = 3 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_301
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_77 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_22 AND st.row = 3 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_302
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_77 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_26 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_303
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_77 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_26 AND st.row = 4 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_304
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_77 AND st.row = 6 AND st.place = 4;
+	WHERE ses.id = id_session_26 AND st.row = 4 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_305
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_77 AND st.row = 6 AND st.place = 5;
+	WHERE ses.id = id_session_26 AND st.row = 4 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_306
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_81 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_26 AND st.row = 4 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_307
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_81 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_26 AND st.row = 4 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_308
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_82 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_3 AND st.row = 1 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_309
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_82 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_3 AND st.row = 1 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_310
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_83 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_3 AND st.row = 1 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_311
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_83 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_3 AND st.row = 1 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_312
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_83 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_3 AND st.row = 1 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_313
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_1 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_3 AND st.row = 1 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_314
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_1 AND st.row = 1 AND st.place = 2;
+	WHERE ses.id = id_session_29 AND st.row = 6 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_315
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_2 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_29 AND st.row = 6 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_316
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_2 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_29 AND st.row = 6 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_317
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_2 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_27 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_318
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_2 AND st.row = 5 AND st.place = 4;
+	WHERE ses.id = id_session_27 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_319
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_80 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_27 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_320
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_80 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_27 AND st.row = 2 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_321
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_80 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_27 AND st.row = 2 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_322
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_84 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_27 AND st.row = 2 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_323
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_84 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_7 AND st.row = 7 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_324
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_84 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_7 AND st.row = 7 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_325
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_68 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_7 AND st.row = 7 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_326
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_85 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_7 AND st.row = 7 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_327
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_52 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_30 AND st.row = 7 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_328
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_52 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_30 AND st.row = 7 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_329
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_52 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_30 AND st.row = 7 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_330
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_52 AND st.row = 6 AND st.place = 4;
+	WHERE ses.id = id_session_20 AND st.row = 6 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_331
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_86 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_24 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_332
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_86 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_6 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_333
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_86 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_6 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_334
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_86 AND st.row = 7 AND st.place = 4;
+	WHERE ses.id = id_session_6 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_335
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_86 AND st.row = 7 AND st.place = 5;
+	WHERE ses.id = id_session_31 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_336
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_40 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_31 AND st.row = 4 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_337
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_40 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_31 AND st.row = 4 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_338
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_40 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_31 AND st.row = 4 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_339
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_40 AND st.row = 7 AND st.place = 4;
+	WHERE ses.id = id_session_32 AND st.row = 6 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_340
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_40 AND st.row = 7 AND st.place = 5;
+	WHERE ses.id = id_session_32 AND st.row = 6 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_341
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_6 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_32 AND st.row = 6 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_342
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_6 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_32 AND st.row = 6 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_343
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_6 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_32 AND st.row = 6 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_344
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_87 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_32 AND st.row = 6 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_345
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_87 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_32 AND st.row = 6 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_346
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_87 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_32 AND st.row = 6 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_347
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_87 AND st.row = 6 AND st.place = 4;
+	WHERE ses.id = id_session_4 AND st.row = 1 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_348
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_87 AND st.row = 6 AND st.place = 5;
+	WHERE ses.id = id_session_4 AND st.row = 1 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_349
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_54 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_4 AND st.row = 1 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_350
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_54 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_4 AND st.row = 1 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_351
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_54 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_4 AND st.row = 1 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_352
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_54 AND st.row = 5 AND st.place = 4;
+	WHERE ses.id = id_session_4 AND st.row = 1 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_353
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_54 AND st.row = 5 AND st.place = 5;
+	WHERE ses.id = id_session_4 AND st.row = 1 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_354
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_4 AND st.row = 1 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_355
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_32 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_356
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 4 AND st.place = 3;
+	WHERE ses.id = id_session_32 AND st.row = 5 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_357
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 4 AND st.place = 4;
+	WHERE ses.id = id_session_32 AND st.row = 5 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_358
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 4 AND st.place = 5;
+	WHERE ses.id = id_session_32 AND st.row = 5 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_359
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_88 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_32 AND st.row = 5 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_360
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_88 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_32 AND st.row = 5 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_361
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_88 AND st.row = 3 AND st.place = 3;
+	WHERE ses.id = id_session_20 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_362
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_55 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_20 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_363
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_55 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_20 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_364
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_55 AND st.row = 3 AND st.place = 3;
+	WHERE ses.id = id_session_2 AND st.row = 1 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_365
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_55 AND st.row = 3 AND st.place = 4;
+	WHERE ses.id = id_session_2 AND st.row = 1 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_366
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_89 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_2 AND st.row = 1 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_367
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_30 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_2 AND st.row = 1 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_368
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_30 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_19 AND st.row = 7 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_369
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_50 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_33 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_370
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_50 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_30 AND st.row = 1 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_371
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_50 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_30 AND st.row = 1 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_372
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_50 AND st.row = 7 AND st.place = 4;
+	WHERE ses.id = id_session_30 AND st.row = 1 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_373
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_50 AND st.row = 7 AND st.place = 5;
+	WHERE ses.id = id_session_30 AND st.row = 1 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_374
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_90 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_30 AND st.row = 1 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_375
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_90 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_30 AND st.row = 1 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_376
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_90 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_28 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_377
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_90 AND st.row = 7 AND st.place = 4;
+	WHERE ses.id = id_session_28 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_378
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_89 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_28 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_379
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_89 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_28 AND st.row = 2 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_380
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_91 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_2 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_381
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_91 AND st.row = 1 AND st.place = 2;
+	WHERE ses.id = id_session_2 AND st.row = 5 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_382
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_91 AND st.row = 1 AND st.place = 3;
+	WHERE ses.id = id_session_2 AND st.row = 5 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_383
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_91 AND st.row = 1 AND st.place = 4;
+	WHERE ses.id = id_session_2 AND st.row = 5 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_384
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_91 AND st.row = 1 AND st.place = 5;
+	WHERE ses.id = id_session_2 AND st.row = 5 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_385
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_80 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_2 AND st.row = 5 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_386
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_80 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_15 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_387
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_80 AND st.row = 4 AND st.place = 3;
+	WHERE ses.id = id_session_15 AND st.row = 5 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_388
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_92 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_15 AND st.row = 5 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_389
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_92 AND st.row = 2 AND st.place = 2;
+	WHERE ses.id = id_session_15 AND st.row = 5 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_390
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_92 AND st.row = 2 AND st.place = 3;
+	WHERE ses.id = id_session_15 AND st.row = 5 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_391
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_92 AND st.row = 2 AND st.place = 4;
+	WHERE ses.id = id_session_15 AND st.row = 5 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_392
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_92 AND st.row = 2 AND st.place = 5;
+	WHERE ses.id = id_session_30 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_393
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_13 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_34 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_394
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_13 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_34 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_395
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_93 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_34 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_396
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_94 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_34 AND st.row = 2 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_397
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_95 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_34 AND st.row = 2 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_398
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_95 AND st.row = 1 AND st.place = 2;
+	WHERE ses.id = id_session_34 AND st.row = 2 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_399
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_95 AND st.row = 1 AND st.place = 3;
+	WHERE ses.id = id_session_34 AND st.row = 2 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_400
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_95 AND st.row = 1 AND st.place = 4;
+	WHERE ses.id = id_session_17 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_401
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_96 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_17 AND st.row = 4 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_402
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_96 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_17 AND st.row = 4 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_403
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_97 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_17 AND st.row = 4 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_404
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_98 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_17 AND st.row = 4 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_405
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_98 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_17 AND st.row = 4 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_406
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_98 AND st.row = 4 AND st.place = 3;
+	WHERE ses.id = id_session_25 AND st.row = 6 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_407
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_98 AND st.row = 4 AND st.place = 4;
+	WHERE ses.id = id_session_25 AND st.row = 6 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_408
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_30 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_25 AND st.row = 6 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_409
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_30 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_25 AND st.row = 6 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_410
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_30 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_25 AND st.row = 6 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_411
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_30 AND st.row = 5 AND st.place = 4;
+	WHERE ses.id = id_session_25 AND st.row = 6 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_412
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_30 AND st.row = 5 AND st.place = 5;
+	WHERE ses.id = id_session_25 AND st.row = 6 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_413
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_99 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_25 AND st.row = 6 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_414
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_99 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_13 AND st.row = 6 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_415
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_99 AND st.row = 3 AND st.place = 3;
+	WHERE ses.id = id_session_13 AND st.row = 6 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_416
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_99 AND st.row = 3 AND st.place = 4;
+	WHERE ses.id = id_session_13 AND st.row = 6 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_417
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_99 AND st.row = 3 AND st.place = 5;
+	WHERE ses.id = id_session_13 AND st.row = 6 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_418
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_100 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_13 AND st.row = 6 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_419
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_100 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_13 AND st.row = 6 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_420
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_100 AND st.row = 3 AND st.place = 3;
+	WHERE ses.id = id_session_13 AND st.row = 6 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_421
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_100 AND st.row = 3 AND st.place = 4;
+	WHERE ses.id = id_session_3 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_422
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_100 AND st.row = 3 AND st.place = 5;
+	WHERE ses.id = id_session_1 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_423
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_0 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_1 AND st.row = 5 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_424
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_0 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_1 AND st.row = 5 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_425
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_54 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_12 AND st.row = 3 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_426
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_54 AND st.row = 2 AND st.place = 2;
+	WHERE ses.id = id_session_12 AND st.row = 3 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_427
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_101 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_12 AND st.row = 3 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_428
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_101 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_12 AND st.row = 3 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_429
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_102 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_12 AND st.row = 3 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_430
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_102 AND st.row = 2 AND st.place = 2;
+	WHERE ses.id = id_session_17 AND st.row = 6 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_431
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_102 AND st.row = 2 AND st.place = 3;
+	WHERE ses.id = id_session_17 AND st.row = 6 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_432
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_102 AND st.row = 2 AND st.place = 4;
+	WHERE ses.id = id_session_13 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_433
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_102 AND st.row = 2 AND st.place = 5;
+	WHERE ses.id = id_session_13 AND st.row = 4 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_434
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_103 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_13 AND st.row = 4 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_435
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_103 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_13 AND st.row = 4 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_436
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_103 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_13 AND st.row = 4 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_437
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_103 AND st.row = 7 AND st.place = 4;
+	WHERE ses.id = id_session_13 AND st.row = 4 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_438
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_103 AND st.row = 7 AND st.place = 5;
+	WHERE ses.id = id_session_32 AND st.row = 1 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_439
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_104 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_32 AND st.row = 1 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_440
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_104 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_32 AND st.row = 1 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_441
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_105 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_3 AND st.row = 3 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_442
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_105 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_3 AND st.row = 3 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_443
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_105 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_3 AND st.row = 3 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_444
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_105 AND st.row = 7 AND st.place = 4;
+	WHERE ses.id = id_session_3 AND st.row = 3 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_445
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_106 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_3 AND st.row = 3 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_446
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_106 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_17 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_447
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_106 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_17 AND st.row = 5 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_448
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_17 AND st.row = 5 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_449
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_17 AND st.row = 5 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_450
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_17 AND st.row = 5 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_451
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 5 AND st.place = 4;
+	WHERE ses.id = id_session_17 AND st.row = 5 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_452
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 5 AND st.place = 5;
+	WHERE ses.id = id_session_17 AND st.row = 5 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_453
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_38 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_15 AND st.row = 4 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_454
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_38 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_15 AND st.row = 4 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_455
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_107 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_15 AND st.row = 4 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_456
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_108 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_15 AND st.row = 4 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_457
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_109 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_15 AND st.row = 4 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_458
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_3 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_15 AND st.row = 4 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_459
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_3 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_15 AND st.row = 4 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_460
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_3 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_15 AND st.row = 4 AND st.place = 8;
 
 	SELECT st.id INTO id_seat_461
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_3 AND st.row = 6 AND st.place = 4;
+	WHERE ses.id = id_session_9 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_462
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_3 AND st.row = 6 AND st.place = 5;
+	WHERE ses.id = id_session_9 AND st.row = 5 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_463
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_46 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_9 AND st.row = 5 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_464
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_46 AND st.row = 4 AND st.place = 2;
+	WHERE ses.id = id_session_9 AND st.row = 5 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_465
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_46 AND st.row = 4 AND st.place = 3;
+	WHERE ses.id = id_session_9 AND st.row = 5 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_466
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_35 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_467
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_30 AND st.row = 3 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_468
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_83 AND st.row = 1 AND st.place = 1;
+	WHERE ses.id = id_session_30 AND st.row = 3 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_469
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_83 AND st.row = 1 AND st.place = 2;
+	WHERE ses.id = id_session_30 AND st.row = 3 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_470
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_83 AND st.row = 1 AND st.place = 3;
+	WHERE ses.id = id_session_30 AND st.row = 3 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_471
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_83 AND st.row = 1 AND st.place = 4;
+	WHERE ses.id = id_session_30 AND st.row = 3 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_472
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_45 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_23 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_473
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_45 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_23 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_474
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_45 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_10 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_475
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_45 AND st.row = 7 AND st.place = 4;
+	WHERE ses.id = id_session_10 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_476
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_45 AND st.row = 7 AND st.place = 5;
+	WHERE ses.id = id_session_10 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_477
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_51 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_7 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_478
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_51 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_4 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_479
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_51 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_4 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_480
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_91 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_4 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_481
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_91 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_4 AND st.row = 2 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_482
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_91 AND st.row = 3 AND st.place = 3;
+	WHERE ses.id = id_session_36 AND st.row = 7 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_483
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_91 AND st.row = 3 AND st.place = 4;
+	WHERE ses.id = id_session_36 AND st.row = 7 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_484
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_91 AND st.row = 3 AND st.place = 5;
+	WHERE ses.id = id_session_36 AND st.row = 7 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_485
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_110 AND st.row = 4 AND st.place = 1;
+	WHERE ses.id = id_session_36 AND st.row = 7 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_486
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_29 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_36 AND st.row = 7 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_487
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_29 AND st.row = 2 AND st.place = 2;
+	WHERE ses.id = id_session_36 AND st.row = 7 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_488
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_29 AND st.row = 2 AND st.place = 3;
+	WHERE ses.id = id_session_26 AND st.row = 7 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_489
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_29 AND st.row = 2 AND st.place = 4;
+	WHERE ses.id = id_session_26 AND st.row = 7 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_490
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_70 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_26 AND st.row = 7 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_491
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_70 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_15 AND st.row = 7 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_492
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_70 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_15 AND st.row = 7 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_493
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_70 AND st.row = 5 AND st.place = 4;
+	WHERE ses.id = id_session_15 AND st.row = 7 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_494
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_111 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_23 AND st.row = 6 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_495
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_111 AND st.row = 2 AND st.place = 2;
+	WHERE ses.id = id_session_23 AND st.row = 6 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_496
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_46 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_23 AND st.row = 6 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_497
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_4 AND st.row = 2 AND st.place = 1;
+	WHERE ses.id = id_session_23 AND st.row = 6 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_498
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_23 AND st.row = 6 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_499
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_7 AND st.row = 3 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_500
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_31 AND st.row = 3 AND st.place = 3;
+	WHERE ses.id = id_session_37 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_501
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_112 AND st.row = 7 AND st.place = 1;
+	WHERE ses.id = id_session_37 AND st.row = 5 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_502
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_112 AND st.row = 7 AND st.place = 2;
+	WHERE ses.id = id_session_37 AND st.row = 5 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_503
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_112 AND st.row = 7 AND st.place = 3;
+	WHERE ses.id = id_session_37 AND st.row = 5 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_504
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_112 AND st.row = 7 AND st.place = 4;
+	WHERE ses.id = id_session_37 AND st.row = 5 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_505
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_112 AND st.row = 7 AND st.place = 5;
+	WHERE ses.id = id_session_11 AND st.row = 2 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_506
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_33 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_11 AND st.row = 2 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_507
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_113 AND st.row = 5 AND st.place = 1;
+	WHERE ses.id = id_session_11 AND st.row = 2 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_508
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_113 AND st.row = 5 AND st.place = 2;
+	WHERE ses.id = id_session_11 AND st.row = 2 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_509
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_113 AND st.row = 5 AND st.place = 3;
+	WHERE ses.id = id_session_11 AND st.row = 2 AND st.place = 5;
 
 	SELECT st.id INTO id_seat_510
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_113 AND st.row = 5 AND st.place = 4;
+	WHERE ses.id = id_session_11 AND st.row = 2 AND st.place = 6;
 
 	SELECT st.id INTO id_seat_511
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_66 AND st.row = 3 AND st.place = 1;
+	WHERE ses.id = id_session_11 AND st.row = 2 AND st.place = 7;
 
 	SELECT st.id INTO id_seat_512
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_66 AND st.row = 3 AND st.place = 2;
+	WHERE ses.id = id_session_24 AND st.row = 5 AND st.place = 1;
 
 	SELECT st.id INTO id_seat_513
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_66 AND st.row = 3 AND st.place = 3;
+	WHERE ses.id = id_session_24 AND st.row = 5 AND st.place = 2;
 
 	SELECT st.id INTO id_seat_514
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_114 AND st.row = 6 AND st.place = 1;
+	WHERE ses.id = id_session_24 AND st.row = 5 AND st.place = 3;
 
 	SELECT st.id INTO id_seat_515
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_114 AND st.row = 6 AND st.place = 2;
+	WHERE ses.id = id_session_24 AND st.row = 5 AND st.place = 4;
 
 	SELECT st.id INTO id_seat_516
 	FROM "public.Seats" st
 	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
-	WHERE ses.id = id_session_114 AND st.row = 6 AND st.place = 3;
+	WHERE ses.id = id_session_24 AND st.row = 5 AND st.place = 5;
+
+	SELECT st.id INTO id_seat_517
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_27 AND st.row = 1 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_518
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_27 AND st.row = 1 AND st.place = 2;
+
+	SELECT st.id INTO id_seat_519
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_27 AND st.row = 1 AND st.place = 3;
+
+	SELECT st.id INTO id_seat_520
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_27 AND st.row = 1 AND st.place = 4;
+
+	SELECT st.id INTO id_seat_521
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_36 AND st.row = 3 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_522
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_36 AND st.row = 3 AND st.place = 2;
+
+	SELECT st.id INTO id_seat_523
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_10 AND st.row = 3 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_524
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_36 AND st.row = 4 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_525
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_36 AND st.row = 4 AND st.place = 2;
+
+	SELECT st.id INTO id_seat_526
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_36 AND st.row = 4 AND st.place = 3;
+
+	SELECT st.id INTO id_seat_527
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_36 AND st.row = 4 AND st.place = 4;
+
+	SELECT st.id INTO id_seat_528
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_36 AND st.row = 4 AND st.place = 5;
+
+	SELECT st.id INTO id_seat_529
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_36 AND st.row = 4 AND st.place = 6;
+
+	SELECT st.id INTO id_seat_530
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_32 AND st.row = 4 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_531
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_32 AND st.row = 4 AND st.place = 2;
+
+	SELECT st.id INTO id_seat_532
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_32 AND st.row = 4 AND st.place = 3;
+
+	SELECT st.id INTO id_seat_533
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_32 AND st.row = 4 AND st.place = 4;
+
+	SELECT st.id INTO id_seat_534
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_32 AND st.row = 4 AND st.place = 5;
+
+	SELECT st.id INTO id_seat_535
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_32 AND st.row = 4 AND st.place = 6;
+
+	SELECT st.id INTO id_seat_536
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_32 AND st.row = 4 AND st.place = 7;
+
+	SELECT st.id INTO id_seat_537
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_29 AND st.row = 7 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_538
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 1 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_539
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 1 AND st.place = 2;
+
+	SELECT st.id INTO id_seat_540
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 1 AND st.place = 3;
+
+	SELECT st.id INTO id_seat_541
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 1 AND st.place = 4;
+
+	SELECT st.id INTO id_seat_542
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 7 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_543
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 7 AND st.place = 2;
+
+	SELECT st.id INTO id_seat_544
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 7 AND st.place = 3;
+
+	SELECT st.id INTO id_seat_545
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 7 AND st.place = 4;
+
+	SELECT st.id INTO id_seat_546
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 7 AND st.place = 5;
+
+	SELECT st.id INTO id_seat_547
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 7 AND st.place = 6;
+
+	SELECT st.id INTO id_seat_548
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 7 AND st.place = 7;
+
+	SELECT st.id INTO id_seat_549
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_14 AND st.row = 2 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_550
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_14 AND st.row = 2 AND st.place = 2;
+
+	SELECT st.id INTO id_seat_551
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_14 AND st.row = 2 AND st.place = 3;
+
+	SELECT st.id INTO id_seat_552
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_14 AND st.row = 2 AND st.place = 4;
+
+	SELECT st.id INTO id_seat_553
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_14 AND st.row = 2 AND st.place = 5;
+
+	SELECT st.id INTO id_seat_554
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_14 AND st.row = 2 AND st.place = 6;
+
+	SELECT st.id INTO id_seat_555
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_14 AND st.row = 2 AND st.place = 7;
+
+	SELECT st.id INTO id_seat_556
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_14 AND st.row = 2 AND st.place = 8;
+
+	SELECT st.id INTO id_seat_557
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 7 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_558
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 7 AND st.place = 2;
+
+	SELECT st.id INTO id_seat_559
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 7 AND st.place = 3;
+
+	SELECT st.id INTO id_seat_560
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 7 AND st.place = 4;
+
+	SELECT st.id INTO id_seat_561
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 7 AND st.place = 5;
+
+	SELECT st.id INTO id_seat_562
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 7 AND st.place = 6;
+
+	SELECT st.id INTO id_seat_563
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 7 AND st.place = 7;
+
+	SELECT st.id INTO id_seat_564
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 7 AND st.place = 8;
+
+	SELECT st.id INTO id_seat_565
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 4 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_566
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 4 AND st.place = 2;
+
+	SELECT st.id INTO id_seat_567
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 4 AND st.place = 3;
+
+	SELECT st.id INTO id_seat_568
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 4 AND st.place = 4;
+
+	SELECT st.id INTO id_seat_569
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 4 AND st.place = 5;
+
+	SELECT st.id INTO id_seat_570
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 4 AND st.place = 6;
+
+	SELECT st.id INTO id_seat_571
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 4 AND st.place = 7;
+
+	SELECT st.id INTO id_seat_572
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_28 AND st.row = 4 AND st.place = 8;
+
+	SELECT st.id INTO id_seat_573
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_38 AND st.row = 7 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_574
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_26 AND st.row = 6 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_575
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_26 AND st.row = 6 AND st.place = 2;
+
+	SELECT st.id INTO id_seat_576
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_26 AND st.row = 6 AND st.place = 3;
+
+	SELECT st.id INTO id_seat_577
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_26 AND st.row = 6 AND st.place = 4;
+
+	SELECT st.id INTO id_seat_578
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_26 AND st.row = 6 AND st.place = 5;
+
+	SELECT st.id INTO id_seat_579
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_26 AND st.row = 6 AND st.place = 6;
+
+	SELECT st.id INTO id_seat_580
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_25 AND st.row = 2 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_581
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_25 AND st.row = 2 AND st.place = 2;
+
+	SELECT st.id INTO id_seat_582
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_25 AND st.row = 2 AND st.place = 3;
+
+	SELECT st.id INTO id_seat_583
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_25 AND st.row = 2 AND st.place = 4;
+
+	SELECT st.id INTO id_seat_584
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_25 AND st.row = 2 AND st.place = 5;
+
+	SELECT st.id INTO id_seat_585
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_25 AND st.row = 2 AND st.place = 6;
+
+	SELECT st.id INTO id_seat_586
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_25 AND st.row = 2 AND st.place = 7;
+
+	SELECT st.id INTO id_seat_587
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_25 AND st.row = 2 AND st.place = 8;
+
+	SELECT st.id INTO id_seat_588
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_36 AND st.row = 2 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_589
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_36 AND st.row = 2 AND st.place = 2;
+
+	SELECT st.id INTO id_seat_590
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_36 AND st.row = 2 AND st.place = 3;
+
+	SELECT st.id INTO id_seat_591
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_9 AND st.row = 6 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_592
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_9 AND st.row = 6 AND st.place = 2;
+
+	SELECT st.id INTO id_seat_593
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_9 AND st.row = 6 AND st.place = 3;
+
+	SELECT st.id INTO id_seat_594
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_9 AND st.row = 6 AND st.place = 4;
+
+	SELECT st.id INTO id_seat_595
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_9 AND st.row = 6 AND st.place = 5;
+
+	SELECT st.id INTO id_seat_596
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_9 AND st.row = 6 AND st.place = 6;
+
+	SELECT st.id INTO id_seat_597
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_9 AND st.row = 6 AND st.place = 7;
+
+	SELECT st.id INTO id_seat_598
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_13 AND st.row = 2 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_599
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_13 AND st.row = 2 AND st.place = 2;
+
+	SELECT st.id INTO id_seat_600
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_13 AND st.row = 2 AND st.place = 3;
+
+	SELECT st.id INTO id_seat_601
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_13 AND st.row = 2 AND st.place = 4;
+
+	SELECT st.id INTO id_seat_602
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_13 AND st.row = 2 AND st.place = 5;
+
+	SELECT st.id INTO id_seat_603
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 4 AND st.place = 1;
+
+	SELECT st.id INTO id_seat_604
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 4 AND st.place = 2;
+
+	SELECT st.id INTO id_seat_605
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 4 AND st.place = 3;
+
+	SELECT st.id INTO id_seat_606
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 4 AND st.place = 4;
+
+	SELECT st.id INTO id_seat_607
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 4 AND st.place = 5;
+
+	SELECT st.id INTO id_seat_608
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 4 AND st.place = 6;
+
+	SELECT st.id INTO id_seat_609
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 4 AND st.place = 7;
+
+	SELECT st.id INTO id_seat_610
+	FROM "public.Seats" st
+	JOIN "public.Sessions" ses ON st.hall_id = ses.hall_id
+	WHERE ses.id = id_session_16 AND st.row = 4 AND st.place = 8;
 
 	INSERT INTO "public.Tickets" (order_id, session_id, seat_id, price) VALUES
-		(id_order_0, id_session_0, id_seat_0, 400),
-		(id_order_0, id_session_0, id_seat_1, 400),
-		(id_order_1, id_session_1, id_seat_2, 450),
-		(id_order_1, id_session_1, id_seat_3, 400),
-		(id_order_1, id_session_1, id_seat_4, 450),
-		(id_order_2, id_session_2, id_seat_5, 400),
-		(id_order_2, id_session_2, id_seat_6, 400),
-		(id_order_2, id_session_2, id_seat_7, 450),
-		(id_order_3, id_session_3, id_seat_8, 450),
-		(id_order_4, id_session_4, id_seat_9, 400),
-		(id_order_4, id_session_4, id_seat_10, 400),
-		(id_order_4, id_session_4, id_seat_11, 400),
-		(id_order_4, id_session_4, id_seat_12, 450),
-		(id_order_5, id_session_4, id_seat_13, 450),
-		(id_order_5, id_session_4, id_seat_14, 450),
-		(id_order_6, id_session_5, id_seat_15, 450),
-		(id_order_6, id_session_5, id_seat_16, 400),
-		(id_order_6, id_session_5, id_seat_17, 450),
-		(id_order_6, id_session_5, id_seat_18, 400),
-		(id_order_6, id_session_5, id_seat_19, 400),
-		(id_order_7, id_session_6, id_seat_20, 450),
-		(id_order_8, id_session_7, id_seat_21, 450),
-		(id_order_9, id_session_8, id_seat_22, 450),
-		(id_order_9, id_session_8, id_seat_23, 400),
-		(id_order_9, id_session_8, id_seat_24, 450),
-		(id_order_10, id_session_9, id_seat_25, 400),
-		(id_order_10, id_session_9, id_seat_26, 450),
-		(id_order_10, id_session_9, id_seat_27, 450),
-		(id_order_10, id_session_9, id_seat_28, 450),
-		(id_order_10, id_session_9, id_seat_29, 450),
-		(id_order_11, id_session_10, id_seat_30, 450),
-		(id_order_11, id_session_10, id_seat_31, 450),
-		(id_order_11, id_session_10, id_seat_32, 400),
-		(id_order_11, id_session_10, id_seat_33, 400),
-		(id_order_12, id_session_11, id_seat_34, 450),
-		(id_order_12, id_session_11, id_seat_35, 400),
-		(id_order_12, id_session_11, id_seat_36, 400),
-		(id_order_13, id_session_12, id_seat_37, 450),
-		(id_order_13, id_session_12, id_seat_38, 400),
-		(id_order_13, id_session_12, id_seat_39, 400),
-		(id_order_14, id_session_13, id_seat_40, 450),
-		(id_order_14, id_session_13, id_seat_41, 450),
-		(id_order_14, id_session_13, id_seat_42, 450),
-		(id_order_14, id_session_13, id_seat_43, 400),
-		(id_order_14, id_session_13, id_seat_44, 400),
-		(id_order_15, id_session_14, id_seat_45, 450),
-		(id_order_16, id_session_15, id_seat_46, 450),
-		(id_order_16, id_session_15, id_seat_47, 450),
-		(id_order_16, id_session_15, id_seat_48, 450),
-		(id_order_17, id_session_16, id_seat_49, 400),
-		(id_order_18, id_session_17, id_seat_50, 450),
-		(id_order_19, id_session_18, id_seat_51, 450),
-		(id_order_19, id_session_18, id_seat_52, 400),
-		(id_order_20, id_session_4, id_seat_53, 400),
-		(id_order_20, id_session_4, id_seat_54, 400),
-		(id_order_20, id_session_4, id_seat_55, 450),
-		(id_order_21, id_session_19, id_seat_56, 400),
-		(id_order_21, id_session_19, id_seat_57, 400),
-		(id_order_21, id_session_19, id_seat_58, 400),
-		(id_order_21, id_session_19, id_seat_59, 400),
-		(id_order_22, id_session_20, id_seat_60, 400),
-		(id_order_23, id_session_21, id_seat_61, 450),
-		(id_order_23, id_session_21, id_seat_62, 450),
-		(id_order_24, id_session_22, id_seat_63, 450),
-		(id_order_24, id_session_22, id_seat_64, 450),
-		(id_order_24, id_session_22, id_seat_65, 400),
-		(id_order_24, id_session_22, id_seat_66, 400),
-		(id_order_24, id_session_22, id_seat_67, 400),
-		(id_order_25, id_session_21, id_seat_68, 450),
-		(id_order_25, id_session_21, id_seat_69, 450),
-		(id_order_25, id_session_21, id_seat_70, 450),
-		(id_order_21, id_session_23, id_seat_71, 450),
-		(id_order_21, id_session_23, id_seat_72, 450),
-		(id_order_21, id_session_23, id_seat_73, 450),
-		(id_order_21, id_session_23, id_seat_74, 400),
-		(id_order_21, id_session_23, id_seat_75, 400),
-		(id_order_26, id_session_24, id_seat_76, 450),
-		(id_order_27, id_session_25, id_seat_77, 450),
-		(id_order_27, id_session_25, id_seat_78, 450),
-		(id_order_27, id_session_25, id_seat_79, 450),
-		(id_order_28, id_session_26, id_seat_80, 450),
-		(id_order_28, id_session_26, id_seat_81, 450),
-		(id_order_23, id_session_27, id_seat_82, 450),
-		(id_order_23, id_session_27, id_seat_83, 450),
-		(id_order_23, id_session_27, id_seat_84, 450),
-		(id_order_23, id_session_27, id_seat_85, 400),
-		(id_order_23, id_session_27, id_seat_86, 400),
-		(id_order_29, id_session_28, id_seat_87, 400),
-		(id_order_29, id_session_28, id_seat_88, 450),
-		(id_order_29, id_session_28, id_seat_89, 400),
-		(id_order_29, id_session_28, id_seat_90, 450),
-		(id_order_29, id_session_28, id_seat_91, 450),
-		(id_order_30, id_session_29, id_seat_92, 400),
-		(id_order_30, id_session_29, id_seat_93, 400),
-		(id_order_30, id_session_29, id_seat_94, 450),
-		(id_order_30, id_session_29, id_seat_95, 450),
-		(id_order_31, id_session_30, id_seat_96, 400),
-		(id_order_31, id_session_30, id_seat_97, 450),
-		(id_order_31, id_session_30, id_seat_98, 400),
-		(id_order_31, id_session_30, id_seat_99, 450),
-		(id_order_32, id_session_31, id_seat_100, 450),
-		(id_order_32, id_session_31, id_seat_101, 450),
-		(id_order_32, id_session_31, id_seat_102, 400),
-		(id_order_32, id_session_31, id_seat_103, 400),
-		(id_order_32, id_session_31, id_seat_104, 400),
-		(id_order_33, id_session_32, id_seat_105, 450),
-		(id_order_33, id_session_32, id_seat_106, 400),
-		(id_order_33, id_session_32, id_seat_107, 400),
-		(id_order_33, id_session_32, id_seat_108, 450),
-		(id_order_34, id_session_33, id_seat_109, 400),
-		(id_order_34, id_session_33, id_seat_110, 400),
-		(id_order_34, id_session_33, id_seat_111, 450),
-		(id_order_35, id_session_34, id_seat_112, 400),
-		(id_order_35, id_session_34, id_seat_113, 450),
-		(id_order_36, id_session_35, id_seat_114, 400),
-		(id_order_36, id_session_35, id_seat_115, 450),
-		(id_order_36, id_session_35, id_seat_116, 450),
-		(id_order_36, id_session_35, id_seat_117, 400),
-		(id_order_9, id_session_9, id_seat_118, 450),
-		(id_order_9, id_session_9, id_seat_119, 450),
-		(id_order_9, id_session_9, id_seat_120, 450),
-		(id_order_9, id_session_9, id_seat_121, 400),
-		(id_order_11, id_session_36, id_seat_122, 400),
-		(id_order_11, id_session_36, id_seat_123, 450),
-		(id_order_18, id_session_37, id_seat_124, 400),
-		(id_order_18, id_session_37, id_seat_125, 400),
-		(id_order_37, id_session_17, id_seat_126, 400),
-		(id_order_38, id_session_38, id_seat_127, 450),
-		(id_order_38, id_session_38, id_seat_128, 400),
-		(id_order_38, id_session_38, id_seat_129, 400),
-		(id_order_39, id_session_39, id_seat_130, 450),
-		(id_order_39, id_session_39, id_seat_131, 450),
-		(id_order_39, id_session_39, id_seat_132, 400),
-		(id_order_39, id_session_39, id_seat_133, 450),
-		(id_order_39, id_session_39, id_seat_134, 450),
-		(id_order_32, id_session_40, id_seat_135, 400),
-		(id_order_32, id_session_40, id_seat_136, 450),
-		(id_order_32, id_session_40, id_seat_137, 450),
-		(id_order_32, id_session_40, id_seat_138, 450),
-		(id_order_32, id_session_40, id_seat_139, 400),
-		(id_order_40, id_session_41, id_seat_140, 400),
-		(id_order_40, id_session_41, id_seat_141, 450),
-		(id_order_40, id_session_41, id_seat_142, 400),
-		(id_order_40, id_session_41, id_seat_143, 450),
-		(id_order_41, id_session_42, id_seat_144, 450),
-		(id_order_41, id_session_42, id_seat_145, 450),
-		(id_order_42, id_session_43, id_seat_146, 400),
-		(id_order_42, id_session_43, id_seat_147, 400),
-		(id_order_42, id_session_43, id_seat_148, 400),
-		(id_order_31, id_session_44, id_seat_149, 400),
-		(id_order_31, id_session_44, id_seat_150, 450),
-		(id_order_31, id_session_44, id_seat_151, 400),
-		(id_order_43, id_session_45, id_seat_152, 400),
-		(id_order_43, id_session_45, id_seat_153, 450),
-		(id_order_43, id_session_45, id_seat_154, 400),
-		(id_order_43, id_session_45, id_seat_155, 400),
-		(id_order_43, id_session_45, id_seat_156, 450),
-		(id_order_44, id_session_46, id_seat_157, 450),
-		(id_order_44, id_session_46, id_seat_158, 400),
-		(id_order_44, id_session_46, id_seat_159, 400),
-		(id_order_44, id_session_46, id_seat_160, 450),
-		(id_order_44, id_session_46, id_seat_161, 450),
-		(id_order_11, id_session_47, id_seat_162, 400),
-		(id_order_45, id_session_48, id_seat_163, 450),
-		(id_order_46, id_session_9, id_seat_164, 450),
-		(id_order_47, id_session_1, id_seat_165, 450),
-		(id_order_48, id_session_49, id_seat_166, 450),
-		(id_order_49, id_session_47, id_seat_167, 450),
-		(id_order_49, id_session_47, id_seat_168, 400),
-		(id_order_49, id_session_47, id_seat_169, 400),
-		(id_order_50, id_session_50, id_seat_170, 400),
-		(id_order_50, id_session_50, id_seat_171, 400),
-		(id_order_50, id_session_50, id_seat_172, 400),
-		(id_order_50, id_session_50, id_seat_173, 450),
-		(id_order_14, id_session_51, id_seat_174, 400),
-		(id_order_14, id_session_51, id_seat_175, 400),
-		(id_order_14, id_session_51, id_seat_176, 450),
-		(id_order_14, id_session_51, id_seat_177, 450),
-		(id_order_14, id_session_51, id_seat_178, 400),
-		(id_order_51, id_session_31, id_seat_179, 450),
-		(id_order_51, id_session_31, id_seat_180, 400),
-		(id_order_51, id_session_31, id_seat_181, 450),
-		(id_order_51, id_session_31, id_seat_182, 450),
-		(id_order_51, id_session_31, id_seat_183, 400),
-		(id_order_32, id_session_52, id_seat_184, 400),
-		(id_order_32, id_session_52, id_seat_185, 400),
-		(id_order_32, id_session_52, id_seat_186, 450),
-		(id_order_52, id_session_53, id_seat_187, 400),
-		(id_order_52, id_session_53, id_seat_188, 400),
-		(id_order_52, id_session_53, id_seat_189, 400),
-		(id_order_52, id_session_53, id_seat_190, 450),
-		(id_order_53, id_session_54, id_seat_191, 400),
-		(id_order_53, id_session_54, id_seat_192, 450),
-		(id_order_53, id_session_54, id_seat_193, 450),
-		(id_order_53, id_session_54, id_seat_194, 450),
-		(id_order_54, id_session_55, id_seat_195, 400),
-		(id_order_54, id_session_55, id_seat_196, 450),
-		(id_order_55, id_session_56, id_seat_197, 450),
-		(id_order_55, id_session_56, id_seat_198, 400),
-		(id_order_56, id_session_57, id_seat_199, 450),
-		(id_order_0, id_session_49, id_seat_200, 450),
-		(id_order_9, id_session_58, id_seat_201, 450),
-		(id_order_9, id_session_58, id_seat_202, 450),
-		(id_order_9, id_session_58, id_seat_203, 450),
-		(id_order_9, id_session_58, id_seat_204, 400),
-		(id_order_9, id_session_58, id_seat_205, 400),
-		(id_order_57, id_session_32, id_seat_206, 450),
-		(id_order_57, id_session_32, id_seat_207, 400),
-		(id_order_57, id_session_32, id_seat_208, 450),
-		(id_order_57, id_session_32, id_seat_209, 400),
-		(id_order_58, id_session_59, id_seat_210, 450),
-		(id_order_58, id_session_59, id_seat_211, 400),
-		(id_order_58, id_session_59, id_seat_212, 450),
-		(id_order_58, id_session_59, id_seat_213, 450),
-		(id_order_58, id_session_59, id_seat_214, 400),
-		(id_order_59, id_session_60, id_seat_215, 450),
-		(id_order_59, id_session_60, id_seat_216, 400),
-		(id_order_60, id_session_61, id_seat_217, 450),
-		(id_order_61, id_session_41, id_seat_218, 450),
-		(id_order_62, id_session_62, id_seat_219, 400),
-		(id_order_62, id_session_62, id_seat_220, 400),
-		(id_order_63, id_session_63, id_seat_221, 450),
-		(id_order_63, id_session_63, id_seat_222, 400),
-		(id_order_64, id_session_59, id_seat_223, 400),
-		(id_order_64, id_session_59, id_seat_224, 400),
-		(id_order_64, id_session_59, id_seat_225, 400),
-		(id_order_64, id_session_59, id_seat_226, 400),
-		(id_order_40, id_session_64, id_seat_227, 450),
-		(id_order_40, id_session_64, id_seat_228, 400),
-		(id_order_40, id_session_64, id_seat_229, 450),
-		(id_order_65, id_session_65, id_seat_230, 450),
-		(id_order_66, id_session_66, id_seat_231, 400),
-		(id_order_62, id_session_67, id_seat_232, 400),
-		(id_order_62, id_session_67, id_seat_233, 400),
-		(id_order_62, id_session_67, id_seat_234, 400),
-		(id_order_62, id_session_67, id_seat_235, 400),
-		(id_order_17, id_session_68, id_seat_236, 400),
-		(id_order_17, id_session_68, id_seat_237, 450),
-		(id_order_17, id_session_68, id_seat_238, 400),
-		(id_order_67, id_session_69, id_seat_239, 450),
-		(id_order_67, id_session_69, id_seat_240, 450),
-		(id_order_67, id_session_69, id_seat_241, 400),
-		(id_order_4, id_session_70, id_seat_242, 400),
-		(id_order_4, id_session_70, id_seat_243, 450),
-		(id_order_4, id_session_70, id_seat_244, 400),
-		(id_order_68, id_session_21, id_seat_245, 450),
-		(id_order_68, id_session_21, id_seat_246, 400),
-		(id_order_68, id_session_21, id_seat_247, 400),
-		(id_order_68, id_session_21, id_seat_248, 400),
-		(id_order_2, id_session_71, id_seat_249, 450),
-		(id_order_2, id_session_71, id_seat_250, 400),
-		(id_order_69, id_session_72, id_seat_251, 450),
-		(id_order_70, id_session_73, id_seat_252, 450),
-		(id_order_70, id_session_73, id_seat_253, 400),
-		(id_order_24, id_session_74, id_seat_254, 400),
-		(id_order_24, id_session_74, id_seat_255, 400),
-		(id_order_71, id_session_51, id_seat_256, 400),
-		(id_order_71, id_session_51, id_seat_257, 400),
-		(id_order_71, id_session_51, id_seat_258, 400),
-		(id_order_71, id_session_51, id_seat_259, 400),
-		(id_order_71, id_session_51, id_seat_260, 450),
-		(id_order_18, id_session_75, id_seat_261, 450),
-		(id_order_72, id_session_76, id_seat_262, 400),
-		(id_order_72, id_session_76, id_seat_263, 450),
-		(id_order_73, id_session_44, id_seat_264, 400),
-		(id_order_73, id_session_44, id_seat_265, 400),
-		(id_order_74, id_session_77, id_seat_266, 400),
-		(id_order_74, id_session_77, id_seat_267, 450),
-		(id_order_74, id_session_77, id_seat_268, 400),
-		(id_order_74, id_session_77, id_seat_269, 450),
-		(id_order_75, id_session_78, id_seat_270, 400),
-		(id_order_75, id_session_78, id_seat_271, 400),
-		(id_order_75, id_session_78, id_seat_272, 450),
-		(id_order_75, id_session_78, id_seat_273, 450),
-		(id_order_75, id_session_78, id_seat_274, 450),
-		(id_order_76, id_session_64, id_seat_275, 450),
-		(id_order_77, id_session_79, id_seat_276, 400),
-		(id_order_77, id_session_79, id_seat_277, 400),
-		(id_order_77, id_session_79, id_seat_278, 450),
-		(id_order_78, id_session_0, id_seat_279, 400),
-		(id_order_78, id_session_0, id_seat_280, 450),
-		(id_order_78, id_session_0, id_seat_281, 400),
-		(id_order_78, id_session_0, id_seat_282, 450),
-		(id_order_78, id_session_0, id_seat_283, 400),
-		(id_order_79, id_session_46, id_seat_284, 400),
-		(id_order_59, id_session_0, id_seat_285, 450),
-		(id_order_59, id_session_0, id_seat_286, 400),
-		(id_order_59, id_session_0, id_seat_287, 400),
-		(id_order_59, id_session_0, id_seat_288, 400),
-		(id_order_75, id_session_32, id_seat_289, 450),
-		(id_order_80, id_session_80, id_seat_290, 450),
-		(id_order_80, id_session_80, id_seat_291, 450),
-		(id_order_81, id_session_10, id_seat_292, 450),
-		(id_order_82, id_session_31, id_seat_293, 450),
-		(id_order_82, id_session_31, id_seat_294, 450),
-		(id_order_82, id_session_31, id_seat_295, 450),
-		(id_order_74, id_session_49, id_seat_296, 450),
-		(id_order_74, id_session_49, id_seat_297, 450),
-		(id_order_74, id_session_49, id_seat_298, 400),
-		(id_order_74, id_session_49, id_seat_299, 400),
-		(id_order_74, id_session_49, id_seat_300, 400),
-		(id_order_30, id_session_77, id_seat_301, 400),
-		(id_order_30, id_session_77, id_seat_302, 400),
-		(id_order_30, id_session_77, id_seat_303, 450),
-		(id_order_30, id_session_77, id_seat_304, 400),
-		(id_order_30, id_session_77, id_seat_305, 400),
-		(id_order_37, id_session_81, id_seat_306, 450),
-		(id_order_37, id_session_81, id_seat_307, 450),
-		(id_order_32, id_session_82, id_seat_308, 400),
-		(id_order_32, id_session_82, id_seat_309, 400),
-		(id_order_76, id_session_83, id_seat_310, 450),
-		(id_order_76, id_session_83, id_seat_311, 450),
-		(id_order_76, id_session_83, id_seat_312, 450),
-		(id_order_7, id_session_1, id_seat_313, 450),
-		(id_order_7, id_session_1, id_seat_314, 400),
-		(id_order_73, id_session_2, id_seat_315, 450),
-		(id_order_73, id_session_2, id_seat_316, 450),
-		(id_order_73, id_session_2, id_seat_317, 400),
-		(id_order_73, id_session_2, id_seat_318, 450),
-		(id_order_37, id_session_80, id_seat_319, 450),
-		(id_order_37, id_session_80, id_seat_320, 450),
-		(id_order_37, id_session_80, id_seat_321, 450),
-		(id_order_22, id_session_84, id_seat_322, 450),
-		(id_order_22, id_session_84, id_seat_323, 400),
-		(id_order_22, id_session_84, id_seat_324, 450),
-		(id_order_83, id_session_68, id_seat_325, 450),
-		(id_order_84, id_session_85, id_seat_326, 400),
-		(id_order_80, id_session_52, id_seat_327, 400),
-		(id_order_80, id_session_52, id_seat_328, 400),
-		(id_order_80, id_session_52, id_seat_329, 400),
-		(id_order_80, id_session_52, id_seat_330, 400),
-		(id_order_85, id_session_86, id_seat_331, 400),
-		(id_order_85, id_session_86, id_seat_332, 450),
-		(id_order_85, id_session_86, id_seat_333, 400),
-		(id_order_85, id_session_86, id_seat_334, 400),
-		(id_order_85, id_session_86, id_seat_335, 450),
-		(id_order_86, id_session_40, id_seat_336, 450),
-		(id_order_86, id_session_40, id_seat_337, 450),
-		(id_order_86, id_session_40, id_seat_338, 400),
-		(id_order_86, id_session_40, id_seat_339, 450),
-		(id_order_86, id_session_40, id_seat_340, 450),
-		(id_order_42, id_session_6, id_seat_341, 450),
-		(id_order_42, id_session_6, id_seat_342, 400),
-		(id_order_42, id_session_6, id_seat_343, 400),
-		(id_order_54, id_session_87, id_seat_344, 450),
-		(id_order_54, id_session_87, id_seat_345, 450),
-		(id_order_54, id_session_87, id_seat_346, 400),
-		(id_order_54, id_session_87, id_seat_347, 400),
-		(id_order_54, id_session_87, id_seat_348, 450),
-		(id_order_46, id_session_54, id_seat_349, 400),
-		(id_order_46, id_session_54, id_seat_350, 450),
-		(id_order_46, id_session_54, id_seat_351, 450),
-		(id_order_46, id_session_54, id_seat_352, 400),
-		(id_order_46, id_session_54, id_seat_353, 450),
-		(id_order_12, id_session_33, id_seat_354, 450),
-		(id_order_12, id_session_33, id_seat_355, 400),
-		(id_order_12, id_session_33, id_seat_356, 450),
-		(id_order_12, id_session_33, id_seat_357, 450),
-		(id_order_12, id_session_33, id_seat_358, 400),
-		(id_order_30, id_session_88, id_seat_359, 450),
-		(id_order_30, id_session_88, id_seat_360, 400),
-		(id_order_30, id_session_88, id_seat_361, 400),
-		(id_order_87, id_session_55, id_seat_362, 450),
-		(id_order_87, id_session_55, id_seat_363, 400),
-		(id_order_87, id_session_55, id_seat_364, 400),
-		(id_order_87, id_session_55, id_seat_365, 400),
-		(id_order_88, id_session_89, id_seat_366, 400),
-		(id_order_5, id_session_30, id_seat_367, 450),
-		(id_order_5, id_session_30, id_seat_368, 400),
-		(id_order_89, id_session_50, id_seat_369, 400),
-		(id_order_89, id_session_50, id_seat_370, 450),
-		(id_order_89, id_session_50, id_seat_371, 450),
-		(id_order_89, id_session_50, id_seat_372, 450),
-		(id_order_89, id_session_50, id_seat_373, 450),
-		(id_order_90, id_session_90, id_seat_374, 450),
-		(id_order_90, id_session_90, id_seat_375, 450),
-		(id_order_90, id_session_90, id_seat_376, 450),
-		(id_order_90, id_session_90, id_seat_377, 400),
-		(id_order_86, id_session_89, id_seat_378, 400),
-		(id_order_86, id_session_89, id_seat_379, 450),
-		(id_order_91, id_session_91, id_seat_380, 400),
-		(id_order_91, id_session_91, id_seat_381, 450),
-		(id_order_91, id_session_91, id_seat_382, 400),
-		(id_order_91, id_session_91, id_seat_383, 450),
-		(id_order_91, id_session_91, id_seat_384, 450),
-		(id_order_28, id_session_80, id_seat_385, 400),
-		(id_order_28, id_session_80, id_seat_386, 400),
-		(id_order_28, id_session_80, id_seat_387, 400),
-		(id_order_53, id_session_92, id_seat_388, 450),
-		(id_order_53, id_session_92, id_seat_389, 400),
-		(id_order_53, id_session_92, id_seat_390, 400),
-		(id_order_53, id_session_92, id_seat_391, 450),
-		(id_order_53, id_session_92, id_seat_392, 450),
-		(id_order_79, id_session_13, id_seat_393, 450),
-		(id_order_79, id_session_13, id_seat_394, 450),
-		(id_order_29, id_session_93, id_seat_395, 450),
-		(id_order_90, id_session_94, id_seat_396, 400),
-		(id_order_54, id_session_95, id_seat_397, 400),
-		(id_order_54, id_session_95, id_seat_398, 400),
-		(id_order_54, id_session_95, id_seat_399, 450),
-		(id_order_54, id_session_95, id_seat_400, 450),
-		(id_order_92, id_session_96, id_seat_401, 400),
-		(id_order_92, id_session_96, id_seat_402, 450),
-		(id_order_86, id_session_97, id_seat_403, 450),
-		(id_order_93, id_session_98, id_seat_404, 450),
-		(id_order_93, id_session_98, id_seat_405, 400),
-		(id_order_93, id_session_98, id_seat_406, 450),
-		(id_order_93, id_session_98, id_seat_407, 400),
-		(id_order_94, id_session_30, id_seat_408, 450),
-		(id_order_94, id_session_30, id_seat_409, 450),
-		(id_order_94, id_session_30, id_seat_410, 450),
-		(id_order_94, id_session_30, id_seat_411, 450),
-		(id_order_94, id_session_30, id_seat_412, 400),
-		(id_order_95, id_session_99, id_seat_413, 450),
-		(id_order_95, id_session_99, id_seat_414, 400),
-		(id_order_95, id_session_99, id_seat_415, 450),
-		(id_order_95, id_session_99, id_seat_416, 400),
-		(id_order_95, id_session_99, id_seat_417, 400),
-		(id_order_96, id_session_100, id_seat_418, 400),
-		(id_order_96, id_session_100, id_seat_419, 450),
-		(id_order_96, id_session_100, id_seat_420, 450),
-		(id_order_96, id_session_100, id_seat_421, 400),
-		(id_order_96, id_session_100, id_seat_422, 400),
-		(id_order_7, id_session_0, id_seat_423, 450),
-		(id_order_7, id_session_0, id_seat_424, 450),
-		(id_order_43, id_session_54, id_seat_425, 400),
-		(id_order_43, id_session_54, id_seat_426, 400),
-		(id_order_92, id_session_101, id_seat_427, 450),
-		(id_order_92, id_session_101, id_seat_428, 450),
-		(id_order_65, id_session_102, id_seat_429, 450),
-		(id_order_65, id_session_102, id_seat_430, 400),
-		(id_order_65, id_session_102, id_seat_431, 450),
-		(id_order_65, id_session_102, id_seat_432, 450),
-		(id_order_65, id_session_102, id_seat_433, 450),
-		(id_order_59, id_session_103, id_seat_434, 400),
-		(id_order_59, id_session_103, id_seat_435, 400),
-		(id_order_59, id_session_103, id_seat_436, 450),
-		(id_order_59, id_session_103, id_seat_437, 400),
-		(id_order_59, id_session_103, id_seat_438, 400),
-		(id_order_97, id_session_104, id_seat_439, 400),
-		(id_order_97, id_session_104, id_seat_440, 450),
-		(id_order_91, id_session_105, id_seat_441, 450),
-		(id_order_91, id_session_105, id_seat_442, 400),
-		(id_order_91, id_session_105, id_seat_443, 400),
-		(id_order_91, id_session_105, id_seat_444, 450),
-		(id_order_98, id_session_106, id_seat_445, 450),
-		(id_order_98, id_session_106, id_seat_446, 400),
-		(id_order_98, id_session_106, id_seat_447, 400),
-		(id_order_1, id_session_33, id_seat_448, 400),
-		(id_order_1, id_session_33, id_seat_449, 400),
-		(id_order_1, id_session_33, id_seat_450, 400),
-		(id_order_1, id_session_33, id_seat_451, 450),
-		(id_order_1, id_session_33, id_seat_452, 400),
-		(id_order_99, id_session_38, id_seat_453, 450),
-		(id_order_99, id_session_38, id_seat_454, 450),
-		(id_order_53, id_session_107, id_seat_455, 400),
-		(id_order_6, id_session_108, id_seat_456, 450),
-		(id_order_100, id_session_109, id_seat_457, 450),
-		(id_order_101, id_session_3, id_seat_458, 400),
-		(id_order_101, id_session_3, id_seat_459, 400),
-		(id_order_101, id_session_3, id_seat_460, 400),
-		(id_order_101, id_session_3, id_seat_461, 450),
-		(id_order_101, id_session_3, id_seat_462, 400),
-		(id_order_49, id_session_46, id_seat_463, 450),
-		(id_order_49, id_session_46, id_seat_464, 450),
-		(id_order_49, id_session_46, id_seat_465, 400),
-		(id_order_101, id_session_33, id_seat_466, 450),
-		(id_order_101, id_session_33, id_seat_467, 450),
-		(id_order_102, id_session_83, id_seat_468, 400),
-		(id_order_102, id_session_83, id_seat_469, 400),
-		(id_order_102, id_session_83, id_seat_470, 400),
-		(id_order_102, id_session_83, id_seat_471, 450),
-		(id_order_58, id_session_45, id_seat_472, 400),
-		(id_order_58, id_session_45, id_seat_473, 400),
-		(id_order_58, id_session_45, id_seat_474, 400),
-		(id_order_58, id_session_45, id_seat_475, 400),
-		(id_order_58, id_session_45, id_seat_476, 450),
-		(id_order_68, id_session_51, id_seat_477, 450),
-		(id_order_68, id_session_51, id_seat_478, 400),
-		(id_order_68, id_session_51, id_seat_479, 450),
-		(id_order_52, id_session_91, id_seat_480, 400),
-		(id_order_52, id_session_91, id_seat_481, 450),
-		(id_order_52, id_session_91, id_seat_482, 400),
-		(id_order_52, id_session_91, id_seat_483, 450),
-		(id_order_52, id_session_91, id_seat_484, 400),
-		(id_order_24, id_session_110, id_seat_485, 450),
-		(id_order_19, id_session_29, id_seat_486, 400),
-		(id_order_19, id_session_29, id_seat_487, 400),
-		(id_order_19, id_session_29, id_seat_488, 450),
-		(id_order_19, id_session_29, id_seat_489, 450),
-		(id_order_26, id_session_70, id_seat_490, 450),
-		(id_order_26, id_session_70, id_seat_491, 400),
-		(id_order_26, id_session_70, id_seat_492, 400),
-		(id_order_26, id_session_70, id_seat_493, 450),
-		(id_order_33, id_session_111, id_seat_494, 450),
-		(id_order_33, id_session_111, id_seat_495, 450),
-		(id_order_68, id_session_46, id_seat_496, 400),
-		(id_order_103, id_session_4, id_seat_497, 450),
-		(id_order_40, id_session_31, id_seat_498, 400),
-		(id_order_40, id_session_31, id_seat_499, 450),
-		(id_order_40, id_session_31, id_seat_500, 450),
-		(id_order_83, id_session_112, id_seat_501, 400),
-		(id_order_83, id_session_112, id_seat_502, 450),
-		(id_order_83, id_session_112, id_seat_503, 450),
-		(id_order_83, id_session_112, id_seat_504, 450),
-		(id_order_83, id_session_112, id_seat_505, 400),
-		(id_order_104, id_session_33, id_seat_506, 400),
-		(id_order_21, id_session_113, id_seat_507, 400),
-		(id_order_21, id_session_113, id_seat_508, 450),
-		(id_order_21, id_session_113, id_seat_509, 450),
-		(id_order_21, id_session_113, id_seat_510, 400),
-		(id_order_80, id_session_66, id_seat_511, 450),
-		(id_order_80, id_session_66, id_seat_512, 450),
-		(id_order_80, id_session_66, id_seat_513, 400),
-		(id_order_105, id_session_114, id_seat_514, 400),
-		(id_order_105, id_session_114, id_seat_515, 400),
-		(id_order_105, id_session_114, id_seat_516, 450);
+		(id_order_0, id_session_0, id_seat_0, 500),
+		(id_order_0, id_session_0, id_seat_1, 450),
+		(id_order_0, id_session_0, id_seat_2, 400),
+		(id_order_0, id_session_0, id_seat_3, 400),
+		(id_order_1, id_session_1, id_seat_4, 400),
+		(id_order_1, id_session_1, id_seat_5, 400),
+		(id_order_1, id_session_1, id_seat_6, 400),
+		(id_order_1, id_session_1, id_seat_7, 450),
+		(id_order_1, id_session_1, id_seat_8, 400),
+		(id_order_2, id_session_2, id_seat_9, 450),
+		(id_order_3, id_session_3, id_seat_10, 500),
+		(id_order_3, id_session_3, id_seat_11, 450),
+		(id_order_3, id_session_3, id_seat_12, 500),
+		(id_order_3, id_session_3, id_seat_13, 500),
+		(id_order_3, id_session_3, id_seat_14, 500),
+		(id_order_3, id_session_3, id_seat_15, 450),
+		(id_order_4, id_session_4, id_seat_16, 400),
+		(id_order_4, id_session_4, id_seat_17, 450),
+		(id_order_4, id_session_4, id_seat_18, 450),
+		(id_order_4, id_session_4, id_seat_19, 400),
+		(id_order_4, id_session_4, id_seat_20, 500),
+		(id_order_4, id_session_4, id_seat_21, 400),
+		(id_order_4, id_session_4, id_seat_22, 400),
+		(id_order_4, id_session_4, id_seat_23, 500),
+		(id_order_5, id_session_5, id_seat_24, 450),
+		(id_order_5, id_session_5, id_seat_25, 500),
+		(id_order_6, id_session_6, id_seat_26, 400),
+		(id_order_6, id_session_6, id_seat_27, 400),
+		(id_order_7, id_session_0, id_seat_28, 400),
+		(id_order_7, id_session_0, id_seat_29, 400),
+		(id_order_7, id_session_0, id_seat_30, 450),
+		(id_order_7, id_session_0, id_seat_31, 400),
+		(id_order_7, id_session_0, id_seat_32, 450),
+		(id_order_7, id_session_0, id_seat_33, 400),
+		(id_order_7, id_session_0, id_seat_34, 400),
+		(id_order_7, id_session_0, id_seat_35, 400),
+		(id_order_8, id_session_2, id_seat_36, 450),
+		(id_order_8, id_session_2, id_seat_37, 400),
+		(id_order_8, id_session_2, id_seat_38, 400),
+		(id_order_8, id_session_2, id_seat_39, 500),
+		(id_order_8, id_session_2, id_seat_40, 450),
+		(id_order_8, id_session_2, id_seat_41, 400),
+		(id_order_8, id_session_2, id_seat_42, 450),
+		(id_order_9, id_session_7, id_seat_43, 400),
+		(id_order_9, id_session_7, id_seat_44, 500),
+		(id_order_9, id_session_7, id_seat_45, 400),
+		(id_order_9, id_session_7, id_seat_46, 500),
+		(id_order_9, id_session_7, id_seat_47, 500),
+		(id_order_9, id_session_7, id_seat_48, 450),
+		(id_order_9, id_session_7, id_seat_49, 400),
+		(id_order_10, id_session_8, id_seat_50, 450),
+		(id_order_10, id_session_8, id_seat_51, 500),
+		(id_order_10, id_session_8, id_seat_52, 400),
+		(id_order_10, id_session_8, id_seat_53, 500),
+		(id_order_10, id_session_8, id_seat_54, 450),
+		(id_order_10, id_session_8, id_seat_55, 450),
+		(id_order_10, id_session_8, id_seat_56, 450),
+		(id_order_10, id_session_8, id_seat_57, 450),
+		(id_order_11, id_session_8, id_seat_58, 450),
+		(id_order_11, id_session_8, id_seat_59, 500),
+		(id_order_11, id_session_8, id_seat_60, 450),
+		(id_order_12, id_session_9, id_seat_61, 450),
+		(id_order_12, id_session_9, id_seat_62, 400),
+		(id_order_12, id_session_9, id_seat_63, 450),
+		(id_order_13, id_session_10, id_seat_64, 500),
+		(id_order_13, id_session_10, id_seat_65, 500),
+		(id_order_13, id_session_10, id_seat_66, 500),
+		(id_order_13, id_session_10, id_seat_67, 400),
+		(id_order_13, id_session_10, id_seat_68, 400),
+		(id_order_14, id_session_11, id_seat_69, 500),
+		(id_order_14, id_session_11, id_seat_70, 400),
+		(id_order_14, id_session_11, id_seat_71, 500),
+		(id_order_15, id_session_4, id_seat_72, 450),
+		(id_order_15, id_session_4, id_seat_73, 400),
+		(id_order_15, id_session_4, id_seat_74, 450),
+		(id_order_15, id_session_4, id_seat_75, 400),
+		(id_order_15, id_session_4, id_seat_76, 500),
+		(id_order_15, id_session_4, id_seat_77, 450),
+		(id_order_16, id_session_12, id_seat_78, 400),
+		(id_order_16, id_session_12, id_seat_79, 500),
+		(id_order_16, id_session_12, id_seat_80, 500),
+		(id_order_16, id_session_12, id_seat_81, 500),
+		(id_order_16, id_session_12, id_seat_82, 450),
+		(id_order_16, id_session_12, id_seat_83, 400),
+		(id_order_16, id_session_12, id_seat_84, 400),
+		(id_order_16, id_session_12, id_seat_85, 400),
+		(id_order_17, id_session_13, id_seat_86, 400),
+		(id_order_17, id_session_13, id_seat_87, 500),
+		(id_order_17, id_session_13, id_seat_88, 500),
+		(id_order_17, id_session_13, id_seat_89, 500),
+		(id_order_18, id_session_11, id_seat_90, 500),
+		(id_order_18, id_session_11, id_seat_91, 450),
+		(id_order_18, id_session_11, id_seat_92, 400),
+		(id_order_18, id_session_11, id_seat_93, 400),
+		(id_order_18, id_session_11, id_seat_94, 400),
+		(id_order_19, id_session_14, id_seat_95, 400),
+		(id_order_19, id_session_14, id_seat_96, 500),
+		(id_order_19, id_session_14, id_seat_97, 400),
+		(id_order_19, id_session_14, id_seat_98, 400),
+		(id_order_20, id_session_15, id_seat_99, 450),
+		(id_order_20, id_session_15, id_seat_100, 400),
+		(id_order_20, id_session_15, id_seat_101, 500),
+		(id_order_20, id_session_15, id_seat_102, 500),
+		(id_order_20, id_session_15, id_seat_103, 400),
+		(id_order_21, id_session_16, id_seat_104, 450),
+		(id_order_21, id_session_16, id_seat_105, 400),
+		(id_order_21, id_session_16, id_seat_106, 500),
+		(id_order_21, id_session_16, id_seat_107, 500),
+		(id_order_21, id_session_16, id_seat_108, 400),
+		(id_order_21, id_session_16, id_seat_109, 400),
+		(id_order_21, id_session_16, id_seat_110, 400),
+		(id_order_21, id_session_16, id_seat_111, 400),
+		(id_order_22, id_session_17, id_seat_112, 450),
+		(id_order_22, id_session_17, id_seat_113, 500),
+		(id_order_22, id_session_17, id_seat_114, 450),
+		(id_order_22, id_session_17, id_seat_115, 450),
+		(id_order_22, id_session_17, id_seat_116, 400),
+		(id_order_22, id_session_17, id_seat_117, 500),
+		(id_order_22, id_session_17, id_seat_118, 450),
+		(id_order_22, id_session_17, id_seat_119, 400),
+		(id_order_23, id_session_1, id_seat_120, 450),
+		(id_order_23, id_session_1, id_seat_121, 450),
+		(id_order_23, id_session_1, id_seat_122, 450),
+		(id_order_23, id_session_1, id_seat_123, 500),
+		(id_order_23, id_session_1, id_seat_124, 450),
+		(id_order_23, id_session_1, id_seat_125, 400),
+		(id_order_24, id_session_18, id_seat_126, 450),
+		(id_order_24, id_session_18, id_seat_127, 400),
+		(id_order_24, id_session_18, id_seat_128, 400),
+		(id_order_24, id_session_18, id_seat_129, 450),
+		(id_order_25, id_session_19, id_seat_130, 450),
+		(id_order_26, id_session_3, id_seat_131, 400),
+		(id_order_26, id_session_3, id_seat_132, 450),
+		(id_order_26, id_session_3, id_seat_133, 450),
+		(id_order_26, id_session_3, id_seat_134, 500),
+		(id_order_26, id_session_3, id_seat_135, 400),
+		(id_order_26, id_session_3, id_seat_136, 500),
+		(id_order_26, id_session_3, id_seat_137, 400),
+		(id_order_26, id_session_3, id_seat_138, 450),
+		(id_order_27, id_session_20, id_seat_139, 400),
+		(id_order_27, id_session_20, id_seat_140, 450),
+		(id_order_27, id_session_20, id_seat_141, 450),
+		(id_order_27, id_session_20, id_seat_142, 500),
+		(id_order_27, id_session_20, id_seat_143, 500),
+		(id_order_27, id_session_20, id_seat_144, 400),
+		(id_order_27, id_session_20, id_seat_145, 450),
+		(id_order_27, id_session_20, id_seat_146, 400),
+		(id_order_28, id_session_21, id_seat_147, 400),
+		(id_order_28, id_session_21, id_seat_148, 450),
+		(id_order_28, id_session_21, id_seat_149, 400),
+		(id_order_28, id_session_21, id_seat_150, 500),
+		(id_order_29, id_session_5, id_seat_151, 450),
+		(id_order_29, id_session_5, id_seat_152, 500),
+		(id_order_29, id_session_5, id_seat_153, 500),
+		(id_order_29, id_session_5, id_seat_154, 450),
+		(id_order_29, id_session_5, id_seat_155, 400),
+		(id_order_29, id_session_5, id_seat_156, 400),
+		(id_order_29, id_session_5, id_seat_157, 500),
+		(id_order_30, id_session_22, id_seat_158, 500),
+		(id_order_30, id_session_22, id_seat_159, 400),
+		(id_order_30, id_session_22, id_seat_160, 400),
+		(id_order_31, id_session_15, id_seat_161, 450),
+		(id_order_31, id_session_15, id_seat_162, 450),
+		(id_order_31, id_session_15, id_seat_163, 450),
+		(id_order_31, id_session_15, id_seat_164, 400),
+		(id_order_31, id_session_15, id_seat_165, 450),
+		(id_order_31, id_session_15, id_seat_166, 450),
+		(id_order_31, id_session_15, id_seat_167, 500),
+		(id_order_31, id_session_15, id_seat_168, 500),
+		(id_order_32, id_session_20, id_seat_169, 500),
+		(id_order_32, id_session_20, id_seat_170, 400),
+		(id_order_32, id_session_20, id_seat_171, 450),
+		(id_order_32, id_session_20, id_seat_172, 400),
+		(id_order_32, id_session_20, id_seat_173, 500),
+		(id_order_32, id_session_20, id_seat_174, 450),
+		(id_order_32, id_session_20, id_seat_175, 400),
+		(id_order_33, id_session_2, id_seat_176, 500),
+		(id_order_33, id_session_2, id_seat_177, 500),
+		(id_order_33, id_session_2, id_seat_178, 400),
+		(id_order_33, id_session_2, id_seat_179, 500),
+		(id_order_33, id_session_2, id_seat_180, 500),
+		(id_order_33, id_session_2, id_seat_181, 500),
+		(id_order_33, id_session_2, id_seat_182, 400),
+		(id_order_33, id_session_2, id_seat_183, 450),
+		(id_order_34, id_session_23, id_seat_184, 500),
+		(id_order_34, id_session_23, id_seat_185, 400),
+		(id_order_34, id_session_23, id_seat_186, 400),
+		(id_order_34, id_session_23, id_seat_187, 500),
+		(id_order_34, id_session_23, id_seat_188, 500),
+		(id_order_34, id_session_23, id_seat_189, 500),
+		(id_order_34, id_session_23, id_seat_190, 400),
+		(id_order_34, id_session_23, id_seat_191, 500),
+		(id_order_35, id_session_24, id_seat_192, 400),
+		(id_order_35, id_session_24, id_seat_193, 450),
+		(id_order_35, id_session_24, id_seat_194, 400),
+		(id_order_35, id_session_24, id_seat_195, 450),
+		(id_order_35, id_session_24, id_seat_196, 450),
+		(id_order_35, id_session_24, id_seat_197, 450),
+		(id_order_36, id_session_23, id_seat_198, 500),
+		(id_order_36, id_session_23, id_seat_199, 400),
+		(id_order_36, id_session_23, id_seat_200, 500),
+		(id_order_36, id_session_23, id_seat_201, 500),
+		(id_order_36, id_session_23, id_seat_202, 450),
+		(id_order_36, id_session_23, id_seat_203, 450),
+		(id_order_36, id_session_23, id_seat_204, 400),
+		(id_order_36, id_session_23, id_seat_205, 500),
+		(id_order_37, id_session_18, id_seat_206, 400),
+		(id_order_37, id_session_18, id_seat_207, 500),
+		(id_order_37, id_session_18, id_seat_208, 400),
+		(id_order_38, id_session_18, id_seat_209, 500),
+		(id_order_38, id_session_18, id_seat_210, 450),
+		(id_order_38, id_session_18, id_seat_211, 450),
+		(id_order_38, id_session_18, id_seat_212, 500),
+		(id_order_38, id_session_18, id_seat_213, 450),
+		(id_order_38, id_session_18, id_seat_214, 450),
+		(id_order_39, id_session_12, id_seat_215, 450),
+		(id_order_39, id_session_12, id_seat_216, 450),
+		(id_order_39, id_session_12, id_seat_217, 400),
+		(id_order_39, id_session_12, id_seat_218, 500),
+		(id_order_39, id_session_12, id_seat_219, 450),
+		(id_order_39, id_session_12, id_seat_220, 400),
+		(id_order_39, id_session_12, id_seat_221, 400),
+		(id_order_39, id_session_12, id_seat_222, 500),
+		(id_order_40, id_session_25, id_seat_223, 450),
+		(id_order_40, id_session_25, id_seat_224, 450),
+		(id_order_40, id_session_25, id_seat_225, 500),
+		(id_order_40, id_session_25, id_seat_226, 400),
+		(id_order_40, id_session_25, id_seat_227, 500),
+		(id_order_40, id_session_25, id_seat_228, 400),
+		(id_order_41, id_session_17, id_seat_229, 450),
+		(id_order_41, id_session_17, id_seat_230, 400),
+		(id_order_42, id_session_21, id_seat_231, 400),
+		(id_order_42, id_session_21, id_seat_232, 450),
+		(id_order_42, id_session_21, id_seat_233, 400),
+		(id_order_43, id_session_26, id_seat_234, 450),
+		(id_order_43, id_session_26, id_seat_235, 400),
+		(id_order_43, id_session_26, id_seat_236, 450),
+		(id_order_43, id_session_26, id_seat_237, 450),
+		(id_order_43, id_session_26, id_seat_238, 500),
+		(id_order_44, id_session_3, id_seat_239, 500),
+		(id_order_44, id_session_3, id_seat_240, 400),
+		(id_order_44, id_session_3, id_seat_241, 450),
+		(id_order_45, id_session_27, id_seat_242, 400),
+		(id_order_45, id_session_27, id_seat_243, 450),
+		(id_order_46, id_session_28, id_seat_244, 450),
+		(id_order_46, id_session_28, id_seat_245, 400),
+		(id_order_46, id_session_28, id_seat_246, 450),
+		(id_order_46, id_session_28, id_seat_247, 500),
+		(id_order_46, id_session_28, id_seat_248, 450),
+		(id_order_46, id_session_28, id_seat_249, 400),
+		(id_order_46, id_session_28, id_seat_250, 500),
+		(id_order_47, id_session_28, id_seat_251, 500),
+		(id_order_47, id_session_28, id_seat_252, 400),
+		(id_order_47, id_session_28, id_seat_253, 400),
+		(id_order_47, id_session_28, id_seat_254, 400),
+		(id_order_48, id_session_6, id_seat_255, 450),
+		(id_order_48, id_session_6, id_seat_256, 500),
+		(id_order_49, id_session_17, id_seat_257, 400),
+		(id_order_49, id_session_17, id_seat_258, 400),
+		(id_order_49, id_session_17, id_seat_259, 500),
+		(id_order_49, id_session_17, id_seat_260, 500),
+		(id_order_49, id_session_17, id_seat_261, 500),
+		(id_order_49, id_session_17, id_seat_262, 450),
+		(id_order_49, id_session_17, id_seat_263, 450),
+		(id_order_50, id_session_15, id_seat_264, 400),
+		(id_order_50, id_session_15, id_seat_265, 450),
+		(id_order_50, id_session_15, id_seat_266, 450),
+		(id_order_51, id_session_22, id_seat_267, 400),
+		(id_order_51, id_session_22, id_seat_268, 500),
+		(id_order_51, id_session_22, id_seat_269, 450),
+		(id_order_51, id_session_22, id_seat_270, 450),
+		(id_order_51, id_session_22, id_seat_271, 450),
+		(id_order_51, id_session_22, id_seat_272, 400),
+		(id_order_52, id_session_6, id_seat_273, 450),
+		(id_order_52, id_session_6, id_seat_274, 500),
+		(id_order_52, id_session_6, id_seat_275, 400),
+		(id_order_52, id_session_6, id_seat_276, 400),
+		(id_order_52, id_session_6, id_seat_277, 450),
+		(id_order_53, id_session_18, id_seat_278, 400),
+		(id_order_53, id_session_18, id_seat_279, 450),
+		(id_order_53, id_session_18, id_seat_280, 500),
+		(id_order_53, id_session_18, id_seat_281, 500),
+		(id_order_53, id_session_18, id_seat_282, 450),
+		(id_order_53, id_session_18, id_seat_283, 450),
+		(id_order_53, id_session_18, id_seat_284, 400),
+		(id_order_54, id_session_12, id_seat_285, 400),
+		(id_order_54, id_session_12, id_seat_286, 450),
+		(id_order_54, id_session_12, id_seat_287, 500),
+		(id_order_54, id_session_12, id_seat_288, 400),
+		(id_order_55, id_session_14, id_seat_289, 500),
+		(id_order_55, id_session_14, id_seat_290, 400),
+		(id_order_55, id_session_14, id_seat_291, 450),
+		(id_order_55, id_session_14, id_seat_292, 500),
+		(id_order_55, id_session_14, id_seat_293, 500),
+		(id_order_55, id_session_14, id_seat_294, 450),
+		(id_order_55, id_session_14, id_seat_295, 400),
+		(id_order_55, id_session_14, id_seat_296, 450),
+		(id_order_56, id_session_22, id_seat_297, 450),
+		(id_order_56, id_session_22, id_seat_298, 500),
+		(id_order_56, id_session_22, id_seat_299, 500),
+		(id_order_56, id_session_22, id_seat_300, 400),
+		(id_order_56, id_session_22, id_seat_301, 500),
+		(id_order_57, id_session_26, id_seat_302, 450),
+		(id_order_57, id_session_26, id_seat_303, 500),
+		(id_order_57, id_session_26, id_seat_304, 500),
+		(id_order_57, id_session_26, id_seat_305, 400),
+		(id_order_57, id_session_26, id_seat_306, 500),
+		(id_order_57, id_session_26, id_seat_307, 450),
+		(id_order_58, id_session_3, id_seat_308, 500),
+		(id_order_58, id_session_3, id_seat_309, 450),
+		(id_order_58, id_session_3, id_seat_310, 500),
+		(id_order_58, id_session_3, id_seat_311, 450),
+		(id_order_58, id_session_3, id_seat_312, 500),
+		(id_order_58, id_session_3, id_seat_313, 450),
+		(id_order_59, id_session_29, id_seat_314, 500),
+		(id_order_59, id_session_29, id_seat_315, 500),
+		(id_order_59, id_session_29, id_seat_316, 500),
+		(id_order_60, id_session_27, id_seat_317, 500),
+		(id_order_60, id_session_27, id_seat_318, 500),
+		(id_order_60, id_session_27, id_seat_319, 450),
+		(id_order_60, id_session_27, id_seat_320, 450),
+		(id_order_60, id_session_27, id_seat_321, 400),
+		(id_order_60, id_session_27, id_seat_322, 400),
+		(id_order_61, id_session_7, id_seat_323, 450),
+		(id_order_61, id_session_7, id_seat_324, 400),
+		(id_order_61, id_session_7, id_seat_325, 500),
+		(id_order_61, id_session_7, id_seat_326, 500),
+		(id_order_62, id_session_30, id_seat_327, 450),
+		(id_order_62, id_session_30, id_seat_328, 500),
+		(id_order_62, id_session_30, id_seat_329, 500),
+		(id_order_63, id_session_20, id_seat_330, 450),
+		(id_order_64, id_session_24, id_seat_331, 500),
+		(id_order_65, id_session_6, id_seat_332, 400),
+		(id_order_65, id_session_6, id_seat_333, 400),
+		(id_order_65, id_session_6, id_seat_334, 400),
+		(id_order_66, id_session_31, id_seat_335, 400),
+		(id_order_66, id_session_31, id_seat_336, 500),
+		(id_order_66, id_session_31, id_seat_337, 400),
+		(id_order_66, id_session_31, id_seat_338, 450),
+		(id_order_67, id_session_32, id_seat_339, 450),
+		(id_order_67, id_session_32, id_seat_340, 450),
+		(id_order_67, id_session_32, id_seat_341, 450),
+		(id_order_67, id_session_32, id_seat_342, 450),
+		(id_order_67, id_session_32, id_seat_343, 500),
+		(id_order_67, id_session_32, id_seat_344, 400),
+		(id_order_67, id_session_32, id_seat_345, 500),
+		(id_order_67, id_session_32, id_seat_346, 500),
+		(id_order_68, id_session_4, id_seat_347, 500),
+		(id_order_68, id_session_4, id_seat_348, 500),
+		(id_order_68, id_session_4, id_seat_349, 400),
+		(id_order_68, id_session_4, id_seat_350, 400),
+		(id_order_68, id_session_4, id_seat_351, 450),
+		(id_order_68, id_session_4, id_seat_352, 400),
+		(id_order_68, id_session_4, id_seat_353, 500),
+		(id_order_68, id_session_4, id_seat_354, 500),
+		(id_order_69, id_session_32, id_seat_355, 500),
+		(id_order_69, id_session_32, id_seat_356, 500),
+		(id_order_69, id_session_32, id_seat_357, 400),
+		(id_order_69, id_session_32, id_seat_358, 500),
+		(id_order_69, id_session_32, id_seat_359, 450),
+		(id_order_69, id_session_32, id_seat_360, 450),
+		(id_order_70, id_session_20, id_seat_361, 400),
+		(id_order_70, id_session_20, id_seat_362, 500),
+		(id_order_70, id_session_20, id_seat_363, 450),
+		(id_order_71, id_session_2, id_seat_364, 500),
+		(id_order_71, id_session_2, id_seat_365, 450),
+		(id_order_71, id_session_2, id_seat_366, 500),
+		(id_order_71, id_session_2, id_seat_367, 450),
+		(id_order_72, id_session_19, id_seat_368, 500),
+		(id_order_73, id_session_33, id_seat_369, 450),
+		(id_order_74, id_session_30, id_seat_370, 450),
+		(id_order_74, id_session_30, id_seat_371, 400),
+		(id_order_74, id_session_30, id_seat_372, 450),
+		(id_order_74, id_session_30, id_seat_373, 500),
+		(id_order_74, id_session_30, id_seat_374, 500),
+		(id_order_74, id_session_30, id_seat_375, 500),
+		(id_order_75, id_session_28, id_seat_376, 400),
+		(id_order_75, id_session_28, id_seat_377, 500),
+		(id_order_75, id_session_28, id_seat_378, 400),
+		(id_order_75, id_session_28, id_seat_379, 400),
+		(id_order_76, id_session_2, id_seat_380, 400),
+		(id_order_76, id_session_2, id_seat_381, 400),
+		(id_order_76, id_session_2, id_seat_382, 400),
+		(id_order_76, id_session_2, id_seat_383, 450),
+		(id_order_76, id_session_2, id_seat_384, 450),
+		(id_order_76, id_session_2, id_seat_385, 500),
+		(id_order_77, id_session_15, id_seat_386, 400),
+		(id_order_77, id_session_15, id_seat_387, 400),
+		(id_order_77, id_session_15, id_seat_388, 450),
+		(id_order_77, id_session_15, id_seat_389, 450),
+		(id_order_77, id_session_15, id_seat_390, 500),
+		(id_order_77, id_session_15, id_seat_391, 450),
+		(id_order_78, id_session_30, id_seat_392, 500),
+		(id_order_79, id_session_34, id_seat_393, 500),
+		(id_order_79, id_session_34, id_seat_394, 500),
+		(id_order_79, id_session_34, id_seat_395, 400),
+		(id_order_79, id_session_34, id_seat_396, 400),
+		(id_order_79, id_session_34, id_seat_397, 500),
+		(id_order_79, id_session_34, id_seat_398, 450),
+		(id_order_79, id_session_34, id_seat_399, 500),
+		(id_order_80, id_session_17, id_seat_400, 450),
+		(id_order_80, id_session_17, id_seat_401, 450),
+		(id_order_80, id_session_17, id_seat_402, 500),
+		(id_order_80, id_session_17, id_seat_403, 450),
+		(id_order_80, id_session_17, id_seat_404, 400),
+		(id_order_80, id_session_17, id_seat_405, 450),
+		(id_order_81, id_session_25, id_seat_406, 500),
+		(id_order_81, id_session_25, id_seat_407, 400),
+		(id_order_81, id_session_25, id_seat_408, 500),
+		(id_order_81, id_session_25, id_seat_409, 450),
+		(id_order_81, id_session_25, id_seat_410, 400),
+		(id_order_81, id_session_25, id_seat_411, 400),
+		(id_order_81, id_session_25, id_seat_412, 400),
+		(id_order_81, id_session_25, id_seat_413, 450),
+		(id_order_82, id_session_13, id_seat_414, 500),
+		(id_order_82, id_session_13, id_seat_415, 500),
+		(id_order_82, id_session_13, id_seat_416, 450),
+		(id_order_82, id_session_13, id_seat_417, 400),
+		(id_order_82, id_session_13, id_seat_418, 450),
+		(id_order_82, id_session_13, id_seat_419, 500),
+		(id_order_82, id_session_13, id_seat_420, 500),
+		(id_order_83, id_session_3, id_seat_421, 500),
+		(id_order_84, id_session_1, id_seat_422, 450),
+		(id_order_84, id_session_1, id_seat_423, 500),
+		(id_order_84, id_session_1, id_seat_424, 450),
+		(id_order_85, id_session_12, id_seat_425, 450),
+		(id_order_85, id_session_12, id_seat_426, 450),
+		(id_order_85, id_session_12, id_seat_427, 450),
+		(id_order_85, id_session_12, id_seat_428, 400),
+		(id_order_85, id_session_12, id_seat_429, 500),
+		(id_order_86, id_session_17, id_seat_430, 450),
+		(id_order_86, id_session_17, id_seat_431, 450),
+		(id_order_87, id_session_13, id_seat_432, 400),
+		(id_order_87, id_session_13, id_seat_433, 500),
+		(id_order_87, id_session_13, id_seat_434, 400),
+		(id_order_87, id_session_13, id_seat_435, 500),
+		(id_order_87, id_session_13, id_seat_436, 450),
+		(id_order_87, id_session_13, id_seat_437, 500),
+		(id_order_88, id_session_32, id_seat_438, 450),
+		(id_order_88, id_session_32, id_seat_439, 400),
+		(id_order_88, id_session_32, id_seat_440, 500),
+		(id_order_89, id_session_3, id_seat_441, 450),
+		(id_order_89, id_session_3, id_seat_442, 450),
+		(id_order_89, id_session_3, id_seat_443, 450),
+		(id_order_89, id_session_3, id_seat_444, 450),
+		(id_order_89, id_session_3, id_seat_445, 450),
+		(id_order_90, id_session_17, id_seat_446, 400),
+		(id_order_90, id_session_17, id_seat_447, 400),
+		(id_order_90, id_session_17, id_seat_448, 500),
+		(id_order_90, id_session_17, id_seat_449, 400),
+		(id_order_90, id_session_17, id_seat_450, 450),
+		(id_order_90, id_session_17, id_seat_451, 500),
+		(id_order_90, id_session_17, id_seat_452, 500),
+		(id_order_91, id_session_15, id_seat_453, 400),
+		(id_order_91, id_session_15, id_seat_454, 500),
+		(id_order_91, id_session_15, id_seat_455, 500),
+		(id_order_91, id_session_15, id_seat_456, 450),
+		(id_order_91, id_session_15, id_seat_457, 400),
+		(id_order_91, id_session_15, id_seat_458, 400),
+		(id_order_91, id_session_15, id_seat_459, 400),
+		(id_order_91, id_session_15, id_seat_460, 450),
+		(id_order_92, id_session_9, id_seat_461, 450),
+		(id_order_92, id_session_9, id_seat_462, 450),
+		(id_order_92, id_session_9, id_seat_463, 450),
+		(id_order_92, id_session_9, id_seat_464, 450),
+		(id_order_92, id_session_9, id_seat_465, 400),
+		(id_order_93, id_session_35, id_seat_466, 400),
+		(id_order_94, id_session_30, id_seat_467, 400),
+		(id_order_94, id_session_30, id_seat_468, 400),
+		(id_order_94, id_session_30, id_seat_469, 400),
+		(id_order_94, id_session_30, id_seat_470, 500),
+		(id_order_94, id_session_30, id_seat_471, 400),
+		(id_order_95, id_session_23, id_seat_472, 400),
+		(id_order_95, id_session_23, id_seat_473, 500),
+		(id_order_96, id_session_10, id_seat_474, 500),
+		(id_order_96, id_session_10, id_seat_475, 400),
+		(id_order_96, id_session_10, id_seat_476, 500),
+		(id_order_97, id_session_7, id_seat_477, 500),
+		(id_order_98, id_session_4, id_seat_478, 450),
+		(id_order_98, id_session_4, id_seat_479, 400),
+		(id_order_98, id_session_4, id_seat_480, 400),
+		(id_order_98, id_session_4, id_seat_481, 450),
+		(id_order_99, id_session_36, id_seat_482, 450),
+		(id_order_99, id_session_36, id_seat_483, 400),
+		(id_order_99, id_session_36, id_seat_484, 500),
+		(id_order_99, id_session_36, id_seat_485, 500),
+		(id_order_99, id_session_36, id_seat_486, 450),
+		(id_order_99, id_session_36, id_seat_487, 400),
+		(id_order_100, id_session_26, id_seat_488, 400),
+		(id_order_100, id_session_26, id_seat_489, 400),
+		(id_order_100, id_session_26, id_seat_490, 450),
+		(id_order_101, id_session_15, id_seat_491, 450),
+		(id_order_101, id_session_15, id_seat_492, 400),
+		(id_order_101, id_session_15, id_seat_493, 500),
+		(id_order_102, id_session_23, id_seat_494, 400),
+		(id_order_102, id_session_23, id_seat_495, 500),
+		(id_order_102, id_session_23, id_seat_496, 500),
+		(id_order_102, id_session_23, id_seat_497, 400),
+		(id_order_102, id_session_23, id_seat_498, 500),
+		(id_order_103, id_session_7, id_seat_499, 400),
+		(id_order_104, id_session_37, id_seat_500, 500),
+		(id_order_104, id_session_37, id_seat_501, 450),
+		(id_order_104, id_session_37, id_seat_502, 450),
+		(id_order_104, id_session_37, id_seat_503, 400),
+		(id_order_104, id_session_37, id_seat_504, 500),
+		(id_order_105, id_session_11, id_seat_505, 450),
+		(id_order_105, id_session_11, id_seat_506, 500),
+		(id_order_105, id_session_11, id_seat_507, 500),
+		(id_order_105, id_session_11, id_seat_508, 500),
+		(id_order_105, id_session_11, id_seat_509, 450),
+		(id_order_105, id_session_11, id_seat_510, 400),
+		(id_order_105, id_session_11, id_seat_511, 400),
+		(id_order_106, id_session_24, id_seat_512, 450),
+		(id_order_106, id_session_24, id_seat_513, 500),
+		(id_order_106, id_session_24, id_seat_514, 400),
+		(id_order_106, id_session_24, id_seat_515, 500),
+		(id_order_106, id_session_24, id_seat_516, 400),
+		(id_order_107, id_session_27, id_seat_517, 450),
+		(id_order_107, id_session_27, id_seat_518, 450),
+		(id_order_107, id_session_27, id_seat_519, 500),
+		(id_order_107, id_session_27, id_seat_520, 400),
+		(id_order_108, id_session_36, id_seat_521, 400),
+		(id_order_108, id_session_36, id_seat_522, 500),
+		(id_order_109, id_session_10, id_seat_523, 400),
+		(id_order_110, id_session_36, id_seat_524, 500),
+		(id_order_110, id_session_36, id_seat_525, 450),
+		(id_order_110, id_session_36, id_seat_526, 450),
+		(id_order_110, id_session_36, id_seat_527, 450),
+		(id_order_110, id_session_36, id_seat_528, 400),
+		(id_order_110, id_session_36, id_seat_529, 450),
+		(id_order_111, id_session_32, id_seat_530, 450),
+		(id_order_111, id_session_32, id_seat_531, 400),
+		(id_order_111, id_session_32, id_seat_532, 450),
+		(id_order_111, id_session_32, id_seat_533, 450),
+		(id_order_111, id_session_32, id_seat_534, 450),
+		(id_order_111, id_session_32, id_seat_535, 450),
+		(id_order_111, id_session_32, id_seat_536, 400),
+		(id_order_112, id_session_29, id_seat_537, 450),
+		(id_order_113, id_session_16, id_seat_538, 450),
+		(id_order_113, id_session_16, id_seat_539, 500),
+		(id_order_113, id_session_16, id_seat_540, 450),
+		(id_order_113, id_session_16, id_seat_541, 400),
+		(id_order_114, id_session_16, id_seat_542, 400),
+		(id_order_114, id_session_16, id_seat_543, 400),
+		(id_order_114, id_session_16, id_seat_544, 450),
+		(id_order_114, id_session_16, id_seat_545, 400),
+		(id_order_114, id_session_16, id_seat_546, 500),
+		(id_order_114, id_session_16, id_seat_547, 400),
+		(id_order_114, id_session_16, id_seat_548, 500),
+		(id_order_115, id_session_14, id_seat_549, 450),
+		(id_order_115, id_session_14, id_seat_550, 450),
+		(id_order_115, id_session_14, id_seat_551, 500),
+		(id_order_115, id_session_14, id_seat_552, 450),
+		(id_order_115, id_session_14, id_seat_553, 500),
+		(id_order_115, id_session_14, id_seat_554, 400),
+		(id_order_115, id_session_14, id_seat_555, 500),
+		(id_order_115, id_session_14, id_seat_556, 400),
+		(id_order_116, id_session_28, id_seat_557, 450),
+		(id_order_116, id_session_28, id_seat_558, 450),
+		(id_order_116, id_session_28, id_seat_559, 450),
+		(id_order_116, id_session_28, id_seat_560, 500),
+		(id_order_116, id_session_28, id_seat_561, 450),
+		(id_order_116, id_session_28, id_seat_562, 500),
+		(id_order_116, id_session_28, id_seat_563, 400),
+		(id_order_116, id_session_28, id_seat_564, 400),
+		(id_order_117, id_session_28, id_seat_565, 400),
+		(id_order_117, id_session_28, id_seat_566, 400),
+		(id_order_117, id_session_28, id_seat_567, 400),
+		(id_order_117, id_session_28, id_seat_568, 450),
+		(id_order_117, id_session_28, id_seat_569, 450),
+		(id_order_117, id_session_28, id_seat_570, 400),
+		(id_order_117, id_session_28, id_seat_571, 450),
+		(id_order_117, id_session_28, id_seat_572, 500),
+		(id_order_118, id_session_38, id_seat_573, 400),
+		(id_order_119, id_session_26, id_seat_574, 500),
+		(id_order_119, id_session_26, id_seat_575, 500),
+		(id_order_119, id_session_26, id_seat_576, 450),
+		(id_order_119, id_session_26, id_seat_577, 500),
+		(id_order_119, id_session_26, id_seat_578, 400),
+		(id_order_119, id_session_26, id_seat_579, 450),
+		(id_order_120, id_session_25, id_seat_580, 450),
+		(id_order_120, id_session_25, id_seat_581, 500),
+		(id_order_120, id_session_25, id_seat_582, 450),
+		(id_order_120, id_session_25, id_seat_583, 500),
+		(id_order_120, id_session_25, id_seat_584, 500),
+		(id_order_120, id_session_25, id_seat_585, 500),
+		(id_order_120, id_session_25, id_seat_586, 500),
+		(id_order_120, id_session_25, id_seat_587, 500),
+		(id_order_121, id_session_36, id_seat_588, 400),
+		(id_order_121, id_session_36, id_seat_589, 500),
+		(id_order_121, id_session_36, id_seat_590, 450),
+		(id_order_122, id_session_9, id_seat_591, 500),
+		(id_order_122, id_session_9, id_seat_592, 450),
+		(id_order_122, id_session_9, id_seat_593, 450),
+		(id_order_122, id_session_9, id_seat_594, 450),
+		(id_order_122, id_session_9, id_seat_595, 400),
+		(id_order_122, id_session_9, id_seat_596, 500),
+		(id_order_122, id_session_9, id_seat_597, 450),
+		(id_order_123, id_session_13, id_seat_598, 500),
+		(id_order_123, id_session_13, id_seat_599, 400),
+		(id_order_123, id_session_13, id_seat_600, 400),
+		(id_order_123, id_session_13, id_seat_601, 450),
+		(id_order_123, id_session_13, id_seat_602, 450),
+		(id_order_124, id_session_16, id_seat_603, 400),
+		(id_order_124, id_session_16, id_seat_604, 450),
+		(id_order_124, id_session_16, id_seat_605, 450),
+		(id_order_124, id_session_16, id_seat_606, 500),
+		(id_order_124, id_session_16, id_seat_607, 500),
+		(id_order_124, id_session_16, id_seat_608, 450),
+		(id_order_124, id_session_16, id_seat_609, 400),
+		(id_order_124, id_session_16, id_seat_610, 450);
 END $$;
 
 
