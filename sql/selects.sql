@@ -99,7 +99,9 @@ JOIN "public.Nominees" n ON fcm.id = n.film_crew_members_id
 JOIN "public.Prime_nominations" pn ON n.id = pn.nominee_id
 JOIN "public.Primes" p ON pn.prime_id = p.id
 WHERE c.name = 'Пятый'
-    AND p.name = 'Оскар';
+    AND fp.name = 'Актер'
+    AND p.name = 'Оскар'
+    AND pn."isWon" = True;
 
 -- обновление пароля клиента по почте
 UPDATE "public.Customers"
