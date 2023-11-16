@@ -140,7 +140,7 @@ CREATE TABLE IF NOT EXISTS "public.Customers" (
 	"name" varchar(255),
 	"birthday" DATE,
 	"login" varchar(20) UNIQUE,
-	"avatar_ref" varchar(255) UNIQUE,
+	"avatar_ref" varchar(255),
 	"phone" varchar(20) UNIQUE,
 	"mail" varchar(255) UNIQUE,
 	"password" varchar(255) NOT NULL,
