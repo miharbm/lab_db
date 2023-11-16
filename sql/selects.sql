@@ -216,3 +216,17 @@ JOIN "public.Payment" p ON o.id = p.order_id
 WHERE "public.Customers".id = o.customer_id
     AND o."isBooked" = True
     AND p.payment_time IS NULL;
+
+
+-- вывести топ самых прибыльных фильмов за определённую дату
+SELECT m.name, SUM(o.total_price) AS total_pay
+FROM "public.Movies" m
+JOIN "public.Sessions" s ON m.id = s.movie_id
+JOIN "public.Tickets" t ON s.id = t.session_id
+JOIN "public.Orders" o ON o.id = t.order_id
+JOIN "public.Payment" p ON o.id = p.order_id
+WHERE s.time_start::date = '2023-11-05'
+    AND p.payment_time IS NOT NULL
+GROUP BY m.name
+ORDER BY total_pay DESC
+LIMIT 5;
