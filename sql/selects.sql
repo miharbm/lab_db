@@ -230,3 +230,52 @@ WHERE s.time_start::date = '2023-11-05'
 GROUP BY m.name
 ORDER BY total_pay DESC
 LIMIT 5;
+
+
+-- Вывести число свободных сидений в кинотеатрах на определённую дату
+WITH seats_total AS (
+    SELECT h.id AS hall_id, c.name AS cinema_name, COUNT((st.row,st.place)) AS count
+    FROM "public.Seats" st
+    JOIN "public.Halls" h ON st.hall_id = h.id
+    JOIN "public.Cinemas" c ON h.cinema_id = c.id
+    GROUP BY h.id, c.name
+),
+    seats_taken AS (
+    SELECT h.id AS hall_id, m.name AS movie_name, s.time_start::time  AS time_start, COUNT(t.id) AS count
+    FROM "public.Sessions" s
+    LEFT JOIN "public.Tickets" t ON t.session_id = s.id
+    JOIN "public.Movies" m ON m.id = s.movie_id
+    JOIN "public.Halls" h ON s.hall_id = h.id
+    JOIN "public.Cinemas" c ON h.cinema_id = c.id
+    LEFT JOIN "public.Orders" o ON t.order_id = o.id
+    WHERE s.time_start::date = '2023-11-05'
+    GROUP BY h.id, m.name, s.time_start
+)
+
+SELECT seats_total.cinema_name, seats_taken.movie_name, seats_taken.time_start, seats_total.count as total, seats_total.count - seats_taken.count AS free
+FROM seats_total
+JOIN seats_taken ON seats_total.hall_id = seats_taken.hall_id
+ORDER BY free;
+
+
+-- Вывести отношение билетов, проданных онлайн, ко всем проданным билетам
+WITH paid_total AS (
+	SELECT count(t.id) AS count
+	FROM "public.Tickets" t
+	JOIN "public.Orders" o ON o.id = t.order_id
+	JOIN "public.Payment" p ON o.id = p.order_id
+	WHERE p.payment_time IS NOT NULL
+),
+	paid_online AS (
+	SELECT count(t.id) AS count
+	FROM "public.Tickets" t
+	JOIN "public.Orders" o ON o.id = t.order_id
+	JOIN "public.Payment" p ON o.id = p.order_id
+	WHERE p.payment_time IS NOT NULL
+		AND (p.type = 'Оплата онлайн переводом'
+		OR p.type = 'Оплата банковской картой онлайн')
+)
+
+SELECT paid_online.count AS online_count, paid_total.count AS total_count,
+    100 * paid_online.count / paid_total.count AS online_percentage
+FROM paid_total, paid_online
