@@ -1,15 +1,10 @@
--- получить неоплаченные заказы и кто не оплатил
--- SELECT o.id, c.name
--- FROM "public.Orders" o
--- JOIN "public.Customers" c on c.id = o.customer_id
--- WHERE "isBooked" = FALSE;
-
 -- получить неоплаченные заказы и тех, кто не оплатил
-SELECT o.id, c.name
+SELECT o.id AS order_id, c.name
 FROM "public.Orders" o
 JOIN "public.Customers" c ON c.id = o.customer_id
 JOIN "public.Payment" p ON o.id = p.order_id
 WHERE p.payment_time IS NULL;
+
 
 -- получить все сеансы на день в кинотеатре
 SELECT m.name, m.duration, m.mpaa, s.time_start, h.type
@@ -20,20 +15,15 @@ JOIN "public.Cinemas" c on h.cinema_id = c.id
 WHERE s.time_start::date = '2023-11-05'
     AND c.name = 'Четвертый';
 
--- получить почты клиентов, родившихся в 90е (для какой-нибудь рассылки)
+
+-- получить почты клиентов, родившихся в 90е
 SELECT c.mail, c.birthday
 FROM "public.Customers" c
 WHERE c.mail IS NOT NULL
     AND c.birthday < '2000-01-01'
-    AND c.birthday >= '1990-01-01';
+    AND c.birthday >= '1990-01-01'
+ORDER BY c.birthday;
 
--- получить фильмы, билеты которых есть стоимостью не выше 450
--- SELECT m.name, t.price, s.time_start
--- FROM "public.Tickets" t
--- JOIN "public.Sessions" s on t.session_id = s.id
--- JOIN "public.Movies" m on s.movie_id = m.id
--- WHERE t.price <= 450
--- ORDER BY t.price DESC;
 
 -- получить фильмы, на которые есть билеты стоимостью не выше 450 (выводится минимальная цена)
 SELECT m.name, MIN(t.price)
@@ -42,6 +32,7 @@ JOIN "public.Sessions" s on t.session_id = s.id
 JOIN "public.Movies" m on s.movie_id = m.id
 WHERE t.price <= 450
 GROUP BY m.name;
+
 
 -- получить всех актеров какого-нибудь фильма, сортированных по убыванию возраста
 SELECT fcm.id, fcm.name, fcm.birthday
@@ -52,8 +43,9 @@ WHERE m.name = 'Тип семейства'
     AND fp.name = 'Актер'
 ORDER BY fcm.birthday;
 
+
 -- получить фильмы, которые идут в этом кинотеатре в жанре Мультфильмы
-SELECT m.name, m.duration, m.mpaa, s.time_start
+SELECT m.name, m.duration, m.mpaa, s.time_start::time
 FROM "public.Sessions" s
 JOIN "public.Movies" m ON m.id = s.movie_id
 JOIN "public.Movies_genres" mg ON m.id = mg.movie_id
@@ -74,7 +66,7 @@ GROUP BY g.name
 ORDER BY movies_count DESC;
 
 
--- получить количество занятых мест в зале на сеансе
+-- -- получить количество занятых мест в зале на сеансе
 -- SELECT COUNT(t.id)
 -- FROM "public.Tickets" t
 -- JOIN "public.Sessions" s ON t.session_id = s.id
@@ -82,39 +74,21 @@ ORDER BY movies_count DESC;
 -- JOIN "public.Halls" h ON s.hall_id = h.id
 -- JOIN "public.Cinemas" c on h.cinema_id = c.id
 -- JOIN "public.Orders" o ON t.order_id = o.id
--- WHERE m.name = 'Отец смены станции'
+-- WHERE m.name = 'Мировая сумка-машина'
 --     AND s.time_start::date = '2023-11-05'
---     AND c.name = 'Двадцать второй'
---     AND h.type = 'Стандартный'
---     AND o."isBooked" = true;
+--     AND c.name = 'Семьдесять девятый'
+--     AND h.type = 'VIP'
+--     AND o."isBooked" = True;
 
--- получить количество занятых мест в зале на сеансе
-SELECT COUNT(t.id)
-FROM "public.Tickets" t
-JOIN "public.Sessions" s ON t.session_id = s.id
-JOIN "public.Movies" m ON m.id = s.movie_id
-JOIN "public.Halls" h ON s.hall_id = h.id
-JOIN "public.Cinemas" c on h.cinema_id = c.id
-JOIN "public.Orders" o ON t.order_id = o.id
-WHERE m.name = 'Мировая сумка-машина'
-    AND s.time_start::date = '2023-11-05'
-    AND c.name = 'Семьдесять девятый'
-    AND h.type = 'VIP'
-    AND o."isBooked" = True;
 
--- количество мест на сеансе
-SELECT COUNT((s.row,s.place))
-FROM "public.Seats" s
-JOIN "public.Halls" h ON s.hall_id = h.id
-JOIN "public.Cinemas" c ON h.cinema_id = c.id
-WHERE c.name = 'Семьдесять девятый'
-    AND h.name = 'VIP';
+-- -- количество мест на сеансе
+-- SELECT COUNT((s.row,s.place))
+-- FROM "public.Seats" s
+-- JOIN "public.Halls" h ON s.hall_id = h.id
+-- JOIN "public.Cinemas" c ON h.cinema_id = c.id
+-- WHERE c.name = 'Семьдесять девятый'
+--     AND h.name = 'VIP';
 
--- -- -- количество за месяц оплат наличными
--- SELECT COUNT(p.id)
--- FROM "public.Payment" p
--- WHERE p.type = 'Оплата наличными на месте'
---     AND p.payment_time IS NOT NULL;
 
 -- количество за месяц оплат наличными
 SELECT COUNT(p.id)
@@ -123,6 +97,7 @@ WHERE p.type = 'Оплата наличными на месте'
     AND EXTRACT(YEAR FROM p.payment_time) = 2023
     AND EXTRACT(MONTH FROM p.payment_time) = 11;
 
+
 -- узнать суммую цен на забронированные, но не проданные билеты
 SELECT SUM(t.price)
 FROM "public.Tickets" t
@@ -130,6 +105,7 @@ JOIN "public.Orders" o ON t.order_id = o.id
 JOIN "public.Payment" p ON o.id = p.order_id
 WHERE o."isBooked" = True
     AND p.payment_time IS NULL;
+
 
 -- Вывести фильмы в n-ом кинотеатре, где снимался оскароносный актёр
 SELECT m.name, fcm.name
@@ -147,10 +123,12 @@ WHERE c.name = 'Пятый'
     AND p.name = 'Оскар'
     AND pn."isWon" = True;
 
--- обновление пароля клиента по почте
-UPDATE "public.Customers"
-SET password = 'updatedpass'
-WHERE mail = 'bobrovaraisa@example.org';
+
+-- -- обновление пароля клиента по почте
+-- UPDATE "public.Customers"
+-- SET password = 'updatedpass'
+-- WHERE mail = 'bobrovaraisa@example.org';
+
 
 -- удаление всех сеансов с этим фильмом
 DELETE FROM "public.Sessions" s
@@ -178,14 +156,6 @@ WHERE s.time_start::date = '2023-11-05'
     AND p.payment_time IS NOT NULL
 GROUP BY m.name
 ORDER BY tickets_count DESC;
-
-
--- -- Вывести людей, суммарно набравших заказы на 3000 и больше
--- SELECT c.name, SUM(o.total_price)
--- FROM "public.Customers" c
--- JOIN "public.Orders" o ON c.id = o.customer_id
--- GROUP BY c.name
--- HAVING SUM(o.total_price) >= 3000;
 
 
 -- Вывести людей, суммарно заплативших за заказы 3000 и больше
@@ -232,6 +202,29 @@ ORDER BY total_pay DESC
 LIMIT 5;
 
 
+-- Вывести отношение билетов, проданных онлайн, ко всем проданным билетам
+WITH paid_total AS (
+	SELECT count(t.id) AS count
+	FROM "public.Tickets" t
+	JOIN "public.Orders" o ON o.id = t.order_id
+	JOIN "public.Payment" p ON o.id = p.order_id
+	WHERE p.payment_time IS NOT NULL
+),
+	paid_online AS (
+	SELECT count(t.id) AS count
+	FROM "public.Tickets" t
+	JOIN "public.Orders" o ON o.id = t.order_id
+	JOIN "public.Payment" p ON o.id = p.order_id
+	WHERE p.payment_time IS NOT NULL
+		AND (p.type = 'Оплата онлайн переводом'
+		OR p.type = 'Оплата банковской картой онлайн')
+)
+
+SELECT paid_online.count AS online_count, paid_total.count AS total_count,
+    100 * paid_online.count / paid_total.count AS online_percentage
+FROM paid_total, paid_online
+
+
 -- Вывести число свободных сидений в кинотеатрах на определённую дату
 WITH seats_total AS (
     SELECT h.id AS hall_id, c.name AS cinema_name, COUNT((st.row,st.place)) AS count
@@ -256,26 +249,3 @@ SELECT seats_total.cinema_name, seats_taken.movie_name, seats_taken.time_start, 
 FROM seats_total
 JOIN seats_taken ON seats_total.hall_id = seats_taken.hall_id
 ORDER BY free;
-
-
--- Вывести отношение билетов, проданных онлайн, ко всем проданным билетам
-WITH paid_total AS (
-	SELECT count(t.id) AS count
-	FROM "public.Tickets" t
-	JOIN "public.Orders" o ON o.id = t.order_id
-	JOIN "public.Payment" p ON o.id = p.order_id
-	WHERE p.payment_time IS NOT NULL
-),
-	paid_online AS (
-	SELECT count(t.id) AS count
-	FROM "public.Tickets" t
-	JOIN "public.Orders" o ON o.id = t.order_id
-	JOIN "public.Payment" p ON o.id = p.order_id
-	WHERE p.payment_time IS NOT NULL
-		AND (p.type = 'Оплата онлайн переводом'
-		OR p.type = 'Оплата банковской картой онлайн')
-)
-
-SELECT paid_online.count AS online_count, paid_total.count AS total_count,
-    100 * paid_online.count / paid_total.count AS online_percentage
-FROM paid_total, paid_online
