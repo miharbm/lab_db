@@ -277,7 +277,7 @@
 	
 	\lstdefinestyle{vscode-dark}{
 		backgroundcolor=\color{black},
-		basicstyle=\color{white}\ttfamily\tiny,
+		basicstyle=\color{white}\ttfamily\fontsize{8}{11}\selectfont,
 		breakatwhitespace=false,
 		breaklines=true,
 		captionpos=b,
@@ -287,7 +287,76 @@
 		numberstyle=\tiny\color{gray},
 		showstringspaces=false,
 		stringstyle=\color{orange},
-		tabsize=4
+		tabsize=4,
+		extendedchars=true,
+		upquote=true,
+		literate=
+			{а}{{\selectfont\char224}}1
+			{б}{{\selectfont\char225}}1
+			{в}{{\selectfont\char226}}1
+			{г}{{\selectfont\char227}}1
+			{д}{{\selectfont\char228}}1
+			{е}{{\selectfont\char229}}1
+			{ё}{{\"e}}1
+			{ж}{{\selectfont\char230}}1
+			{з}{{\selectfont\char231}}1
+			{и}{{\selectfont\char232}}1
+			{й}{{\selectfont\char233}}1
+			{к}{{\selectfont\char234}}1
+			{л}{{\selectfont\char235}}1
+			{м}{{\selectfont\char236}}1
+			{н}{{\selectfont\char237}}1
+			{о}{{\selectfont\char238}}1
+			{п}{{\selectfont\char239}}1
+			{р}{{\selectfont\char240}}1
+			{с}{{\selectfont\char241}}1
+			{т}{{\selectfont\char242}}1
+			{у}{{\selectfont\char243}}1
+			{ф}{{\selectfont\char244}}1
+			{х}{{\selectfont\char245}}1
+			{ц}{{\selectfont\char246}}1
+			{ч}{{\selectfont\char247}}1
+			{ш}{{\selectfont\char248}}1
+			{щ}{{\selectfont\char249}}1
+			{ъ}{{\selectfont\char250}}1
+			{ы}{{\selectfont\char251}}1
+			{ь}{{\selectfont\char252}}1
+			{э}{{\selectfont\char253}}1
+			{ю}{{\selectfont\char254}}1
+			{я}{{\selectfont\char255}}1
+			{А}{{\selectfont\char192}}1
+			{Б}{{\selectfont\char193}}1
+			{В}{{\selectfont\char194}}1
+			{Г}{{\selectfont\char195}}1
+			{Д}{{\selectfont\char196}}1
+			{Е}{{\selectfont\char197}}1
+			{Ё}{{\"E}}1
+			{Ж}{{\selectfont\char198}}1
+			{З}{{\selectfont\char199}}1
+			{И}{{\selectfont\char200}}1
+			{Й}{{\selectfont\char201}}1
+			{К}{{\selectfont\char202}}1
+			{Л}{{\selectfont\char203}}1
+			{М}{{\selectfont\char204}}1
+			{Н}{{\selectfont\char205}}1
+			{О}{{\selectfont\char206}}1
+			{П}{{\selectfont\char207}}1
+			{Р}{{\selectfont\char208}}1
+			{С}{{\selectfont\char209}}1
+			{Т}{{\selectfont\char210}}1
+			{У}{{\selectfont\char211}}1
+			{Ф}{{\selectfont\char212}}1
+			{Х}{{\selectfont\char213}}1
+			{Ц}{{\selectfont\char214}}1
+			{Ч}{{\selectfont\char215}}1
+			{Ш}{{\selectfont\char216}}1
+			{Щ}{{\selectfont\char217}}1
+			{Ъ}{{\selectfont\char218}}1
+			{Ы}{{\selectfont\char219}}1
+			{Ь}{{\selectfont\char220}}1
+			{Э}{{\selectfont\char221}}1
+			{Ю}{{\selectfont\char222}}1
+			{Я}{{\selectfont\char223}}1
 	}
 	
 	\item Код для создания таблицы Movies
@@ -351,7 +420,7 @@
 		
 		ALTER TABLE "public.Pictures_movie" ADD CONSTRAINT "Pictures_movie_fk0" FOREIGN KEY ("movie_id") REFERENCES "public.Movies"("id");
 	\end{lstlisting}
-	$\\$
+	%$\\$
 	
 	\item Код для создания таблицы Film\_crew\_members
 	
@@ -384,6 +453,7 @@
 		ALTER TABLE "public.Films_positions" ADD CONSTRAINT "Films_positions_fk0" FOREIGN KEY ("movie_id") REFERENCES "public.Movies"("id");
 		ALTER TABLE "public.Films_positions" ADD CONSTRAINT "Films_positions_fk1" FOREIGN KEY ("member_id") REFERENCES "public.Film_crew_members"("id");
 	\end{lstlisting}
+	\newpage
 	
 	\item Код для создания таблицы Nominees
 	
@@ -568,6 +638,7 @@
 		ALTER TABLE "public.Tickets" ADD CONSTRAINT "Tickets_fk2" FOREIGN KEY ("order_id") REFERENCES "public.Orders"("id");
 		ALTER TABLE "public.Tickets" ADD CONSTRAINT "Tickets_unique" UNIQUE("seat_id", "session_id");
 	\end{lstlisting}
+	\newpage
 
 	\item Код для создания таблицы Cinemas\_positions
 
@@ -704,7 +775,7 @@
 	
 	\begin{itemize}
 		
-	\item Таблица Movies
+	\item Фрагмент таблицы Movies
 
 	\includegraphics[scale=0.55,page=1]{Movies.png}
 	
@@ -714,7 +785,7 @@
 	\includegraphics[scale=0.3,page=1]{Genres.png}
 	
 	
-	\item Таблица Movies\_genres
+	\item Фрагмент таблицы Movies\_genres
 	
 	\includegraphics[scale=0.3,page=1]{Movies_genres.png}
 	
@@ -726,18 +797,18 @@
 	\includegraphics[scale=0.3,page=1]{Pictures_movie.png}
 	
 	
-	\item Таблица Film\_crew\_members
+	\item Фрагмент таблицы Film\_crew\_members
 	
 	\includegraphics[scale=0.3,page=1]{Film_crew_members.png}
 	
 	
-	\item Таблица Films\_positions
+	\item Фрагмент таблицы Films\_positions
 	
 	\includegraphics[scale=0.3,page=1]{Films_positions.png}
 	
 	\newpage
 	
-	\item Таблица Nominees
+	\item Фрагмент таблицы Nominees
 	
 	\includegraphics[scale=0.3,page=1]{Nominees.png}
 	$\\$
@@ -749,55 +820,55 @@
 	$\\$
 	
 	
-	\item Таблица Prime\_nominations
+	\item Фрагмент таблицы Prime\_nominations
 	
 	\includegraphics[scale=0.3,page=1]{Prime_nominations.png}
 
 	
 	
-	\item Таблица Cinemas
+	\item Фрагмент таблицы Cinemas
 	
 	\includegraphics[scale=0.3,page=1]{Cinemas.png}
 	$\\$
 	
 	
-	\item Таблица Halls
+	\item Фрагмент таблицы Halls
 	
 	\includegraphics[scale=0.3,page=1]{Halls.png}
 	$\\$
 	
 	
-	\item Таблица Sessions
+	\item Фрагмент таблицы Sessions
 	
 	\includegraphics[scale=0.3,page=1]{Sessions.png}
 	$\\$
 
 	
-	\item Таблица Seats
+	\item Фрагмент таблицы Seats
 	
 	\includegraphics[scale=0.32,page=1]{Seats.png}
 	$\\$
 	
 	
-	\item Таблица Customers
+	\item Фрагмент таблицы Customers
 	
 	\includegraphics[scale=0.24,page=1]{Customers.png}
 	$\\$
 	
 	
-	\item Таблица Orders
+	\item Фрагмент таблицы Orders
 	
 	\includegraphics[scale=0.32,page=1]{Orders.png}
 	$\\$
 	
 	
-	\item Таблица Payment
+	\item Фрагмент таблицы Payment
 	
 	\includegraphics[scale=0.3,page=1]{Payment.png}
 	$\\$
 	
 	
-	\item Таблица Tickets
+	\item Фрагмент таблицы Tickets
 	
 	\includegraphics[scale=0.3,page=1]{Tickets.png}
 	$\\$
@@ -809,7 +880,7 @@
 	$\\$
 	
 	
-	\item Таблица Staff
+	\item Фрагмент таблицы Staff
 	
 	\includegraphics[scale=0.24,page=1]{Staff.png}
 	
