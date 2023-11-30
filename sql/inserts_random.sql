@@ -1439,7 +1439,7 @@ JOIN "public.Genres" g ON m.name = 'Сила страны' AND g.name = 'Бое�
 INSERT INTO "public.Movies_genres" (movie_id, genres_id)
 SELECT m.id, g.id
 FROM "public.Movies" m
-JOIN "public.Genres" g ON m.name = 'Сила страны' AND g.name = 'nan';
+JOIN "public.Genres" g ON m.name = 'Сила страны' AND g.name = 'Комедия';
 
 INSERT INTO "public.Movies_genres" (movie_id, genres_id)
 SELECT m.id, g.id
@@ -9601,206 +9601,206 @@ BEGIN
 	WHERE c.name = 'Сотый';
 
 	INSERT INTO "public.Halls" (name, type, cinema_id) VALUES
-		('Стандартный', 'Стандартный', id_cinema_0),
-		('VIP', 'VIP', id_cinema_0),
-		('Стандартный', 'Стандартный', id_cinema_1),
-		('VIP', 'VIP', id_cinema_1),
-		('Стандартный', 'Стандартный', id_cinema_2),
-		('VIP', 'VIP', id_cinema_2),
-		('Стандартный', 'Стандартный', id_cinema_3),
-		('VIP', 'VIP', id_cinema_3),
-		('Стандартный', 'Стандартный', id_cinema_4),
-		('VIP', 'VIP', id_cinema_4),
-		('Стандартный', 'Стандартный', id_cinema_5),
-		('VIP', 'VIP', id_cinema_5),
-		('Стандартный', 'Стандартный', id_cinema_6),
-		('VIP', 'VIP', id_cinema_6),
-		('Стандартный', 'Стандартный', id_cinema_7),
-		('VIP', 'VIP', id_cinema_7),
-		('Стандартный', 'Стандартный', id_cinema_8),
-		('VIP', 'VIP', id_cinema_8),
-		('Стандартный', 'Стандартный', id_cinema_9),
-		('VIP', 'VIP', id_cinema_9),
-		('Стандартный', 'Стандартный', id_cinema_10),
-		('VIP', 'VIP', id_cinema_10),
-		('Стандартный', 'Стандартный', id_cinema_11),
-		('VIP', 'VIP', id_cinema_11),
-		('Стандартный', 'Стандартный', id_cinema_12),
-		('VIP', 'VIP', id_cinema_12),
-		('Стандартный', 'Стандартный', id_cinema_13),
-		('VIP', 'VIP', id_cinema_13),
-		('Стандартный', 'Стандартный', id_cinema_14),
-		('VIP', 'VIP', id_cinema_14),
-		('Стандартный', 'Стандартный', id_cinema_15),
-		('VIP', 'VIP', id_cinema_15),
-		('Стандартный', 'Стандартный', id_cinema_16),
-		('VIP', 'VIP', id_cinema_16),
-		('Стандартный', 'Стандартный', id_cinema_17),
-		('VIP', 'VIP', id_cinema_17),
-		('Стандартный', 'Стандартный', id_cinema_18),
-		('VIP', 'VIP', id_cinema_18),
-		('Стандартный', 'Стандартный', id_cinema_19),
-		('VIP', 'VIP', id_cinema_19),
-		('Стандартный', 'Стандартный', id_cinema_20),
-		('VIP', 'VIP', id_cinema_20),
-		('Стандартный', 'Стандартный', id_cinema_21),
-		('VIP', 'VIP', id_cinema_21),
-		('Стандартный', 'Стандартный', id_cinema_22),
-		('VIP', 'VIP', id_cinema_22),
-		('Стандартный', 'Стандартный', id_cinema_23),
-		('VIP', 'VIP', id_cinema_23),
-		('Стандартный', 'Стандартный', id_cinema_24),
-		('VIP', 'VIP', id_cinema_24),
-		('Стандартный', 'Стандартный', id_cinema_25),
-		('VIP', 'VIP', id_cinema_25),
-		('Стандартный', 'Стандартный', id_cinema_26),
-		('VIP', 'VIP', id_cinema_26),
-		('Стандартный', 'Стандартный', id_cinema_27),
-		('VIP', 'VIP', id_cinema_27),
-		('Стандартный', 'Стандартный', id_cinema_28),
-		('VIP', 'VIP', id_cinema_28),
-		('Стандартный', 'Стандартный', id_cinema_29),
-		('VIP', 'VIP', id_cinema_29),
-		('Стандартный', 'Стандартный', id_cinema_30),
-		('VIP', 'VIP', id_cinema_30),
-		('Стандартный', 'Стандартный', id_cinema_31),
-		('VIP', 'VIP', id_cinema_31),
-		('Стандартный', 'Стандартный', id_cinema_32),
-		('VIP', 'VIP', id_cinema_32),
-		('Стандартный', 'Стандартный', id_cinema_33),
-		('VIP', 'VIP', id_cinema_33),
-		('Стандартный', 'Стандартный', id_cinema_34),
-		('VIP', 'VIP', id_cinema_34),
-		('Стандартный', 'Стандартный', id_cinema_35),
-		('VIP', 'VIP', id_cinema_35),
-		('Стандартный', 'Стандартный', id_cinema_36),
-		('VIP', 'VIP', id_cinema_36),
-		('Стандартный', 'Стандартный', id_cinema_37),
-		('VIP', 'VIP', id_cinema_37),
-		('Стандартный', 'Стандартный', id_cinema_38),
-		('VIP', 'VIP', id_cinema_38),
-		('Стандартный', 'Стандартный', id_cinema_39),
-		('VIP', 'VIP', id_cinema_39),
-		('Стандартный', 'Стандартный', id_cinema_40),
-		('VIP', 'VIP', id_cinema_40),
-		('Стандартный', 'Стандартный', id_cinema_41),
-		('VIP', 'VIP', id_cinema_41),
-		('Стандартный', 'Стандартный', id_cinema_42),
-		('VIP', 'VIP', id_cinema_42),
-		('Стандартный', 'Стандартный', id_cinema_43),
-		('VIP', 'VIP', id_cinema_43),
-		('Стандартный', 'Стандартный', id_cinema_44),
-		('VIP', 'VIP', id_cinema_44),
-		('Стандартный', 'Стандартный', id_cinema_45),
-		('VIP', 'VIP', id_cinema_45),
-		('Стандартный', 'Стандартный', id_cinema_46),
-		('VIP', 'VIP', id_cinema_46),
-		('Стандартный', 'Стандартный', id_cinema_47),
-		('VIP', 'VIP', id_cinema_47),
-		('Стандартный', 'Стандартный', id_cinema_48),
-		('VIP', 'VIP', id_cinema_48),
-		('Стандартный', 'Стандартный', id_cinema_49),
-		('VIP', 'VIP', id_cinema_49),
-		('Стандартный', 'Стандартный', id_cinema_50),
-		('VIP', 'VIP', id_cinema_50),
-		('Стандартный', 'Стандартный', id_cinema_51),
-		('VIP', 'VIP', id_cinema_51),
-		('Стандартный', 'Стандартный', id_cinema_52),
-		('VIP', 'VIP', id_cinema_52),
-		('Стандартный', 'Стандартный', id_cinema_53),
-		('VIP', 'VIP', id_cinema_53),
-		('Стандартный', 'Стандартный', id_cinema_54),
-		('VIP', 'VIP', id_cinema_54),
-		('Стандартный', 'Стандартный', id_cinema_55),
-		('VIP', 'VIP', id_cinema_55),
-		('Стандартный', 'Стандартный', id_cinema_56),
-		('VIP', 'VIP', id_cinema_56),
-		('Стандартный', 'Стандартный', id_cinema_57),
-		('VIP', 'VIP', id_cinema_57),
-		('Стандартный', 'Стандартный', id_cinema_58),
-		('VIP', 'VIP', id_cinema_58),
-		('Стандартный', 'Стандартный', id_cinema_59),
-		('VIP', 'VIP', id_cinema_59),
-		('Стандартный', 'Стандартный', id_cinema_60),
-		('VIP', 'VIP', id_cinema_60),
-		('Стандартный', 'Стандартный', id_cinema_61),
-		('VIP', 'VIP', id_cinema_61),
-		('Стандартный', 'Стандартный', id_cinema_62),
-		('VIP', 'VIP', id_cinema_62),
-		('Стандартный', 'Стандартный', id_cinema_63),
-		('VIP', 'VIP', id_cinema_63),
-		('Стандартный', 'Стандартный', id_cinema_64),
-		('VIP', 'VIP', id_cinema_64),
-		('Стандартный', 'Стандартный', id_cinema_65),
-		('VIP', 'VIP', id_cinema_65),
-		('Стандартный', 'Стандартный', id_cinema_66),
-		('VIP', 'VIP', id_cinema_66),
-		('Стандартный', 'Стандартный', id_cinema_67),
-		('VIP', 'VIP', id_cinema_67),
-		('Стандартный', 'Стандартный', id_cinema_68),
-		('VIP', 'VIP', id_cinema_68),
-		('Стандартный', 'Стандартный', id_cinema_69),
-		('VIP', 'VIP', id_cinema_69),
-		('Стандартный', 'Стандартный', id_cinema_70),
-		('VIP', 'VIP', id_cinema_70),
-		('Стандартный', 'Стандартный', id_cinema_71),
-		('VIP', 'VIP', id_cinema_71),
-		('Стандартный', 'Стандартный', id_cinema_72),
-		('VIP', 'VIP', id_cinema_72),
-		('Стандартный', 'Стандартный', id_cinema_73),
-		('VIP', 'VIP', id_cinema_73),
-		('Стандартный', 'Стандартный', id_cinema_74),
-		('VIP', 'VIP', id_cinema_74),
-		('Стандартный', 'Стандартный', id_cinema_75),
-		('VIP', 'VIP', id_cinema_75),
-		('Стандартный', 'Стандартный', id_cinema_76),
-		('VIP', 'VIP', id_cinema_76),
-		('Стандартный', 'Стандартный', id_cinema_77),
-		('VIP', 'VIP', id_cinema_77),
-		('Стандартный', 'Стандартный', id_cinema_78),
-		('VIP', 'VIP', id_cinema_78),
-		('Стандартный', 'Стандартный', id_cinema_79),
-		('VIP', 'VIP', id_cinema_79),
-		('Стандартный', 'Стандартный', id_cinema_80),
-		('VIP', 'VIP', id_cinema_80),
-		('Стандартный', 'Стандартный', id_cinema_81),
-		('VIP', 'VIP', id_cinema_81),
-		('Стандартный', 'Стандартный', id_cinema_82),
-		('VIP', 'VIP', id_cinema_82),
-		('Стандартный', 'Стандартный', id_cinema_83),
-		('VIP', 'VIP', id_cinema_83),
-		('Стандартный', 'Стандартный', id_cinema_84),
-		('VIP', 'VIP', id_cinema_84),
-		('Стандартный', 'Стандартный', id_cinema_85),
-		('VIP', 'VIP', id_cinema_85),
-		('Стандартный', 'Стандартный', id_cinema_86),
-		('VIP', 'VIP', id_cinema_86),
-		('Стандартный', 'Стандартный', id_cinema_87),
-		('VIP', 'VIP', id_cinema_87),
-		('Стандартный', 'Стандартный', id_cinema_88),
-		('VIP', 'VIP', id_cinema_88),
-		('Стандартный', 'Стандартный', id_cinema_89),
-		('VIP', 'VIP', id_cinema_89),
-		('Стандартный', 'Стандартный', id_cinema_90),
-		('VIP', 'VIP', id_cinema_90),
-		('Стандартный', 'Стандартный', id_cinema_91),
-		('VIP', 'VIP', id_cinema_91),
-		('Стандартный', 'Стандартный', id_cinema_92),
-		('VIP', 'VIP', id_cinema_92),
-		('Стандартный', 'Стандартный', id_cinema_93),
-		('VIP', 'VIP', id_cinema_93),
-		('Стандартный', 'Стандартный', id_cinema_94),
-		('VIP', 'VIP', id_cinema_94),
-		('Стандартный', 'Стандартный', id_cinema_95),
-		('VIP', 'VIP', id_cinema_95),
-		('Стандартный', 'Стандартный', id_cinema_96),
-		('VIP', 'VIP', id_cinema_96),
-		('Стандартный', 'Стандартный', id_cinema_97),
-		('VIP', 'VIP', id_cinema_97),
-		('Стандартный', 'Стандартный', id_cinema_98),
-		('VIP', 'VIP', id_cinema_98),
-		('Стандартный', 'Стандартный', id_cinema_99),
-		('VIP', 'VIP', id_cinema_99);
+		('Стандартный 1', 'Стандартный', id_cinema_0),
+		('VIP 1', 'VIP', id_cinema_0),
+		('Стандартный 1', 'Стандартный', id_cinema_1),
+		('VIP 1', 'VIP', id_cinema_1),
+		('Стандартный 1', 'Стандартный', id_cinema_2),
+		('VIP 1', 'VIP', id_cinema_2),
+		('Стандартный 1', 'Стандартный', id_cinema_3),
+		('VIP 1', 'VIP', id_cinema_3),
+		('Стандартный 1', 'Стандартный', id_cinema_4),
+		('VIP 1', 'VIP', id_cinema_4),
+		('Стандартный 1', 'Стандартный', id_cinema_5),
+		('VIP 1', 'VIP', id_cinema_5),
+		('Стандартный 1', 'Стандартный', id_cinema_6),
+		('VIP 1', 'VIP', id_cinema_6),
+		('Стандартный 1', 'Стандартный', id_cinema_7),
+		('VIP 1', 'VIP', id_cinema_7),
+		('Стандартный 1', 'Стандартный', id_cinema_8),
+		('VIP 1', 'VIP', id_cinema_8),
+		('Стандартный 1', 'Стандартный', id_cinema_9),
+		('VIP 1', 'VIP', id_cinema_9),
+		('Стандартный 1', 'Стандартный', id_cinema_10),
+		('VIP 1', 'VIP', id_cinema_10),
+		('Стандартный 1', 'Стандартный', id_cinema_11),
+		('VIP 1', 'VIP', id_cinema_11),
+		('Стандартный 1', 'Стандартный', id_cinema_12),
+		('VIP 1', 'VIP', id_cinema_12),
+		('Стандартный 1', 'Стандартный', id_cinema_13),
+		('VIP 1', 'VIP', id_cinema_13),
+		('Стандартный 1', 'Стандартный', id_cinema_14),
+		('VIP 1', 'VIP', id_cinema_14),
+		('Стандартный 1', 'Стандартный', id_cinema_15),
+		('VIP 1', 'VIP', id_cinema_15),
+		('Стандартный 1', 'Стандартный', id_cinema_16),
+		('VIP 1', 'VIP', id_cinema_16),
+		('Стандартный 1', 'Стандартный', id_cinema_17),
+		('VIP 1', 'VIP', id_cinema_17),
+		('Стандартный 1', 'Стандартный', id_cinema_18),
+		('VIP 1', 'VIP', id_cinema_18),
+		('Стандартный 1', 'Стандартный', id_cinema_19),
+		('VIP 1', 'VIP', id_cinema_19),
+		('Стандартный 1', 'Стандартный', id_cinema_20),
+		('VIP 1', 'VIP', id_cinema_20),
+		('Стандартный 1', 'Стандартный', id_cinema_21),
+		('VIP 1', 'VIP', id_cinema_21),
+		('Стандартный 1', 'Стандартный', id_cinema_22),
+		('VIP 1', 'VIP', id_cinema_22),
+		('Стандартный 1', 'Стандартный', id_cinema_23),
+		('VIP 1', 'VIP', id_cinema_23),
+		('Стандартный 1', 'Стандартный', id_cinema_24),
+		('VIP 1', 'VIP', id_cinema_24),
+		('Стандартный 1', 'Стандартный', id_cinema_25),
+		('VIP 1', 'VIP', id_cinema_25),
+		('Стандартный 1', 'Стандартный', id_cinema_26),
+		('VIP 1', 'VIP', id_cinema_26),
+		('Стандартный 1', 'Стандартный', id_cinema_27),
+		('VIP 1', 'VIP', id_cinema_27),
+		('Стандартный 1', 'Стандартный', id_cinema_28),
+		('VIP 1', 'VIP', id_cinema_28),
+		('Стандартный 1', 'Стандартный', id_cinema_29),
+		('VIP 1', 'VIP', id_cinema_29),
+		('Стандартный 1', 'Стандартный', id_cinema_30),
+		('VIP 1', 'VIP', id_cinema_30),
+		('Стандартный 1', 'Стандартный', id_cinema_31),
+		('VIP 1', 'VIP', id_cinema_31),
+		('Стандартный 1', 'Стандартный', id_cinema_32),
+		('VIP 1', 'VIP', id_cinema_32),
+		('Стандартный 1', 'Стандартный', id_cinema_33),
+		('VIP 1', 'VIP', id_cinema_33),
+		('Стандартный 1', 'Стандартный', id_cinema_34),
+		('VIP 1', 'VIP', id_cinema_34),
+		('Стандартный 1', 'Стандартный', id_cinema_35),
+		('VIP 1', 'VIP', id_cinema_35),
+		('Стандартный 1', 'Стандартный', id_cinema_36),
+		('VIP 1', 'VIP', id_cinema_36),
+		('Стандартный 1', 'Стандартный', id_cinema_37),
+		('VIP 1', 'VIP', id_cinema_37),
+		('Стандартный 1', 'Стандартный', id_cinema_38),
+		('VIP 1', 'VIP', id_cinema_38),
+		('Стандартный 1', 'Стандартный', id_cinema_39),
+		('VIP 1', 'VIP', id_cinema_39),
+		('Стандартный 1', 'Стандартный', id_cinema_40),
+		('VIP 1', 'VIP', id_cinema_40),
+		('Стандартный 1', 'Стандартный', id_cinema_41),
+		('VIP 1', 'VIP', id_cinema_41),
+		('Стандартный 1', 'Стандартный', id_cinema_42),
+		('VIP 1', 'VIP', id_cinema_42),
+		('Стандартный 1', 'Стандартный', id_cinema_43),
+		('VIP 1', 'VIP', id_cinema_43),
+		('Стандартный 1', 'Стандартный', id_cinema_44),
+		('VIP 1', 'VIP', id_cinema_44),
+		('Стандартный 1', 'Стандартный', id_cinema_45),
+		('VIP 1', 'VIP', id_cinema_45),
+		('Стандартный 1', 'Стандартный', id_cinema_46),
+		('VIP 1', 'VIP', id_cinema_46),
+		('Стандартный 1', 'Стандартный', id_cinema_47),
+		('VIP 1', 'VIP', id_cinema_47),
+		('Стандартный 1', 'Стандартный', id_cinema_48),
+		('VIP 1', 'VIP', id_cinema_48),
+		('Стандартный 1', 'Стандартный', id_cinema_49),
+		('VIP 1', 'VIP', id_cinema_49),
+		('Стандартный 1', 'Стандартный', id_cinema_50),
+		('VIP 1', 'VIP', id_cinema_50),
+		('Стандартный 1', 'Стандартный', id_cinema_51),
+		('VIP 1', 'VIP', id_cinema_51),
+		('Стандартный 1', 'Стандартный', id_cinema_52),
+		('VIP 1', 'VIP', id_cinema_52),
+		('Стандартный 1', 'Стандартный', id_cinema_53),
+		('VIP 1', 'VIP', id_cinema_53),
+		('Стандартный 1', 'Стандартный', id_cinema_54),
+		('VIP 1', 'VIP', id_cinema_54),
+		('Стандартный 1', 'Стандартный', id_cinema_55),
+		('VIP 1', 'VIP', id_cinema_55),
+		('Стандартный 1', 'Стандартный', id_cinema_56),
+		('VIP 1', 'VIP', id_cinema_56),
+		('Стандартный 1', 'Стандартный', id_cinema_57),
+		('VIP 1', 'VIP', id_cinema_57),
+		('Стандартный 1', 'Стандартный', id_cinema_58),
+		('VIP 1', 'VIP', id_cinema_58),
+		('Стандартный 1', 'Стандартный', id_cinema_59),
+		('VIP 1', 'VIP', id_cinema_59),
+		('Стандартный 1', 'Стандартный', id_cinema_60),
+		('VIP 1', 'VIP', id_cinema_60),
+		('Стандартный 1', 'Стандартный', id_cinema_61),
+		('VIP 1', 'VIP', id_cinema_61),
+		('Стандартный 1', 'Стандартный', id_cinema_62),
+		('VIP 1', 'VIP', id_cinema_62),
+		('Стандартный 1', 'Стандартный', id_cinema_63),
+		('VIP 1', 'VIP', id_cinema_63),
+		('Стандартный 1', 'Стандартный', id_cinema_64),
+		('VIP 1', 'VIP', id_cinema_64),
+		('Стандартный 1', 'Стандартный', id_cinema_65),
+		('VIP 1', 'VIP', id_cinema_65),
+		('Стандартный 1', 'Стандартный', id_cinema_66),
+		('VIP 1', 'VIP', id_cinema_66),
+		('Стандартный 1', 'Стандартный', id_cinema_67),
+		('VIP 1', 'VIP', id_cinema_67),
+		('Стандартный 1', 'Стандартный', id_cinema_68),
+		('VIP 1', 'VIP', id_cinema_68),
+		('Стандартный 1', 'Стандартный', id_cinema_69),
+		('VIP 1', 'VIP', id_cinema_69),
+		('Стандартный 1', 'Стандартный', id_cinema_70),
+		('VIP 1', 'VIP', id_cinema_70),
+		('Стандартный 1', 'Стандартный', id_cinema_71),
+		('VIP 1', 'VIP', id_cinema_71),
+		('Стандартный 1', 'Стандартный', id_cinema_72),
+		('VIP 1', 'VIP', id_cinema_72),
+		('Стандартный 1', 'Стандартный', id_cinema_73),
+		('VIP 1', 'VIP', id_cinema_73),
+		('Стандартный 1', 'Стандартный', id_cinema_74),
+		('VIP 1', 'VIP', id_cinema_74),
+		('Стандартный 1', 'Стандартный', id_cinema_75),
+		('VIP 1', 'VIP', id_cinema_75),
+		('Стандартный 1', 'Стандартный', id_cinema_76),
+		('VIP 1', 'VIP', id_cinema_76),
+		('Стандартный 1', 'Стандартный', id_cinema_77),
+		('VIP 1', 'VIP', id_cinema_77),
+		('Стандартный 1', 'Стандартный', id_cinema_78),
+		('VIP 1', 'VIP', id_cinema_78),
+		('Стандартный 1', 'Стандартный', id_cinema_79),
+		('VIP 1', 'VIP', id_cinema_79),
+		('Стандартный 1', 'Стандартный', id_cinema_80),
+		('VIP 1', 'VIP', id_cinema_80),
+		('Стандартный 1', 'Стандартный', id_cinema_81),
+		('VIP 1', 'VIP', id_cinema_81),
+		('Стандартный 1', 'Стандартный', id_cinema_82),
+		('VIP 1', 'VIP', id_cinema_82),
+		('Стандартный 1', 'Стандартный', id_cinema_83),
+		('VIP 1', 'VIP', id_cinema_83),
+		('Стандартный 1', 'Стандартный', id_cinema_84),
+		('VIP 1', 'VIP', id_cinema_84),
+		('Стандартный 1', 'Стандартный', id_cinema_85),
+		('VIP 1', 'VIP', id_cinema_85),
+		('Стандартный 1', 'Стандартный', id_cinema_86),
+		('VIP 1', 'VIP', id_cinema_86),
+		('Стандартный 1', 'Стандартный', id_cinema_87),
+		('VIP 1', 'VIP', id_cinema_87),
+		('Стандартный 1', 'Стандартный', id_cinema_88),
+		('VIP 1', 'VIP', id_cinema_88),
+		('Стандартный 1', 'Стандартный', id_cinema_89),
+		('VIP 1', 'VIP', id_cinema_89),
+		('Стандартный 1', 'Стандартный', id_cinema_90),
+		('VIP 1', 'VIP', id_cinema_90),
+		('Стандартный 1', 'Стандартный', id_cinema_91),
+		('VIP 1', 'VIP', id_cinema_91),
+		('Стандартный 1', 'Стандартный', id_cinema_92),
+		('VIP 1', 'VIP', id_cinema_92),
+		('Стандартный 1', 'Стандартный', id_cinema_93),
+		('VIP 1', 'VIP', id_cinema_93),
+		('Стандартный 1', 'Стандартный', id_cinema_94),
+		('VIP 1', 'VIP', id_cinema_94),
+		('Стандартный 1', 'Стандартный', id_cinema_95),
+		('VIP 1', 'VIP', id_cinema_95),
+		('Стандартный 1', 'Стандартный', id_cinema_96),
+		('VIP 1', 'VIP', id_cinema_96),
+		('Стандартный 1', 'Стандартный', id_cinema_97),
+		('VIP 1', 'VIP', id_cinema_97),
+		('Стандартный 1', 'Стандартный', id_cinema_98),
+		('VIP 1', 'VIP', id_cinema_98),
+		('Стандартный 1', 'Стандартный', id_cinema_99),
+		('VIP 1', 'VIP', id_cinema_99);
 END $$;
 
 
@@ -10121,1002 +10121,1002 @@ BEGIN
 	SELECT h.id INTO id_hall_0
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_1
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Первый' AND h.name = 'VIP';
+	WHERE c.name = 'Первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_2
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_3
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Второй' AND h.name = 'VIP';
+	WHERE c.name = 'Второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_4
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_5
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Третий' AND h.name = 'VIP';
+	WHERE c.name = 'Третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_6
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_7
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_8
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_9
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_10
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_11
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_12
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_13
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_14
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_15
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_16
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_17
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_18
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Десятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Десятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_19
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Десятый' AND h.name = 'VIP';
+	WHERE c.name = 'Десятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_20
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Одиннадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Одиннадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_21
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Одиннадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Одиннадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_22
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двенадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двенадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_23
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двенадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Двенадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_24
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тринадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тринадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_25
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тринадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Тринадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_26
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Четырнадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Четырнадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_27
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Четырнадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Четырнадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_28
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятнадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятнадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_29
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятнадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Пятнадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_30
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестнадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестнадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_31
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестнадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Шестнадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_32
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семнадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семнадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_33
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семнадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Семнадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_34
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемнадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемнадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_35
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемнадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Восемнадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_36
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девятнадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девятнадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_37
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девятнадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Девятнадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_38
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_39
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_40
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_41
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать первый' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_42
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_43
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать второй' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_44
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_45
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать третий' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_46
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_47
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_48
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_49
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_50
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_51
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_52
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_53
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_54
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_55
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_56
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_57
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_58
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_59
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_60
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_61
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать первый' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_62
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_63
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать второй' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_64
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_65
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать третий' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_66
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_67
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_68
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_69
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_70
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_71
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_72
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_73
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_74
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_75
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_76
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_77
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_78
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сороковой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сороковой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_79
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сороковой' AND h.name = 'VIP';
+	WHERE c.name = 'Сороковой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_80
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_81
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок первый' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_82
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_83
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок второй' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_84
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_85
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок третий' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_86
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_87
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_88
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_89
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_90
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_91
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_92
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_93
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_94
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_95
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_96
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_97
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_98
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятидесятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятидесятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_99
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятидесятый' AND h.name = 'VIP';
+	WHERE c.name = 'Пятидесятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_100
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_101
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят первый' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_102
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_103
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят второй' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_104
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_105
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят третий' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_106
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_107
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_108
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_109
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_110
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_111
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_112
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_113
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_114
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_115
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_116
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_117
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_118
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестидесятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестидесятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_119
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестидесятый' AND h.name = 'VIP';
+	WHERE c.name = 'Шестидесятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_120
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_121
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят первый' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_122
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_123
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят второй' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_124
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_125
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят третий' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_126
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_127
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_128
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_129
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_130
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_131
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_132
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_133
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_134
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_135
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_136
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_137
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_138
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семидесятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семидесятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_139
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семидесятый' AND h.name = 'VIP';
+	WHERE c.name = 'Семидесятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_140
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_141
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять первый' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_142
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_143
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять второй' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_144
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_145
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять третий' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_146
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_147
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_148
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_149
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_150
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_151
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_152
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_153
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_154
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_155
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_156
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_157
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_158
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восьмидесятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восьмидесятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_159
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восьмидесятый' AND h.name = 'VIP';
+	WHERE c.name = 'Восьмидесятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_160
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_161
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять первый' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_162
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_163
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять второй' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_164
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_165
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять третий' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_166
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_167
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_168
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_169
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_170
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_171
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_172
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_173
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_174
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_175
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_176
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_177
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_178
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяностый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяностый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_179
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяностый' AND h.name = 'VIP';
+	WHERE c.name = 'Девяностый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_180
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_181
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто первый' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_182
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_183
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто второй' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_184
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_185
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто третий' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_186
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_187
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_188
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_189
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_190
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_191
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_192
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_193
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_194
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_195
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_196
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_197
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_198
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сотый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сотый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_199
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сотый' AND h.name = 'VIP';
+	WHERE c.name = 'Сотый' AND h.name = 'VIP 1';
 
 	SELECT m.id INTO id_movie_0
 	FROM "public.Movies" m
@@ -11572,7 +11572,7 @@ BEGIN
 		(id_hall_10, id_movie_10, '2023-11-05 12:00:00', '2023-11-05 15:00:00'),
 		(id_hall_11, id_movie_11, '2023-11-05 15:00:00', '2023-11-05 18:00:00'),
 		(id_hall_12, id_movie_12, '2023-11-05 12:00:00', '2023-11-05 15:00:00'),
-		(id_hall_13, id_movie_13, '2023-11-05 15:00:00', '2023-11-05 18:00:00'),
+		(id_hall_13, id_movie_13, '2023-11-05 12:00:00', '2023-11-05 18:00:00'),
 		(id_hall_14, id_movie_14, '2023-11-05 12:00:00', '2023-11-05 15:00:00'),
 		(id_hall_15, id_movie_15, '2023-11-05 15:00:00', '2023-11-05 18:00:00'),
 		(id_hall_16, id_movie_0, '2023-11-05 12:00:00', '2023-11-05 15:00:00'),
@@ -11969,1002 +11969,1002 @@ BEGIN
 	SELECT h.id INTO id_hall_0
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_1
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Первый' AND h.name = 'VIP';
+	WHERE c.name = 'Первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_2
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_3
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Второй' AND h.name = 'VIP';
+	WHERE c.name = 'Второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_4
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_5
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Третий' AND h.name = 'VIP';
+	WHERE c.name = 'Третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_6
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_7
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_8
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_9
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_10
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_11
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_12
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_13
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_14
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_15
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_16
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_17
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_18
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Десятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Десятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_19
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Десятый' AND h.name = 'VIP';
+	WHERE c.name = 'Десятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_20
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Одиннадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Одиннадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_21
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Одиннадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Одиннадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_22
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двенадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двенадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_23
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двенадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Двенадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_24
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тринадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тринадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_25
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тринадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Тринадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_26
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Четырнадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Четырнадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_27
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Четырнадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Четырнадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_28
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятнадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятнадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_29
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятнадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Пятнадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_30
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестнадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестнадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_31
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестнадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Шестнадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_32
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семнадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семнадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_33
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семнадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Семнадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_34
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемнадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемнадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_35
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемнадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Восемнадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_36
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девятнадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девятнадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_37
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девятнадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Девятнадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_38
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_39
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_40
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_41
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать первый' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_42
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_43
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать второй' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_44
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_45
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать третий' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_46
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_47
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_48
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_49
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_50
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_51
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_52
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_53
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_54
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_55
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_56
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Двадцать девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_57
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Двадцать девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Двадцать девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_58
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцатый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцатый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_59
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцатый' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцатый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_60
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_61
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать первый' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_62
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_63
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать второй' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_64
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_65
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать третий' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_66
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_67
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_68
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_69
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_70
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_71
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_72
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_73
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_74
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_75
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_76
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Тридцать девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_77
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Тридцать девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Тридцать девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_78
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сороковой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сороковой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_79
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сороковой' AND h.name = 'VIP';
+	WHERE c.name = 'Сороковой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_80
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_81
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок первый' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_82
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_83
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок второй' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_84
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_85
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок третий' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_86
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_87
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_88
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_89
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_90
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_91
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_92
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_93
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_94
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_95
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_96
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сорок девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_97
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сорок девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Сорок девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_98
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятидесятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятидесятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_99
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятидесятый' AND h.name = 'VIP';
+	WHERE c.name = 'Пятидесятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_100
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_101
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят первый' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_102
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_103
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят второй' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_104
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_105
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят третий' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_106
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_107
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_108
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_109
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_110
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_111
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_112
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_113
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_114
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_115
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_116
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Пятьдесят девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_117
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Пятьдесят девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Пятьдесят девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_118
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестидесятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестидесятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_119
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестидесятый' AND h.name = 'VIP';
+	WHERE c.name = 'Шестидесятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_120
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_121
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят первый' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_122
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_123
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят второй' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_124
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_125
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят третий' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_126
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_127
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_128
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_129
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_130
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_131
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_132
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_133
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_134
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_135
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_136
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Шестьдесят девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_137
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Шестьдесят девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Шестьдесят девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_138
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семидесятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семидесятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_139
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семидесятый' AND h.name = 'VIP';
+	WHERE c.name = 'Семидесятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_140
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_141
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять первый' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_142
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_143
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять второй' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_144
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_145
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять третий' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_146
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_147
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_148
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_149
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_150
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_151
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_152
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_153
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_154
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_155
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_156
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Семьдесять девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_157
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Семьдесять девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Семьдесять девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_158
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восьмидесятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восьмидесятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_159
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восьмидесятый' AND h.name = 'VIP';
+	WHERE c.name = 'Восьмидесятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_160
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_161
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять первый' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_162
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_163
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять второй' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_164
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_165
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять третий' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_166
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_167
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_168
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_169
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_170
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_171
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_172
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_173
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_174
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_175
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_176
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Восемьдесять девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_177
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Восемьдесять девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Восемьдесять девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_178
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяностый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяностый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_179
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяностый' AND h.name = 'VIP';
+	WHERE c.name = 'Девяностый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_180
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто первый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто первый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_181
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто первый' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто первый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_182
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто второй' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто второй' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_183
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто второй' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто второй' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_184
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто третий' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто третий' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_185
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто третий' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто третий' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_186
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто четвертый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто четвертый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_187
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто четвертый' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто четвертый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_188
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто пятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто пятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_189
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто пятый' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто пятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_190
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто шестой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто шестой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_191
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто шестой' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто шестой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_192
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто седьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто седьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_193
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто седьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто седьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_194
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто восьмой' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто восьмой' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_195
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто восьмой' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто восьмой' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_196
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто девятый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Девяносто девятый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_197
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Девяносто девятый' AND h.name = 'VIP';
+	WHERE c.name = 'Девяносто девятый' AND h.name = 'VIP 1';
 
 	SELECT h.id INTO id_hall_198
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сотый' AND h.name = 'Стандартный';
+	WHERE c.name = 'Сотый' AND h.name = 'Стандартный 1';
 
 	SELECT h.id INTO id_hall_199
 	FROM "public.Halls" h
 	JOIN "public.Cinemas" c ON h.cinema_id = c.id
-	WHERE c.name = 'Сотый' AND h.name = 'VIP';
+	WHERE c.name = 'Сотый' AND h.name = 'VIP 1';
 
 	INSERT INTO "public.Seats" (hall_id, row, place) VALUES
 		(id_hall_0, 1, 1),(id_hall_0, 1, 2),(id_hall_0, 1, 3),(id_hall_0, 1, 4),(id_hall_0, 1, 5),(id_hall_0, 1, 6),(id_hall_0, 1, 7),(id_hall_0, 1, 8),
@@ -14388,7 +14388,7 @@ INSERT INTO "public.Cinemas_positions" (position) VALUES
 
 
 
-	DO $$
+DO $$
 DECLARE id_cinema_0 INT;
 DECLARE id_cinema_1 INT;
 DECLARE id_cinema_2 INT;
@@ -14962,662 +14962,661 @@ BEGIN
 	WHERE cp.position = 'Менеджер по кинопрокату';
 
 	INSERT INTO "public.Staff" (cinema_id, position_id, login, password, birthday, phone, email, name) VALUES
-		(id_cinema_0, id_position_0, 'oWZJTE', 'ljMGcCYb', '2021-05-09', '85839473914', 'afanasevbojan@example.com', 'Измаил Матвеевич Зуев'),
-		(id_cinema_1, id_position_1, 'WKVNrG', 'aRfPMSAf', '1972-01-07', '88177912805', 'afanasi32@example.com', 'Василиса Вячеславовна Вишнякова'),
-		(id_cinema_2, id_position_2, 'MPRQYI', 'hDoKqMcm', '2014-03-13', '85656458301', 'afinogen1988@example.org', 'Власова Галина Станиславовна'),
-		(id_cinema_3, id_position_3, 'WoPSAi', 'PjRizWmB', '1996-11-16', '84403117402', 'agafja20@example.net', 'Константин Германович Петров'),
-		(id_cinema_4, id_position_0, 'CyzUzK', 'xBXgmYnY', '1978-03-05', '83912452040', 'agafonovolimpi@example.com', 'Евгений Андреевич Матвеев'),
-		(id_cinema_5, id_position_4, 'dhqQLc', 'yGlkfovA', '1974-02-28', '86080595146', 'akolesnikova@example.net', 'Олимпий Ефимьевич Гуляев'),
-		(id_cinema_6, id_position_5, 'xyaFqr', 'TdjReaRR', '1994-08-14', '84156827752', 'aleksandra21@example.net', 'Будимир Ярославович Орлов'),
-		(id_cinema_7, id_position_6, 'tPNCAf', 'eRUBxjlk', '1976-05-25', '84725162836', 'alekse_1976@example.org', 'Соколова Нонна Львовна'),
-		(id_cinema_8, id_position_1, 'siEpdS', 'KsIqhDJo', '1976-12-27', '83206195277', 'alevtina_11@example.org', 'Анжелика Геннадьевна Давыдова'),
-		(id_cinema_9, id_position_7, 'bszmSd', 'vmrmyPiw', '1974-09-03', '81392306118', 'amos39@example.net', 'Фадеев Федор Якубович'),
-		(id_cinema_10, id_position_6, 'WwVxjQ', 'hRLOIdSu', '2021-02-04', '87594928984', 'anastasija_2002@example.org', 'Евсеев Антип Эдгардович'),
-		(id_cinema_11, id_position_8, 'LDSXMf', 'AamjLHvT', '1995-04-19', '81410621776', 'anatoli_96@example.com', 'Аркадий Марсович Гущин'),
-		(id_cinema_12, id_position_9, 'faKwJs', 'PFbfpJLG', '1997-05-20', '83747317943', 'andreevavalentina@example.com', 'Емельянов Харлампий Трифонович'),
-		(id_cinema_13, id_position_3, 'JrbYAm', 'CdhkiHpV', '1996-04-04', '81240337863', 'andreevfoti@example.net', 'Лапин Куприян Егорович'),
-		(id_cinema_3, id_position_4, 'YAYAAN', 'PhIMuxJh', '2004-01-27', '88963086213', 'andron_35@example.net', 'Трофимов Остап Арсеньевич'),
-		(id_cinema_13, id_position_5, 'FoUsiU', 'PXvPkTvi', '2007-11-15', '89928904775', 'andronik_87@example.net', 'Ольга Егоровна Рожкова'),
-		(id_cinema_14, id_position_10, 'UZyHbJ', 'osYUlJng', '1978-03-03', '83390677514', 'angelina_1977@example.org', 'Галкин Платон Валерьевич'),
-		(id_cinema_15, id_position_1, 'WviXXn', 'zfCxyQJa', '1977-03-02', '88987731589', 'angelina_2023@example.net', 'Фомина Анна Александровна'),
-		(id_cinema_16, id_position_6, 'GpunyG', 'SUtrnvzK', '2000-06-29', '87937284700', 'anike08@example.org', 'Макарова Светлана Юрьевна'),
-		(id_cinema_17, id_position_10, 'wKvGzm', 'IZWRrZER', '1984-05-01', '82947779647', 'anike36@example.org', 'Стрелкова Елизавета Ивановна'),
-		(id_cinema_18, id_position_8, 'fCibBw', 'sOghlLNi', '1983-07-04', '87263504727', 'anikitadanilov@example.net', 'Радован Брониславович Воробьев'),
-		(id_cinema_5, id_position_11, 'KcwPGQ', 'IFVZVXaR', '2007-07-28', '82879429519', 'anisim_37@example.org', 'Белякова Алла Святославовна'),
-		(id_cinema_19, id_position_5, 'jQnNwO', 'YjoIAXJj', '1970-07-03', '82717725775', 'anisimovignati@example.org', 'Федотова Алевтина Петровна'),
-		(id_cinema_20, id_position_12, 'uvylGP', 'ubfZrFWv', '1970-03-31', '82056177001', 'antonin1984@example.com', 'Коновалов Эраст Марсович'),
-		(id_cinema_21, id_position_3, 'dTBIov', 'PHDiHKyC', '1984-10-10', '89902927503', 'antonin1988@example.org', 'Светлана Степановна Дементьева'),
-		(id_cinema_22, id_position_7, 'sSQSAn', 'kZpcFgUQ', '2007-08-24', '85397210100', 'antonina1998@example.org', 'Валентина Ефимовна Коновалова'),
-		(id_cinema_23, id_position_9, 'gDhwAn', 'JUzPipPc', '2013-12-11', '85747141906', 'antonovtimofe@example.net', 'Костина Антонина Харитоновна'),
-		(id_cinema_17, id_position_7, 'VyQVgB', 'vtHJJqFb', '1975-05-17', '83481022711', 'apollinari_1993@example.com', 'тов. Михеев Святополк Филимонович'),
-		(id_cinema_24, id_position_12, 'IWAxiE', 'uGqJgvOJ', '2011-04-07', '84827887731', 'apollinarimedvedev@example.net', 'Зинаида Оскаровна Васильева'),
-		(id_cinema_25, id_position_12, 'FvUeXu', 'NKtGQJvY', '2023-01-20', '84689809485', 'apollon_1976@example.net', 'Журавлев Леонид Арсенович'),
-		(id_cinema_26, id_position_2, 'pifHFa', 'GplmRyyE', '2000-05-14', '86938423974', 'apollon2019@example.org', 'Гусева Майя Тимуровна'),
-		(id_cinema_27, id_position_6, 'TolaUw', 'QvBsLZGm', '2000-12-19', '85343663772', 'arefi_82@example.com', 'Ангелина Станиславовна Комарова'),
-		(id_cinema_28, id_position_0, 'gptvuZ', 'JfDmEFJQ', '1996-05-01', '88292914377', 'arefi1972@example.net', 'Элеонора Ниловна Ефремова'),
-		(id_cinema_29, id_position_10, 'Cfrxfq', 'zzVthNcQ', '1978-04-28', '87567090060', 'artemevafaina@example.net', 'Мартын Фадеевич Гусев'),
-		(id_cinema_30, id_position_11, 'jcHdCb', 'WCxFCLyL', '1986-11-30', '81261329993', 'artemevtihon@example.net', 'Рябов Илья Фокич'),
-		(id_cinema_31, id_position_12, 'XgqkIo', 'IDlbqSBa', '2010-07-12', '82559474981', 'artemifilatov@example.org', 'Афанасий Афанасьевич Наумов'),
-		(id_cinema_32, id_position_4, 'kouboV', 'kWGmHnZd', '2001-10-24', '86036054229', 'askold1986@example.org', 'Сергей Валерьянович Наумов'),
-		(id_cinema_33, id_position_0, 'ovTAiI', 'KMRWTCxQ', '2006-06-21', '86503852258', 'askolddoronin@example.org', 'Алексеева Анжелика Львовна'),
-		(id_cinema_34, id_position_8, 'KRUWYx', 'iifCNrlO', '1998-10-23', '89208994966', 'averjan42@example.net', 'Петухов Борис Ефстафьевич'),
-		(id_cinema_32, id_position_12, 'bnTMoZ', 'kGkgUTPt', '1989-01-21', '85237403479', 'averki_04@example.com', 'Шарапов Мир Адрианович'),
-		(id_cinema_15, id_position_7, 'uRsBRK', 'FIrEGfff', '1974-09-21', '88093711681', 'avgust16@example.net', 'Маркова Феврония Наумовна'),
-		(id_cinema_11, id_position_11, 'Ybrvcj', 'eRAMzdbN', '1971-03-17', '87627343557', 'avksenti_25@example.com', 'Кузьмина Зоя Владиславовна'),
-		(id_cinema_14, id_position_5, 'lNZIqw', 'GmdJAfKH', '2022-01-29', '85951030282', 'azari1975@example.net', 'Пестов Амос Дорофеевич'),
-		(id_cinema_35, id_position_1, 'nTqRDw', 'WUDmNAcb', '1983-04-09', '84589866393', 'baranovsevastjan@example.org', 'Элеонора Кузьминична Наумова'),
-		(id_cinema_36, id_position_13, 'yoDxUW', 'wkGMsOoG', '2008-05-18', '82133479384', 'bdjachkov@example.net', 'Емельянов Добромысл Арсеньевич'),
-		(id_cinema_37, id_position_1, 'JODxzk', 'vMuHNpnB', '1982-12-09', '83983031159', 'beljakovefrem@example.com', 'Агафья Альбертовна Владимирова'),
-		(id_cinema_38, id_position_2, 'YHcobe', 'iqwPdzrs', '1998-11-12', '81735781625', 'beljakovipati@example.org', 'Афанасьев Федот Германович'),
-		(id_cinema_38, id_position_9, 'iyxjXD', 'bqhcUWio', '1977-05-31', '88830761315', 'bikovaraisa@example.com', 'Виктор Архипович Соловьев'),
-		(id_cinema_39, id_position_8, 'iLmqVy', 'ZsDtqdSm', '2012-06-12', '89951289455', 'birjukovjanuari@example.org', 'Быкова Дарья Тимуровна'),
-		(id_cinema_21, id_position_4, 'fnGChq', 'ahfkkEUc', '2023-04-12', '84013993045', 'bkuzmina@example.org', 'Федорова Валерия Болеславовна'),
-		(id_cinema_30, id_position_5, 'vmSyeG', 'poMlYOIE', '2015-02-15', '89042305034', 'blohinaalina@example.net', 'Субботин Юлий Анисимович'),
-		(id_cinema_40, id_position_13, 'SsRNaY', 'dKLXHFHq', '1985-04-18', '88763220927', 'blohinladislav@example.org', 'Фомичева Марфа Вячеславовна'),
-		(id_cinema_41, id_position_10, 'ImBfDQ', 'EQuQKxvI', '1980-02-19', '89703916544', 'blohintihon@example.net', 'Сергеева Дарья Аскольдовна'),
-		(id_cinema_28, id_position_11, 'ThvIXw', 'TKrBZatR', '2004-07-14', '85134728738', 'bnazarova@example.com', 'Сысоева Фаина Романовна'),
-		(id_cinema_42, id_position_0, 'TYpEXY', 'qzqoOoSC', '1996-11-26', '86055904040', 'bogdanovsilvestr@example.com', 'Кулаков Валерий Харлампьевич'),
-		(id_cinema_43, id_position_12, 'BXzsxJ', 'gilQBZtW', '1980-01-11', '84961809272', 'bojan1985@example.org', 'Ольга Владиславовна Пестова'),
-		(id_cinema_18, id_position_0, 'hMYbsk', 'HajNhpHk', '2012-03-30', '82365680451', 'bolshakovaristarh@example.com', 'Мишин Лучезар Геннадиевич'),
-		(id_cinema_44, id_position_12, 'yhVtEi', 'LHuaFEUg', '2013-05-11', '83608582724', 'bolshakovmir@example.com', 'Анастасия Викторовна Крюкова'),
-		(id_cinema_19, id_position_12, 'mliwax', 'OpRCXRmQ', '2008-10-16', '89726211345', 'borislav09@example.org', 'Богдан Марсович Богданов'),
-		(id_cinema_21, id_position_4, 'tMakte', 'nHfqUBov', '1999-07-20', '87088366783', 'borislav78@example.com', 'Козлов Гремислав Ерофеевич'),
-		(id_cinema_45, id_position_9, 'QNhNuB', 'ciIVqRxQ', '2002-03-07', '83427881099', 'borislav85@example.org', 'Панфилов Светозар Филатович'),
-		(id_cinema_32, id_position_10, 'qxnAms', 'AbQTyadQ', '2012-12-17', '85896252530', 'borisovgeorgi@example.com', 'Алина Робертовна Авдеева'),
-		(id_cinema_46, id_position_10, 'fwMyVN', 'YxfdxrnY', '2008-05-09', '84281890467', 'borisovisidor@example.org', 'Самсонова Милица Юрьевна'),
-		(id_cinema_47, id_position_7, 'LLtoPz', 'mFYyzHon', '1990-11-16', '81877526979', 'bosipov@example.com', 'Афанасьева Ангелина Кузьминична'),
-		(id_cinema_48, id_position_5, 'cVaqXK', 'pgfeyCmE', '1996-05-19', '84110096574', 'bronislav_2020@example.com', 'Елизар Тимурович Анисимов'),
-		(id_cinema_49, id_position_7, 'pysVqm', 'rHycGBDQ', '2010-07-15', '83278947199', 'budimir1990@example.net', 'Демид Фокич Щербаков'),
-		(id_cinema_50, id_position_7, 'bgqtWH', 'PXofYfuf', '1973-09-19', '82646216723', 'burovalukija@example.com', 'Артемьев Аким Егорович'),
-		(id_cinema_51, id_position_7, 'eyikXI', 'AYUnNmJZ', '2018-10-11', '88380857539', 'cburova@example.com', 'Бронислав Дорофеевич Власов'),
-		(id_cinema_12, id_position_11, 'zdHAaU', 'kpJBaWmc', '1976-06-23', '87269763914', 'cershov@example.org', 'Агата Валентиновна Королева'),
-		(id_cinema_33, id_position_0, 'jZaNrg', 'zKFEftSf', '2016-06-05', '88513953247', 'cheslav_25@example.org', 'Исидор Демьянович Бобылев'),
-		(id_cinema_52, id_position_6, 'EazPiS', 'pByHoKAu', '2017-10-29', '83102884951', 'cheslav59@example.org', 'Валерьян Иларионович Кузьмин'),
-		(id_cinema_53, id_position_7, 'uLEJGT', 'CfweQGHI', '2017-01-24', '83660272258', 'cnosova@example.net', 'Ипат Ильич Кулагин'),
-		(id_cinema_24, id_position_8, 'NJdwqf', 'uqbjUOXQ', '1992-01-11', '81780854075', 'cvishnjakova@example.net', 'Савватий Федосеевич Зуев'),
-		(id_cinema_54, id_position_3, 'PeDHbI', 'obfrEXcH', '1990-09-26', '89531836879', 'darja47@example.com', 'Арефий Елизарович Дмитриев'),
-		(id_cinema_55, id_position_1, 'hopvrl', 'STBVRSel', '1977-12-11', '86947339438', 'david_1993@example.net', 'Рябова Марфа Богдановна'),
-		(id_cinema_56, id_position_7, 'UMOARh', 'teCihMPi', '1994-06-05', '84994749496', 'davidbeljaev@example.com', 'Мария Петровна Тихонова'),
-		(id_cinema_57, id_position_11, 'mBGXKJ', 'YQWLiIfT', '1975-08-10', '85099716459', 'dementevaija@example.com', 'Болеслав Матвеевич Селиверстов'),
-		(id_cinema_7, id_position_4, 'eKntOR', 'aKsIffAH', '1980-03-20', '81258313980', 'dementevnifont@example.com', 'Харитонов Валерьян Ааронович'),
-		(id_cinema_56, id_position_1, 'iwLXKQ', 'StUSiIPT', '2007-06-09', '82411397677', 'demid_32@example.com', 'Куликов Натан Ярославович'),
-		(id_cinema_58, id_position_7, 'GmrSmQ', 'sZCtKdzD', '1993-07-02', '82404072773', 'denisovevdokim@example.com', 'г-жа Смирнова Лариса Олеговна'),
-		(id_cinema_26, id_position_9, 'stcudu', 'NZQOKdmS', '1988-12-27', '81495470887', 'dershov@example.org', 'Корнилов Азарий Викентьевич'),
-		(id_cinema_23, id_position_0, 'NGXqPS', 'GhfizJfP', '1998-01-20', '86912681229', 'dmitri_1973@example.net', 'Кулагина Василиса Эльдаровна'),
-		(id_cinema_0, id_position_5, 'GFLVgo', 'zxPSSkPL', '2007-04-04', '83956127683', 'dmitri_79@example.com', 'Демьян Харлампьевич Лукин'),
-		(id_cinema_40, id_position_3, 'IthMGu', 'XIdIKHaa', '1989-04-10', '86291195398', 'dmitrihohlov@example.com', 'Ершова Ульяна Рудольфовна'),
-		(id_cinema_14, id_position_9, 'EvbHJY', 'nlNGQWiM', '2016-01-11', '81233335518', 'dobromisl_2022@example.org', 'Брагин Авксентий Антонович'),
-		(id_cinema_8, id_position_9, 'DXMRbO', 'DNDHNHxw', '1986-03-19', '84128618874', 'dobroslavzikov@example.net', 'Савельева Варвара Семеновна'),
-		(id_cinema_59, id_position_7, 'IsBeGG', 'cEiNHlOJ', '1978-07-28', '81405608920', 'dorofe_2011@example.org', 'Панов Олег Харламович'),
-		(id_cinema_60, id_position_11, 'UjHhuO', 'MyryzNmH', '1982-06-29', '89333989069', 'doroninanaina@example.org', 'Колесникова Прасковья Степановна'),
-		(id_cinema_61, id_position_7, 'LdVSRO', 'JSwboWET', '1995-06-10', '83288199693', 'drozdovelizar@example.net', 'Полина Никифоровна Мухина'),
-		(id_cinema_62, id_position_9, 'Fcrlxc', 'fFDxKwAq', '1994-10-01', '85965245592', 'eduard_2016@example.org', 'Лукин Арсений Аверьянович'),
-		(id_cinema_63, id_position_13, 'oyRGSo', 'qkXXVBkc', '1992-03-23', '84035897032', 'eduardalekseev@example.net', 'Большаков Осип Ефремович'),
-		(id_cinema_64, id_position_7, 'UidySB', 'eQchLpZL', '1976-02-22', '85177592782', 'efrem1988@example.com', 'Виноградов Кузьма Ермилович'),
-		(id_cinema_44, id_position_3, 'xRvhKd', 'BfAoIqtK', '1970-02-27', '81513510354', 'efrememeljanov@example.net', 'Панова Светлана Тимофеевна'),
-		(id_cinema_65, id_position_7, 'gJxLDi', 'FVsMMyyV', '1990-03-28', '88894038336', 'egorovmiroslav@example.net', 'Артем Ермилович Зыков'),
-		(id_cinema_66, id_position_9, 'AZJetr', 'JKQqkvQt', '1994-06-18', '84664064207', 'elena_98@example.net', 'Арефий Евсеевич Панфилов'),
-		(id_cinema_58, id_position_8, 'iaAKPD', 'oYukNyAY', '2000-05-01', '85214217632', 'elena1991@example.org', 'Конон Адрианович Муравьев'),
-		(id_cinema_20, id_position_13, 'zlvRmG', 'ZzlErcpW', '1973-09-03', '89066368549', 'eliseevaviktorija@example.com', 'Ермолай Арсенович Никифоров'),
-		(id_cinema_0, id_position_4, 'wcnGzO', 'oMeqgFcB', '1986-05-01', '81521700002', 'eliseevevgraf@example.org', 'Емельян Даниилович Егоров'),
-		(id_cinema_42, id_position_13, 'vUpLRG', 'APUKBdYm', '1997-08-23', '87609610135', 'elizar54@example.org', 'Лазарева Эмилия Эдуардовна'),
-		(id_cinema_43, id_position_9, 'mVbeps', 'JeDurSGB', '1990-08-27', '89789689436', 'emeljan_89@example.com', 'Попов Егор Фёдорович'),
-		(id_cinema_67, id_position_11, 'WvgJck', 'TOuJhikz', '2003-06-30', '86026077925', 'emilija_1979@example.net', 'Кира Тимофеевна Лихачева'),
-		(id_cinema_59, id_position_13, 'IFiZTu', 'gYqeRYnd', '1994-03-03', '84403526340', 'epifan_1987@example.org', 'Болеслав Эдуардович Кулаков'),
-		(id_cinema_68, id_position_12, 'FRKbQf', 'LbWjeeIZ', '2020-08-15', '86099434031', 'epifan33@example.org', 'Самсонов Савелий Авдеевич'),
-		(id_cinema_69, id_position_10, 'syZZcM', 'KcdjqDkv', '1976-12-09', '83249273348', 'erast2020@example.org', 'Валерий Игнатьевич Жданов'),
-		(id_cinema_68, id_position_7, 'izYdGo', 'gREXNroz', '1973-11-25', '84925450081', 'ermil50@example.net', 'Елисеева Виктория Тимофеевна'),
-		(id_cinema_70, id_position_5, 'mQdNwJ', 'nULgwijo', '2010-09-21', '85524119280', 'ermolaarhipov@example.com', 'Синклитикия Георгиевна Орехова'),
-		(id_cinema_71, id_position_10, 'QsYJUk', 'HeyIaNAv', '2017-07-07', '88461573706', 'ernestosipov@example.org', 'Иосиф Чеславович Шашков'),
-		(id_cinema_72, id_position_10, 'huaEbP', 'nNQtaeCQ', '1993-03-28', '83846589102', 'ernst1975@example.com', 'Кондратьев Милан Виленович'),
-		(id_cinema_1, id_position_13, 'hGdeqj', 'aJYzBBdf', '1997-06-03', '89899282352', 'ershovamos@example.com', 'Агафонова Евпраксия Юльевна'),
-		(id_cinema_73, id_position_9, 'TfwNfy', 'HatylJSN', '1986-09-15', '83188014059', 'estepanova@example.org', 'Попов Софон Ерофеевич'),
-		(id_cinema_37, id_position_7, 'YPNAjO', 'xWddwiqJ', '2007-02-09', '85886878934', 'evdokim1971@example.org', 'Елисеев Ростислав Ермолаевич'),
-		(id_cinema_74, id_position_0, 'wmhqGx', 'TnpjTpSF', '1988-11-22', '85347753157', 'evgeni_1973@example.net', 'Поляков Исай Федотович'),
-		(id_cinema_75, id_position_6, 'gGLFcK', 'oyxkWsEX', '1974-06-06', '86833472433', 'evgenija_90@example.com', 'Макар Исидорович Александров'),
-		(id_cinema_8, id_position_11, 'LPvwxA', 'CwmYVIEN', '2003-12-14', '81319181158', 'evgraf_1973@example.org', 'Вероника Андреевна Мартынова'),
-		(id_cinema_8, id_position_12, 'rglENM', 'pZlsEGMv', '2000-11-29', '83336195556', 'evgraf52@example.org', 'Амвросий Германович Владимиров'),
-		(id_cinema_60, id_position_12, 'coWTNj', 'FwQajMAx', '2023-05-10', '88814547934', 'evpraksija_1995@example.net', 'Анна Аскольдовна Матвеева'),
-		(id_cinema_76, id_position_7, 'cyQZDf', 'jQTIWKgT', '2002-08-03', '89693666370', 'evstigne_1970@example.net', 'Ефим Эдуардович Бобров'),
-		(id_cinema_25, id_position_6, 'iVODbV', 'CqWOdfxB', '1971-07-10', '85815000198', 'fedorovsofron@example.com', 'Евдокия Аркадьевна Зуева'),
-		(id_cinema_33, id_position_6, 'CBIuwL', 'reaqZKCN', '2002-04-25', '86726224867', 'fedosi_1990@example.org', 'Стоян Феодосьевич Громов'),
-		(id_cinema_77, id_position_13, 'BkWEkn', 'zhDzJMzv', '1998-02-20', '83288492598', 'fedosi_90@example.org', 'Ираида Афанасьевна Красильникова'),
-		(id_cinema_78, id_position_5, 'CbIBhN', 'TSSQfpDm', '2011-06-25', '88117080741', 'fedotovaantonina@example.com', 'Носков Автоном Фокич'),
-		(id_cinema_72, id_position_12, 'LLDCpr', 'NyuKHQpd', '2016-07-29', '84116601422', 'fedotovapollinari@example.com', 'Шилов Георгий Федосьевич'),
-		(id_cinema_18, id_position_10, 'kIzJNG', 'YHsbAaDG', '1993-03-28', '88720049320', 'feoktist2007@example.com', 'Наталья Ниловна Максимова'),
-		(id_cinema_75, id_position_13, 'aSKCrU', 'WgYyKlzG', '1972-11-16', '81648938070', 'filaret_94@example.net', 'Воронова Олимпиада Анатольевна'),
-		(id_cinema_79, id_position_11, 'SMueEm', 'aXDvevaS', '1994-03-06', '84054832921', 'filipp_74@example.net', 'Игнатий Афанасьевич Бобылев'),
-		(id_cinema_80, id_position_9, 'hOoZZB', 'VxUEWrqU', '1990-04-05', '88257279979', 'filippovvasili@example.com', 'Кондратьева Элеонора Харитоновна'),
-		(id_cinema_81, id_position_0, 'LkPqbZ', 'YQsQZijj', '1988-07-15', '89544059679', 'fkarpov@example.org', 'Галкина Марина Павловна'),
-		(id_cinema_2, id_position_9, 'cZZMES', 'WELrIWhR', '1973-08-16', '85071299330', 'fkiseleva@example.com', 'Дроздов Виктор Жоресович'),
-		(id_cinema_58, id_position_0, 'zsvzMk', 'aUNazBEQ', '2023-07-18', '82538034634', 'foka1985@example.org', 'Некрасова Тамара Натановна'),
-		(id_cinema_82, id_position_8, 'dnnJUX', 'mCqtflZE', '1971-04-10', '81319587222', 'fomichevarefi@example.com', 'Гурьева Ульяна Эльдаровна'),
-		(id_cinema_12, id_position_5, 'lbimQL', 'CvWlymQx', '1990-04-23', '82452278002', 'fominonufri@example.net', 'Журавлева Виктория Архиповна'),
-		(id_cinema_60, id_position_3, 'IxIccb', 'HsaCxvIB', '1988-09-20', '86947123367', 'fortunat_88@example.org', 'Синклитикия Ждановна Агафонова'),
-		(id_cinema_83, id_position_1, 'koEQcb', 'MXQEypXp', '2011-08-06', '81262827026', 'foti_85@example.com', 'Антонин Димитриевич Панфилов'),
-		(id_cinema_78, id_position_0, 'ZgBoQF', 'rXJXUqlD', '1996-03-06', '86202833457', 'foti1980@example.com', 'Виталий Артемьевич Субботин'),
-		(id_cinema_50, id_position_0, 'ZcuGMm', 'CDPWxori', '2004-09-29', '88370864160', 'fotichernov@example.net', 'Меркушева Регина Алексеевна'),
-		(id_cinema_84, id_position_1, 'jwjPxx', 'NADsPcfe', '1981-08-02', '82429410554', 'frol_1974@example.org', 'Носов Мартын Иосифович'),
-		(id_cinema_76, id_position_10, 'SkWLpm', 'XpnJlPQb', '2006-04-09', '89513427911', 'gavrila1999@example.com', 'Алевтина Ждановна Моисеева'),
-		(id_cinema_46, id_position_3, 'vQxryM', 'QBTwngbM', '1976-06-15', '84558117160', 'gavrila21@example.org', 'Громова Марфа Рубеновна'),
-		(id_cinema_85, id_position_10, 'IjelTQ', 'JkHZuLeL', '1975-01-09', '83561073254', 'gavrila60@example.org', 'Суханов Антонин Елизарович'),
-		(id_cinema_81, id_position_7, 'QKoDIU', 'OQGLszXT', '1989-11-27', '86966852627', 'gavrilovaija@example.net', 'Смирнов Кузьма Гордеевич'),
-		(id_cinema_21, id_position_9, 'bssHSx', 'YNxKPyad', '1973-05-19', '89646191358', 'gedeon_48@example.com', 'Симон Григорьевич Юдин'),
-		(id_cinema_72, id_position_2, 'OdFfAI', 'NTlFdhIu', '1982-11-27', '82771645835', 'german_25@example.org', 'Субботина Лора Романовна'),
-		(id_cinema_66, id_position_7, 'luxoCv', 'czzMPxly', '2008-12-13', '85226995209', 'german43@example.com', 'Ксения Александровна Муравьева'),
-		(id_cinema_34, id_position_0, 'OotAPe', 'ZYWhFcEE', '1994-11-12', '87801370146', 'glafira_2019@example.net', 'Софрон Изотович Стрелков'),
-		(id_cinema_42, id_position_2, 'VcrKpW', 'QtWEdYwj', '1992-10-30', '86310092976', 'gmakarova@example.org', 'Савва Валерианович Носков'),
-		(id_cinema_31, id_position_10, 'XPzUtG', 'wnXqNmDD', '1999-03-14', '85322384880', 'gordeevsamuil@example.com', 'Лапина Иванна Ниловна'),
-		(id_cinema_67, id_position_8, 'KyIQcY', 'AlqSrGAz', '1970-06-22', '85727691086', 'gorshkovselivan@example.net', 'Кириллова Василиса Аркадьевна'),
-		(id_cinema_75, id_position_0, 'torAsJ', 'eafRAFDg', '1984-05-23', '82547769205', 'gpoljakov@example.org', 'Полина Ефимовна Миронова'),
-		(id_cinema_45, id_position_1, 'mPsWhc', 'dYqLwhcI', '1973-06-05', '85101481878', 'grigorevaelizaveta@example.com', 'Беляков Фортунат Арсеньевич'),
-		(id_cinema_20, id_position_3, 'NAwDFO', 'QXFwuypE', '1974-02-05', '83774755091', 'grigorevaoktjabrina@example.net', 'Фролов Исидор Витальевич'),
-		(id_cinema_52, id_position_8, 'XZwhCH', 'umXCTWTX', '1995-04-30', '81395983417', 'gromovnikifor@example.org', 'Алевтина Ждановна Шарова'),
-		(id_cinema_11, id_position_2, 'mZgevz', 'ORtRrdTy', '2001-01-13', '88199828075', 'guljaevisa@example.net', 'Стрелкова Пелагея Вадимовна'),
-		(id_cinema_69, id_position_4, 'LdbTIo', 'mFmDtJST', '1976-12-27', '85435998555', 'guljaevkornil@example.org', 'Панфилов Корнил Федосьевич'),
-		(id_cinema_86, id_position_9, 'ZcvNJt', 'LfkSULzo', '1990-02-25', '82814337003', 'guljaevruslan@example.net', 'Кира Натановна Голубева'),
-		(id_cinema_87, id_position_13, 'zvXaNG', 'YcHuwdqP', '2000-10-23', '87542374270', 'guljaevselivan@example.com', 'Лариса Артемовна Андреева'),
-		(id_cinema_85, id_position_3, 'idzgvS', 'ZgejYgiB', '1978-02-07', '88784807693', 'gurevapollon@example.org', 'Елисеев Бажен Валерианович'),
-		(id_cinema_45, id_position_6, 'HrbAtk', 'wgFjVpUB', '1999-08-05', '83809434985', 'guri_78@example.net', 'тов. Тихонова Таисия Харитоновна'),
-		(id_cinema_88, id_position_13, 'oHiVwv', 'ZxTXlqco', '2006-02-18', '82012502071', 'gusevmartin@example.org', 'г-н Рыбаков Евдоким Германович'),
-		(id_cinema_19, id_position_5, 'gdouiU', 'KocUmLBV', '1972-08-19', '86039520629', 'gushchinfade@example.com', 'Элеонора Эльдаровна Русакова'),
-		(id_cinema_13, id_position_6, 'ebgeTa', 'piYCBLmV', '1990-01-19', '89307951111', 'hariton18@example.com', 'Самойлов Иларион Харитонович'),
-		(id_cinema_64, id_position_3, 'wshHus', 'KVJoCMJs', '1975-07-13', '81282498803', 'hariton91@example.net', 'Степанова Октябрина Леоновна'),
-		(id_cinema_89, id_position_10, 'APKYlg', 'dijeSnoh', '2002-10-25', '88480557325', 'haritonovparfen@example.net', 'Валерия Николаевна Голубева'),
-		(id_cinema_23, id_position_0, 'TTkkzL', 'TXzUCQHH', '2021-06-25', '86879648258', 'hohlovaregina@example.org', 'Красильникова Раиса Архиповна'),
-		(id_cinema_34, id_position_8, 'sfzBnW', 'UBKFSOLu', '2009-06-24', '89793311835', 'hristofor_06@example.com', 'Мамонтова Марфа Сергеевна'),
-		(id_cinema_41, id_position_0, 'XeJYyH', 'OKQYEvqA', '1973-05-16', '84080910419', 'hristofor_93@example.org', 'Максимов Марк Давидович'),
-		(id_cinema_10, id_position_4, 'kyVCmw', 'slbsPXEm', '1973-12-20', '81897272433', 'hsharova@example.net', 'Нестеров Гедеон Игоревич'),
-		(id_cinema_65, id_position_12, 'ibfQeH', 'hJAxzUpd', '1971-06-03', '87446554254', 'idmitriev@example.net', 'Мефодий Валентинович Кулаков'),
-		(id_cinema_90, id_position_1, 'NRDGmU', 'dHPpZuwm', '1989-09-05', '81577371907', 'ievseeva@example.com', 'Фролова Наталья Даниловна'),
-		(id_cinema_0, id_position_5, 'EDOzLj', 'hLUmijPy', '1980-07-08', '82346444510', 'ignati2017@example.com', 'Наумов Трофим Ануфриевич'),
-		(id_cinema_38, id_position_11, 'zMiYHv', 'jcpJHRbe', '1985-05-22', '84147146704', 'ignati27@example.net', 'Игнатов Гостомысл Юлианович'),
-		(id_cinema_55, id_position_4, 'qsSEUt', 'HeVKLRpu', '2010-12-16', '87005158670', 'ignatovmarian@example.com', 'Пестов Изяслав Арсенович'),
-		(id_cinema_53, id_position_0, 'opWqqX', 'PpqWRLSf', '2001-02-16', '86687193256', 'igormironov@example.net', 'Брагина Евгения Григорьевна'),
-		(id_cinema_87, id_position_8, 'iUDZiw', 'qrvlUOcu', '2022-05-29', '89325149526', 'igorosipov@example.org', 'Герасимов Тихон Викентьевич'),
-		(id_cinema_15, id_position_3, 'wYJYrj', 'fdXSIApB', '2009-05-23', '88673416630', 'ilinanonna@example.org', 'Самсон Ермилович Емельянов'),
-		(id_cinema_68, id_position_11, 'LRFgfQ', 'PifCKmAO', '2011-11-28', '82306334727', 'ilinnazar@example.com', 'Фадеева Светлана Егоровна'),
-		(id_cinema_71, id_position_8, 'DEUrXR', 'mRdpPaXz', '1992-01-04', '81445602153', 'ilja29@example.net', 'Харитон Трифонович Миронов'),
-		(id_cinema_57, id_position_10, 'UcDPNV', 'eMjIZOxD', '1979-10-16', '82493602120', 'ipat_1988@example.net', 'Боброва Алла Львовна'),
-		(id_cinema_91, id_position_1, 'yWiiwi', 'xvsfiJPu', '2022-08-08', '82465020958', 'ipat76@example.com', 'Дементьева София Святославовна'),
-		(id_cinema_47, id_position_4, 'WBfyMe', 'mVDPMQrw', '2019-05-25', '82515519674', 'ipati_1971@example.net', 'тов. Бобылева Нина Федоровна'),
-		(id_cinema_32, id_position_6, 'feUXqE', 'CBOhsVWU', '2019-09-27', '89504358221', 'irakli88@example.com', 'Зыков Гремислав Владиленович'),
-		(id_cinema_63, id_position_7, 'xXesRt', 'ZYtYjDIs', '2015-01-14', '82152154321', 'isakovaantonina@example.org', 'г-н Красильников Трофим Фокич'),
-		(id_cinema_82, id_position_6, 'NfaOHB', 'YlzYWwVI', '2010-10-19', '85921550569', 'ivankolobov@example.org', 'Афиноген Тарасович Ситников'),
-		(id_cinema_38, id_position_12, 'zSlTlb', 'zJxCNJVk', '1977-05-21', '89054987441', 'ivanna_1980@example.com', 'Костина Ирина Ниловна'),
-		(id_cinema_80, id_position_13, 'jPpiBA', 'YPmJSazl', '2012-06-30', '88600953488', 'ivanovaakulina@example.net', 'Эдуард Архипович Борисов'),
-		(id_cinema_13, id_position_5, 'DGNBSk', 'rCLXbWae', '1999-05-03', '84624292561', 'izjaslav1985@example.com', 'Юлий Всеволодович Гришин'),
-		(id_cinema_21, id_position_9, 'ulvxOv', 'aROMTNml', '2008-10-13', '88929513764', 'izjaslav2018@example.net', 'г-н Лукин Лаврентий Федосьевич'),
-		(id_cinema_14, id_position_2, 'lcnQKl', 'kocdstVk', '1979-07-12', '86421783557', 'izmail_2004@example.net', 'Фомина Маргарита Тимофеевна'),
-		(id_cinema_36, id_position_7, 'cyKTTU', 'zyJhxbeI', '2002-08-28', '87692118966', 'izot_1985@example.net', 'Савина Октябрина Николаевна'),
-		(id_cinema_14, id_position_6, 'KrSaId', 'yaCvRkcn', '1983-07-07', '81637212887', 'izot_2019@example.org', 'Пономарев Венедикт Давидович'),
-		(id_cinema_85, id_position_6, 'bJzIJY', 'FGkgEjys', '1985-02-10', '83619842484', 'jakubbogdanov@example.net', 'Надежда Андреевна Крылова'),
-		(id_cinema_28, id_position_5, 'NBtgTg', 'lgMfzret', '2010-01-29', '84760440497', 'jakubjakushev@example.net', 'Воронцова Алина Оскаровна'),
-		(id_cinema_92, id_position_11, 'VSBOHN', 'zlLYhyrD', '2008-01-06', '84145758873', 'jakushevavalerija@example.com', 'Назарова Валерия Владиславовна'),
-		(id_cinema_78, id_position_1, 'AutPtw', 'KaluVWrc', '1997-04-29', '84793254315', 'jaroslavbelousov@example.org', 'Юлия Харитоновна Громова'),
-		(id_cinema_35, id_position_7, 'gRCHML', 'KsNUdmUP', '2018-08-28', '86777192950', 'jbragina@example.net', 'Синклитикия Романовна Силина'),
-		(id_cinema_92, id_position_6, 'XSneWl', 'XvDKZDAF', '2020-05-05', '89348320341', 'jshcherbakov@example.org', 'Мясников Август Артёмович'),
-		(id_cinema_60, id_position_10, 'YdGQlL', 'dnvmzWEJ', '1999-01-15', '88333778412', 'juvenalizhdanov@example.net', 'Сысоева Таисия Натановна'),
-		(id_cinema_50, id_position_11, 'xFdLHV', 'QzPrkUUM', '1975-07-02', '83931967286', 'kabanovfortunat@example.com', 'Шубин Гедеон Владленович'),
-		(id_cinema_51, id_position_9, 'ZhkPgq', 'HEazQcYb', '1970-08-12', '82399937162', 'kabanovguri@example.org', 'Еремей Матвеевич Панов'),
-		(id_cinema_55, id_position_3, 'wKbizt', 'WySXkrqP', '1978-03-18', '81528377513', 'kalashnikoverast@example.com', 'Синклитикия Ждановна Бурова'),
-		(id_cinema_35, id_position_11, 'lYAjeX', 'frVzuFgC', '1973-10-14', '83908577712', 'kalashnikovrjurik@example.net', 'Максимильян Афанасьевич Савельев'),
-		(id_cinema_93, id_position_7, 'oDofJF', 'ENqeTzIn', '2010-07-20', '87703050710', 'kapitonmoiseev@example.net', 'Воронцов Мирослав Харитонович'),
-		(id_cinema_20, id_position_5, 'IaKtAy', 'FTRgXeTX', '1976-07-18', '89786195663', 'kapustinamarina@example.net', 'Макарова Елена Леоновна'),
-		(id_cinema_94, id_position_11, 'TPnIZL', 'aFuuXFry', '2020-06-26', '81804917718', 'karl_1993@example.net', 'Вышеслав Игнатьевич Лукин'),
-		(id_cinema_95, id_position_5, 'rsBhGk', 'PejZauku', '2022-09-09', '88868617410', 'karl18@example.net', 'Станислав Герасимович Ефремов'),
-		(id_cinema_77, id_position_13, 'VrkuDm', 'fgBamePD', '2001-09-21', '84360839785', 'kasjan16@example.net', 'Исакова Лора Вениаминовна'),
-		(id_cinema_7, id_position_7, 'CIrcsF', 'GKayxkbq', '2015-09-09', '83334245448', 'kazakovanatalja@example.com', 'Ковалева Феврония Эльдаровна'),
-		(id_cinema_96, id_position_12, 'MKCNwl', 'NyTWkkEh', '2012-01-15', '85365014027', 'kazimirturov@example.org', 'Новиков Стоян Гордеевич'),
-		(id_cinema_69, id_position_11, 'CjZojW', 'BZUKrLdN', '1992-09-23', '88051014439', 'kirill18@example.com', 'Евпраксия Семеновна Васильева'),
-		(id_cinema_92, id_position_3, 'owooJq', 'qzceTflC', '2018-06-01', '85763697116', 'kiselevprokofi@example.com', 'Ковалева Нина Геннадьевна'),
-		(id_cinema_25, id_position_6, 'eyJeNY', 'bWzlwMzC', '1982-03-17', '85678162593', 'klavdinikitin@example.org', 'Одинцова Раиса Ниловна'),
-		(id_cinema_74, id_position_13, 'kZeyik', 'ceukbISA', '1972-03-30', '88296550281', 'kliment1982@example.com', 'Белоусов Вадим Евстигнеевич'),
-		(id_cinema_71, id_position_12, 'grxqBu', 'EhMRTXCJ', '1986-02-27', '86541581853', 'knjazevapelageja@example.org', 'Селиверстова Регина Валентиновна'),
-		(id_cinema_81, id_position_6, 'cLQGzj', 'odJnNCjG', '1978-01-28', '81184330026', 'komarovprokofi@example.com', 'Якушева Мария Романовна'),
-		(id_cinema_1, id_position_1, 'CazfKO', 'QeGfNoVj', '2020-11-23', '87328037354', 'kononovaoktjabrina@example.com', 'Лихачев Рюрик Харитонович'),
-		(id_cinema_11, id_position_0, 'lzooex', 'ZfgclPfQ', '2001-07-30', '86944870977', 'konovalovaristarh@example.net', 'Майя Семеновна Логинова'),
-		(id_cinema_22, id_position_1, 'ZkAAdN', 'IVwFZtph', '2011-09-18', '81403053255', 'konovalovmark@example.org', 'Красильников Исай Всеволодович'),
-		(id_cinema_47, id_position_1, 'iNcyNC', 'XxcbWaWk', '1989-08-23', '87194093717', 'konstantin51@example.net', 'Федот Германович Лыткин'),
-		(id_cinema_6, id_position_5, 'tgufWB', 'xTlGkLdK', '2020-05-27', '89632521103', 'kopilovazoja@example.org', 'Лукин Силантий Харлампович'),
-		(id_cinema_52, id_position_0, 'DgxUdL', 'IkMHQmdX', '2008-03-30', '86568710060', 'kornilovaolga@example.com', 'Назарова Надежда Валериевна'),
-		(id_cinema_85, id_position_11, 'QscvxJ', 'JgVUmcfh', '1986-05-13', '82983112977', 'kornilvasilev@example.com', 'Белякова Ульяна Даниловна'),
-		(id_cinema_42, id_position_13, 'tMjJIf', 'viQGdgin', '1990-08-20', '88299516663', 'korolevaakulina@example.com', 'Мамонтов Александр Аверьянович'),
-		(id_cinema_47, id_position_0, 'GdoHeE', 'cNEojryb', '1984-08-12', '81638677726', 'koshelevmoke@example.net', 'Никанор Ефремович Игнатьев'),
-		(id_cinema_71, id_position_4, 'mqUoLE', 'gGnoQceu', '1994-04-25', '83468878872', 'kostinrodion@example.com', 'Аникей Фролович Смирнов'),
-		(id_cinema_63, id_position_9, 'SUJYUQ', 'OqrAHuuV', '1981-01-30', '86663384139', 'kovalevaaleksandra@example.org', 'Аверкий Иосипович Лапин'),
-		(id_cinema_22, id_position_0, 'AFzLSH', 'YtECYknx', '2007-06-25', '82772346500', 'kovalevazari@example.com', 'Ульян Захарьевич Блохин'),
-		(id_cinema_18, id_position_5, 'SQGvRP', 'MwRFFUZv', '2019-02-19', '84922775080', 'kozlovgerasim@example.org', 'Кошелева Милица Михайловна'),
-		(id_cinema_94, id_position_10, 'tAkIlI', 'fZxVGMLD', '2021-02-08', '81585894964', 'kudrjashovsofron@example.com', 'Артемий Филимонович Кононов'),
-		(id_cinema_33, id_position_3, 'EtXwJA', 'qgUoUxUP', '1986-05-06', '83119826329', 'kulaginanonna@example.net', 'Павел Эдгардович Буров'),
-		(id_cinema_74, id_position_1, 'jtRkzq', 'ZnBvoJum', '1985-04-25', '83250145945', 'kuprijan94@example.com', 'Рогова Дарья Геннадьевна'),
-		(id_cinema_45, id_position_9, 'PmQZrt', 'XOzjxlKG', '2009-02-08', '88479344538', 'kuzminvladimir@example.net', 'Анисимова Агата Борисовна'),
-		(id_cinema_94, id_position_2, 'GOfUZr', 'KbiATduB', '2012-03-13', '88145022967', 'kuznetsovaanna@example.net', 'Русаков Модест Адрианович'),
-		(id_cinema_2, id_position_10, 'mMkfXL', 'ohdxXjTi', '2022-04-05', '86650834619', 'kuznetsovzosima@example.com', 'Орлова Варвара Эдуардовна'),
-		(id_cinema_88, id_position_13, 'qlWMJW', 'cDVNxlQj', '2018-11-28', '83771699288', 'ladimir_67@example.net', 'Ксения Антоновна Воронова'),
-		(id_cinema_9, id_position_6, 'arktRM', 'zTdOQdXT', '2002-08-25', '85039233974', 'ladimir2001@example.net', 'Климент Аверьянович Дьячков'),
-		(id_cinema_97, id_position_9, 'Xulanq', 'DIdrntQY', '2008-05-07', '83935587260', 'larionovgremislav@example.net', 'Анастасия Альбертовна Сысоева'),
-		(id_cinema_22, id_position_10, 'SlzofK', 'HONlkNWl', '2023-08-29', '87413715684', 'larisa2013@example.net', 'Нинель Богдановна Кузнецова'),
-		(id_cinema_73, id_position_4, 'pkwVWj', 'mpZTQwcQ', '2014-07-16', '86119547052', 'lavr99@example.net', 'Мишин Изот Жоресович'),
-		(id_cinema_75, id_position_1, 'ZIbhYc', 'XZtmCKRe', '1973-11-11', '89919859399', 'lavrentevkondrat@example.com', 'Дорофей Харитонович Самойлов'),
-		(id_cinema_6, id_position_1, 'dXNPKx', 'vwHeeosy', '1979-09-25', '84181546232', 'lavrenti_63@example.com', 'Сидоров Ипатий Глебович'),
-		(id_cinema_66, id_position_0, 'KGaILw', 'QiyYfSSd', '2005-02-08', '86017868017', 'lazar69@example.com', 'Евгения Никифоровна Баранова'),
-		(id_cinema_4, id_position_8, 'UvPWMV', 'UoGjwBuN', '2006-09-19', '82222097664', 'lazarevaolimpiada@example.com', 'Громов Капитон Германович'),
-		(id_cinema_88, id_position_8, 'GZGYJG', 'ZTJNSfIt', '2022-09-01', '88486133705', 'lazarevboris@example.com', 'Валерия Оскаровна Николаева'),
-		(id_cinema_29, id_position_13, 'YiLvXq', 'gQCqHYlo', '1990-04-28', '88136382672', 'lebedevmiron@example.net', 'Любовь Егоровна Бобылева'),
-		(id_cinema_17, id_position_12, 'PhpDDF', 'jnORUExC', '2003-04-10', '87817494531', 'leon_97@example.org', 'Русаков Болеслав Тихонович'),
-		(id_cinema_78, id_position_13, 'WIpnSE', 'vcFMNRid', '1994-03-21', '87688120078', 'lidija_61@example.net', 'Борислав Феодосьевич Калинин'),
-		(id_cinema_33, id_position_5, 'tHPRUM', 'qMaKfEMX', '1998-08-27', '85243312590', 'lidija15@example.org', 'Овчинников Юлий Григорьевич'),
-		(id_cinema_35, id_position_0, 'UGplIg', 'fGMMcIxE', '1998-02-08', '88627757322', 'ljubim1970@example.org', 'Фадеева Алла Робертовна'),
-		(id_cinema_7, id_position_5, 'WulARY', 'JyVstlHs', '2010-10-07', '87430249632', 'ljubomir_75@example.com', 'Прохоров Натан Даниилович'),
-		(id_cinema_52, id_position_9, 'ZNKEyG', 'JKzapXyV', '1974-10-04', '86941644057', 'ljubov_07@example.org', 'Александр Всеволодович Назаров'),
-		(id_cinema_36, id_position_9, 'TrvEzb', 'rzVKoiXS', '1977-10-10', '87257007492', 'ljudmila_37@example.org', 'Натан Евсеевич Григорьев'),
-		(id_cinema_65, id_position_1, 'tzXTtT', 'hwhCtuxf', '1982-01-26', '82711800276', 'lkorolev@example.com', 'Сафонов Амос Харлампьевич'),
-		(id_cinema_57, id_position_7, 'KsHpqu', 'OXygFVoJ', '2004-08-13', '87036054663', 'lnikiforov@example.org', 'Мстислав Евсеевич Поляков'),
-		(id_cinema_70, id_position_9, 'DfTKiT', 'lVPRFiyy', '2000-03-06', '88370738432', 'lukija_2022@example.com', 'г-жа Игнатьева Светлана Макаровна'),
-		(id_cinema_98, id_position_11, 'rwuAWJ', 'BHgKWzly', '2010-03-24', '89823561409', 'lukinmodest@example.org', 'Кошелева Виктория Борисовна'),
-		(id_cinema_24, id_position_5, 'QGSqGF', 'bkqwRDXo', '1971-08-13', '86819673328', 'maja_2020@example.net', 'Нестерова Нонна Макаровна'),
-		(id_cinema_3, id_position_4, 'DapQDL', 'SABkXkUV', '1995-03-30', '81440456485', 'maja90@example.net', 'Жданов Богдан Ярославович'),
-		(id_cinema_27, id_position_13, 'RWWgfm', 'QMUQrYeo', '1989-09-01', '84534747633', 'makarovguri@example.org', 'Дьячков Иосиф Димитриевич'),
-		(id_cinema_4, id_position_3, 'iLrXZw', 'UvhvzBaW', '1977-08-13', '82955277451', 'maksimiljan52@example.net', 'Абрамов Арсений Архипович'),
-		(id_cinema_61, id_position_9, 'DFEHzi', 'VokqWEjr', '1988-07-20', '81436543827', 'mamontovamargarita@example.org', 'Рогова Наина Андреевна'),
-		(id_cinema_27, id_position_1, 'aVuhSQ', 'lhJrREHT', '1988-10-30', '82801627835', 'marianvorontsov@example.org', 'Лукина Фаина Вениаминовна'),
-		(id_cinema_94, id_position_10, 'ZNudKq', 'crrWJfqj', '2006-09-20', '88844706016', 'marija05@example.org', 'Третьякова Елена Яковлевна'),
-		(id_cinema_31, id_position_2, 'XZPyEG', 'CSjXYRMk', '2020-11-05', '85954264493', 'marina69@example.com', 'Ия Степановна Степанова'),
-		(id_cinema_98, id_position_12, 'dAhXAP', 'ATvyrLQU', '2001-03-13', '82073629726', 'markfedorov@example.org', 'Платон Филимонович Субботин'),
-		(id_cinema_54, id_position_8, 'CuETKV', 'UFrmdzhy', '1981-02-20', '86538061850', 'markovaleksandr@example.com', 'Горбунов Корнил Измаилович'),
-		(id_cinema_95, id_position_9, 'hETJau', 'VyTtqyUK', '1972-07-07', '84740892767', 'maslovaglafira@example.com', 'Русаков Карп Тихонович'),
-		(id_cinema_73, id_position_0, 'qaAWTH', 'VxEYgHEF', '2003-11-10', '88871691233', 'maslovfilimon@example.org', 'Панфил Гавриилович Панов'),
-		(id_cinema_11, id_position_4, 'Wfukxg', 'HDIWvXrD', '1997-07-14', '88476800556', 'matve_28@example.net', 'Носов Митофан Изотович'),
-		(id_cinema_24, id_position_10, 'aKhIia', 'tunHRRWM', '1992-01-19', '83115998741', 'matveevaveronika@example.net', 'Агафонова Марфа Петровна'),
-		(id_cinema_15, id_position_13, 'UZEkCj', 'ZGcsCyvN', '1979-01-28', '82336146404', 'matveevserafim@example.com', 'Орлов Ульян Еремеевич'),
-		(id_cinema_58, id_position_1, 'iQComK', 'UwPXYNPf', '2006-10-22', '88039407101', 'mechislavkazakov@example.net', 'Вероника Артемовна Маслова'),
-		(id_cinema_6, id_position_3, 'kymGCw', 'HJoKhDQm', '1993-08-07', '81155852450', 'mefodi1997@example.com', 'Дорофеева Елизавета Романовна'),
-		(id_cinema_31, id_position_7, 'tWVgOJ', 'WdXuWuSf', '1975-10-23', '88081795412', 'mihe_2001@example.net', 'Клавдия Федоровна Белякова'),
-		(id_cinema_41, id_position_3, 'HhJgVx', 'nQMtisiB', '1990-08-17', '86571171809', 'miheevapelageja@example.org', 'Пономарев Ладимир Дорофеевич'),
-		(id_cinema_65, id_position_10, 'nCYvRs', 'KqhUNcAh', '2020-04-14', '82343572487', 'milendavidov@example.com', 'Эмилия Егоровна Прохорова'),
-		(id_cinema_28, id_position_10, 'DvOvkz', 'KJEonyJQ', '2019-02-08', '82180672522', 'milikuznetsov@example.com', 'Беляева Марфа Дмитриевна'),
-		(id_cinema_53, id_position_0, 'fKxnDl', 'XmjXGXMk', '1991-05-09', '84918800585', 'militsa88@example.net', 'Виктория Макаровна Воронова'),
-		(id_cinema_51, id_position_11, 'WBQGBT', 'mZKiumck', '2021-06-23', '85229777024', 'mironovevgeni@example.net', 'Дарья Эдуардовна Горбачева'),
-		(id_cinema_6, id_position_0, 'DuZwkO', 'FfEbNhsb', '1973-10-30', '81487319164', 'miroslavbogdanov@example.net', 'Каллистрат Феликсович Исаев'),
-		(id_cinema_88, id_position_6, 'QXHbCi', 'vQQIswvd', '2011-09-14', '84535237094', 'mishinanike@example.net', 'Фёкла Леонидовна Комарова'),
-		(id_cinema_56, id_position_8, 'QxWKZw', 'ZgITRVRJ', '2017-07-31', '86333319556', 'mishinanonna@example.com', 'Некрасова Таисия Юльевна'),
-		(id_cinema_96, id_position_13, 'ekSCLE', 'eblXtBhL', '2008-03-12', '83574114219', 'mkomarova@example.net', 'Владимиров Милен Фролович'),
-		(id_cinema_77, id_position_11, 'IYMaWA', 'xinXRKJU', '1983-01-08', '88387196528', 'mnikiforova@example.net', 'Сысоев Селиверст Ефремович'),
-		(id_cinema_7, id_position_5, 'VNJEqM', 'LDEBZyNz', '1989-06-20', '82615344622', 'modest_20@example.org', 'Смирнова Евдокия Вениаминовна'),
-		(id_cinema_54, id_position_12, 'sUvjno', 'uxeXBwuD', '2002-05-09', '82141067752', 'moise_96@example.net', 'Артем Виленович Кулагин'),
-		(id_cinema_56, id_position_5, 'xASDGh', 'iPMnaYXR', '1997-01-08', '83966944845', 'moiseevevstigne@example.com', 'Сазонов Пров Владиславович'),
-		(id_cinema_81, id_position_6, 'gDcJdp', 'JTRmMUxQ', '1981-10-17', '81448146286', 'moke_1972@example.org', 'Самсонова Вера Аркадьевна'),
-		(id_cinema_76, id_position_7, 'icWsHi', 'kfTkNVhF', '1992-10-12', '83959857128', 'morozovagafon@example.org', 'Исаков Арсений Эдуардович'),
-		(id_cinema_80, id_position_7, 'sHvBTE', 'IqxseNcJ', '2014-02-21', '81778945016', 'morozovapelageja@example.net', 'Алла Николаевна Мамонтова'),
-		(id_cinema_77, id_position_0, 'PeBjfm', 'LhlKIEuq', '1987-08-18', '81144545025', 'morozovselivan@example.com', 'Емельянов Фадей Исидорович'),
-		(id_cinema_57, id_position_11, 'EkeceV', 'lbOIiWKy', '1990-03-08', '84637494369', 'mstislav_1983@example.net', 'г-н Игнатов Феофан Харлампович'),
-		(id_cinema_60, id_position_6, 'lMvxYX', 'zgJukGYm', '2010-06-10', '82872505800', 'muhinerofe@example.net', 'Вячеслав Артурович Калашников'),
-		(id_cinema_35, id_position_1, 'RGTkGa', 'hMGOrNHa', '1984-03-02', '88762856565', 'muhingennadi@example.org', 'Твердислав Давыдович Лазарев'),
-		(id_cinema_64, id_position_6, 'hKrYJh', 'LnuFnFtO', '2022-01-04', '86395141376', 'muravevmina@example.org', 'Михайлова Ульяна Степановна'),
-		(id_cinema_91, id_position_13, 'UaEplT', 'VCcKTfdc', '1972-04-16', '89209203980', 'nadezhda_1997@example.com', 'Лонгин Владиленович Лаврентьев'),
-		(id_cinema_23, id_position_11, 'pvSoBD', 'IetLsojH', '1994-08-14', '82923512303', 'natalja_2017@example.org', 'Орлов Евстафий Гаврилович'),
-		(id_cinema_39, id_position_8, 'tcHFAZ', 'jjerDSFq', '1994-03-17', '85865431648', 'natan1997@example.com', 'Остап Аксёнович Жданов'),
-		(id_cinema_25, id_position_10, 'JHFbxI', 'uOevyrQf', '2013-02-21', '86713590224', 'naum1984@example.net', 'Тарасов Ермолай Бориславович'),
-		(id_cinema_99, id_position_3, 'OEASum', 'XtJAurox', '1977-05-22', '81695975475', 'naum87@example.org', 'Боброва Милица Антоновна'),
-		(id_cinema_19, id_position_11, 'LBMqPB', 'ajGhBCcZ', '1972-11-08', '86111126140', 'naumovradislav@example.com', 'Котова Агата Леонидовна'),
-		(id_cinema_64, id_position_12, 'zprjjx', 'YEMRMDWG', '1996-10-09', '88519219049', 'nesterovaantonina@example.org', 'Князев Ульян Авдеевич'),
-		(id_cinema_89, id_position_12, 'dNHQiU', 'OsmOOQiC', '1998-04-07', '82824267784', 'nifontmamontov@example.org', 'Екатерина Харитоновна Ермакова'),
-		(id_cinema_56, id_position_11, 'dWZxMJ', 'sukzTGUa', '1983-07-01', '83917571657', 'nikandr_2013@example.org', 'Любовь Святославовна Карпова'),
-		(id_cinema_94, id_position_3, 'rKpkzy', 'XnaIfxxF', '1971-05-14', '85609509437', 'nikifor11@example.com', 'Савватий Антипович Лапин'),
-		(id_cinema_70, id_position_13, 'MRrFVd', 'KBGTYcmf', '1972-08-11', '85766129173', 'nikitinanina@example.net', 'Дарья Тарасовна Захарова'),
-		(id_cinema_66, id_position_7, 'vqetae', 'MdJVFUSc', '1980-02-29', '86289495678', 'nikola_59@example.com', 'Евдоким Харитонович Богданов'),
-		(id_cinema_38, id_position_1, 'craplu', 'oHHgNBCN', '1988-06-12', '88223327493', 'nikola2002@example.net', 'Борисова Ксения Вадимовна'),
-		(id_cinema_68, id_position_11, 'bqGJLJ', 'QOUofXVP', '1979-04-19', '83396781659', 'nikon1996@example.org', 'Наталья Богдановна Богданова'),
-		(id_cinema_80, id_position_0, 'JgvppO', 'bqsTdCtU', '1996-08-11', '83907048984', 'nina_04@example.net', 'Капустин Николай Эдгардович'),
-		(id_cinema_32, id_position_0, 'RoYPdj', 'ZjFeWDfP', '1973-01-10', '88386962334', 'nina_1992@example.org', 'Евдокимов Архип Андреевич'),
-		(id_cinema_72, id_position_9, 'dYwbIF', 'hGWkjmGq', '2015-09-09', '82354417757', 'ninel71@example.com', 'Сорокина Фаина Юльевна'),
-		(id_cinema_70, id_position_4, 'czEeuq', 'wixnegQJ', '1999-08-12', '89345005874', 'nosovajulija@example.org', 'Константинова Людмила Леоновна'),
-		(id_cinema_79, id_position_7, 'wWVjeH', 'TOrgJvlm', '2022-10-02', '85399798727', 'nvorontsova@example.net', 'Ефимова Синклитикия Леонидовна'),
-		(id_cinema_27, id_position_9, 'SpGrJa', 'JltSgmmY', '2019-09-14', '84020589835', 'ofedotov@example.org', 'Молчанов Викторин Антонович'),
-		(id_cinema_89, id_position_3, 'xBEsdR', 'kTPJPbEv', '1976-02-13', '84030902477', 'oksana_2009@example.com', 'Носова Лора Феликсовна'),
-		(id_cinema_78, id_position_7, 'UZdnxJ', 'sdfJJaxq', '1989-01-07', '81382735759', 'olegnovikov@example.net', 'Максимов Лаврентий Богданович'),
-		(id_cinema_83, id_position_7, 'gmAlsF', 'pWyfKxBn', '2018-12-23', '87755598012', 'olimpi15@example.net', 'Кузьмина Анжела Олеговна'),
-		(id_cinema_96, id_position_5, 'FUgnSf', 'kTxXjmgr', '1985-07-20', '85815316085', 'olimpiada1981@example.com', 'Фаина Кузьминична Гаврилова'),
-		(id_cinema_99, id_position_6, 'LYzekW', 'iXiwlaWC', '1972-07-24', '89568105786', 'onikiforova@example.com', 'Исаков Лев Гертрудович'),
-		(id_cinema_82, id_position_11, 'sjsWft', 'sPiQeYHj', '2004-03-26', '84202634265', 'onufri_1973@example.com', 'Фаина Болеславовна Сафонова'),
-		(id_cinema_47, id_position_12, 'APOKoD', 'KZFSQuKF', '2011-01-25', '85514084761', 'orehovsvetozar@example.org', 'Доронина Ия Максимовна'),
-		(id_cinema_72, id_position_6, 'MqEptn', 'JgdgEYOv', '1974-04-24', '86689004628', 'orest1971@example.org', 'Марфа Олеговна Воронова'),
-		(id_cinema_84, id_position_2, 'KugtIW', 'ryfwGsYr', '2000-04-10', '81863398355', 'orestlarionov@example.net', 'Колобова Елена Семеновна'),
-		(id_cinema_87, id_position_13, 'axeOuB', 'XEtSpzpc', '2001-07-31', '85866518439', 'orlovakira@example.com', 'Афиноген Всеволодович Селезнев'),
-		(id_cinema_62, id_position_6, 'Zeqkll', 'FTVQntzp', '2012-03-01', '81760447551', 'oshilova@example.com', 'Жанна Игоревна Семенова'),
-		(id_cinema_3, id_position_7, 'rBgGmx', 'eZNbltbP', '1983-03-02', '86583366122', 'osipovisa@example.com', 'Элеонора Даниловна Симонова'),
-		(id_cinema_90, id_position_12, 'KOvIlO', 'wqtqFUrs', '2020-07-24', '85862862316', 'osoboleva@example.com', 'Капустина Лариса Васильевна'),
-		(id_cinema_50, id_position_10, 'dKphwn', 'cIMEIVjv', '1973-04-10', '81746606096', 'ovchinnikovanatalja@example.com', 'Попов Данила Ярославович'),
-		(id_cinema_87, id_position_4, 'neayxf', 'hyFTxtkI', '1994-11-05', '81464367080', 'pahomovaangelina@example.net', 'Павлова Ираида Григорьевна'),
-		(id_cinema_97, id_position_7, 'sJqgJr', 'duyQVtmm', '2023-05-22', '86920714621', 'pahomovipati@example.com', 'Пахомова Марина Ниловна'),
-		(id_cinema_98, id_position_1, 'GZkKzw', 'YOTSfQBz', '2003-12-06', '84559230875', 'pahomovmefodi@example.com', 'Жанна Матвеевна Степанова'),
-		(id_cinema_49, id_position_7, 'UhqPxp', 'JtcKtcXL', '1996-11-20', '84337362115', 'panfilovdobroslav@example.com', 'Филатов Фадей Димитриевич'),
-		(id_cinema_57, id_position_5, 'TidaXv', 'lNmKTaQv', '2011-12-13', '87856982374', 'panovaanzhelika@example.com', 'Морозов Аверьян Харламович'),
-		(id_cinema_77, id_position_13, 'THRxji', 'qmZsldpc', '1999-08-08', '81697953463', 'paramon_2012@example.com', 'Денис Бенедиктович Сидоров'),
-		(id_cinema_30, id_position_3, 'ndIGjT', 'SPpOGZEu', '1985-02-27', '81533534891', 'paramon_2018@example.net', 'Олимпиада Дмитриевна Крюкова'),
-		(id_cinema_79, id_position_7, 'zvvQZP', 'lIeMPSdK', '1985-02-12', '83830406975', 'parfen2007@example.net', 'Жанна Архиповна Тарасова'),
-		(id_cinema_88, id_position_11, 'zApfWY', 'MXoNhWxM', '1994-10-05', '84927803180', 'pavlovfeoktist@example.com', 'Элеонора Владиславовна Костина'),
-		(id_cinema_95, id_position_3, 'jfsBCi', 'chNwJABU', '2017-05-01', '81343225742', 'petr_1971@example.net', 'Мамонтова Фёкла Федоровна'),
-		(id_cinema_43, id_position_9, 'rfKktI', 'pbTdndyO', '1995-07-01', '89684745419', 'petr_68@example.net', 'Людмила Валентиновна Афанасьева'),
-		(id_cinema_45, id_position_13, 'JyodBK', 'xWeVlyPC', '1972-08-25', '84958667965', 'petr_81@example.com', 'Шаров Боян Федосьевич'),
-		(id_cinema_13, id_position_2, 'CuiwpH', 'TRUaFmro', '2016-06-07', '88821597398', 'petuhovgeorgi@example.com', 'Бобров Иосиф Гертрудович'),
-		(id_cinema_25, id_position_2, 'qPKjXB', 'bYJxrKqP', '1990-12-30', '87878714325', 'platon2006@example.org', 'Мельникова Валентина Станиславовна'),
-		(id_cinema_46, id_position_5, 'fGdKGA', 'CjLKQNlb', '1997-07-11', '88955492112', 'polina1999@example.com', 'Соболев Спиридон Ермилович'),
-		(id_cinema_37, id_position_12, 'cxdzbK', 'WltGlBXx', '1999-07-08', '88937845166', 'porfiri_80@example.org', 'Медведев Мариан Артурович'),
-		(id_cinema_61, id_position_13, 'BQxyAw', 'WNCjfTcc', '2001-03-30', '84721741312', 'porfirikulakov@example.org', 'Мокей Анатольевич Александров'),
-		(id_cinema_12, id_position_6, 'ROBCIf', 'BzpZNKde', '2017-07-23', '82697456114', 'prohor2010@example.org', 'Екатерина Захаровна Федорова'),
-		(id_cinema_79, id_position_1, 'fqJptP', 'nXmTQyPZ', '1973-09-11', '86651660615', 'prohorovaanastasija@example.com', 'Наина Павловна Богданова'),
-		(id_cinema_62, id_position_3, 'rGdUUK', 'AnQJfcch', '2009-07-23', '87144161857', 'prokl_61@example.com', 'Филиппов Казимир Филимонович'),
-		(id_cinema_26, id_position_10, 'amYRel', 'JjRuPrsH', '2002-06-25', '89964137143', 'prokofi2019@example.net', 'Романов Ювеналий Архипович'),
-		(id_cinema_2, id_position_8, 'Ztcdrz', 'HSUoreqc', '1999-06-19', '85729764442', 'psemenova@example.com', 'Майя Альбертовна Зимина'),
-		(id_cinema_5, id_position_11, 'oycEoO', 'SvlRkTtN', '2000-05-04', '86092094918', 'qignatov@example.net', 'Ратибор Фадеевич Миронов'),
-		(id_cinema_5, id_position_0, 'TMBxDb', 'ESRvTubR', '2018-04-02', '85040857796', 'qpestova@example.org', 'Нестерова Лариса Харитоновна'),
-		(id_cinema_86, id_position_8, 'lsQKAd', 'sdWJVYBt', '1991-11-26', '87450528099', 'radislav_1984@example.net', 'Валентин Валерьевич Котов'),
-		(id_cinema_36, id_position_5, 'vSVgrk', 'dhHQIjUV', '1995-06-26', '83740387934', 'radovan_05@example.org', 'г-н Кузьмин Лев Эдгарович'),
-		(id_cinema_89, id_position_5, 'dwlwzj', 'BqsyScvk', '1983-03-28', '89309123461', 'raisa45@example.net', 'Раиса Рудольфовна Стрелкова'),
-		(id_cinema_98, id_position_6, 'DBXmkz', 'vKTXHkck', '1998-06-10', '82682873019', 'ratiborgavrilov@example.net', 'Арефий Ильич Денисов'),
-		(id_cinema_44, id_position_10, 'NhcELw', 'xeNTpWlv', '2012-02-09', '82289290133', 'remeljanova@example.net', 'Модест Измаилович Шестаков'),
-		(id_cinema_48, id_position_3, 'qKioeR', 'bPPmnmQM', '1982-06-23', '84692734604', 'rguljaeva@example.com', 'Беляева Кира Альбертовна'),
-		(id_cinema_61, id_position_5, 'EQDsyY', 'SpAjcdII', '1970-05-18', '86603399438', 'ribakovfoka@example.com', 'Данила Гертрудович Рябов'),
-		(id_cinema_90, id_position_2, 'RaHzCr', 'kwXXNzmA', '1997-06-20', '81658269218', 'ribakovkallistrat@example.net', 'Маслов Венедикт Аксёнович'),
-		(id_cinema_93, id_position_3, 'IGVNJb', 'xGGwtbqQ', '1993-06-16', '86989526367', 'ribakovsvjatopolk@example.net', 'Тетерина Дарья Николаевна'),
-		(id_cinema_96, id_position_2, 'WcQaxW', 'bbiGZOgO', '1984-07-04', '81812235048', 'rjurik_1991@example.org', 'Ермакова Ксения Вячеславовна'),
-		(id_cinema_79, id_position_1, 'PupktY', 'BdECzpHS', '2002-07-21', '83602219848', 'rkrasilnikov@example.org', 'Адам Ильич Тарасов'),
-		(id_cinema_17, id_position_9, 'HlSSfs', 'sSMiwgWS', '1979-06-09', '88098499795', 'rmuhina@example.net', 'Рябова Ульяна Дмитриевна'),
-		(id_cinema_37, id_position_7, 'UXzusp', 'yRKCEibx', '1981-09-17', '82281700636', 'rodion_1991@example.com', 'Медведева Елизавета Олеговна'),
-		(id_cinema_84, id_position_12, 'VqDgLi', 'uJKaXFHe', '2009-06-10', '87070898897', 'rodionovmoise@example.net', 'Терентьев Афиноген Власович'),
-		(id_cinema_97, id_position_7, 'aiqUlt', 'PssYLOAD', '2006-12-15', '89158130654', 'rostislav_02@example.net', 'Дмитриев Исай Гавриилович'),
-		(id_cinema_53, id_position_12, 'aFBELZ', 'JuoqhnPX', '1989-03-12', '85453065560', 'rostislav_87@example.net', 'Макар Теймуразович Селиверстов'),
-		(id_cinema_84, id_position_12, 'xdKYNc', 'qCfuPNvS', '1988-03-31', '86373780606', 'rshilov@example.net', 'Ситникова Евфросиния Геннадьевна'),
-		(id_cinema_62, id_position_1, 'geKfFy', 'qVOzzvzp', '1982-08-27', '89046008478', 'ruben_24@example.com', 'Исаков Аполлинарий Гордеевич'),
-		(id_cinema_74, id_position_3, 'XgaAEH', 'bvrofkIc', '2011-11-29', '84778594415', 'samolovaljubov@example.com', 'Евдокимов Феофан Виленович'),
-		(id_cinema_75, id_position_9, 'BHtvuV', 'XShQIujb', '1976-08-19', '82077949479', 'samsonvolkov@example.org', 'Морозова Елена Владимировна'),
-		(id_cinema_53, id_position_11, 'gkwjpm', 'WTeBAgPB', '1973-05-28', '84943774241', 'savinilja@example.org', 'Осипова Пелагея Андреевна'),
-		(id_cinema_30, id_position_13, 'bJrGbL', 'sQPLOEpJ', '2012-09-27', '89182821266', 'savva68@example.com', 'Филатова Эмилия Ивановна'),
-		(id_cinema_86, id_position_2, 'AWulvS', 'THiououh', '2008-11-22', '83411810612', 'savvati_2009@example.net', 'Жанна Феликсовна Петухова'),
-		(id_cinema_26, id_position_9, 'qzlWNV', 'DAlhszFV', '2022-01-14', '84643350991', 'sazonovgleb@example.org', 'Осипов Парфен Валерьевич'),
-		(id_cinema_68, id_position_12, 'IBymth', 'TNrSmFnS', '1970-05-12', '83871351927', 'seleznevaevgenija@example.org', 'Блохина Юлия Вячеславовна'),
-		(id_cinema_34, id_position_11, 'uImLmK', 'BAJQkxDZ', '1973-07-11', '88032607784', 'selivan1996@example.com', 'Хохлова Полина Валериевна'),
-		(id_cinema_93, id_position_6, 'Jdruzk', 'pbrVpMrD', '1977-08-25', '88535255879', 'selivanburov@example.com', 'Пахомова Иванна Геннадьевна'),
-		(id_cinema_95, id_position_0, 'ydZMYg', 'nbtNHwuu', '1981-02-02', '81384221281', 'semenodintsov@example.org', 'Беляева Зоя Руслановна'),
-		(id_cinema_90, id_position_4, 'bLNEwD', 'jOVSFhhF', '1997-02-09', '85325014926', 'semenovmilovan@example.net', 'Потапов Модест Терентьевич'),
-		(id_cinema_18, id_position_1, 'AFXCTh', 'GLIZJBMK', '2017-04-19', '81245511192', 'semenovstanislav@example.org', 'Ярослав Владленович Денисов'),
-		(id_cinema_24, id_position_9, 'IjMEBV', 'MPGlMmZP', '1975-11-30', '86582629658', 'semenovvaleri@example.net', 'Лобанов Ладислав Димитриевич'),
-		(id_cinema_97, id_position_3, 'nzNmUL', 'YVRrWPhf', '1995-02-03', '85024041621', 'serafim_1999@example.org', 'Зыков Лонгин Игнатович'),
-		(id_cinema_39, id_position_11, 'YFuWJx', 'oVeqllKV', '1987-09-06', '89908625686', 'sergeevaverjan@example.net', 'Кондратий Матвеевич Веселов'),
-		(id_cinema_30, id_position_4, 'iOLWEf', 'Fanbqgcv', '1981-11-05', '83021047562', 'sergepanfilov@example.com', 'Болеслав Алексеевич Шестаков'),
-		(id_cinema_71, id_position_8, 'rFPaso', 'YAiebkQQ', '1980-06-01', '87348949398', 'sevastjan90@example.org', 'Зинаида Харитоновна Уварова'),
-		(id_cinema_93, id_position_5, 'PnaJXk', 'YBEAjZkv', '1987-04-29', '83873460974', 'sevseeva@example.com', 'Ильина Лора Константиновна'),
-		(id_cinema_39, id_position_2, 'wTudaP', 'bUOphkbm', '1980-04-17', '83445818806', 'shestakovaivanna@example.com', 'Лариса Андреевна Коновалова'),
-		(id_cinema_3, id_position_8, 'ehpjkQ', 'ymfWIXGf', '1992-06-13', '87197251791', 'sidor_36@example.net', 'Павлова Ираида Васильевна'),
-		(id_cinema_86, id_position_7, 'JPQBRS', 'exgSINWu', '2004-12-12', '84433696224', 'sidorovalarisa@example.com', 'Антонова Зоя Руслановна'),
-		(id_cinema_97, id_position_0, 'RvXJAX', 'qjZTdXPN', '2009-03-25', '86422305223', 'sidorovavasilisa@example.net', 'Агафья Ждановна Гуляева'),
-		(id_cinema_9, id_position_2, 'KnsWtM', 'nGpFdbye', '1976-10-09', '85745077686', 'sidorovavasilisa2@example.net', 'Лукьян Давидович Панов'),
-		(id_cinema_1, id_position_11, 'gkBbuk', 'QWHfPFTe', '2017-02-07', '86354061546', 'sidorovevstafi@example.net', 'Евфросиния Рубеновна Нестерова'),
-		(id_cinema_69, id_position_13, 'glIVxo', 'uskjrcaK', '2011-09-07', '82498485361', 'sidorovroman@example.net', 'Севастьян Ааронович Ефимов'),
-		(id_cinema_87, id_position_3, 'sXcaOu', 'bcrkArix', '2012-09-17', '81506770558', 'silanti_82@example.net', 'Леон Тихонович Сысоев'),
-		(id_cinema_15, id_position_0, 'qQafHs', 'LwGfqWPA', '2018-06-03', '89943795224', 'silvestr_33@example.org', 'Комаров Азарий Георгиевич'),
-		(id_cinema_54, id_position_4, 'xBZOFA', 'cqZZTWIY', '1971-07-14', '85807215476', 'simon71@example.net', 'Милица Степановна Красильникова'),
-		(id_cinema_63, id_position_13, 'XMNFbC', 'BljrPool', '1973-10-02', '86462213824', 'simonovamarfa@example.com', 'Ефимова Синклитикия Наумовна'),
-		(id_cinema_27, id_position_1, 'LHeRNM', 'uhgwyjYm', '1996-03-07', '89110509906', 'simonovkuzma@example.net', 'Гордей Антонович Власов'),
-		(id_cinema_9, id_position_1, 'LBexGw', 'fqPrEEeI', '2014-06-11', '84921864053', 'sinklitikija1984@example.org', 'Константинов Пантелеймон Бориславович'),
-		(id_cinema_73, id_position_7, 'pCuksD', 'aezZOAQz', '2014-01-26', '87768659929', 'sisoevaverki@example.com', 'Ратмир Антонович Денисов'),
-		(id_cinema_84, id_position_8, 'mxiUpo', 'CBpAmOQz', '2005-06-09', '87311924488', 'sisoevelise@example.org', 'Аникей Александрович Степанов'),
-		(id_cinema_23, id_position_13, 'rlZzUc', 'TreJiHAl', '2014-09-28', '83002861397', 'sitnikovvisheslav@example.net', 'Ирина Федоровна Богданова'),
-		(id_cinema_69, id_position_7, 'CpLuof', 'oTAsRvgl', '1997-08-24', '85270826212', 'snosova@example.org', 'Филиппова Алина Павловна'),
-		(id_cinema_52, id_position_4, 'lloIIz', 'dOeaiFuY', '2013-12-14', '87054752341', 'sobolevkapiton@example.com', 'Митофан Феодосьевич Гущин'),
-		(id_cinema_92, id_position_5, 'JkKbAY', 'QyqpFvhP', '1995-10-15', '84706976444', 'sokolovaivanna@example.org', 'Большакова Полина Ефимовна'),
-		(id_cinema_36, id_position_1, 'NGxnUT', 'jWSVPZwd', '1980-06-10', '89239241843', 'sokolovvitali@example.net', 'Сергеев Милан Ефстафьевич'),
-		(id_cinema_58, id_position_9, 'dMWrni', 'kkaCyGAi', '2020-08-22', '87256043120', 'solomon_1985@example.org', 'Василий Александрович Евсеев'),
-		(id_cinema_63, id_position_8, 'bzUouM', 'LamXaDQQ', '2002-01-08', '89841910786', 'sorokinaantonina@example.net', 'Шашкова Дарья Захаровна'),
-		(id_cinema_83, id_position_3, 'epuWsu', 'eLBcDGkB', '1974-03-11', '82616488516', 'spartakdanilov@example.org', 'Силина Александра Богдановна'),
-		(id_cinema_86, id_position_12, 'rwuEFa', 'ZcPnUOnr', '1972-09-18', '82943382742', 'spiridonlobanov@example.com', 'Лихачев Ефим Харлампович'),
-		(id_cinema_92, id_position_4, 'cmKHBV', 'ovRSgMXj', '1997-01-03', '86466270595', 'stanimir04@example.org', 'Синклитикия Вениаминовна Степанова'),
-		(id_cinema_29, id_position_12, 'lnCliT', 'fQocXrKp', '2000-04-24', '85870447994', 'stanimirstepanov@example.org', 'Цветкова Вера Даниловна'),
-		(id_cinema_28, id_position_7, 'tdIxam', 'nXHmlGUK', '1999-03-01', '84781178458', 'stojan_30@example.org', 'Валерия Эльдаровна Зиновьева'),
-		(id_cinema_46, id_position_5, 'OjeaSj', 'iOuPMFPF', '1996-01-01', '87071025356', 'suhanovatatjana@example.net', 'Ксения Игоревна Медведева'),
-		(id_cinema_59, id_position_4, 'LQZHBm', 'gNNHmlAf', '1977-01-23', '83174553308', 'suhanovdemid@example.org', 'Лидия Архиповна Сергеева'),
-		(id_cinema_91, id_position_7, 'MiDzeC', 'kdpMXXRW', '1984-03-17', '86947731033', 'suhanovnatan@example.org', 'Миронов Прокл Всеволодович'),
-		(id_cinema_10, id_position_3, 'tYDuSL', 'rcLlTIsV', '1985-06-24', '87150876881', 'suvorovamilitsa@example.org', 'Клавдия Леоновна Тетерина'),
-		(id_cinema_85, id_position_3, 'sTaKvg', 'hGDiXLvH', '1986-01-08', '83994579386', 'suvorovmark@example.net', 'Лидия Кузьминична Тарасова'),
-		(id_cinema_95, id_position_4, 'eJQPSz', 'yCBgXUdo', '1971-10-24', '86389053437', 'svetlana_1972@example.org', 'Клавдия Евгеньевна Мухина'),
-		(id_cinema_98, id_position_12, 'ALjFLO', 'kKnkJJSD', '2012-08-30', '88887344751', 'svetlana_1986@example.com', 'Одинцов Савватий Исидорович'),
-		(id_cinema_2, id_position_2, 'VbLFRV', 'ItREtXps', '2006-02-20', '82536326278', 'svjatopolk1997@example.org', 'Симонов Феоктист Дмитриевич'),
-		(id_cinema_99, id_position_5, 'ocNrGz', 'pbaGlMBL', '2020-10-02', '85587001122', 'svjatoslav_64@example.com', 'Рябова Валентина Георгиевна'),
-		(id_cinema_42, id_position_1, 'eSGPbq', 'kXbGSeXw', '1993-07-20', '82556327866', 'svjatoslavdorofeev@example.org', 'Баранова Майя Егоровна'),
-		(id_cinema_48, id_position_11, 'iNEdUi', 'tbDsNBSD', '1985-06-09', '81728275792', 'taras_2011@example.net', 'Галина Макаровна Кулакова'),
-		(id_cinema_40, id_position_7, 'vEpzTf', 'zvMkkqZJ', '2011-04-11', '83139906183', 'terenti_2021@example.net', 'Ростислав Демидович Одинцов'),
-		(id_cinema_12, id_position_0, 'VnanBX', 'kQedzrpO', '1992-06-03', '83783555041', 'timurseleznev@example.net', 'Рябова Маргарита Сергеевна'),
-		(id_cinema_90, id_position_10, 'kGAzUJ', 'XjLuGDwS', '2004-02-06', '82404185984', 'trifon1971@example.com', 'Шашков Михаил Витальевич'),
-		(id_cinema_16, id_position_1, 'IgkHYi', 'fTxVbYzk', '2002-10-05', '89562775045', 'trofimovajulija@example.org', 'Елизавета Феликсовна Носова'),
-		(id_cinema_76, id_position_7, 'gVDLgl', 'zxhvoFMK', '1983-09-10', '87947134923', 'trofimovleon@example.net', 'Суворов Адриан Тарасович'),
-		(id_cinema_5, id_position_4, 'FOXuwK', 'bzbPWAaz', '1991-02-04', '82372558434', 'tsvetkovasinklitikija@example.net', 'Нинель Архиповна Егорова'),
-		(id_cinema_16, id_position_7, 'hIqaEh', 'rcjcrxWR', '2005-06-12', '89035890909', 'turovjakov@example.org', 'Петухова Антонина Васильевна'),
-		(id_cinema_49, id_position_9, 'gSDDdi', 'RgeoQLdD', '1990-07-20', '85421495137', 'turovsvjatopolk@example.net', 'Федосеев Устин Дмитриевич'),
-		(id_cinema_50, id_position_8, 'diTjqF', 'UhvMVHrZ', '2000-04-12', '88701211346', 'tvorimir_1992@example.net', 'Никифоров Амос Гордеевич'),
-		(id_cinema_19, id_position_9, 'TpqIsM', 'sjDFlZIW', '1984-09-10', '81772104110', 'tvorimir2002@example.org', 'Козлова Варвара Рудольфовна'),
-		(id_cinema_10, id_position_10, 'GZjyrW', 'BNrenLiF', '1979-04-07', '81789514908', 'uermakov@example.org', 'Варвара Георгиевна Калинина'),
-		(id_cinema_83, id_position_12, 'qUFVRT', 'FILPCKQm', '2020-02-16', '84159746823', 'ufedotova@example.com', 'Георгий Богданович Стрелков'),
-		(id_cinema_29, id_position_10, 'tvkrFn', 'yeXrKXgt', '2020-06-17', '82674041427', 'uguseva@example.org', 'Сазонов Николай Архипович'),
-		(id_cinema_89, id_position_5, 'EMCIST', 'nTKDWTmp', '2007-10-30', '84375048350', 'uljana_1992@example.com', 'Гуляева Нина Никифоровна'),
-		(id_cinema_91, id_position_1, 'umFqzI', 'CNQtkkdS', '1975-05-22', '84791357144', 'uljana87@example.org', 'Мельникова Фаина Вадимовна'),
-		(id_cinema_81, id_position_10, 'bNxSwm', 'ntChDwsb', '1994-04-29', '84284583508', 'ustin_1999@example.org', 'Евдокия Ильинична Комарова'),
-		(id_cinema_22, id_position_10, 'gMHdLS', 'CzumzMQL', '1997-04-21', '81169177271', 'utretjakov@example.com', 'Пантелеймон Трофимович Гаврилов'),
-		(id_cinema_31, id_position_2, 'JPwygc', 'JGtRKghJ', '1983-07-24', '88598659261', 'vadimprohorov@example.org', 'Гусев Самуил Эдуардович'),
-		(id_cinema_99, id_position_12, 'Bvnvka', 'KfzkeuNt', '1982-03-23', '83237299892', 'valentin_89@example.net', 'Котова Алина Викторовна'),
-		(id_cinema_16, id_position_13, 'HhJPYw', 'dkonlPYW', '1993-09-22', '84323419860', 'valeri_1999@example.org', 'Иннокентий Викторович Кононов'),
-		(id_cinema_59, id_position_11, 'dhNGRh', 'nlrIPDLc', '1987-07-27', '87442993249', 'valerija_00@example.net', 'Александра Захаровна Мухина'),
-		(id_cinema_66, id_position_2, 'GEVFQy', 'NOumtIek', '1984-10-17', '88701776770', 'valerjan55@example.net', 'Зоя Натановна Казакова'),
-		(id_cinema_99, id_position_3, 'lPzfHw', 'JRHrPDkS', '2008-11-18', '89136976188', 'varhipova@example.com', 'Ершова Глафира Эльдаровна'),
-		(id_cinema_44, id_position_12, 'rDjQuY', 'kWxQhLNw', '1984-06-18', '86001158409', 'varlaam2017@example.com', 'Ульяна Константиновна Селезнева'),
-		(id_cinema_48, id_position_3, 'WMKJvO', 'ijZLatDz', '1989-12-03', '82558181338', 'varvara09@example.org', 'Брагина Элеонора Феликсовна'),
-		(id_cinema_91, id_position_1, 'qyXFHg', 'mkDeyxyR', '2000-07-20', '85682291648', 'vasili69@example.net', 'Лыткин Федот Анисимович'),
-		(id_cinema_83, id_position_10, 'tGnjUe', 'NQNWEKTO', '1985-10-25', '87575925334', 'vatslav68@example.com', 'Эмилия Руслановна Белозерова'),
-		(id_cinema_54, id_position_9, 'gAAGff', 'CaSKhyXa', '2022-04-25', '85091973359', 'vatslavsorokin@example.net', 'Шарапов Михаил Яковлевич'),
-		(id_cinema_37, id_position_13, 'MxpoKM', 'gfuhcKhG', '1990-12-18', '84095190783', 'vgusev@example.com', 'Феофан Ярославович Копылов'),
-		(id_cinema_39, id_position_5, 'SuYYYQ', 'spiLDiVr', '1975-01-26', '82329988966', 'vikenti29@example.net', 'Ангелина Ивановна Филатова'),
-		(id_cinema_43, id_position_8, 'QOaHiz', 'EFBesZZj', '2011-07-30', '87976550392', 'visheslav_2000@example.net', 'Александр Иосипович Воронцов'),
-		(id_cinema_9, id_position_2, 'cPtprj', 'WObFfgDW', '2020-05-16', '84849102226', 'visheslavrodionov@example.net', 'Акулина Геннадьевна Колесникова'),
-		(id_cinema_59, id_position_9, 'tWShSl', 'ivCZdssJ', '2020-07-05', '86738114943', 'vishnjakovagafon@example.com', 'Евдокия Натановна Пахомова'),
-		(id_cinema_43, id_position_13, 'xpPJyL', 'SSFfcquJ', '2016-09-09', '83013234337', 'vishnjakovgennadi@example.net', 'Юдина Акулина Ильинична'),
-		(id_cinema_40, id_position_8, 'JgJSkl', 'lIMMFKTI', '1993-03-24', '81595109696', 'vitali82@example.net', 'Пономарев Савва Ефремович'),
-		(id_cinema_64, id_position_6, 'xnROox', 'MTMEzkQm', '2018-07-18', '81189210792', 'vjacheslav_1972@example.org', 'Антонова Пелагея Рудольфовна'),
-		(id_cinema_51, id_position_11, 'shXFYF', 'ZwXLdeFH', '1988-02-14', '85484392425', 'vjacheslav2010@example.com', 'Анжелика Степановна Кузнецова'),
-		(id_cinema_55, id_position_3, 'ayHcfq', 'GjvlUcQC', '1974-11-11', '87376822123', 'vjacheslav99@example.net', 'Василиса Феликсовна Егорова'),
-		(id_cinema_48, id_position_7, 'RKgwhl', 'pfXpmEvq', '1997-09-14', '85244365671', 'vladilentrofimov@example.net', 'г-жа Гордеева Алевтина Евгеньевна'),
-		(id_cinema_55, id_position_1, 'eLgadt', 'HNgYMikY', '2010-12-29', '81237553942', 'vladislav17@example.com', 'Аполлинарий Всеволодович Титов'),
-		(id_cinema_46, id_position_10, 'dzHHTn', 'ifGSHuyI', '2001-01-19', '88923506347', 'vladislav95@example.org', 'Кира Рубеновна Крылова'),
-		(id_cinema_34, id_position_2, 'KCWqKU', 'OFTqEDcL', '1975-08-03', '89556201665', 'vladlen2009@example.org', 'Воронцова Варвара Никифоровна'),
-		(id_cinema_70, id_position_3, 'OgLRSR', 'mXmZLUDj', '2020-12-08', '85225445001', 'vlasgolubev@example.org', 'Панфилов Иосиф Трофимович'),
-		(id_cinema_20, id_position_7, 'jhysvN', 'iAxLclhf', '1976-09-25', '89911163488', 'vlasovapolina@example.net', 'Борислав Владиленович Зуев'),
-		(id_cinema_67, id_position_1, 'EjHytq', 'HNqfyUrP', '2013-12-11', '84258743800', 'vlasovtimur@example.org', 'Афиноген Виленович Рогов'),
-		(id_cinema_67, id_position_2, 'SNZPdx', 'DLTiGuEy', '1996-06-30', '89681998472', 'volkovvlas@example.com', 'Порфирий Трифонович Селиверстов'),
-		(id_cinema_40, id_position_9, 'wotrAf', 'pVMJpWkj', '1984-01-14', '82382846497', 'vorobevaantonina@example.com', 'Октябрина Леонидовна Терентьева'),
-		(id_cinema_26, id_position_13, 'auxNVF', 'UPZYkLSx', '1990-07-26', '83648628641', 'vorobevadrian@example.org', 'Харитонов Гурий Анатольевич'),
-		(id_cinema_96, id_position_4, 'DzQYkY', 'FdTKxgUD', '2017-06-05', '86966827812', 'vorobevmaksim@example.com', 'Элеонора Михайловна Щербакова'),
-		(id_cinema_51, id_position_2, 'IKSSrh', 'HiBpKQfB', '2020-02-17', '85488619146', 'vorontsovmihe@example.net', 'Копылов Прокофий Даниилович'),
-		(id_cinema_49, id_position_13, 'vIqgRi', 'acKJnwLA', '1993-12-20', '89059237390', 'vorontsovpetr@example.org', 'Акулина Рудольфовна Носова'),
-		(id_cinema_10, id_position_5, 'amVTmf', 'VeHmznCw', '1997-02-04', '88882121267', 'vsemil1970@example.com', 'Ермаков Карп Авдеевич'),
-		(id_cinema_49, id_position_5, 'xkqCqh', 'oQDFTmiM', '2009-01-01', '81808329357', 'vsemil1980@example.org', 'Панфилов Борис Ефимьевич'),
-		(id_cinema_67, id_position_11, 'SAEeZS', 'qxhneovf', '1988-08-05', '84320379798', 'vsemilnikiforov@example.net', 'Панфилова Майя Кузьминична'),
-		(id_cinema_62, id_position_2, 'ilDUOE', 'wCFcItbA', '1999-12-03', '83588688586', 'vsevolod61@example.org', 'Софон Харламович Беляев'),
-		(id_cinema_76, id_position_10, 'GZBeJT', 'YaXMHYgu', '1974-12-17', '89615857622', 'vzhuravleva@example.net', 'Зоя Рудольфовна Комиссарова'),
-		(id_cinema_82, id_position_2, 'kOUvfT', 'MeVHyPCR', '1975-10-13', '86795036730', 'wgavrilova@example.com', 'Кабанов Аполлинарий Ермолаевич'),
-		(id_cinema_17, id_position_5, 'qrsYBt', 'LbsqTiht', '2003-12-13', '87484165171', 'xfadeev@example.org', 'Аникита Брониславович Лобанов'),
-		(id_cinema_41, id_position_13, 'vJuICu', 'laoXmEPs', '1988-12-01', '82994775149', 'xkomarov@example.net', 'Пров Иосифович Силин'),
-		(id_cinema_61, id_position_1, 'LqTVpH', 'buWnWVJr', '1982-11-27', '84705628110', 'xmartinov@example.com', 'Артемий Тарасович Кузнецов'),
-		(id_cinema_8, id_position_13, 'dpdxYI', 'rjejJoih', '2019-04-05', '85511955762', 'xsubbotin@example.net', 'Фокина Марина Леоновна'),
-		(id_cinema_80, id_position_12, 'hUmFXd', 'bQAdpugh', '1986-05-02', '86373120490', 'yblinov@example.com', 'Савин Фотий Елисеевич'),
-		(id_cinema_74, id_position_0, 'icoveg', 'eGkgOeiX', '1990-01-13', '81523157965', 'ymelnikov@example.org', 'Некрасов Эраст Эдуардович'),
-		(id_cinema_82, id_position_10, 'rsGraf', 'YxOtgTcK', '1982-09-27', '86289359951', 'zahar2022@example.net', 'Лобанов Вениамин Артёмович'),
-		(id_cinema_1, id_position_11, 'QuVAvM', 'onWpUJYs', '1970-02-18', '86157144200', 'zaharovjuvenali@example.org', 'Степанова Зоя Ждановна'),
-		(id_cinema_4, id_position_5, 'CsJcFn', 'qXSWOomI', '2015-03-15', '84201908174', 'zhanna04@example.com', 'Щербакова Клавдия Валериевна'),
-		(id_cinema_16, id_position_4, 'zgWLcg', 'WKmPyOXk', '1977-08-23', '83764217765', 'zhukovafekla@example.org', 'Корнилова Ангелина Сергеевна'),
-		(id_cinema_41, id_position_12, 'WTblRJ', 'lyKMICrs', '1981-07-17', '85043122760', 'zhukovaveronika@example.com', 'Шилова Светлана Львовна'),
-		(id_cinema_44, id_position_9, 'eUYWjW', 'rQYodULk', '1973-07-21', '88679887841', 'zhukovvalerjan@example.com', 'Вишняков Рюрик Фёдорович'),
-		(id_cinema_93, id_position_10, 'tQGqRh', 'mWCeDuPh', '1998-10-24', '88137338662', 'zhuravlevevstigne@example.net', 'Моисеева Любовь Юрьевна'),
-		(id_cinema_65, id_position_12, 'ZGHIAn', 'LBEqrwFU', '2009-03-21', '85458278267', 'ziminivan@example.org', 'Синклитикия Анатольевна Рогова'),
-		(id_cinema_29, id_position_4, 'tUwxEZ', 'rlaQbQdw', '1982-04-03', '85304862744', 'zinovevapollon@example.org', 'Агафонова Фёкла Оскаровна'),
-		(id_cinema_0, id_position_2, 'gpeycp', 'LcGsEjEB', '2012-04-03', '84814999537', 'zinovichernov@example.org', 'Доронин Творимир Ефимьевич'),
-		(id_cinema_4, id_position_1, 'QjHNMK', 'PgnVcdLE', '1999-03-27', '86711759182', 'zosima_75@example.org', 'Клавдия Вадимовна Лыткина'),
-		(id_cinema_73, id_position_6, 'QVzmET', 'HeLWyeoR', '1971-07-19', '83472091296', 'zuevmiron@example.com', 'Юрий Ануфриевич Лихачев');
+		(id_cinema_0, id_position_0, 'oWZJTE', 'ljMGcCYb', '1986-03-08', '85839473914', 'afanasevbojan@example.com', 'Измаил Матвеевич Зуев'),
+		(id_cinema_1, id_position_1, 'WKVNrG', 'aRfPMSAf', '1996-05-15', '88177912805', 'afanasi32@example.com', 'Василиса Вячеславовна Вишнякова'),
+		(id_cinema_2, id_position_2, 'MPRQYI', 'hDoKqMcm', '1973-11-22', '85656458301', 'afinogen1988@example.org', 'Власова Галина Станиславовна'),
+		(id_cinema_3, id_position_3, 'WoPSAi', 'PjRizWmB', '1974-01-10', '84403117402', 'agafja20@example.net', 'Константин Германович Петров'),
+		(id_cinema_4, id_position_0, 'CyzUzK', 'xBXgmYnY', '1997-11-15', '83912452040', 'agafonovolimpi@example.com', 'Евгений Андреевич Матвеев'),
+		(id_cinema_5, id_position_4, 'dhqQLc', 'yGlkfovA', '1982-07-17', '86080595146', 'akolesnikova@example.net', 'Олимпий Ефимьевич Гуляев'),
+		(id_cinema_6, id_position_5, 'xyaFqr', 'TdjReaRR', '1998-01-10', '84156827752', 'aleksandra21@example.net', 'Будимир Ярославович Орлов'),
+		(id_cinema_7, id_position_6, 'tPNCAf', 'eRUBxjlk', '1983-04-26', '84725162836', 'alekse_1976@example.org', 'Соколова Нонна Львовна'),
+		(id_cinema_8, id_position_1, 'siEpdS', 'KsIqhDJo', '1974-12-10', '83206195277', 'alevtina_11@example.org', 'Анжелика Геннадьевна Давыдова'),
+		(id_cinema_9, id_position_7, 'bszmSd', 'vmrmyPiw', '1973-01-07', '81392306118', 'amos39@example.net', 'Фадеев Федор Якубович'),
+		(id_cinema_10, id_position_6, 'WwVxjQ', 'hRLOIdSu', '1970-09-06', '87594928984', 'anastasija_2002@example.org', 'Евсеев Антип Эдгардович'),
+		(id_cinema_11, id_position_8, 'LDSXMf', 'AamjLHvT', '1959-10-08', '81410621776', 'anatoli_96@example.com', 'Аркадий Марсович Гущин'),
+		(id_cinema_12, id_position_9, 'faKwJs', 'PFbfpJLG', '1999-04-12', '83747317943', 'andreevavalentina@example.com', 'Емельянов Харлампий Трифонович'),
+		(id_cinema_13, id_position_3, 'JrbYAm', 'CdhkiHpV', '1979-01-23', '81240337863', 'andreevfoti@example.net', 'Лапин Куприян Егорович'),
+		(id_cinema_3, id_position_4, 'YAYAAN', 'PhIMuxJh', '1970-05-18', '88963086213', 'andron_35@example.net', 'Трофимов Остап Арсеньевич'),
+		(id_cinema_13, id_position_5, 'FoUsiU', 'PXvPkTvi', '2000-07-19', '89928904775', 'andronik_87@example.net', 'Ольга Егоровна Рожкова'),
+		(id_cinema_14, id_position_10, 'UZyHbJ', 'osYUlJng', '1987-05-18', '83390677514', 'angelina_1977@example.org', 'Галкин Платон Валерьевич'),
+		(id_cinema_15, id_position_1, 'WviXXn', 'zfCxyQJa', '2000-12-26', '88987731589', 'angelina_2023@example.net', 'Фомина Анна Александровна'),
+		(id_cinema_16, id_position_6, 'GpunyG', 'SUtrnvzK', '1988-03-27', '87937284700', 'anike08@example.org', 'Макарова Светлана Юрьевна'),
+		(id_cinema_17, id_position_10, 'wKvGzm', 'IZWRrZER', '1997-09-17', '82947779647', 'anike36@example.org', 'Стрелкова Елизавета Ивановна'),
+		(id_cinema_18, id_position_8, 'fCibBw', 'sOghlLNi', '1996-01-10', '87263504727', 'anikitadanilov@example.net', 'Радован Брониславович Воробьев'),
+		(id_cinema_5, id_position_11, 'KcwPGQ', 'IFVZVXaR', '1987-08-19', '82879429519', 'anisim_37@example.org', 'Белякова Алла Святославовна'),
+		(id_cinema_19, id_position_5, 'jQnNwO', 'YjoIAXJj', '2002-05-24', '82717725775', 'anisimovignati@example.org', 'Федотова Алевтина Петровна'),
+		(id_cinema_20, id_position_12, 'uvylGP', 'ubfZrFWv', '1984-06-05', '82056177001', 'antonin1984@example.com', 'Коновалов Эраст Марсович'),
+		(id_cinema_21, id_position_3, 'dTBIov', 'PHDiHKyC', '1999-09-13', '89902927503', 'antonin1988@example.org', 'Светлана Степановна Дементьева'),
+		(id_cinema_22, id_position_7, 'sSQSAn', 'kZpcFgUQ', '1967-07-09', '85397210100', 'antonina1998@example.org', 'Валентина Ефимовна Коновалова'),
+		(id_cinema_23, id_position_9, 'gDhwAn', 'JUzPipPc', '1976-06-05', '85747141906', 'antonovtimofe@example.net', 'Костина Антонина Харитоновна'),
+		(id_cinema_17, id_position_7, 'VyQVgB', 'vtHJJqFb', '1983-06-04', '83481022711', 'apollinari_1993@example.com', 'тов. Михеев Святополк Филимонович'),
+		(id_cinema_24, id_position_12, 'IWAxiE', 'uGqJgvOJ', '1967-02-12', '84827887731', 'apollinarimedvedev@example.net', 'Зинаида Оскаровна Васильева'),
+		(id_cinema_25, id_position_12, 'FvUeXu', 'NKtGQJvY', '1978-12-07', '84689809485', 'apollon_1976@example.net', 'Журавлев Леонид Арсенович'),
+		(id_cinema_26, id_position_2, 'pifHFa', 'GplmRyyE', '1960-06-17', '86938423974', 'apollon2019@example.org', 'Гусева Майя Тимуровна'),
+		(id_cinema_27, id_position_6, 'TolaUw', 'QvBsLZGm', '1995-11-19', '85343663772', 'arefi_82@example.com', 'Ангелина Станиславовна Комарова'),
+		(id_cinema_28, id_position_0, 'gptvuZ', 'JfDmEFJQ', '1974-03-15', '88292914377', 'arefi1972@example.net', 'Элеонора Ниловна Ефремова'),
+		(id_cinema_29, id_position_10, 'Cfrxfq', 'zzVthNcQ', '2002-07-15', '87567090060', 'artemevafaina@example.net', 'Мартын Фадеевич Гусев'),
+		(id_cinema_30, id_position_11, 'jcHdCb', 'WCxFCLyL', '2002-10-12', '81261329993', 'artemevtihon@example.net', 'Рябов Илья Фокич'),
+		(id_cinema_31, id_position_12, 'XgqkIo', 'IDlbqSBa', '1986-07-13', '82559474981', 'artemifilatov@example.org', 'Афанасий Афанасьевич Наумов'),
+		(id_cinema_32, id_position_4, 'kouboV', 'kWGmHnZd', '1994-05-24', '86036054229', 'askold1986@example.org', 'Сергей Валерьянович Наумов'),
+		(id_cinema_33, id_position_0, 'ovTAiI', 'KMRWTCxQ', '1988-09-21', '86503852258', 'askolddoronin@example.org', 'Алексеева Анжелика Львовна'),
+		(id_cinema_34, id_position_8, 'KRUWYx', 'iifCNrlO', '2001-05-18', '89208994966', 'averjan42@example.net', 'Петухов Борис Ефстафьевич'),
+		(id_cinema_32, id_position_12, 'bnTMoZ', 'kGkgUTPt', '1992-02-16', '85237403479', 'averki_04@example.com', 'Шарапов Мир Адрианович'),
+		(id_cinema_15, id_position_7, 'uRsBRK', 'FIrEGfff', '1974-11-10', '88093711681', 'avgust16@example.net', 'Маркова Феврония Наумовна'),
+		(id_cinema_11, id_position_11, 'Ybrvcj', 'eRAMzdbN', '1977-11-01', '87627343557', 'avksenti_25@example.com', 'Кузьмина Зоя Владиславовна'),
+		(id_cinema_14, id_position_5, 'lNZIqw', 'GmdJAfKH', '1981-11-25', '85951030282', 'azari1975@example.net', 'Пестов Амос Дорофеевич'),
+		(id_cinema_35, id_position_1, 'nTqRDw', 'WUDmNAcb', '1991-11-16', '84589866393', 'baranovsevastjan@example.org', 'Элеонора Кузьминична Наумова'),
+		(id_cinema_36, id_position_13, 'yoDxUW', 'wkGMsOoG', '1980-08-18', '82133479384', 'bdjachkov@example.net', 'Емельянов Добромысл Арсеньевич'),
+		(id_cinema_37, id_position_1, 'JODxzk', 'vMuHNpnB', '1998-10-04', '83983031159', 'beljakovefrem@example.com', 'Агафья Альбертовна Владимирова'),
+		(id_cinema_38, id_position_2, 'YHcobe', 'iqwPdzrs', '1986-12-06', '81735781625', 'beljakovipati@example.org', 'Афанасьев Федот Германович'),
+		(id_cinema_38, id_position_9, 'iyxjXD', 'bqhcUWio', '1994-08-22', '88830761315', 'bikovaraisa@example.com', 'Виктор Архипович Соловьев'),
+		(id_cinema_39, id_position_8, 'iLmqVy', 'ZsDtqdSm', '1979-03-16', '89951289455', 'birjukovjanuari@example.org', 'Быкова Дарья Тимуровна'),
+		(id_cinema_21, id_position_4, 'fnGChq', 'ahfkkEUc', '1993-08-20', '84013993045', 'bkuzmina@example.org', 'Федорова Валерия Болеславовна'),
+		(id_cinema_30, id_position_5, 'vmSyeG', 'poMlYOIE', '1961-12-26', '89042305034', 'blohinaalina@example.net', 'Субботин Юлий Анисимович'),
+		(id_cinema_40, id_position_13, 'SsRNaY', 'dKLXHFHq', '1968-03-07', '88763220927', 'blohinladislav@example.org', 'Фомичева Марфа Вячеславовна'),
+		(id_cinema_41, id_position_10, 'ImBfDQ', 'EQuQKxvI', '1995-08-05', '89703916544', 'blohintihon@example.net', 'Сергеева Дарья Аскольдовна'),
+		(id_cinema_28, id_position_11, 'ThvIXw', 'TKrBZatR', '1984-10-04', '85134728738', 'bnazarova@example.com', 'Сысоева Фаина Романовна'),
+		(id_cinema_42, id_position_0, 'TYpEXY', 'qzqoOoSC', '1961-06-22', '86055904040', 'bogdanovsilvestr@example.com', 'Кулаков Валерий Харлампьевич'),
+		(id_cinema_43, id_position_12, 'BXzsxJ', 'gilQBZtW', '2000-07-25', '84961809272', 'bojan1985@example.org', 'Ольга Владиславовна Пестова'),
+		(id_cinema_18, id_position_0, 'hMYbsk', 'HajNhpHk', '1991-02-13', '82365680451', 'bolshakovaristarh@example.com', 'Мишин Лучезар Геннадиевич'),
+		(id_cinema_44, id_position_12, 'yhVtEi', 'LHuaFEUg', '1967-10-14', '83608582724', 'bolshakovmir@example.com', 'Анастасия Викторовна Крюкова'),
+		(id_cinema_19, id_position_12, 'mliwax', 'OpRCXRmQ', '1987-05-09', '89726211345', 'borislav09@example.org', 'Богдан Марсович Богданов'),
+		(id_cinema_21, id_position_4, 'tMakte', 'nHfqUBov', '1987-01-12', '87088366783', 'borislav78@example.com', 'Козлов Гремислав Ерофеевич'),
+		(id_cinema_45, id_position_9, 'QNhNuB', 'ciIVqRxQ', '1985-01-27', '83427881099', 'borislav85@example.org', 'Панфилов Светозар Филатович'),
+		(id_cinema_32, id_position_10, 'qxnAms', 'AbQTyadQ', '1965-12-02', '85896252530', 'borisovgeorgi@example.com', 'Алина Робертовна Авдеева'),
+		(id_cinema_46, id_position_10, 'fwMyVN', 'YxfdxrnY', '1997-04-23', '84281890467', 'borisovisidor@example.org', 'Самсонова Милица Юрьевна'),
+		(id_cinema_47, id_position_7, 'LLtoPz', 'mFYyzHon', '1959-12-04', '81877526979', 'bosipov@example.com', 'Афанасьева Ангелина Кузьминична'),
+		(id_cinema_48, id_position_5, 'cVaqXK', 'pgfeyCmE', '1991-04-24', '84110096574', 'bronislav_2020@example.com', 'Елизар Тимурович Анисимов'),
+		(id_cinema_49, id_position_7, 'pysVqm', 'rHycGBDQ', '1972-12-03', '83278947199', 'budimir1990@example.net', 'Демид Фокич Щербаков'),
+		(id_cinema_50, id_position_7, 'bgqtWH', 'PXofYfuf', '1982-11-05', '82646216723', 'burovalukija@example.com', 'Артемьев Аким Егорович'),
+		(id_cinema_51, id_position_7, 'eyikXI', 'AYUnNmJZ', '1965-02-21', '88380857539', 'cburova@example.com', 'Бронислав Дорофеевич Власов'),
+		(id_cinema_12, id_position_11, 'zdHAaU', 'kpJBaWmc', '1990-12-19', '87269763914', 'cershov@example.org', 'Агата Валентиновна Королева'),
+		(id_cinema_33, id_position_0, 'jZaNrg', 'zKFEftSf', '1990-10-11', '88513953247', 'cheslav_25@example.org', 'Исидор Демьянович Бобылев'),
+		(id_cinema_52, id_position_6, 'EazPiS', 'pByHoKAu', '1994-10-18', '83102884951', 'cheslav59@example.org', 'Валерьян Иларионович Кузьмин'),
+		(id_cinema_53, id_position_7, 'uLEJGT', 'CfweQGHI', '2000-12-25', '83660272258', 'cnosova@example.net', 'Ипат Ильич Кулагин'),
+		(id_cinema_24, id_position_8, 'NJdwqf', 'uqbjUOXQ', '1987-03-27', '81780854075', 'cvishnjakova@example.net', 'Савватий Федосеевич Зуев'),
+		(id_cinema_54, id_position_3, 'PeDHbI', 'obfrEXcH', '2000-02-25', '89531836879', 'darja47@example.com', 'Арефий Елизарович Дмитриев'),
+		(id_cinema_55, id_position_1, 'hopvrl', 'STBVRSel', '1978-12-14', '86947339438', 'david_1993@example.net', 'Рябова Марфа Богдановна'),
+		(id_cinema_56, id_position_7, 'UMOARh', 'teCihMPi', '1993-07-03', '84994749496', 'davidbeljaev@example.com', 'Мария Петровна Тихонова'),
+		(id_cinema_57, id_position_11, 'mBGXKJ', 'YQWLiIfT', '1975-06-23', '85099716459', 'dementevaija@example.com', 'Болеслав Матвеевич Селиверстов'),
+		(id_cinema_7, id_position_4, 'eKntOR', 'aKsIffAH', '1972-11-18', '81258313980', 'dementevnifont@example.com', 'Харитонов Валерьян Ааронович'),
+		(id_cinema_56, id_position_1, 'iwLXKQ', 'StUSiIPT', '2003-05-02', '82411397677', 'demid_32@example.com', 'Куликов Натан Ярославович'),
+		(id_cinema_58, id_position_7, 'GmrSmQ', 'sZCtKdzD', '1975-02-28', '82404072773', 'denisovevdokim@example.com', 'г-жа Смирнова Лариса Олеговна'),
+		(id_cinema_26, id_position_9, 'stcudu', 'NZQOKdmS', '2003-05-14', '81495470887', 'dershov@example.org', 'Корнилов Азарий Викентьевич'),
+		(id_cinema_23, id_position_0, 'NGXqPS', 'GhfizJfP', '2003-01-01', '86912681229', 'dmitri_1973@example.net', 'Кулагина Василиса Эльдаровна'),
+		(id_cinema_0, id_position_5, 'GFLVgo', 'zxPSSkPL', '1965-03-14', '83956127683', 'dmitri_79@example.com', 'Демьян Харлампьевич Лукин'),
+		(id_cinema_40, id_position_3, 'IthMGu', 'XIdIKHaa', '1973-06-25', '86291195398', 'dmitrihohlov@example.com', 'Ершова Ульяна Рудольфовна'),
+		(id_cinema_14, id_position_9, 'EvbHJY', 'nlNGQWiM', '1967-05-23', '81233335518', 'dobromisl_2022@example.org', 'Брагин Авксентий Антонович'),
+		(id_cinema_8, id_position_9, 'DXMRbO', 'DNDHNHxw', '1977-09-26', '84128618874', 'dobroslavzikov@example.net', 'Савельева Варвара Семеновна'),
+		(id_cinema_59, id_position_7, 'IsBeGG', 'cEiNHlOJ', '2000-07-03', '81405608920', 'dorofe_2011@example.org', 'Панов Олег Харламович'),
+		(id_cinema_60, id_position_11, 'UjHhuO', 'MyryzNmH', '1958-08-16', '89333989069', 'doroninanaina@example.org', 'Колесникова Прасковья Степановна'),
+		(id_cinema_61, id_position_7, 'LdVSRO', 'JSwboWET', '1992-04-20', '83288199693', 'drozdovelizar@example.net', 'Полина Никифоровна Мухина'),
+		(id_cinema_62, id_position_9, 'Fcrlxc', 'fFDxKwAq', '1964-07-23', '85965245592', 'eduard_2016@example.org', 'Лукин Арсений Аверьянович'),
+		(id_cinema_63, id_position_13, 'oyRGSo', 'qkXXVBkc', '1961-07-13', '84035897032', 'eduardalekseev@example.net', 'Большаков Осип Ефремович'),
+		(id_cinema_64, id_position_7, 'UidySB', 'eQchLpZL', '1982-06-15', '85177592782', 'efrem1988@example.com', 'Виноградов Кузьма Ермилович'),
+		(id_cinema_44, id_position_3, 'xRvhKd', 'BfAoIqtK', '1964-04-08', '81513510354', 'efrememeljanov@example.net', 'Панова Светлана Тимофеевна'),
+		(id_cinema_65, id_position_7, 'gJxLDi', 'FVsMMyyV', '1978-10-13', '88894038336', 'egorovmiroslav@example.net', 'Артем Ермилович Зыков'),
+		(id_cinema_66, id_position_9, 'AZJetr', 'JKQqkvQt', '1999-08-08', '84664064207', 'elena_98@example.net', 'Арефий Евсеевич Панфилов'),
+		(id_cinema_58, id_position_8, 'iaAKPD', 'oYukNyAY', '2000-07-01', '85214217632', 'elena1991@example.org', 'Конон Адрианович Муравьев'),
+		(id_cinema_20, id_position_13, 'zlvRmG', 'ZzlErcpW', '1972-08-04', '89066368549', 'eliseevaviktorija@example.com', 'Ермолай Арсенович Никифоров'),
+		(id_cinema_0, id_position_4, 'wcnGzO', 'oMeqgFcB', '1959-05-24', '81521700002', 'eliseevevgraf@example.org', 'Емельян Даниилович Егоров'),
+		(id_cinema_42, id_position_13, 'vUpLRG', 'APUKBdYm', '1986-04-19', '87609610135', 'elizar54@example.org', 'Лазарева Эмилия Эдуардовна'),
+		(id_cinema_43, id_position_9, 'mVbeps', 'JeDurSGB', '1967-06-16', '89789689436', 'emeljan_89@example.com', 'Попов Егор Фёдорович'),
+		(id_cinema_67, id_position_11, 'WvgJck', 'TOuJhikz', '1991-06-18', '86026077925', 'emilija_1979@example.net', 'Кира Тимофеевна Лихачева'),
+		(id_cinema_59, id_position_13, 'IFiZTu', 'gYqeRYnd', '1967-05-13', '84403526340', 'epifan_1987@example.org', 'Болеслав Эдуардович Кулаков'),
+		(id_cinema_68, id_position_12, 'FRKbQf', 'LbWjeeIZ', '1979-11-12', '86099434031', 'epifan33@example.org', 'Самсонов Савелий Авдеевич'),
+		(id_cinema_69, id_position_10, 'syZZcM', 'KcdjqDkv', '1972-10-25', '83249273348', 'erast2020@example.org', 'Валерий Игнатьевич Жданов'),
+		(id_cinema_68, id_position_7, 'izYdGo', 'gREXNroz', '1960-11-05', '84925450081', 'ermil50@example.net', 'Елисеева Виктория Тимофеевна'),
+		(id_cinema_70, id_position_5, 'mQdNwJ', 'nULgwijo', '1963-06-13', '85524119280', 'ermolaarhipov@example.com', 'Синклитикия Георгиевна Орехова'),
+		(id_cinema_71, id_position_10, 'QsYJUk', 'HeyIaNAv', '1960-08-18', '88461573706', 'ernestosipov@example.org', 'Иосиф Чеславович Шашков'),
+		(id_cinema_72, id_position_10, 'huaEbP', 'nNQtaeCQ', '1958-12-22', '83846589102', 'ernst1975@example.com', 'Кондратьев Милан Виленович'),
+		(id_cinema_1, id_position_13, 'hGdeqj', 'aJYzBBdf', '1992-10-09', '89899282352', 'ershovamos@example.com', 'Агафонова Евпраксия Юльевна'),
+		(id_cinema_73, id_position_9, 'TfwNfy', 'HatylJSN', '1970-04-21', '83188014059', 'estepanova@example.org', 'Попов Софон Ерофеевич'),
+		(id_cinema_37, id_position_7, 'YPNAjO', 'xWddwiqJ', '1984-01-25', '85886878934', 'evdokim1971@example.org', 'Елисеев Ростислав Ермолаевич'),
+		(id_cinema_74, id_position_0, 'wmhqGx', 'TnpjTpSF', '1969-05-18', '85347753157', 'evgeni_1973@example.net', 'Поляков Исай Федотович'),
+		(id_cinema_75, id_position_6, 'gGLFcK', 'oyxkWsEX', '2000-08-18', '86833472433', 'evgenija_90@example.com', 'Макар Исидорович Александров'),
+		(id_cinema_8, id_position_11, 'LPvwxA', 'CwmYVIEN', '2001-10-16', '81319181158', 'evgraf_1973@example.org', 'Вероника Андреевна Мартынова'),
+		(id_cinema_8, id_position_12, 'rglENM', 'pZlsEGMv', '1982-02-01', '83336195556', 'evgraf52@example.org', 'Амвросий Германович Владимиров'),
+		(id_cinema_60, id_position_12, 'coWTNj', 'FwQajMAx', '1988-09-01', '88814547934', 'evpraksija_1995@example.net', 'Анна Аскольдовна Матвеева'),
+		(id_cinema_76, id_position_7, 'cyQZDf', 'jQTIWKgT', '1984-07-21', '89693666370', 'evstigne_1970@example.net', 'Ефим Эдуардович Бобров'),
+		(id_cinema_25, id_position_6, 'iVODbV', 'CqWOdfxB', '1983-06-06', '85815000198', 'fedorovsofron@example.com', 'Евдокия Аркадьевна Зуева'),
+		(id_cinema_33, id_position_6, 'CBIuwL', 'reaqZKCN', '1978-12-09', '86726224867', 'fedosi_1990@example.org', 'Стоян Феодосьевич Громов'),
+		(id_cinema_77, id_position_13, 'BkWEkn', 'zhDzJMzv', '1971-04-19', '83288492598', 'fedosi_90@example.org', 'Ираида Афанасьевна Красильникова'),
+		(id_cinema_78, id_position_5, 'CbIBhN', 'TSSQfpDm', '1979-09-03', '88117080741', 'fedotovaantonina@example.com', 'Носков Автоном Фокич'),
+		(id_cinema_72, id_position_12, 'LLDCpr', 'NyuKHQpd', '1974-03-01', '84116601422', 'fedotovapollinari@example.com', 'Шилов Георгий Федосьевич'),
+		(id_cinema_18, id_position_10, 'kIzJNG', 'YHsbAaDG', '1959-07-10', '88720049320', 'feoktist2007@example.com', 'Наталья Ниловна Максимова'),
+		(id_cinema_75, id_position_13, 'aSKCrU', 'WgYyKlzG', '2002-02-06', '81648938070', 'filaret_94@example.net', 'Воронова Олимпиада Анатольевна'),
+		(id_cinema_79, id_position_11, 'SMueEm', 'aXDvevaS', '1972-05-24', '84054832921', 'filipp_74@example.net', 'Игнатий Афанасьевич Бобылев'),
+		(id_cinema_80, id_position_9, 'hOoZZB', 'VxUEWrqU', '1975-06-23', '88257279979', 'filippovvasili@example.com', 'Кондратьева Элеонора Харитоновна'),
+		(id_cinema_81, id_position_0, 'LkPqbZ', 'YQsQZijj', '1990-04-02', '89544059679', 'fkarpov@example.org', 'Галкина Марина Павловна'),
+		(id_cinema_2, id_position_9, 'cZZMES', 'WELrIWhR', '1976-05-23', '85071299330', 'fkiseleva@example.com', 'Дроздов Виктор Жоресович'),
+		(id_cinema_58, id_position_0, 'zsvzMk', 'aUNazBEQ', '2003-08-03', '82538034634', 'foka1985@example.org', 'Некрасова Тамара Натановна'),
+		(id_cinema_82, id_position_8, 'dnnJUX', 'mCqtflZE', '1998-05-26', '81319587222', 'fomichevarefi@example.com', 'Гурьева Ульяна Эльдаровна'),
+		(id_cinema_12, id_position_5, 'lbimQL', 'CvWlymQx', '1990-08-02', '82452278002', 'fominonufri@example.net', 'Журавлева Виктория Архиповна'),
+		(id_cinema_60, id_position_3, 'IxIccb', 'HsaCxvIB', '1990-03-05', '86947123367', 'fortunat_88@example.org', 'Синклитикия Ждановна Агафонова'),
+		(id_cinema_83, id_position_1, 'koEQcb', 'MXQEypXp', '1970-03-13', '81262827026', 'foti_85@example.com', 'Антонин Димитриевич Панфилов'),
+		(id_cinema_78, id_position_0, 'ZgBoQF', 'rXJXUqlD', '1975-09-01', '86202833457', 'foti1980@example.com', 'Виталий Артемьевич Субботин'),
+		(id_cinema_50, id_position_0, 'ZcuGMm', 'CDPWxori', '1979-07-02', '88370864160', 'fotichernov@example.net', 'Меркушева Регина Алексеевна'),
+		(id_cinema_84, id_position_1, 'jwjPxx', 'NADsPcfe', '1987-03-07', '82429410554', 'frol_1974@example.org', 'Носов Мартын Иосифович'),
+		(id_cinema_76, id_position_10, 'SkWLpm', 'XpnJlPQb', '1982-10-03', '89513427911', 'gavrila1999@example.com', 'Алевтина Ждановна Моисеева'),
+		(id_cinema_46, id_position_3, 'vQxryM', 'QBTwngbM', '1962-02-16', '84558117160', 'gavrila21@example.org', 'Громова Марфа Рубеновна'),
+		(id_cinema_85, id_position_10, 'IjelTQ', 'JkHZuLeL', '1961-11-01', '83561073254', 'gavrila60@example.org', 'Суханов Антонин Елизарович'),
+		(id_cinema_81, id_position_7, 'QKoDIU', 'OQGLszXT', '1965-04-01', '86966852627', 'gavrilovaija@example.net', 'Смирнов Кузьма Гордеевич'),
+		(id_cinema_21, id_position_9, 'bssHSx', 'YNxKPyad', '1989-08-22', '89646191358', 'gedeon_48@example.com', 'Симон Григорьевич Юдин'),
+		(id_cinema_72, id_position_2, 'OdFfAI', 'NTlFdhIu', '1971-10-06', '82771645835', 'german_25@example.org', 'Субботина Лора Романовна'),
+		(id_cinema_66, id_position_7, 'luxoCv', 'czzMPxly', '2003-11-22', '85226995209', 'german43@example.com', 'Ксения Александровна Муравьева'),
+		(id_cinema_34, id_position_0, 'OotAPe', 'ZYWhFcEE', '1989-07-11', '87801370146', 'glafira_2019@example.net', 'Софрон Изотович Стрелков'),
+		(id_cinema_42, id_position_2, 'VcrKpW', 'QtWEdYwj', '1999-08-12', '86310092976', 'gmakarova@example.org', 'Савва Валерианович Носков'),
+		(id_cinema_31, id_position_10, 'XPzUtG', 'wnXqNmDD', '1986-01-01', '85322384880', 'gordeevsamuil@example.com', 'Лапина Иванна Ниловна'),
+		(id_cinema_67, id_position_8, 'KyIQcY', 'AlqSrGAz', '1965-05-02', '85727691086', 'gorshkovselivan@example.net', 'Кириллова Василиса Аркадьевна'),
+		(id_cinema_75, id_position_0, 'torAsJ', 'eafRAFDg', '1975-07-19', '82547769205', 'gpoljakov@example.org', 'Полина Ефимовна Миронова'),
+		(id_cinema_45, id_position_1, 'mPsWhc', 'dYqLwhcI', '1979-05-12', '85101481878', 'grigorevaelizaveta@example.com', 'Беляков Фортунат Арсеньевич'),
+		(id_cinema_20, id_position_3, 'NAwDFO', 'QXFwuypE', '1965-03-12', '83774755091', 'grigorevaoktjabrina@example.net', 'Фролов Исидор Витальевич'),
+		(id_cinema_52, id_position_8, 'XZwhCH', 'umXCTWTX', '1980-09-03', '81395983417', 'gromovnikifor@example.org', 'Алевтина Ждановна Шарова'),
+		(id_cinema_11, id_position_2, 'mZgevz', 'ORtRrdTy', '1994-11-10', '88199828075', 'guljaevisa@example.net', 'Стрелкова Пелагея Вадимовна'),
+		(id_cinema_69, id_position_4, 'LdbTIo', 'mFmDtJST', '1992-04-18', '85435998555', 'guljaevkornil@example.org', 'Панфилов Корнил Федосьевич'),
+		(id_cinema_86, id_position_9, 'ZcvNJt', 'LfkSULzo', '1997-09-23', '82814337003', 'guljaevruslan@example.net', 'Кира Натановна Голубева'),
+		(id_cinema_87, id_position_13, 'zvXaNG', 'YcHuwdqP', '1984-04-08', '87542374270', 'guljaevselivan@example.com', 'Лариса Артемовна Андреева'),
+		(id_cinema_85, id_position_3, 'idzgvS', 'ZgejYgiB', '1965-11-01', '88784807693', 'gurevapollon@example.org', 'Елисеев Бажен Валерианович'),
+		(id_cinema_45, id_position_6, 'HrbAtk', 'wgFjVpUB', '1960-01-20', '83809434985', 'guri_78@example.net', 'тов. Тихонова Таисия Харитоновна'),
+		(id_cinema_88, id_position_13, 'oHiVwv', 'ZxTXlqco', '1973-12-05', '82012502071', 'gusevmartin@example.org', 'г-н Рыбаков Евдоким Германович'),
+		(id_cinema_19, id_position_5, 'gdouiU', 'KocUmLBV', '1993-05-27', '86039520629', 'gushchinfade@example.com', 'Элеонора Эльдаровна Русакова'),
+		(id_cinema_13, id_position_6, 'ebgeTa', 'piYCBLmV', '1984-10-20', '89307951111', 'hariton18@example.com', 'Самойлов Иларион Харитонович'),
+		(id_cinema_64, id_position_3, 'wshHus', 'KVJoCMJs', '1974-10-26', '81282498803', 'hariton91@example.net', 'Степанова Октябрина Леоновна'),
+		(id_cinema_89, id_position_10, 'APKYlg', 'dijeSnoh', '1963-02-16', '88480557325', 'haritonovparfen@example.net', 'Валерия Николаевна Голубева'),
+		(id_cinema_23, id_position_0, 'TTkkzL', 'TXzUCQHH', '1958-06-27', '86879648258', 'hohlovaregina@example.org', 'Красильникова Раиса Архиповна'),
+		(id_cinema_34, id_position_8, 'sfzBnW', 'UBKFSOLu', '1995-01-14', '89793311835', 'hristofor_06@example.com', 'Мамонтова Марфа Сергеевна'),
+		(id_cinema_41, id_position_0, 'XeJYyH', 'OKQYEvqA', '1996-09-07', '84080910419', 'hristofor_93@example.org', 'Максимов Марк Давидович'),
+		(id_cinema_10, id_position_4, 'kyVCmw', 'slbsPXEm', '1985-07-26', '81897272433', 'hsharova@example.net', 'Нестеров Гедеон Игоревич'),
+		(id_cinema_65, id_position_12, 'ibfQeH', 'hJAxzUpd', '1963-02-20', '87446554254', 'idmitriev@example.net', 'Мефодий Валентинович Кулаков'),
+		(id_cinema_90, id_position_1, 'NRDGmU', 'dHPpZuwm', '2003-04-03', '81577371907', 'ievseeva@example.com', 'Фролова Наталья Даниловна'),
+		(id_cinema_0, id_position_5, 'EDOzLj', 'hLUmijPy', '1984-12-09', '82346444510', 'ignati2017@example.com', 'Наумов Трофим Ануфриевич'),
+		(id_cinema_38, id_position_11, 'zMiYHv', 'jcpJHRbe', '1979-12-01', '84147146704', 'ignati27@example.net', 'Игнатов Гостомысл Юлианович'),
+		(id_cinema_55, id_position_4, 'qsSEUt', 'HeVKLRpu', '1983-11-02', '87005158670', 'ignatovmarian@example.com', 'Пестов Изяслав Арсенович'),
+		(id_cinema_53, id_position_0, 'opWqqX', 'PpqWRLSf', '1958-08-22', '86687193256', 'igormironov@example.net', 'Брагина Евгения Григорьевна'),
+		(id_cinema_87, id_position_8, 'iUDZiw', 'qrvlUOcu', '1992-12-06', '89325149526', 'igorosipov@example.org', 'Герасимов Тихон Викентьевич'),
+		(id_cinema_15, id_position_3, 'wYJYrj', 'fdXSIApB', '1999-11-20', '88673416630', 'ilinanonna@example.org', 'Самсон Ермилович Емельянов'),
+		(id_cinema_68, id_position_11, 'LRFgfQ', 'PifCKmAO', '1960-10-07', '82306334727', 'ilinnazar@example.com', 'Фадеева Светлана Егоровна'),
+		(id_cinema_71, id_position_8, 'DEUrXR', 'mRdpPaXz', '1978-02-01', '81445602153', 'ilja29@example.net', 'Харитон Трифонович Миронов'),
+		(id_cinema_57, id_position_10, 'UcDPNV', 'eMjIZOxD', '1967-11-03', '82493602120', 'ipat_1988@example.net', 'Боброва Алла Львовна'),
+		(id_cinema_91, id_position_1, 'yWiiwi', 'xvsfiJPu', '1975-10-16', '82465020958', 'ipat76@example.com', 'Дементьева София Святославовна'),
+		(id_cinema_47, id_position_4, 'WBfyMe', 'mVDPMQrw', '1963-10-03', '82515519674', 'ipati_1971@example.net', 'тов. Бобылева Нина Федоровна'),
+		(id_cinema_32, id_position_6, 'feUXqE', 'CBOhsVWU', '1963-11-24', '89504358221', 'irakli88@example.com', 'Зыков Гремислав Владиленович'),
+		(id_cinema_63, id_position_7, 'xXesRt', 'ZYtYjDIs', '2004-08-12', '82152154321', 'isakovaantonina@example.org', 'г-н Красильников Трофим Фокич'),
+		(id_cinema_82, id_position_6, 'NfaOHB', 'YlzYWwVI', '1998-01-28', '85921550569', 'ivankolobov@example.org', 'Афиноген Тарасович Ситников'),
+		(id_cinema_38, id_position_12, 'zSlTlb', 'zJxCNJVk', '1971-02-28', '89054987441', 'ivanna_1980@example.com', 'Костина Ирина Ниловна'),
+		(id_cinema_80, id_position_13, 'jPpiBA', 'YPmJSazl', '1984-04-11', '88600953488', 'ivanovaakulina@example.net', 'Эдуард Архипович Борисов'),
+		(id_cinema_13, id_position_5, 'DGNBSk', 'rCLXbWae', '2000-07-02', '84624292561', 'izjaslav1985@example.com', 'Юлий Всеволодович Гришин'),
+		(id_cinema_21, id_position_9, 'ulvxOv', 'aROMTNml', '1997-02-01', '88929513764', 'izjaslav2018@example.net', 'г-н Лукин Лаврентий Федосьевич'),
+		(id_cinema_14, id_position_2, 'lcnQKl', 'kocdstVk', '1963-11-06', '86421783557', 'izmail_2004@example.net', 'Фомина Маргарита Тимофеевна'),
+		(id_cinema_36, id_position_7, 'cyKTTU', 'zyJhxbeI', '1977-02-18', '87692118966', 'izot_1985@example.net', 'Савина Октябрина Николаевна'),
+		(id_cinema_14, id_position_6, 'KrSaId', 'yaCvRkcn', '1994-04-10', '81637212887', 'izot_2019@example.org', 'Пономарев Венедикт Давидович'),
+		(id_cinema_85, id_position_6, 'bJzIJY', 'FGkgEjys', '1983-08-25', '83619842484', 'jakubbogdanov@example.net', 'Надежда Андреевна Крылова'),
+		(id_cinema_28, id_position_5, 'NBtgTg', 'lgMfzret', '1980-12-28', '84760440497', 'jakubjakushev@example.net', 'Воронцова Алина Оскаровна'),
+		(id_cinema_92, id_position_11, 'VSBOHN', 'zlLYhyrD', '2000-02-15', '84145758873', 'jakushevavalerija@example.com', 'Назарова Валерия Владиславовна'),
+		(id_cinema_78, id_position_1, 'AutPtw', 'KaluVWrc', '1966-09-04', '84793254315', 'jaroslavbelousov@example.org', 'Юлия Харитоновна Громова'),
+		(id_cinema_35, id_position_7, 'gRCHML', 'KsNUdmUP', '1990-12-27', '86777192950', 'jbragina@example.net', 'Синклитикия Романовна Силина'),
+		(id_cinema_92, id_position_6, 'XSneWl', 'XvDKZDAF', '1959-01-26', '89348320341', 'jshcherbakov@example.org', 'Мясников Август Артёмович'),
+		(id_cinema_60, id_position_10, 'YdGQlL', 'dnvmzWEJ', '1984-12-09', '88333778412', 'juvenalizhdanov@example.net', 'Сысоева Таисия Натановна'),
+		(id_cinema_50, id_position_11, 'xFdLHV', 'QzPrkUUM', '1982-09-21', '83931967286', 'kabanovfortunat@example.com', 'Шубин Гедеон Владленович'),
+		(id_cinema_51, id_position_9, 'ZhkPgq', 'HEazQcYb', '1967-08-15', '82399937162', 'kabanovguri@example.org', 'Еремей Матвеевич Панов'),
+		(id_cinema_55, id_position_3, 'wKbizt', 'WySXkrqP', '1997-11-02', '81528377513', 'kalashnikoverast@example.com', 'Синклитикия Ждановна Бурова'),
+		(id_cinema_35, id_position_11, 'lYAjeX', 'frVzuFgC', '2004-09-04', '83908577712', 'kalashnikovrjurik@example.net', 'Максимильян Афанасьевич Савельев'),
+		(id_cinema_93, id_position_7, 'oDofJF', 'ENqeTzIn', '1981-11-08', '87703050710', 'kapitonmoiseev@example.net', 'Воронцов Мирослав Харитонович'),
+		(id_cinema_20, id_position_5, 'IaKtAy', 'FTRgXeTX', '1970-12-28', '89786195663', 'kapustinamarina@example.net', 'Макарова Елена Леоновна'),
+		(id_cinema_94, id_position_11, 'TPnIZL', 'aFuuXFry', '1964-07-12', '81804917718', 'karl_1993@example.net', 'Вышеслав Игнатьевич Лукин'),
+		(id_cinema_95, id_position_5, 'rsBhGk', 'PejZauku', '1988-11-18', '88868617410', 'karl18@example.net', 'Станислав Герасимович Ефремов'),
+		(id_cinema_77, id_position_13, 'VrkuDm', 'fgBamePD', '1965-12-14', '84360839785', 'kasjan16@example.net', 'Исакова Лора Вениаминовна'),
+		(id_cinema_7, id_position_7, 'CIrcsF', 'GKayxkbq', '2001-05-15', '83334245448', 'kazakovanatalja@example.com', 'Ковалева Феврония Эльдаровна'),
+		(id_cinema_96, id_position_12, 'MKCNwl', 'NyTWkkEh', '1975-03-12', '85365014027', 'kazimirturov@example.org', 'Новиков Стоян Гордеевич'),
+		(id_cinema_69, id_position_11, 'CjZojW', 'BZUKrLdN', '1990-12-03', '88051014439', 'kirill18@example.com', 'Евпраксия Семеновна Васильева'),
+		(id_cinema_92, id_position_3, 'owooJq', 'qzceTflC', '1997-10-19', '85763697116', 'kiselevprokofi@example.com', 'Ковалева Нина Геннадьевна'),
+		(id_cinema_25, id_position_6, 'eyJeNY', 'bWzlwMzC', '1996-12-15', '85678162593', 'klavdinikitin@example.org', 'Одинцова Раиса Ниловна'),
+		(id_cinema_74, id_position_13, 'kZeyik', 'ceukbISA', '1985-07-11', '88296550281', 'kliment1982@example.com', 'Белоусов Вадим Евстигнеевич'),
+		(id_cinema_71, id_position_12, 'grxqBu', 'EhMRTXCJ', '1984-09-26', '86541581853', 'knjazevapelageja@example.org', 'Селиверстова Регина Валентиновна'),
+		(id_cinema_81, id_position_6, 'cLQGzj', 'odJnNCjG', '2000-07-08', '81184330026', 'komarovprokofi@example.com', 'Якушева Мария Романовна'),
+		(id_cinema_1, id_position_1, 'CazfKO', 'QeGfNoVj', '1984-11-14', '87328037354', 'kononovaoktjabrina@example.com', 'Лихачев Рюрик Харитонович'),
+		(id_cinema_11, id_position_0, 'lzooex', 'ZfgclPfQ', '1992-06-17', '86944870977', 'konovalovaristarh@example.net', 'Майя Семеновна Логинова'),
+		(id_cinema_22, id_position_1, 'ZkAAdN', 'IVwFZtph', '1981-01-15', '81403053255', 'konovalovmark@example.org', 'Красильников Исай Всеволодович'),
+		(id_cinema_47, id_position_1, 'iNcyNC', 'XxcbWaWk', '1981-03-21', '87194093717', 'konstantin51@example.net', 'Федот Германович Лыткин'),
+		(id_cinema_6, id_position_5, 'tgufWB', 'xTlGkLdK', '1995-04-24', '89632521103', 'kopilovazoja@example.org', 'Лукин Силантий Харлампович'),
+		(id_cinema_52, id_position_0, 'DgxUdL', 'IkMHQmdX', '1985-05-07', '86568710060', 'kornilovaolga@example.com', 'Назарова Надежда Валериевна'),
+		(id_cinema_85, id_position_11, 'QscvxJ', 'JgVUmcfh', '1978-08-04', '82983112977', 'kornilvasilev@example.com', 'Белякова Ульяна Даниловна'),
+		(id_cinema_42, id_position_13, 'tMjJIf', 'viQGdgin', '1958-04-03', '88299516663', 'korolevaakulina@example.com', 'Мамонтов Александр Аверьянович'),
+		(id_cinema_47, id_position_0, 'GdoHeE', 'cNEojryb', '1977-09-26', '81638677726', 'koshelevmoke@example.net', 'Никанор Ефремович Игнатьев'),
+		(id_cinema_71, id_position_4, 'mqUoLE', 'gGnoQceu', '1993-02-11', '83468878872', 'kostinrodion@example.com', 'Аникей Фролович Смирнов'),
+		(id_cinema_63, id_position_9, 'SUJYUQ', 'OqrAHuuV', '1969-03-01', '86663384139', 'kovalevaaleksandra@example.org', 'Аверкий Иосипович Лапин'),
+		(id_cinema_22, id_position_0, 'AFzLSH', 'YtECYknx', '1989-12-06', '82772346500', 'kovalevazari@example.com', 'Ульян Захарьевич Блохин'),
+		(id_cinema_18, id_position_5, 'SQGvRP', 'MwRFFUZv', '1963-08-20', '84922775080', 'kozlovgerasim@example.org', 'Кошелева Милица Михайловна'),
+		(id_cinema_94, id_position_10, 'tAkIlI', 'fZxVGMLD', '1984-04-21', '81585894964', 'kudrjashovsofron@example.com', 'Артемий Филимонович Кононов'),
+		(id_cinema_33, id_position_3, 'EtXwJA', 'qgUoUxUP', '1989-02-03', '83119826329', 'kulaginanonna@example.net', 'Павел Эдгардович Буров'),
+		(id_cinema_74, id_position_1, 'jtRkzq', 'ZnBvoJum', '1999-12-03', '83250145945', 'kuprijan94@example.com', 'Рогова Дарья Геннадьевна'),
+		(id_cinema_45, id_position_9, 'PmQZrt', 'XOzjxlKG', '1994-09-13', '88479344538', 'kuzminvladimir@example.net', 'Анисимова Агата Борисовна'),
+		(id_cinema_94, id_position_2, 'GOfUZr', 'KbiATduB', '2001-09-12', '88145022967', 'kuznetsovaanna@example.net', 'Русаков Модест Адрианович'),
+		(id_cinema_2, id_position_10, 'mMkfXL', 'ohdxXjTi', '1994-08-16', '86650834619', 'kuznetsovzosima@example.com', 'Орлова Варвара Эдуардовна'),
+		(id_cinema_88, id_position_13, 'qlWMJW', 'cDVNxlQj', '1986-11-11', '83771699288', 'ladimir_67@example.net', 'Ксения Антоновна Воронова'),
+		(id_cinema_9, id_position_6, 'arktRM', 'zTdOQdXT', '1960-01-18', '85039233974', 'ladimir2001@example.net', 'Климент Аверьянович Дьячков'),
+		(id_cinema_97, id_position_9, 'Xulanq', 'DIdrntQY', '1977-11-20', '83935587260', 'larionovgremislav@example.net', 'Анастасия Альбертовна Сысоева'),
+		(id_cinema_22, id_position_10, 'SlzofK', 'HONlkNWl', '1979-09-20', '87413715684', 'larisa2013@example.net', 'Нинель Богдановна Кузнецова'),
+		(id_cinema_73, id_position_4, 'pkwVWj', 'mpZTQwcQ', '1961-10-26', '86119547052', 'lavr99@example.net', 'Мишин Изот Жоресович'),
+		(id_cinema_75, id_position_1, 'ZIbhYc', 'XZtmCKRe', '1979-03-12', '89919859399', 'lavrentevkondrat@example.com', 'Дорофей Харитонович Самойлов'),
+		(id_cinema_6, id_position_1, 'dXNPKx', 'vwHeeosy', '1977-01-02', '84181546232', 'lavrenti_63@example.com', 'Сидоров Ипатий Глебович'),
+		(id_cinema_66, id_position_0, 'KGaILw', 'QiyYfSSd', '1979-12-03', '86017868017', 'lazar69@example.com', 'Евгения Никифоровна Баранова'),
+		(id_cinema_4, id_position_8, 'UvPWMV', 'UoGjwBuN', '1992-10-20', '82222097664', 'lazarevaolimpiada@example.com', 'Громов Капитон Германович'),
+		(id_cinema_88, id_position_8, 'GZGYJG', 'ZTJNSfIt', '1976-03-07', '88486133705', 'lazarevboris@example.com', 'Валерия Оскаровна Николаева'),
+		(id_cinema_29, id_position_13, 'YiLvXq', 'gQCqHYlo', '1968-05-06', '88136382672', 'lebedevmiron@example.net', 'Любовь Егоровна Бобылева'),
+		(id_cinema_17, id_position_12, 'PhpDDF', 'jnORUExC', '2001-07-08', '87817494531', 'leon_97@example.org', 'Русаков Болеслав Тихонович'),
+		(id_cinema_78, id_position_13, 'WIpnSE', 'vcFMNRid', '1965-01-27', '87688120078', 'lidija_61@example.net', 'Борислав Феодосьевич Калинин'),
+		(id_cinema_33, id_position_5, 'tHPRUM', 'qMaKfEMX', '2000-10-24', '85243312590', 'lidija15@example.org', 'Овчинников Юлий Григорьевич'),
+		(id_cinema_35, id_position_0, 'UGplIg', 'fGMMcIxE', '1997-04-15', '88627757322', 'ljubim1970@example.org', 'Фадеева Алла Робертовна'),
+		(id_cinema_7, id_position_5, 'WulARY', 'JyVstlHs', '1958-11-18', '87430249632', 'ljubomir_75@example.com', 'Прохоров Натан Даниилович'),
+		(id_cinema_52, id_position_9, 'ZNKEyG', 'JKzapXyV', '1959-12-21', '86941644057', 'ljubov_07@example.org', 'Александр Всеволодович Назаров'),
+		(id_cinema_36, id_position_9, 'TrvEzb', 'rzVKoiXS', '1964-03-13', '87257007492', 'ljudmila_37@example.org', 'Натан Евсеевич Григорьев'),
+		(id_cinema_65, id_position_1, 'tzXTtT', 'hwhCtuxf', '1959-02-24', '82711800276', 'lkorolev@example.com', 'Сафонов Амос Харлампьевич'),
+		(id_cinema_57, id_position_7, 'KsHpqu', 'OXygFVoJ', '1995-03-06', '87036054663', 'lnikiforov@example.org', 'Мстислав Евсеевич Поляков'),
+		(id_cinema_70, id_position_9, 'DfTKiT', 'lVPRFiyy', '1993-05-12', '88370738432', 'lukija_2022@example.com', 'г-жа Игнатьева Светлана Макаровна'),
+		(id_cinema_98, id_position_11, 'rwuAWJ', 'BHgKWzly', '1988-08-14', '89823561409', 'lukinmodest@example.org', 'Кошелева Виктория Борисовна'),
+		(id_cinema_24, id_position_5, 'QGSqGF', 'bkqwRDXo', '1998-04-12', '86819673328', 'maja_2020@example.net', 'Нестерова Нонна Макаровна'),
+		(id_cinema_3, id_position_4, 'DapQDL', 'SABkXkUV', '1961-06-01', '81440456485', 'maja90@example.net', 'Жданов Богдан Ярославович'),
+		(id_cinema_27, id_position_13, 'RWWgfm', 'QMUQrYeo', '1993-07-16', '84534747633', 'makarovguri@example.org', 'Дьячков Иосиф Димитриевич'),
+		(id_cinema_4, id_position_3, 'iLrXZw', 'UvhvzBaW', '1958-07-28', '82955277451', 'maksimiljan52@example.net', 'Абрамов Арсений Архипович'),
+		(id_cinema_61, id_position_9, 'DFEHzi', 'VokqWEjr', '1960-09-03', '81436543827', 'mamontovamargarita@example.org', 'Рогова Наина Андреевна'),
+		(id_cinema_27, id_position_1, 'aVuhSQ', 'lhJrREHT', '1996-03-25', '82801627835', 'marianvorontsov@example.org', 'Лукина Фаина Вениаминовна'),
+		(id_cinema_94, id_position_10, 'ZNudKq', 'crrWJfqj', '1960-02-12', '88844706016', 'marija05@example.org', 'Третьякова Елена Яковлевна'),
+		(id_cinema_31, id_position_2, 'XZPyEG', 'CSjXYRMk', '1976-01-23', '85954264493', 'marina69@example.com', 'Ия Степановна Степанова'),
+		(id_cinema_98, id_position_12, 'dAhXAP', 'ATvyrLQU', '1962-08-27', '82073629726', 'markfedorov@example.org', 'Платон Филимонович Субботин'),
+		(id_cinema_54, id_position_8, 'CuETKV', 'UFrmdzhy', '1991-02-10', '86538061850', 'markovaleksandr@example.com', 'Горбунов Корнил Измаилович'),
+		(id_cinema_95, id_position_9, 'hETJau', 'VyTtqyUK', '1988-03-26', '84740892767', 'maslovaglafira@example.com', 'Русаков Карп Тихонович'),
+		(id_cinema_73, id_position_0, 'qaAWTH', 'VxEYgHEF', '1974-04-21', '88871691233', 'maslovfilimon@example.org', 'Панфил Гавриилович Панов'),
+		(id_cinema_11, id_position_4, 'Wfukxg', 'HDIWvXrD', '1962-02-21', '88476800556', 'matve_28@example.net', 'Носов Митофан Изотович'),
+		(id_cinema_24, id_position_10, 'aKhIia', 'tunHRRWM', '1967-04-23', '83115998741', 'matveevaveronika@example.net', 'Агафонова Марфа Петровна'),
+		(id_cinema_15, id_position_13, 'UZEkCj', 'ZGcsCyvN', '2003-05-27', '82336146404', 'matveevserafim@example.com', 'Орлов Ульян Еремеевич'),
+		(id_cinema_58, id_position_1, 'iQComK', 'UwPXYNPf', '1968-07-27', '88039407101', 'mechislavkazakov@example.net', 'Вероника Артемовна Маслова'),
+		(id_cinema_6, id_position_3, 'kymGCw', 'HJoKhDQm', '2000-11-22', '81155852450', 'mefodi1997@example.com', 'Дорофеева Елизавета Романовна'),
+		(id_cinema_31, id_position_7, 'tWVgOJ', 'WdXuWuSf', '1985-05-06', '88081795412', 'mihe_2001@example.net', 'Клавдия Федоровна Белякова'),
+		(id_cinema_41, id_position_3, 'HhJgVx', 'nQMtisiB', '1987-07-10', '86571171809', 'miheevapelageja@example.org', 'Пономарев Ладимир Дорофеевич'),
+		(id_cinema_65, id_position_10, 'nCYvRs', 'KqhUNcAh', '1982-04-10', '82343572487', 'milendavidov@example.com', 'Эмилия Егоровна Прохорова'),
+		(id_cinema_28, id_position_10, 'DvOvkz', 'KJEonyJQ', '1980-08-18', '82180672522', 'milikuznetsov@example.com', 'Беляева Марфа Дмитриевна'),
+		(id_cinema_53, id_position_0, 'fKxnDl', 'XmjXGXMk', '1966-04-20', '84918800585', 'militsa88@example.net', 'Виктория Макаровна Воронова'),
+		(id_cinema_51, id_position_11, 'WBQGBT', 'mZKiumck', '1972-09-04', '85229777024', 'mironovevgeni@example.net', 'Дарья Эдуардовна Горбачева'),
+		(id_cinema_6, id_position_0, 'DuZwkO', 'FfEbNhsb', '2000-03-14', '81487319164', 'miroslavbogdanov@example.net', 'Каллистрат Феликсович Исаев'),
+		(id_cinema_88, id_position_6, 'QXHbCi', 'vQQIswvd', '1987-06-09', '84535237094', 'mishinanike@example.net', 'Фёкла Леонидовна Комарова'),
+		(id_cinema_56, id_position_8, 'QxWKZw', 'ZgITRVRJ', '2002-02-19', '86333319556', 'mishinanonna@example.com', 'Некрасова Таисия Юльевна'),
+		(id_cinema_96, id_position_13, 'ekSCLE', 'eblXtBhL', '2003-12-11', '83574114219', 'mkomarova@example.net', 'Владимиров Милен Фролович'),
+		(id_cinema_77, id_position_11, 'IYMaWA', 'xinXRKJU', '1964-06-27', '88387196528', 'mnikiforova@example.net', 'Сысоев Селиверст Ефремович'),
+		(id_cinema_7, id_position_5, 'VNJEqM', 'LDEBZyNz', '1983-03-17', '82615344622', 'modest_20@example.org', 'Смирнова Евдокия Вениаминовна'),
+		(id_cinema_54, id_position_12, 'sUvjno', 'uxeXBwuD', '1982-08-24', '82141067752', 'moise_96@example.net', 'Артем Виленович Кулагин'),
+		(id_cinema_56, id_position_5, 'xASDGh', 'iPMnaYXR', '1960-12-20', '83966944845', 'moiseevevstigne@example.com', 'Сазонов Пров Владиславович'),
+		(id_cinema_81, id_position_6, 'gDcJdp', 'JTRmMUxQ', '1994-06-14', '81448146286', 'moke_1972@example.org', 'Самсонова Вера Аркадьевна'),
+		(id_cinema_76, id_position_7, 'icWsHi', 'kfTkNVhF', '1981-08-27', '83959857128', 'morozovagafon@example.org', 'Исаков Арсений Эдуардович'),
+		(id_cinema_80, id_position_7, 'sHvBTE', 'IqxseNcJ', '2001-09-23', '81778945016', 'morozovapelageja@example.net', 'Алла Николаевна Мамонтова'),
+		(id_cinema_77, id_position_0, 'PeBjfm', 'LhlKIEuq', '1958-01-21', '81144545025', 'morozovselivan@example.com', 'Емельянов Фадей Исидорович'),
+		(id_cinema_57, id_position_11, 'EkeceV', 'lbOIiWKy', '1971-09-10', '84637494369', 'mstislav_1983@example.net', 'г-н Игнатов Феофан Харлампович'),
+		(id_cinema_60, id_position_6, 'lMvxYX', 'zgJukGYm', '1978-10-01', '82872505800', 'muhinerofe@example.net', 'Вячеслав Артурович Калашников'),
+		(id_cinema_35, id_position_1, 'RGTkGa', 'hMGOrNHa', '1972-03-03', '88762856565', 'muhingennadi@example.org', 'Твердислав Давыдович Лазарев'),
+		(id_cinema_64, id_position_6, 'hKrYJh', 'LnuFnFtO', '1963-01-05', '86395141376', 'muravevmina@example.org', 'Михайлова Ульяна Степановна'),
+		(id_cinema_91, id_position_13, 'UaEplT', 'VCcKTfdc', '1993-09-11', '89209203980', 'nadezhda_1997@example.com', 'Лонгин Владиленович Лаврентьев'),
+		(id_cinema_23, id_position_11, 'pvSoBD', 'IetLsojH', '1975-11-08', '82923512303', 'natalja_2017@example.org', 'Орлов Евстафий Гаврилович'),
+		(id_cinema_39, id_position_8, 'tcHFAZ', 'jjerDSFq', '1998-06-07', '85865431648', 'natan1997@example.com', 'Остап Аксёнович Жданов'),
+		(id_cinema_25, id_position_10, 'JHFbxI', 'uOevyrQf', '1985-06-13', '86713590224', 'naum1984@example.net', 'Тарасов Ермолай Бориславович'),
+		(id_cinema_99, id_position_3, 'OEASum', 'XtJAurox', '1960-12-28', '81695975475', 'naum87@example.org', 'Боброва Милица Антоновна'),
+		(id_cinema_19, id_position_11, 'LBMqPB', 'ajGhBCcZ', '1999-02-10', '86111126140', 'naumovradislav@example.com', 'Котова Агата Леонидовна'),
+		(id_cinema_64, id_position_12, 'zprjjx', 'YEMRMDWG', '1962-09-26', '88519219049', 'nesterovaantonina@example.org', 'Князев Ульян Авдеевич'),
+		(id_cinema_89, id_position_12, 'dNHQiU', 'OsmOOQiC', '1999-09-02', '82824267784', 'nifontmamontov@example.org', 'Екатерина Харитоновна Ермакова'),
+		(id_cinema_56, id_position_11, 'dWZxMJ', 'sukzTGUa', '1959-09-01', '83917571657', 'nikandr_2013@example.org', 'Любовь Святославовна Карпова'),
+		(id_cinema_94, id_position_3, 'rKpkzy', 'XnaIfxxF', '1967-07-12', '85609509437', 'nikifor11@example.com', 'Савватий Антипович Лапин'),
+		(id_cinema_70, id_position_13, 'MRrFVd', 'KBGTYcmf', '2004-04-17', '85766129173', 'nikitinanina@example.net', 'Дарья Тарасовна Захарова'),
+		(id_cinema_66, id_position_7, 'vqetae', 'MdJVFUSc', '1987-12-16', '86289495678', 'nikola_59@example.com', 'Евдоким Харитонович Богданов'),
+		(id_cinema_38, id_position_1, 'craplu', 'oHHgNBCN', '2003-03-28', '88223327493', 'nikola2002@example.net', 'Борисова Ксения Вадимовна'),
+		(id_cinema_68, id_position_11, 'bqGJLJ', 'QOUofXVP', '1968-05-08', '83396781659', 'nikon1996@example.org', 'Наталья Богдановна Богданова'),
+		(id_cinema_80, id_position_0, 'JgvppO', 'bqsTdCtU', '1966-08-02', '83907048984', 'nina_04@example.net', 'Капустин Николай Эдгардович'),
+		(id_cinema_32, id_position_0, 'RoYPdj', 'ZjFeWDfP', '1979-02-12', '88386962334', 'nina_1992@example.org', 'Евдокимов Архип Андреевич'),
+		(id_cinema_72, id_position_9, 'dYwbIF', 'hGWkjmGq', '1966-11-28', '82354417757', 'ninel71@example.com', 'Сорокина Фаина Юльевна'),
+		(id_cinema_70, id_position_4, 'czEeuq', 'wixnegQJ', '2002-01-24', '89345005874', 'nosovajulija@example.org', 'Константинова Людмила Леоновна'),
+		(id_cinema_79, id_position_7, 'wWVjeH', 'TOrgJvlm', '1987-08-19', '85399798727', 'nvorontsova@example.net', 'Ефимова Синклитикия Леонидовна'),
+		(id_cinema_27, id_position_9, 'SpGrJa', 'JltSgmmY', '1964-04-26', '84020589835', 'ofedotov@example.org', 'Молчанов Викторин Антонович'),
+		(id_cinema_89, id_position_3, 'xBEsdR', 'kTPJPbEv', '1987-08-19', '84030902477', 'oksana_2009@example.com', 'Носова Лора Феликсовна'),
+		(id_cinema_78, id_position_7, 'UZdnxJ', 'sdfJJaxq', '1960-06-15', '81382735759', 'olegnovikov@example.net', 'Максимов Лаврентий Богданович'),
+		(id_cinema_83, id_position_7, 'gmAlsF', 'pWyfKxBn', '1991-09-21', '87755598012', 'olimpi15@example.net', 'Кузьмина Анжела Олеговна'),
+		(id_cinema_96, id_position_5, 'FUgnSf', 'kTxXjmgr', '1981-09-03', '85815316085', 'olimpiada1981@example.com', 'Фаина Кузьминична Гаврилова'),
+		(id_cinema_99, id_position_6, 'LYzekW', 'iXiwlaWC', '1989-04-18', '89568105786', 'onikiforova@example.com', 'Исаков Лев Гертрудович'),
+		(id_cinema_82, id_position_11, 'sjsWft', 'sPiQeYHj', '1988-01-06', '84202634265', 'onufri_1973@example.com', 'Фаина Болеславовна Сафонова'),
+		(id_cinema_47, id_position_12, 'APOKoD', 'KZFSQuKF', '1988-05-23', '85514084761', 'orehovsvetozar@example.org', 'Доронина Ия Максимовна'),
+		(id_cinema_72, id_position_6, 'MqEptn', 'JgdgEYOv', '1979-11-14', '86689004628', 'orest1971@example.org', 'Марфа Олеговна Воронова'),
+		(id_cinema_84, id_position_2, 'KugtIW', 'ryfwGsYr', '1965-12-09', '81863398355', 'orestlarionov@example.net', 'Колобова Елена Семеновна'),
+		(id_cinema_87, id_position_13, 'axeOuB', 'XEtSpzpc', '1977-06-07', '85866518439', 'orlovakira@example.com', 'Афиноген Всеволодович Селезнев'),
+		(id_cinema_62, id_position_6, 'Zeqkll', 'FTVQntzp', '1992-03-23', '81760447551', 'oshilova@example.com', 'Жанна Игоревна Семенова'),
+		(id_cinema_3, id_position_7, 'rBgGmx', 'eZNbltbP', '1982-12-19', '86583366122', 'osipovisa@example.com', 'Элеонора Даниловна Симонова'),
+		(id_cinema_90, id_position_12, 'KOvIlO', 'wqtqFUrs', '1998-01-23', '85862862316', 'osoboleva@example.com', 'Капустина Лариса Васильевна'),
+		(id_cinema_50, id_position_10, 'dKphwn', 'cIMEIVjv', '1964-12-16', '81746606096', 'ovchinnikovanatalja@example.com', 'Попов Данила Ярославович'),
+		(id_cinema_87, id_position_4, 'neayxf', 'hyFTxtkI', '1980-11-12', '81464367080', 'pahomovaangelina@example.net', 'Павлова Ираида Григорьевна'),
+		(id_cinema_97, id_position_7, 'sJqgJr', 'duyQVtmm', '1996-11-19', '86920714621', 'pahomovipati@example.com', 'Пахомова Марина Ниловна'),
+		(id_cinema_98, id_position_1, 'GZkKzw', 'YOTSfQBz', '1981-05-16', '84559230875', 'pahomovmefodi@example.com', 'Жанна Матвеевна Степанова'),
+		(id_cinema_49, id_position_7, 'UhqPxp', 'JtcKtcXL', '1959-08-06', '84337362115', 'panfilovdobroslav@example.com', 'Филатов Фадей Димитриевич'),
+		(id_cinema_57, id_position_5, 'TidaXv', 'lNmKTaQv', '1962-09-17', '87856982374', 'panovaanzhelika@example.com', 'Морозов Аверьян Харламович'),
+		(id_cinema_77, id_position_13, 'THRxji', 'qmZsldpc', '1964-05-22', '81697953463', 'paramon_2012@example.com', 'Денис Бенедиктович Сидоров'),
+		(id_cinema_30, id_position_3, 'ndIGjT', 'SPpOGZEu', '1961-02-26', '81533534891', 'paramon_2018@example.net', 'Олимпиада Дмитриевна Крюкова'),
+		(id_cinema_79, id_position_7, 'zvvQZP', 'lIeMPSdK', '1976-07-24', '83830406975', 'parfen2007@example.net', 'Жанна Архиповна Тарасова'),
+		(id_cinema_88, id_position_11, 'zApfWY', 'MXoNhWxM', '1984-07-23', '84927803180', 'pavlovfeoktist@example.com', 'Элеонора Владиславовна Костина'),
+		(id_cinema_95, id_position_3, 'jfsBCi', 'chNwJABU', '1965-06-26', '81343225742', 'petr_1971@example.net', 'Мамонтова Фёкла Федоровна'),
+		(id_cinema_43, id_position_9, 'rfKktI', 'pbTdndyO', '1973-01-08', '89684745419', 'petr_68@example.net', 'Людмила Валентиновна Афанасьева'),
+		(id_cinema_45, id_position_13, 'JyodBK', 'xWeVlyPC', '1989-08-24', '84958667965', 'petr_81@example.com', 'Шаров Боян Федосьевич'),
+		(id_cinema_13, id_position_2, 'CuiwpH', 'TRUaFmro', '1986-01-23', '88821597398', 'petuhovgeorgi@example.com', 'Бобров Иосиф Гертрудович'),
+		(id_cinema_25, id_position_2, 'qPKjXB', 'bYJxrKqP', '1973-03-18', '87878714325', 'platon2006@example.org', 'Мельникова Валентина Станиславовна'),
+		(id_cinema_46, id_position_5, 'fGdKGA', 'CjLKQNlb', '1992-12-17', '88955492112', 'polina1999@example.com', 'Соболев Спиридон Ермилович'),
+		(id_cinema_37, id_position_12, 'cxdzbK', 'WltGlBXx', '2003-01-06', '88937845166', 'porfiri_80@example.org', 'Медведев Мариан Артурович'),
+		(id_cinema_61, id_position_13, 'BQxyAw', 'WNCjfTcc', '1959-07-07', '84721741312', 'porfirikulakov@example.org', 'Мокей Анатольевич Александров'),
+		(id_cinema_12, id_position_6, 'ROBCIf', 'BzpZNKde', '1961-08-18', '82697456114', 'prohor2010@example.org', 'Екатерина Захаровна Федорова'),
+		(id_cinema_79, id_position_1, 'fqJptP', 'nXmTQyPZ', '1992-12-17', '86651660615', 'prohorovaanastasija@example.com', 'Наина Павловна Богданова'),
+		(id_cinema_62, id_position_3, 'rGdUUK', 'AnQJfcch', '1959-06-23', '87144161857', 'prokl_61@example.com', 'Филиппов Казимир Филимонович'),
+		(id_cinema_26, id_position_10, 'amYRel', 'JjRuPrsH', '1995-12-03', '89964137143', 'prokofi2019@example.net', 'Романов Ювеналий Архипович'),
+		(id_cinema_2, id_position_8, 'Ztcdrz', 'HSUoreqc', '2001-04-21', '85729764442', 'psemenova@example.com', 'Майя Альбертовна Зимина'),
+		(id_cinema_5, id_position_11, 'oycEoO', 'SvlRkTtN', '1983-05-28', '86092094918', 'qignatov@example.net', 'Ратибор Фадеевич Миронов'),
+		(id_cinema_5, id_position_0, 'TMBxDb', 'ESRvTubR', '2002-11-05', '85040857796', 'qpestova@example.org', 'Нестерова Лариса Харитоновна'),
+		(id_cinema_86, id_position_8, 'lsQKAd', 'sdWJVYBt', '1984-06-25', '87450528099', 'radislav_1984@example.net', 'Валентин Валерьевич Котов'),
+		(id_cinema_36, id_position_5, 'vSVgrk', 'dhHQIjUV', '1986-11-10', '83740387934', 'radovan_05@example.org', 'г-н Кузьмин Лев Эдгарович'),
+		(id_cinema_89, id_position_5, 'dwlwzj', 'BqsyScvk', '1967-05-15', '89309123461', 'raisa45@example.net', 'Раиса Рудольфовна Стрелкова'),
+		(id_cinema_98, id_position_6, 'DBXmkz', 'vKTXHkck', '1994-08-23', '82682873019', 'ratiborgavrilov@example.net', 'Арефий Ильич Денисов'),
+		(id_cinema_44, id_position_10, 'NhcELw', 'xeNTpWlv', '2001-06-01', '82289290133', 'remeljanova@example.net', 'Модест Измаилович Шестаков'),
+		(id_cinema_48, id_position_3, 'qKioeR', 'bPPmnmQM', '1981-02-06', '84692734604', 'rguljaeva@example.com', 'Беляева Кира Альбертовна'),
+		(id_cinema_61, id_position_5, 'EQDsyY', 'SpAjcdII', '1981-02-18', '86603399438', 'ribakovfoka@example.com', 'Данила Гертрудович Рябов'),
+		(id_cinema_90, id_position_2, 'RaHzCr', 'kwXXNzmA', '1966-02-02', '81658269218', 'ribakovkallistrat@example.net', 'Маслов Венедикт Аксёнович'),
+		(id_cinema_93, id_position_3, 'IGVNJb', 'xGGwtbqQ', '1973-03-01', '86989526367', 'ribakovsvjatopolk@example.net', 'Тетерина Дарья Николаевна'),
+		(id_cinema_96, id_position_2, 'WcQaxW', 'bbiGZOgO', '1960-05-28', '81812235048', 'rjurik_1991@example.org', 'Ермакова Ксения Вячеславовна'),
+		(id_cinema_79, id_position_1, 'PupktY', 'BdECzpHS', '1961-01-09', '83602219848', 'rkrasilnikov@example.org', 'Адам Ильич Тарасов'),
+		(id_cinema_17, id_position_9, 'HlSSfs', 'sSMiwgWS', '1966-10-24', '88098499795', 'rmuhina@example.net', 'Рябова Ульяна Дмитриевна'),
+		(id_cinema_37, id_position_7, 'UXzusp', 'yRKCEibx', '1984-10-24', '82281700636', 'rodion_1991@example.com', 'Медведева Елизавета Олеговна'),
+		(id_cinema_84, id_position_12, 'VqDgLi', 'uJKaXFHe', '1990-06-05', '87070898897', 'rodionovmoise@example.net', 'Терентьев Афиноген Власович'),
+		(id_cinema_97, id_position_7, 'aiqUlt', 'PssYLOAD', '1971-12-04', '89158130654', 'rostislav_02@example.net', 'Дмитриев Исай Гавриилович'),
+		(id_cinema_53, id_position_12, 'aFBELZ', 'JuoqhnPX', '1998-09-22', '85453065560', 'rostislav_87@example.net', 'Макар Теймуразович Селиверстов'),
+		(id_cinema_84, id_position_12, 'xdKYNc', 'qCfuPNvS', '1979-05-11', '86373780606', 'rshilov@example.net', 'Ситникова Евфросиния Геннадьевна'),
+		(id_cinema_62, id_position_1, 'geKfFy', 'qVOzzvzp', '1971-06-25', '89046008478', 'ruben_24@example.com', 'Исаков Аполлинарий Гордеевич'),
+		(id_cinema_74, id_position_3, 'XgaAEH', 'bvrofkIc', '1994-05-27', '84778594415', 'samolovaljubov@example.com', 'Евдокимов Феофан Виленович'),
+		(id_cinema_75, id_position_9, 'BHtvuV', 'XShQIujb', '2003-10-27', '82077949479', 'samsonvolkov@example.org', 'Морозова Елена Владимировна'),
+		(id_cinema_53, id_position_11, 'gkwjpm', 'WTeBAgPB', '1989-07-26', '84943774241', 'savinilja@example.org', 'Осипова Пелагея Андреевна'),
+		(id_cinema_30, id_position_13, 'bJrGbL', 'sQPLOEpJ', '1960-04-26', '89182821266', 'savva68@example.com', 'Филатова Эмилия Ивановна'),
+		(id_cinema_86, id_position_2, 'AWulvS', 'THiououh', '1997-01-13', '83411810612', 'savvati_2009@example.net', 'Жанна Феликсовна Петухова'),
+		(id_cinema_26, id_position_9, 'qzlWNV', 'DAlhszFV', '1998-07-03', '84643350991', 'sazonovgleb@example.org', 'Осипов Парфен Валерьевич'),
+		(id_cinema_68, id_position_12, 'IBymth', 'TNrSmFnS', '1977-01-19', '83871351927', 'seleznevaevgenija@example.org', 'Блохина Юлия Вячеславовна'),
+		(id_cinema_34, id_position_11, 'uImLmK', 'BAJQkxDZ', '1978-08-11', '88032607784', 'selivan1996@example.com', 'Хохлова Полина Валериевна'),
+		(id_cinema_93, id_position_6, 'Jdruzk', 'pbrVpMrD', '1983-10-13', '88535255879', 'selivanburov@example.com', 'Пахомова Иванна Геннадьевна'),
+		(id_cinema_95, id_position_0, 'ydZMYg', 'nbtNHwuu', '1977-05-14', '81384221281', 'semenodintsov@example.org', 'Беляева Зоя Руслановна'),
+		(id_cinema_90, id_position_4, 'bLNEwD', 'jOVSFhhF', '1996-09-21', '85325014926', 'semenovmilovan@example.net', 'Потапов Модест Терентьевич'),
+		(id_cinema_18, id_position_1, 'AFXCTh', 'GLIZJBMK', '1961-04-28', '81245511192', 'semenovstanislav@example.org', 'Ярослав Владленович Денисов'),
+		(id_cinema_24, id_position_9, 'IjMEBV', 'MPGlMmZP', '1990-11-14', '86582629658', 'semenovvaleri@example.net', 'Лобанов Ладислав Димитриевич'),
+		(id_cinema_97, id_position_3, 'nzNmUL', 'YVRrWPhf', '1975-06-11', '85024041621', 'serafim_1999@example.org', 'Зыков Лонгин Игнатович'),
+		(id_cinema_39, id_position_11, 'YFuWJx', 'oVeqllKV', '1988-10-06', '89908625686', 'sergeevaverjan@example.net', 'Кондратий Матвеевич Веселов'),
+		(id_cinema_30, id_position_4, 'iOLWEf', 'Fanbqgcv', '1991-01-04', '83021047562', 'sergepanfilov@example.com', 'Болеслав Алексеевич Шестаков'),
+		(id_cinema_71, id_position_8, 'rFPaso', 'YAiebkQQ', '1970-12-28', '87348949398', 'sevastjan90@example.org', 'Зинаида Харитоновна Уварова'),
+		(id_cinema_93, id_position_5, 'PnaJXk', 'YBEAjZkv', '1958-10-25', '83873460974', 'sevseeva@example.com', 'Ильина Лора Константиновна'),
+		(id_cinema_39, id_position_2, 'wTudaP', 'bUOphkbm', '1994-02-08', '83445818806', 'shestakovaivanna@example.com', 'Лариса Андреевна Коновалова'),
+		(id_cinema_3, id_position_8, 'ehpjkQ', 'ymfWIXGf', '1984-01-01', '87197251791', 'sidor_36@example.net', 'Павлова Ираида Васильевна'),
+		(id_cinema_86, id_position_7, 'JPQBRS', 'exgSINWu', '1985-12-25', '84433696224', 'sidorovalarisa@example.com', 'Антонова Зоя Руслановна'),
+		(id_cinema_97, id_position_0, 'RvXJAX', 'qjZTdXPN', '2000-10-20', '86422305223', 'sidorovavasilisa@example.net', 'Агафья Ждановна Гуляева'),
+		(id_cinema_9, id_position_2, 'KnsWtM', 'nGpFdbye', '1993-04-18', '85745077686', 'sidorovavasilisa2@example.net', 'Лукьян Давидович Панов'),
+		(id_cinema_1, id_position_11, 'gkBbuk', 'QWHfPFTe', '1997-09-12', '86354061546', 'sidorovevstafi@example.net', 'Евфросиния Рубеновна Нестерова'),
+		(id_cinema_69, id_position_13, 'glIVxo', 'uskjrcaK', '1969-02-05', '82498485361', 'sidorovroman@example.net', 'Севастьян Ааронович Ефимов'),
+		(id_cinema_87, id_position_3, 'sXcaOu', 'bcrkArix', '1971-02-07', '81506770558', 'silanti_82@example.net', 'Леон Тихонович Сысоев'),
+		(id_cinema_15, id_position_0, 'qQafHs', 'LwGfqWPA', '1987-01-24', '89943795224', 'silvestr_33@example.org', 'Комаров Азарий Георгиевич'),
+		(id_cinema_54, id_position_4, 'xBZOFA', 'cqZZTWIY', '1968-05-21', '85807215476', 'simon71@example.net', 'Милица Степановна Красильникова'),
+		(id_cinema_63, id_position_13, 'XMNFbC', 'BljrPool', '1978-11-27', '86462213824', 'simonovamarfa@example.com', 'Ефимова Синклитикия Наумовна'),
+		(id_cinema_27, id_position_1, 'LHeRNM', 'uhgwyjYm', '1969-12-26', '89110509906', 'simonovkuzma@example.net', 'Гордей Антонович Власов'),
+		(id_cinema_9, id_position_1, 'LBexGw', 'fqPrEEeI', '1989-01-02', '84921864053', 'sinklitikija1984@example.org', 'Константинов Пантелеймон Бориславович'),
+		(id_cinema_73, id_position_7, 'pCuksD', 'aezZOAQz', '1978-09-13', '87768659929', 'sisoevaverki@example.com', 'Ратмир Антонович Денисов'),
+		(id_cinema_84, id_position_8, 'mxiUpo', 'CBpAmOQz', '1968-07-25', '87311924488', 'sisoevelise@example.org', 'Аникей Александрович Степанов'),
+		(id_cinema_23, id_position_13, 'rlZzUc', 'TreJiHAl', '1975-10-01', '83002861397', 'sitnikovvisheslav@example.net', 'Ирина Федоровна Богданова'),
+		(id_cinema_69, id_position_7, 'CpLuof', 'oTAsRvgl', '1967-02-07', '85270826212', 'snosova@example.org', 'Филиппова Алина Павловна'),
+		(id_cinema_52, id_position_4, 'lloIIz', 'dOeaiFuY', '1981-10-10', '87054752341', 'sobolevkapiton@example.com', 'Митофан Феодосьевич Гущин'),
+		(id_cinema_92, id_position_5, 'JkKbAY', 'QyqpFvhP', '1975-06-26', '84706976444', 'sokolovaivanna@example.org', 'Большакова Полина Ефимовна'),
+		(id_cinema_36, id_position_1, 'NGxnUT', 'jWSVPZwd', '1997-07-12', '89239241843', 'sokolovvitali@example.net', 'Сергеев Милан Ефстафьевич'),
+		(id_cinema_58, id_position_9, 'dMWrni', 'kkaCyGAi', '1987-02-09', '87256043120', 'solomon_1985@example.org', 'Василий Александрович Евсеев'),
+		(id_cinema_63, id_position_8, 'bzUouM', 'LamXaDQQ', '1968-08-28', '89841910786', 'sorokinaantonina@example.net', 'Шашкова Дарья Захаровна'),
+		(id_cinema_83, id_position_3, 'epuWsu', 'eLBcDGkB', '1979-08-10', '82616488516', 'spartakdanilov@example.org', 'Силина Александра Богдановна'),
+		(id_cinema_86, id_position_12, 'rwuEFa', 'ZcPnUOnr', '1959-10-06', '82943382742', 'spiridonlobanov@example.com', 'Лихачев Ефим Харлампович'),
+		(id_cinema_92, id_position_4, 'cmKHBV', 'ovRSgMXj', '1976-11-13', '86466270595', 'stanimir04@example.org', 'Синклитикия Вениаминовна Степанова'),
+		(id_cinema_29, id_position_12, 'lnCliT', 'fQocXrKp', '1996-01-22', '85870447994', 'stanimirstepanov@example.org', 'Цветкова Вера Даниловна'),
+		(id_cinema_28, id_position_7, 'tdIxam', 'nXHmlGUK', '2000-11-03', '84781178458', 'stojan_30@example.org', 'Валерия Эльдаровна Зиновьева'),
+		(id_cinema_46, id_position_5, 'OjeaSj', 'iOuPMFPF', '1968-04-21', '87071025356', 'suhanovatatjana@example.net', 'Ксения Игоревна Медведева'),
+		(id_cinema_59, id_position_4, 'LQZHBm', 'gNNHmlAf', '1974-10-14', '83174553308', 'suhanovdemid@example.org', 'Лидия Архиповна Сергеева'),
+		(id_cinema_91, id_position_7, 'MiDzeC', 'kdpMXXRW', '1977-11-18', '86947731033', 'suhanovnatan@example.org', 'Миронов Прокл Всеволодович'),
+		(id_cinema_10, id_position_3, 'tYDuSL', 'rcLlTIsV', '1966-11-20', '87150876881', 'suvorovamilitsa@example.org', 'Клавдия Леоновна Тетерина'),
+		(id_cinema_85, id_position_3, 'sTaKvg', 'hGDiXLvH', '1999-07-04', '83994579386', 'suvorovmark@example.net', 'Лидия Кузьминична Тарасова'),
+		(id_cinema_95, id_position_4, 'eJQPSz', 'yCBgXUdo', '1992-09-07', '86389053437', 'svetlana_1972@example.org', 'Клавдия Евгеньевна Мухина'),
+		(id_cinema_98, id_position_12, 'ALjFLO', 'kKnkJJSD', '1976-06-18', '88887344751', 'svetlana_1986@example.com', 'Одинцов Савватий Исидорович'),
+		(id_cinema_2, id_position_2, 'VbLFRV', 'ItREtXps', '1969-01-18', '82536326278', 'svjatopolk1997@example.org', 'Симонов Феоктист Дмитриевич'),
+		(id_cinema_99, id_position_5, 'ocNrGz', 'pbaGlMBL', '1980-12-06', '85587001122', 'svjatoslav_64@example.com', 'Рябова Валентина Георгиевна'),
+		(id_cinema_42, id_position_1, 'eSGPbq', 'kXbGSeXw', '1986-06-06', '82556327866', 'svjatoslavdorofeev@example.org', 'Баранова Майя Егоровна'),
+		(id_cinema_48, id_position_11, 'iNEdUi', 'tbDsNBSD', '1978-03-18', '81728275792', 'taras_2011@example.net', 'Галина Макаровна Кулакова'),
+		(id_cinema_40, id_position_7, 'vEpzTf', 'zvMkkqZJ', '1997-09-06', '83139906183', 'terenti_2021@example.net', 'Ростислав Демидович Одинцов'),
+		(id_cinema_12, id_position_0, 'VnanBX', 'kQedzrpO', '1994-12-27', '83783555041', 'timurseleznev@example.net', 'Рябова Маргарита Сергеевна'),
+		(id_cinema_90, id_position_10, 'kGAzUJ', 'XjLuGDwS', '1966-08-06', '82404185984', 'trifon1971@example.com', 'Шашков Михаил Витальевич'),
+		(id_cinema_16, id_position_1, 'IgkHYi', 'fTxVbYzk', '1963-09-14', '89562775045', 'trofimovajulija@example.org', 'Елизавета Феликсовна Носова'),
+		(id_cinema_76, id_position_7, 'gVDLgl', 'zxhvoFMK', '1967-06-06', '87947134923', 'trofimovleon@example.net', 'Суворов Адриан Тарасович'),
+		(id_cinema_5, id_position_4, 'FOXuwK', 'bzbPWAaz', '1988-11-11', '82372558434', 'tsvetkovasinklitikija@example.net', 'Нинель Архиповна Егорова'),
+		(id_cinema_16, id_position_7, 'hIqaEh', 'rcjcrxWR', '1982-07-02', '89035890909', 'turovjakov@example.org', 'Петухова Антонина Васильевна'),
+		(id_cinema_49, id_position_9, 'gSDDdi', 'RgeoQLdD', '1984-05-26', '85421495137', 'turovsvjatopolk@example.net', 'Федосеев Устин Дмитриевич'),
+		(id_cinema_50, id_position_8, 'diTjqF', 'UhvMVHrZ', '1999-09-27', '88701211346', 'tvorimir_1992@example.net', 'Никифоров Амос Гордеевич'),
+		(id_cinema_19, id_position_9, 'TpqIsM', 'sjDFlZIW', '2000-04-27', '81772104110', 'tvorimir2002@example.org', 'Козлова Варвара Рудольфовна'),
+		(id_cinema_10, id_position_10, 'GZjyrW', 'BNrenLiF', '1995-09-15', '81789514908', 'uermakov@example.org', 'Варвара Георгиевна Калинина'),
+		(id_cinema_83, id_position_12, 'qUFVRT', 'FILPCKQm', '1961-09-16', '84159746823', 'ufedotova@example.com', 'Георгий Богданович Стрелков'),
+		(id_cinema_29, id_position_10, 'tvkrFn', 'yeXrKXgt', '1997-12-20', '82674041427', 'uguseva@example.org', 'Сазонов Николай Архипович'),
+		(id_cinema_89, id_position_5, 'EMCIST', 'nTKDWTmp', '1996-03-13', '84375048350', 'uljana_1992@example.com', 'Гуляева Нина Никифоровна'),
+		(id_cinema_91, id_position_1, 'umFqzI', 'CNQtkkdS', '1988-08-26', '84791357144', 'uljana87@example.org', 'Мельникова Фаина Вадимовна'),
+		(id_cinema_81, id_position_10, 'bNxSwm', 'ntChDwsb', '1989-10-26', '84284583508', 'ustin_1999@example.org', 'Евдокия Ильинична Комарова'),
+		(id_cinema_22, id_position_10, 'gMHdLS', 'CzumzMQL', '1985-09-18', '81169177271', 'utretjakov@example.com', 'Пантелеймон Трофимович Гаврилов'),
+		(id_cinema_31, id_position_2, 'JPwygc', 'JGtRKghJ', '1980-08-08', '88598659261', 'vadimprohorov@example.org', 'Гусев Самуил Эдуардович'),
+		(id_cinema_99, id_position_12, 'Bvnvka', 'KfzkeuNt', '1962-05-12', '83237299892', 'valentin_89@example.net', 'Котова Алина Викторовна'),
+		(id_cinema_16, id_position_13, 'HhJPYw', 'dkonlPYW', '1999-09-28', '84323419860', 'valeri_1999@example.org', 'Иннокентий Викторович Кононов'),
+		(id_cinema_59, id_position_11, 'dhNGRh', 'nlrIPDLc', '1962-08-04', '87442993249', 'valerija_00@example.net', 'Александра Захаровна Мухина'),
+		(id_cinema_66, id_position_2, 'GEVFQy', 'NOumtIek', '1992-06-09', '88701776770', 'valerjan55@example.net', 'Зоя Натановна Казакова'),
+		(id_cinema_99, id_position_3, 'lPzfHw', 'JRHrPDkS', '1963-08-19', '89136976188', 'varhipova@example.com', 'Ершова Глафира Эльдаровна'),
+		(id_cinema_44, id_position_12, 'rDjQuY', 'kWxQhLNw', '1990-07-27', '86001158409', 'varlaam2017@example.com', 'Ульяна Константиновна Селезнева'),
+		(id_cinema_48, id_position_3, 'WMKJvO', 'ijZLatDz', '1986-11-25', '82558181338', 'varvara09@example.org', 'Брагина Элеонора Феликсовна'),
+		(id_cinema_91, id_position_1, 'qyXFHg', 'mkDeyxyR', '1998-11-18', '85682291648', 'vasili69@example.net', 'Лыткин Федот Анисимович'),
+		(id_cinema_83, id_position_10, 'tGnjUe', 'NQNWEKTO', '2002-01-09', '87575925334', 'vatslav68@example.com', 'Эмилия Руслановна Белозерова'),
+		(id_cinema_54, id_position_9, 'gAAGff', 'CaSKhyXa', '1973-02-17', '85091973359', 'vatslavsorokin@example.net', 'Шарапов Михаил Яковлевич'),
+		(id_cinema_37, id_position_13, 'MxpoKM', 'gfuhcKhG', '1989-11-03', '84095190783', 'vgusev@example.com', 'Феофан Ярославович Копылов'),
+		(id_cinema_39, id_position_5, 'SuYYYQ', 'spiLDiVr', '1996-07-25', '82329988966', 'vikenti29@example.net', 'Ангелина Ивановна Филатова'),
+		(id_cinema_43, id_position_8, 'QOaHiz', 'EFBesZZj', '1975-11-20', '87976550392', 'visheslav_2000@example.net', 'Александр Иосипович Воронцов'),
+		(id_cinema_9, id_position_2, 'cPtprj', 'WObFfgDW', '1971-04-06', '84849102226', 'visheslavrodionov@example.net', 'Акулина Геннадьевна Колесникова'),
+		(id_cinema_59, id_position_9, 'tWShSl', 'ivCZdssJ', '2004-08-21', '86738114943', 'vishnjakovagafon@example.com', 'Евдокия Натановна Пахомова'),
+		(id_cinema_43, id_position_13, 'xpPJyL', 'SSFfcquJ', '1963-12-12', '83013234337', 'vishnjakovgennadi@example.net', 'Юдина Акулина Ильинична'),
+		(id_cinema_40, id_position_8, 'JgJSkl', 'lIMMFKTI', '1962-11-15', '81595109696', 'vitali82@example.net', 'Пономарев Савва Ефремович'),
+		(id_cinema_64, id_position_6, 'xnROox', 'MTMEzkQm', '1962-07-09', '81189210792', 'vjacheslav_1972@example.org', 'Антонова Пелагея Рудольфовна'),
+		(id_cinema_51, id_position_11, 'shXFYF', 'ZwXLdeFH', '1968-08-01', '85484392425', 'vjacheslav2010@example.com', 'Анжелика Степановна Кузнецова'),
+		(id_cinema_55, id_position_3, 'ayHcfq', 'GjvlUcQC', '1996-09-18', '87376822123', 'vjacheslav99@example.net', 'Василиса Феликсовна Егорова'),
+		(id_cinema_48, id_position_7, 'RKgwhl', 'pfXpmEvq', '1985-11-10', '85244365671', 'vladilentrofimov@example.net', 'г-жа Гордеева Алевтина Евгеньевна'),
+		(id_cinema_55, id_position_1, 'eLgadt', 'HNgYMikY', '1975-08-19', '81237553942', 'vladislav17@example.com', 'Аполлинарий Всеволодович Титов'),
+		(id_cinema_46, id_position_10, 'dzHHTn', 'ifGSHuyI', '1964-10-21', '88923506347', 'vladislav95@example.org', 'Кира Рубеновна Крылова'),
+		(id_cinema_34, id_position_2, 'KCWqKU', 'OFTqEDcL', '1965-05-07', '89556201665', 'vladlen2009@example.org', 'Воронцова Варвара Никифоровна'),
+		(id_cinema_70, id_position_3, 'OgLRSR', 'mXmZLUDj', '1968-10-07', '85225445001', 'vlasgolubev@example.org', 'Панфилов Иосиф Трофимович'),
+		(id_cinema_20, id_position_7, 'jhysvN', 'iAxLclhf', '1995-07-15', '89911163488', 'vlasovapolina@example.net', 'Борислав Владиленович Зуев'),
+		(id_cinema_67, id_position_1, 'EjHytq', 'HNqfyUrP', '1983-09-04', '84258743800', 'vlasovtimur@example.org', 'Афиноген Виленович Рогов'),
+		(id_cinema_67, id_position_2, 'SNZPdx', 'DLTiGuEy', '1964-08-15', '89681998472', 'volkovvlas@example.com', 'Порфирий Трифонович Селиверстов'),
+		(id_cinema_40, id_position_9, 'wotrAf', 'pVMJpWkj', '1968-12-12', '82382846497', 'vorobevaantonina@example.com', 'Октябрина Леонидовна Терентьева'),
+		(id_cinema_26, id_position_13, 'auxNVF', 'UPZYkLSx', '1979-05-04', '83648628641', 'vorobevadrian@example.org', 'Харитонов Гурий Анатольевич'),
+		(id_cinema_96, id_position_4, 'DzQYkY', 'FdTKxgUD', '1985-01-21', '86966827812', 'vorobevmaksim@example.com', 'Элеонора Михайловна Щербакова'),
+		(id_cinema_51, id_position_2, 'IKSSrh', 'HiBpKQfB', '1965-09-11', '85488619146', 'vorontsovmihe@example.net', 'Копылов Прокофий Даниилович'),
+		(id_cinema_49, id_position_13, 'vIqgRi', 'acKJnwLA', '1959-02-12', '89059237390', 'vorontsovpetr@example.org', 'Акулина Рудольфовна Носова'),
+		(id_cinema_10, id_position_5, 'amVTmf', 'VeHmznCw', '1995-10-25', '88882121267', 'vsemil1970@example.com', 'Ермаков Карп Авдеевич'),
+		(id_cinema_49, id_position_5, 'xkqCqh', 'oQDFTmiM', '1989-08-28', '81808329357', 'vsemil1980@example.org', 'Панфилов Борис Ефимьевич'),
+		(id_cinema_67, id_position_11, 'SAEeZS', 'qxhneovf', '1977-09-16', '84320379798', 'vsemilnikiforov@example.net', 'Панфилова Майя Кузьминична'),
+		(id_cinema_62, id_position_2, 'ilDUOE', 'wCFcItbA', '1995-09-27', '83588688586', 'vsevolod61@example.org', 'Софон Харламович Беляев'),
+		(id_cinema_76, id_position_10, 'GZBeJT', 'YaXMHYgu', '1993-06-18', '89615857622', 'vzhuravleva@example.net', 'Зоя Рудольфовна Комиссарова'),
+		(id_cinema_82, id_position_2, 'kOUvfT', 'MeVHyPCR', '1959-01-26', '86795036730', 'wgavrilova@example.com', 'Кабанов Аполлинарий Ермолаевич'),
+		(id_cinema_17, id_position_5, 'qrsYBt', 'LbsqTiht', '1981-05-22', '87484165171', 'xfadeev@example.org', 'Аникита Брониславович Лобанов'),
+		(id_cinema_41, id_position_13, 'vJuICu', 'laoXmEPs', '1967-12-11', '82994775149', 'xkomarov@example.net', 'Пров Иосифович Силин'),
+		(id_cinema_61, id_position_1, 'LqTVpH', 'buWnWVJr', '1994-12-04', '84705628110', 'xmartinov@example.com', 'Артемий Тарасович Кузнецов'),
+		(id_cinema_8, id_position_13, 'dpdxYI', 'rjejJoih', '1985-11-22', '85511955762', 'xsubbotin@example.net', 'Фокина Марина Леоновна'),
+		(id_cinema_80, id_position_12, 'hUmFXd', 'bQAdpugh', '1995-07-27', '86373120490', 'yblinov@example.com', 'Савин Фотий Елисеевич'),
+		(id_cinema_74, id_position_0, 'icoveg', 'eGkgOeiX', '1984-09-16', '81523157965', 'ymelnikov@example.org', 'Некрасов Эраст Эдуардович'),
+		(id_cinema_82, id_position_10, 'rsGraf', 'YxOtgTcK', '1969-08-11', '86289359951', 'zahar2022@example.net', 'Лобанов Вениамин Артёмович'),
+		(id_cinema_1, id_position_11, 'QuVAvM', 'onWpUJYs', '1968-03-26', '86157144200', 'zaharovjuvenali@example.org', 'Степанова Зоя Ждановна'),
+		(id_cinema_4, id_position_5, 'CsJcFn', 'qXSWOomI', '1976-03-01', '84201908174', 'zhanna04@example.com', 'Щербакова Клавдия Валериевна'),
+		(id_cinema_16, id_position_4, 'zgWLcg', 'WKmPyOXk', '2001-02-26', '83764217765', 'zhukovafekla@example.org', 'Корнилова Ангелина Сергеевна'),
+		(id_cinema_41, id_position_12, 'WTblRJ', 'lyKMICrs', '1980-12-14', '85043122760', 'zhukovaveronika@example.com', 'Шилова Светлана Львовна'),
+		(id_cinema_44, id_position_9, 'eUYWjW', 'rQYodULk', '1985-01-19', '88679887841', 'zhukovvalerjan@example.com', 'Вишняков Рюрик Фёдорович'),
+		(id_cinema_93, id_position_10, 'tQGqRh', 'mWCeDuPh', '1995-09-05', '88137338662', 'zhuravlevevstigne@example.net', 'Моисеева Любовь Юрьевна'),
+		(id_cinema_65, id_position_12, 'ZGHIAn', 'LBEqrwFU', '1989-11-13', '85458278267', 'ziminivan@example.org', 'Синклитикия Анатольевна Рогова'),
+		(id_cinema_29, id_position_4, 'tUwxEZ', 'rlaQbQdw', '1987-04-19', '85304862744', 'zinovevapollon@example.org', 'Агафонова Фёкла Оскаровна'),
+		(id_cinema_0, id_position_2, 'gpeycp', 'LcGsEjEB', '1967-03-22', '84814999537', 'zinovichernov@example.org', 'Доронин Творимир Ефимьевич'),
+		(id_cinema_4, id_position_1, 'QjHNMK', 'PgnVcdLE', '1958-03-18', '86711759182', 'zosima_75@example.org', 'Клавдия Вадимовна Лыткина'),
+		(id_cinema_73, id_position_6, 'QVzmET', 'HeLWyeoR', '1981-07-02', '83472091296', 'zuevmiron@example.com', 'Юрий Ануфриевич Лихачев');
 END $$;
 
 
 
 INSERT INTO "public.Customers" (name, birthday, login, avatar_ref, phone, mail, password) VALUES
-	('Гришина Надежда Тимофеевна','1974-12-31','AhTHFd','https://dummyimage.com/666x41','89680332625','opetrova@example.org','dYUbJmcV'),
-	('Суханова Лариса Афанасьевна','1973-09-17','hwgrkr','https://picsum.photos/310/175','86966477907','radovanmorozov@example.net','AByfKYek'),
-	('Лукия Харитоновна Дементьева','1983-04-05','EwzdLc','https://picsum.photos/278/1008','81443028753','stanislav_2001@example.org','tsXhyiHC'),
-	('Олимпий Игнатович Егоров','1974-05-06','OEiIuh','https://dummyimage.com/156x181','84041932332','shirjaevluchezar@example.com','CAekfSiF'),
-	('Родионов Софрон Иосифович','1984-03-22','FKesSl','https://placekitten.com/300/657','83218639115','ratibor1978@example.com','PXIXdjvY'),
-	('Игнатьев Наум Харлампович','2016-06-09','AcOjam','https://dummyimage.com/210x189','86009167902','vladimir_80@example.com','oBSPcFpo'),
-	('Павлова Прасковья Аскольдовна','2004-04-16','rNLOSb','https://placekitten.com/632/558','89880283271','rjabovzahar@example.net','CpQcIvNc'),
-	('Изот Матвеевич Буров','1974-06-17','AWKWTc','https://placekitten.com/958/841','81497202273','ovchinnikovmakar@example.com','jJBxCmOx'),
-	('Марина Александровна Герасимова','1985-01-13','vkXlrl','https://picsum.photos/1013/445','88820359863','blohinjakov@example.net','QKocESeO'),
-	('Кошелев Милан Вячеславович','1970-01-15','RqEcTO','https://placekitten.com/287/39','82103972744','bobrovaraisa@example.org','rXGrSMAD'),
-	('Никандр Венедиктович Стрелков','1973-03-08','JIUzCy','https://picsum.photos/467/458','87715725962','gorbunovaanastasija@example.net','bpFHVDas'),
-	('Лобанов Пахом Евсеевич','2001-06-27','qjPZzJ','https://dummyimage.com/592x794','83220471480','luka_1980@example.com','yimByRbW'),
-	('Николай Тимурович Дементьев','2001-01-03','FOeoog','https://picsum.photos/707/392','88660872115','gordegolubev@example.org','oeTCoNLq'),
-	('Елисеев Пахом Бенедиктович','1994-09-04','sZIfnv','https://placekitten.com/48/217','86807472135','belousovtaras@example.net','sbwaxtoI'),
-	('Воронцов Корнил Тарасович','2001-02-02','ujoJbX','https://dummyimage.com/657x241','88089153790','jsazonov@example.com','zuGIjEYx'),
-	('Филимон Измаилович Рыбаков','1996-08-04','LaexDh','https://placekitten.com/804/483','86875233870','aleksandra79@example.net','EcggvXKR'),
-	('Савельева Раиса Геннадьевна','1989-02-14','sMHWca','https://picsum.photos/626/20','83079218598','fedorsimonov@example.com','EazkIKMG'),
-	('Кондратьев Измаил Валерианович','1980-09-11','rjlfvn','https://dummyimage.com/399x687','82396895688','feofan_45@example.net','ZvgFokQw'),
-	('Фаина Геннадиевна Федосеева','1996-03-08','MqDKWp','https://dummyimage.com/65x454','82289523363','roman41@example.net','CTxpvqMx'),
-	('Алла Леоновна Жданова','1980-02-14','TkFret','https://placekitten.com/217/34','85861530123','makar_2007@example.org','ALCkyGGW'),
-	('Артемий Иосипович Сидоров','2005-04-13','mGljFN','https://dummyimage.com/589x467','87610788384','nesterovfrol@example.org','bbtYIlrY'),
-	('Зинаида Архиповна Лобанова','1995-04-04','CMUZiu','https://placekitten.com/729/390','89908010145','uvladimirov@example.net','pLGhaNUO'),
-	('Ильин Демьян Ефремович','2022-12-21','MCmisB','https://placekitten.com/445/573','86081786207','ignatevaanzhela@example.net','rqPATmKU'),
-	('Макарова Антонина Михайловна','1999-04-26','yHnRbk','https://picsum.photos/747/248','85944761800','borislavguljaev@example.com','yfzhuOlp'),
-	('Галина Константиновна Кабанова','2002-04-06','RXFOjO','https://picsum.photos/31/39','81469856188','strelkovanonna@example.net','fDWxzjQD'),
-	('Рюрик Даниилович Куликов','2006-03-21','EMjDVL','https://dummyimage.com/438x612','87603375069','ponomarevnikanor@example.com','WClhZLpE'),
-	('Агата Руслановна Самсонова','2008-10-01','qFyhVw','https://dummyimage.com/512x25','88397299084','orestloginov@example.org','JBkOYXYF'),
-	('Емельянова Марина Григорьевна','2004-03-25','VtkEKL','https://dummyimage.com/335x165','87936675908','eleonora_22@example.net','qXVDbHhZ'),
-	('Артемьев Федосий Валентинович','1989-04-08','CIwsKQ','https://picsum.photos/198/635','89926522009','kiselevavarvara@example.org','uwefaRMq'),
-	('Власов Любим Арсеньевич','2004-12-16','spaDbz','https://placekitten.com/587/536','88671448403','alekse_2004@example.net','PepQXezV'),
-	('Лапина Элеонора Даниловна','1996-09-08','jZYStc','https://placekitten.com/323/254','82939927189','oktjabrina_71@example.org','DRKVkkzT'),
-	('Субботина Фёкла Феликсовна','1999-11-01','msynyY','https://placekitten.com/260/470','84123065832','nazarovaalla@example.org','IEBLGVoE'),
-	('г-н Горшков Флорентин Глебович','2005-08-07','zNMppZ','https://placekitten.com/955/810','89462488117','ukoshelev@example.net','PKxOLbKS'),
-	('Вера Геннадьевна Матвеева','1985-11-08','PNTkEX','https://picsum.photos/100/819','84267806498','anatoli_98@example.org','PurgWnXI'),
-	('Фомин Мокей Захарьевич','2012-08-25','KHRjfo','https://dummyimage.com/76x846','85499393799','nadezhda24@example.net','eZVfxdMm'),
-	('Якуб Игнатьевич Молчанов','1984-01-26','wGxLVw','https://placekitten.com/178/121','81392391964','vsemil_1982@example.org','TqDQXcPU'),
-	('Светлана Кузьминична Кабанова','2020-10-29','MAFTYf','https://placekitten.com/185/515','83987604952','martjansorokin@example.net','hRqyOcuJ'),
-	('Творимир Демидович Поляков','2005-02-27','KCRiLi','https://picsum.photos/873/999','86156494914','ignatovippolit@example.com','gIRylzJa'),
-	('Давыдова Екатерина Андреевна','2011-02-20','jejXiO','https://placekitten.com/449/646','85543087735','pimen_2022@example.org','qYHsQMAz'),
-	('Стрелков Иннокентий Гаврилович','2018-09-17','QmaiXn','https://picsum.photos/26/697','81868884513','sidor2008@example.com','YBdXoyyZ'),
-	('Сафонова Пелагея Артемовна','2022-06-26','lxowNF','https://dummyimage.com/420x675','88155394288','jaroslavkulagin@example.org','pDqyHdFd'),
-	('Любовь Артемовна Исаева','1978-01-24','qFuLiY','https://picsum.photos/53/768','82840772235','vinogradovsigizmund@example.org','ackcRkqY'),
-	('Боян Филиппович Афанасьев','1986-10-18','PNVNOi','https://placekitten.com/1020/282','85614001366','rusakovstanislav@example.net','zooPSgOb'),
-	('Воронцов Ферапонт Богданович','1983-11-30','CROmUA','https://placekitten.com/731/787','85797226621','ereme_23@example.net','obwwVlVh'),
-	('Кононова Варвара Владиславовна','1996-03-17','SuDdrF','https://dummyimage.com/913x972','81361142853','olegteterin@example.com','zEuiZemV'),
-	('Бажен Ануфриевич Фролов','1972-12-05','daYetz','https://dummyimage.com/976x255','81977777430','hohlovaivanna@example.net','JfCUiORK'),
-	('Милован Игнатьевич Тимофеев','1992-03-05','wsekwS','https://dummyimage.com/620x572','86947256566','egorovafaina@example.com','pxtsHKfc'),
-	('Фока Фролович Родионов','1999-03-12','jDYBPw','https://dummyimage.com/161x686','87478983686','maksimiljan1993@example.org','ZZkcxFkS'),
-	('Пелагея Кирилловна Борисова','2007-04-11','XDIVZx','https://placekitten.com/432/886','84670845739','ereme1977@example.net','buAuVqzj'),
-	('Раиса Даниловна Гурьева','2018-08-18','gcmPcy','https://dummyimage.com/706x863','86450431187','dprohorova@example.net','tUbvBPry'),
-	('Голубева Варвара Васильевна','2001-11-21','tFUKIy','https://placekitten.com/956/620','82483348601','koshelevalidija@example.org','IeElaEzV'),
-	('Мельников Святополк Давидович','2011-07-04','IwwBAD','https://picsum.photos/641/242','87299155248','samson_10@example.net','ybVGJiKX'),
-	('Вишнякова Майя Григорьевна','1983-08-30','bHovZS','https://dummyimage.com/557x141','89408666745','dorofeevprov@example.net','VLrHAXMt'),
-	('Ершова Лидия Эльдаровна','1979-04-21','EjINNe','https://placekitten.com/908/426','82667798190','feliks_1995@example.net','pCmwOhAm'),
-	('Макар Ермолаевич Петухов','1974-05-01','eIzZLh','https://picsum.photos/679/616','81667791008','dementevstojan@example.org','esNwEUyh'),
-	('Григорий Александрович Семенов','2016-02-21','gioadL','https://dummyimage.com/102x647','83454391772','grigorevfedor@example.org','DoZfRmte'),
-	('Буров Стоян Филатович','1973-09-24','MpoqZZ','https://placekitten.com/138/443','82777928907','filippovapollinari@example.org','ZpOlSjNO'),
-	('Владилен Харлампьевич Сидоров','1975-11-10','uaDzLi','https://placekitten.com/834/301','87669429296','konovalovazoja@example.com','IBQIQqmB'),
-	('Константинов Влас Елисеевич','1972-04-28','SWTvfS','https://dummyimage.com/981x177','89692209948','demid_27@example.com','YdnKxbYJ'),
-	('Лихачева Зинаида Натановна','1971-09-11','kTXqgG','https://placekitten.com/387/468','89995399345','sergeevveniamin@example.org','dkLVNzgZ'),
-	('Кондратьев Василий Ефимьевич','1989-03-31','MppFKS','https://dummyimage.com/614x517','89976206480','andreevavgust@example.net','ZEflakfC'),
-	('Шашков Всемил Антипович','2023-01-08','RSwHnv','https://placekitten.com/602/100','87043382883','pblinova@example.net','WZsFxdky'),
-	('Лукия Николаевна Беспалова','1972-08-06','VpOGnR','https://placekitten.com/44/764','84211477645','irina_66@example.org','YoCxMiuG'),
-	('Суханов Федот Феофанович','1983-07-20','fSKvip','https://picsum.photos/777/521','87563776848','shcherbakovvladimir@example.net','MxqrLXdL'),
-	('Терентьева Марфа Вениаминовна','1977-07-25','hdvswR','https://picsum.photos/780/517','84784532668','kornilovavarvara@example.com','LPhLbMsb'),
-	('Уваров Архип Владиславович','2011-09-26','FZIZdn','https://placekitten.com/667/467','82403002850','lev1999@example.net','IIrEhbmN'),
-	('Одинцов Изяслав Изотович','1992-04-30','tNlldQ','https://dummyimage.com/458x173','81378045284','vissarion_13@example.com','EPFjklAy'),
-	('Копылов Самуил Эдуардович','2023-07-17','QNjWam','https://picsum.photos/602/444','87722550058','bolshakovapolina@example.net','UNLzYezo'),
-	('Елизавета Тимофеевна Овчинникова','1990-11-14','XPfgyg','https://dummyimage.com/71x994','84668988514','ostromir_38@example.net','nqorKizE'),
-	('Бирюкова Лора Ивановна','1972-03-07','UepqAW','https://dummyimage.com/391x954','84908363259','sisoevmilovan@example.org','iifoWFlB'),
-	('Антонина Матвеевна Хохлова','1970-08-27','llpXgO','https://picsum.photos/780/246','84728898889','emmanuilantonov@example.com','zmWyukvl'),
-	('Мясников Остромир Чеславович','1999-07-15','lLERjU','https://placekitten.com/1018/326','87775865041','anike22@example.org','KXgKGGQS'),
-	('Тихонова Эмилия Вячеславовна','2006-05-16','zgDHnz','https://dummyimage.com/856x961','84297505724','afinogen1986@example.net','tckFPaip'),
-	('Зуева Ангелина Дмитриевна','1988-09-27','CSQpxf','https://dummyimage.com/248x1011','86219148874','maksimiljan_2004@example.org','oILQykoD'),
-	('Петухова Зоя Степановна','1981-03-02','bRXQqF','https://picsum.photos/799/1023','89991468967','bogdan87@example.org','XTFtThzq'),
-	('Терентьева Анастасия Альбертовна','1989-12-09','FimVdq','https://dummyimage.com/263x234','83337589771','ignatevairina@example.org','RaCBwqMb'),
-	('Спиридон Брониславович Сорокин','1990-03-18','XYEExN','https://dummyimage.com/936x93','87253075953','firs_04@example.org','TmlIxGsj'),
-	('Лидия Алексеевна Шубина','1983-05-08','KccOLM','https://dummyimage.com/495x418','82384371007','sorokinkallistrat@example.net','mHKPRaHi'),
-	('Белозеров Афанасий Аксёнович','1970-09-23','QhWJGu','https://picsum.photos/490/992','86404735575','svjatopolk21@example.com','zeJRQqgF'),
-	('Афанасьева Майя Анатольевна','1971-12-24','DlVCZP','https://dummyimage.com/127x601','87301494706','tsvetkovradovan@example.org','YMHqCUWK'),
-	('Аристарх Гордеевич Евдокимов','1989-02-09','pKUVhF','https://dummyimage.com/709x437','83083373513','qgordeev@example.net','qeHmvjtK'),
-	('Соколова Дарья Макаровна','1998-06-24','voAQYk','https://placekitten.com/190/934','83028242177','stepanovoleg@example.net','CuThAlwa'),
-	('Миронова Элеонора Борисовна','1971-03-18','CxdBAO','https://dummyimage.com/241x328','81269013015','fokinvissarion@example.net','YAyclxsY'),
-	('Агата Вадимовна Зыкова','2000-08-19','vUSepG','https://placekitten.com/397/263','84800530718','serafim_1996@example.com','VuqaFbEH'),
-	('Эмилия Константиновна Дмитриева','1973-09-25','SPvVXh','https://dummyimage.com/765x499','88409657858','konstantinmuhin@example.com','rXnGYvqa'),
-	('Алексеева Галина Феликсовна','1980-09-27','QWbnyX','https://placekitten.com/454/192','83556754628','avde_14@example.org','eBKGBCKb'),
-	('Якушева Дарья Антоновна','1989-07-25','BLSbWz','https://placekitten.com/30/29','85594135498','dementi_32@example.com','mNrzKSso'),
-	('Карпов Владимир Теймуразович','1994-09-30','pamTfO','https://placekitten.com/542/588','85232324235','iraida07@example.org','vYqaxNXH'),
-	('Богданов Януарий Васильевич','2002-11-13','aFREQM','https://placekitten.com/35/847','81984151432','efimovavalentina@example.com','LKfsgIwv'),
-	('Власова Дарья Геннадиевна','1996-07-08','zcDMtl','https://placekitten.com/829/308','83513983224','drozdovalekse@example.com','TZcKnkFj'),
-	('Дмитриев Лазарь Эдуардович','2019-09-03','axuNHK','https://picsum.photos/744/858','85047710098','osipovmakar@example.com','uUSFpzBW'),
-	('Епифан Демьянович Попов','2013-03-28','lWzWIa','https://dummyimage.com/299x293','82660352442','galina1984@example.com','BMfHTSDf'),
-	('Жанна Сергеевна Фомичева','1981-04-24','dMWZrA','https://picsum.photos/872/945','85716691872','nikiforsokolov@example.org','ybXstffI'),
-	('Элеонора Рудольфовна Третьякова','2003-01-02','gxKoPe','https://dummyimage.com/1x317','87612481402','zuevfrol@example.org','KmynLPGJ'),
-	('Азарий Борисович Прохоров','1970-10-01','bYmNCu','https://placekitten.com/405/694','83189126916','nikodim1992@example.org','bFwYRRwU'),
-	('Никифорова Эмилия Афанасьевна','1998-08-18','KBtRQc','https://picsum.photos/331/496','89253151746','bespalovzosima@example.com','DwkwHlIX'),
-	('Котов Панкрат Ефстафьевич','2018-09-24','JgVrGg','https://placekitten.com/615/850','86510313923','wturova@example.com','NlkvdmHO'),
-	('Егоров Мирон Марсович','2016-09-19','CSEvlC','https://placekitten.com/473/524','84486427110','xhohlov@example.com','BFLmVrod'),
-	('Селиван Игнатьевич Соболев','2015-08-26','rUQaFP','https://dummyimage.com/747x671','86002875148','elizar2023@example.net','QJZXozMm'),
-	('Август Матвеевич Устинов','2008-02-22','mrWLjt','https://dummyimage.com/820x256','89867321708','samson_2019@example.com','eCOijzXK'),
-	('Белов Родион Гаврилович','2015-02-19','oWqWDs','https://picsum.photos/872/326','83223515925','nmuravev@example.org','lRUuItOM'),
-	('Архипов Моисей Гордеевич','1988-06-04','ZtSZOw','https://dummyimage.com/550x947','88196645802','margarita1985@example.net','uvseCIKK'),
-	('Тихонова Майя Аскольдовна','2007-03-07','awmUEz','https://picsum.photos/325/567','89418228014','olimpi_32@example.net','GUthLcdw'),
-	('Мстислав Георгиевич Никифоров','1974-04-24','WqfaQy','https://picsum.photos/786/127','81280270790','prokofikomarov@example.com','aMhSMtYr'),
-	('Журавлева Фёкла Игоревна','1988-05-11','ijMLZs','https://picsum.photos/869/656','82998734892','nlitkina@example.org','GcFXnqbe'),
-	('Терентьева Майя Рудольфовна','1991-04-17','FoizBf','https://placekitten.com/214/267','83180836832','ippolit1977@example.net','ldFBKrwC'),
-	('Денис Эдгардович Дорофеев','1989-12-08','SIjJGI','https://dummyimage.com/560x232','88399257693','anisimovjaropolk@example.com','HUscTCVt'),
-	('Симонов Святослав Юльевич','2014-12-10','UjFeqe','https://dummyimage.com/956x671','86980805560','valerija1997@example.com','vebajAUx'),
-	('Пестов Максим Исидорович','1996-01-15','MZFbYY','https://picsum.photos/234/972','88555174541','olimpiada_1974@example.org','ExlnpnAc'),
-	('Савелий Аксёнович Нестеров','1999-10-26','noAgko','https://picsum.photos/251/312','85229556771','julian1987@example.net','hTyQvVTx'),
-	('Мартынова Лукия Леоновна','2018-03-14','kEMEoM','https://dummyimage.com/134x364','87054317593','timofe1973@example.net','tZZOEIxP'),
-	('Лебедев Елисей Августович','1997-08-05','SjjLGd','https://dummyimage.com/511x255','82853095316','titovaevgenija@example.net','rnquafRb'),
-	('Селиверстова Ульяна Владимировна','1987-10-30','jqiJMn','https://dummyimage.com/490x276','81638477695','kir_2008@example.org','IdsvXAjK'),
-	('Стрелкова Фаина Харитоновна','1996-07-16','cuCuVf','https://picsum.photos/195/106','82550656366','seliverst_89@example.org','FakWrHKq'),
-	('Каллистрат Матвеевич Ермаков','1971-06-26','hVXWNY','https://placekitten.com/784/141','83842927826','nikola_2018@example.com','yVcObxeu'),
-	('Олимпиада Егоровна Герасимова','1986-04-18','ttEXCr','https://picsum.photos/122/398','87976835667','samsonovspiridon@example.net','ejdNXSMF'),
-	('Самуил Власович Мишин','1994-07-09','EOVXcp','https://dummyimage.com/998x222','89365629065','sidor1990@example.org','CJojeeun'),
-	('тов. Дементьев Натан Игоревич','1974-11-15','XxPDUl','https://picsum.photos/81/144','81252278240','tihonovaraisa@example.org','VRuJvkiA'),
-	('Полякова Анжела Матвеевна','1999-09-21','sVVseJ','https://placekitten.com/946/784','89494739198','andreevadarja@example.com','dpNabHVG'),
-	('Зыкова Октябрина Анатольевна','2015-04-06','VwaOjO','https://placekitten.com/933/618','84232325763','tihonovizot@example.org','cizvOLop'),
-	('Доронин Конон Исидорович','2000-07-06','kTeuVZ','https://placekitten.com/858/361','88387368487','tverdislav_87@example.com','xLmpeGdK'),
-	('Синклитикия Феликсовна Архипова','2011-02-19','YecUiS','https://dummyimage.com/521x675','85426938146','gushchinaelizaveta@example.org','xLnJKeZb'),
-	('Вероника Эльдаровна Мамонтова','1979-07-05','IapiPF','https://dummyimage.com/790x745','87356618617','eleonora_1986@example.com','DfZNTmNJ'),
-	('Раиса Макаровна Борисова','1992-02-24','qacgTM','https://picsum.photos/265/912','83305897600','bojan_1973@example.com','zSroKQKl'),
-	('Жанна Богдановна Назарова','2023-07-23','mpVmpP','https://picsum.photos/1016/910','83774209882','emeljan_1975@example.net','rvHGCQyP'),
-	('Любовь Матвеевна Захарова','1973-08-10','mFNddv','https://placekitten.com/301/947','85095134575','vorobevsamuil@example.org','UxJQUdJN'),
-	('Алевтина Аркадьевна Никитина','1997-04-23','atAVkE','https://picsum.photos/292/416','84618069410','bsafonova@example.net','cdINycXK'),
-	('Анна Дмитриевна Осипова','1977-02-12','PraLZz','https://picsum.photos/926/856','83689049584','qsokolov@example.org','OmAeYwwM'),
-	('Юлия Егоровна Самойлова','2003-10-30','WDENhP','https://picsum.photos/184/788','82285490557','arefifomichev@example.com','VMBsJLEM'),
-	('Носова Таисия Павловна','2017-12-13','pVSbVx','https://placekitten.com/429/979','84051573363','savinamilitsa@example.com','OXWrspYQ'),
-	('Владимиров Евгений Демидович','1996-08-23','vErGeS','https://dummyimage.com/162x434','81660022595','nikandr1982@example.net','cdHfszwN'),
-	('Ермил Викторович Ситников','1974-07-16','dohLSy','https://dummyimage.com/435x39','86525312554','fortunat78@example.org','ewXbosAJ'),
-	('Валентина Александровна Быкова','1998-06-12','QpaJbk','https://dummyimage.com/687x84','83411501588','nikiforrjabov@example.org','DtvcDeqa'),
-	('Стрелков Исидор Артёмович','1995-03-12','lcJyEF','https://dummyimage.com/398x301','84050837295','tit_39@example.com','YXGoQknV'),
-	('Фёкла Захаровна Рогова','1985-07-07','lemTBD','https://dummyimage.com/30x179','82078533633','savva2015@example.com','EEJMikry'),
-	('Голубева Светлана Болеславовна','1979-04-23','SSfqmG','https://dummyimage.com/725x637','87576389892','csisoev@example.org','lhJNdGOD'),
-	('Носкова Ирина Альбертовна','1996-11-01','MQOtNv','https://picsum.photos/931/326','81487476356','agata1982@example.com','eIoUxOqX'),
-	('Мишин Митофан Эдгардович','1973-04-14','IgEqBq','https://picsum.photos/964/111','84080882644','sorokinvsemil@example.net','IeYUwyUE'),
-	('Лукьян Георгиевич Муравьев','1990-01-12','vDAEHY','https://picsum.photos/424/435','82710186508','zhuravlevlukjan@example.org','EqOGaqam'),
-	('Кузнецова Глафира Эдуардовна','2016-09-18','izMrcT','https://picsum.photos/817/103','82773869663','pankrat_05@example.net','wFxhkScn'),
-	('Медведева Марина Ильинична','1992-09-03','jRjLPF','https://dummyimage.com/11x726','84859473087','iljavasilev@example.com','JCXAQgww'),
-	('Януарий Вилорович Федосеев','2003-09-20','MWfNqn','https://picsum.photos/989/766','82310942488','lobanovaelizaveta@example.org','uWdHJWsM'),
-	('Прохоров Степан Архипович','1970-12-24','DGCAeq','https://dummyimage.com/909x63','84445759205','rusakovemil@example.net','GkgBrWrY'),
-	('Марина Юльевна Боброва','1973-11-13','meCWDL','https://picsum.photos/504/902','87891951890','valerjan02@example.net','PmireOrF'),
-	('Милица Павловна Зыкова','1982-03-06','Thhykq','https://picsum.photos/636/103','85973689009','varfolome_1993@example.org','RDXpACrj'),
-	('Ирина Кузьминична Овчинникова','2020-11-12','waqmKe','https://dummyimage.com/896x409','81778634497','kuprijan48@example.org','FwFlGdXH'),
-	('Белозерова Ангелина Ниловна','1977-11-06','TNqqUO','https://placekitten.com/500/890','83328246922','akabanova@example.org','XAAOtmKI'),
-	('Осипов Любомир Устинович','2002-10-24','XPZiti','https://placekitten.com/340/661','84378761361','mstislav21@example.net','VTzONEOH'),
-	('Глафира Альбертовна Беспалова','2014-08-30','QHIYwk','https://picsum.photos/648/957','83048075904','tvorimir2013@example.com','NJQFPVTY'),
-	('Федосеева Нонна Александровна','2006-12-18','ntsTnc','https://picsum.photos/840/492','89353665179','leonid1992@example.org','exYGzVBl');
-
+	('Гришина Надежда Тимофеевна','1993-04-11','AhTHFd','https://dummyimage.com/666x41','89680332625','opetrova@example.org','dYUbJmcV'),
+	('Суханова Лариса Афанасьевна','2002-07-02','hwgrkr','https://picsum.photos/310/175','86966477907','radovanmorozov@example.net','AByfKYek'),
+	('Лукия Харитоновна Дементьева','1979-03-18','EwzdLc','https://picsum.photos/278/1008','81443028753','stanislav_2001@example.org','tsXhyiHC'),
+	('Олимпий Игнатович Егоров','1982-06-23','OEiIuh','https://dummyimage.com/156x181','84041932332','shirjaevluchezar@example.com','CAekfSiF'),
+	('Родионов Софрон Иосифович','1999-06-20','FKesSl','https://placekitten.com/300/657','83218639115','ratibor1978@example.com','PXIXdjvY'),
+	('Игнатьев Наум Харлампович','1984-01-09','AcOjam','https://dummyimage.com/210x189','86009167902','vladimir_80@example.com','oBSPcFpo'),
+	('Павлова Прасковья Аскольдовна','2002-04-17','rNLOSb','https://placekitten.com/632/558','89880283271','rjabovzahar@example.net','CpQcIvNc'),
+	('Изот Матвеевич Буров','1972-11-02','AWKWTc','https://placekitten.com/958/841','81497202273','ovchinnikovmakar@example.com','jJBxCmOx'),
+	('Марина Александровна Герасимова','1976-07-22','vkXlrl','https://picsum.photos/1013/445','88820359863','blohinjakov@example.net','QKocESeO'),
+	('Кошелев Милан Вячеславович','1976-08-20','RqEcTO','https://placekitten.com/287/39','82103972744','bobrovaraisa@example.org','rXGrSMAD'),
+	('Никандр Венедиктович Стрелков','1989-10-01','JIUzCy','https://picsum.photos/467/458','87715725962','gorbunovaanastasija@example.net','bpFHVDas'),
+	('Лобанов Пахом Евсеевич','1992-04-10','qjPZzJ','https://dummyimage.com/592x794','83220471480','luka_1980@example.com','yimByRbW'),
+	('Николай Тимурович Дементьев','1978-02-27','FOeoog','https://picsum.photos/707/392','88660872115','gordegolubev@example.org','oeTCoNLq'),
+	('Елисеев Пахом Бенедиктович','1978-10-01','sZIfnv','https://placekitten.com/48/217','86807472135','belousovtaras@example.net','sbwaxtoI'),
+	('Воронцов Корнил Тарасович','1987-05-16','ujoJbX','https://dummyimage.com/657x241','88089153790','jsazonov@example.com','zuGIjEYx'),
+	('Филимон Измаилович Рыбаков','1972-02-15','LaexDh','https://placekitten.com/804/483','86875233870','aleksandra79@example.net','EcggvXKR'),
+	('Савельева Раиса Геннадьевна','1988-09-25','sMHWca','https://picsum.photos/626/20','83079218598','fedorsimonov@example.com','EazkIKMG'),
+	('Кондратьев Измаил Валерианович','1979-03-06','rjlfvn','https://dummyimage.com/399x687','82396895688','feofan_45@example.net','ZvgFokQw'),
+	('Фаина Геннадиевна Федосеева','1961-03-17','MqDKWp','https://dummyimage.com/65x454','82289523363','roman41@example.net','CTxpvqMx'),
+	('Алла Леоновна Жданова','1973-07-02','TkFret','https://placekitten.com/217/34','85861530123','makar_2007@example.org','ALCkyGGW'),
+	('Артемий Иосипович Сидоров','1962-12-22','mGljFN','https://dummyimage.com/589x467','87610788384','nesterovfrol@example.org','bbtYIlrY'),
+	('Зинаида Архиповна Лобанова','1964-02-23','CMUZiu','https://placekitten.com/729/390','89908010145','uvladimirov@example.net','pLGhaNUO'),
+	('Ильин Демьян Ефремович','1970-11-06','MCmisB','https://placekitten.com/445/573','86081786207','ignatevaanzhela@example.net','rqPATmKU'),
+	('Макарова Антонина Михайловна','1987-10-13','yHnRbk','https://picsum.photos/747/248','85944761800','borislavguljaev@example.com','yfzhuOlp'),
+	('Галина Константиновна Кабанова','1966-05-24','RXFOjO','https://picsum.photos/31/39','81469856188','strelkovanonna@example.net','fDWxzjQD'),
+	('Рюрик Даниилович Куликов','1990-03-20','EMjDVL','https://dummyimage.com/438x612','87603375069','ponomarevnikanor@example.com','WClhZLpE'),
+	('Агата Руслановна Самсонова','2000-06-19','qFyhVw','https://dummyimage.com/512x25','88397299084','orestloginov@example.org','JBkOYXYF'),
+	('Емельянова Марина Григорьевна','2000-10-22','VtkEKL','https://dummyimage.com/335x165','87936675908','eleonora_22@example.net','qXVDbHhZ'),
+	('Артемьев Федосий Валентинович','1958-06-21','CIwsKQ','https://picsum.photos/198/635','89926522009','kiselevavarvara@example.org','uwefaRMq'),
+	('Власов Любим Арсеньевич','1994-12-15','spaDbz','https://placekitten.com/587/536','88671448403','alekse_2004@example.net','PepQXezV'),
+	('Лапина Элеонора Даниловна','1958-09-09','jZYStc','https://placekitten.com/323/254','82939927189','oktjabrina_71@example.org','DRKVkkzT'),
+	('Субботина Фёкла Феликсовна','1994-08-27','msynyY','https://placekitten.com/260/470','84123065832','nazarovaalla@example.org','IEBLGVoE'),
+	('г-н Горшков Флорентин Глебович','2003-09-20','zNMppZ','https://placekitten.com/955/810','89462488117','ukoshelev@example.net','PKxOLbKS'),
+	('Вера Геннадьевна Матвеева','1983-03-15','PNTkEX','https://picsum.photos/100/819','84267806498','anatoli_98@example.org','PurgWnXI'),
+	('Фомин Мокей Захарьевич','2001-12-28','KHRjfo','https://dummyimage.com/76x846','85499393799','nadezhda24@example.net','eZVfxdMm'),
+	('Якуб Игнатьевич Молчанов','2002-11-04','wGxLVw','https://placekitten.com/178/121','81392391964','vsemil_1982@example.org','TqDQXcPU'),
+	('Светлана Кузьминична Кабанова','1995-07-03','MAFTYf','https://placekitten.com/185/515','83987604952','martjansorokin@example.net','hRqyOcuJ'),
+	('Творимир Демидович Поляков','1964-06-01','KCRiLi','https://picsum.photos/873/999','86156494914','ignatovippolit@example.com','gIRylzJa'),
+	('Давыдова Екатерина Андреевна','1963-03-14','jejXiO','https://placekitten.com/449/646','85543087735','pimen_2022@example.org','qYHsQMAz'),
+	('Стрелков Иннокентий Гаврилович','1964-01-22','QmaiXn','https://picsum.photos/26/697','81868884513','sidor2008@example.com','YBdXoyyZ'),
+	('Сафонова Пелагея Артемовна','1960-12-23','lxowNF','https://dummyimage.com/420x675','88155394288','jaroslavkulagin@example.org','pDqyHdFd'),
+	('Любовь Артемовна Исаева','1961-03-22','qFuLiY','https://picsum.photos/53/768','82840772235','vinogradovsigizmund@example.org','ackcRkqY'),
+	('Боян Филиппович Афанасьев','1967-09-28','PNVNOi','https://placekitten.com/1020/282','85614001366','rusakovstanislav@example.net','zooPSgOb'),
+	('Воронцов Ферапонт Богданович','1997-10-01','CROmUA','https://placekitten.com/731/787','85797226621','ereme_23@example.net','obwwVlVh'),
+	('Кононова Варвара Владиславовна','1961-02-13','SuDdrF','https://dummyimage.com/913x972','81361142853','olegteterin@example.com','zEuiZemV'),
+	('Бажен Ануфриевич Фролов','1987-11-04','daYetz','https://dummyimage.com/976x255','81977777430','hohlovaivanna@example.net','JfCUiORK'),
+	('Милован Игнатьевич Тимофеев','1978-08-12','wsekwS','https://dummyimage.com/620x572','86947256566','egorovafaina@example.com','pxtsHKfc'),
+	('Фока Фролович Родионов','1990-07-28','jDYBPw','https://dummyimage.com/161x686','87478983686','maksimiljan1993@example.org','ZZkcxFkS'),
+	('Пелагея Кирилловна Борисова','1972-10-08','XDIVZx','https://placekitten.com/432/886','84670845739','ereme1977@example.net','buAuVqzj'),
+	('Раиса Даниловна Гурьева','1985-09-08','gcmPcy','https://dummyimage.com/706x863','86450431187','dprohorova@example.net','tUbvBPry'),
+	('Голубева Варвара Васильевна','1969-11-23','tFUKIy','https://placekitten.com/956/620','82483348601','koshelevalidija@example.org','IeElaEzV'),
+	('Мельников Святополк Давидович','1982-03-24','IwwBAD','https://picsum.photos/641/242','87299155248','samson_10@example.net','ybVGJiKX'),
+	('Вишнякова Майя Григорьевна','1990-08-16','bHovZS','https://dummyimage.com/557x141','89408666745','dorofeevprov@example.net','VLrHAXMt'),
+	('Ершова Лидия Эльдаровна','1959-11-22','EjINNe','https://placekitten.com/908/426','82667798190','feliks_1995@example.net','pCmwOhAm'),
+	('Макар Ермолаевич Петухов','1972-06-04','eIzZLh','https://picsum.photos/679/616','81667791008','dementevstojan@example.org','esNwEUyh'),
+	('Григорий Александрович Семенов','1988-12-04','gioadL','https://dummyimage.com/102x647','83454391772','grigorevfedor@example.org','DoZfRmte'),
+	('Буров Стоян Филатович','1964-01-06','MpoqZZ','https://placekitten.com/138/443','82777928907','filippovapollinari@example.org','ZpOlSjNO'),
+	('Владилен Харлампьевич Сидоров','1972-11-27','uaDzLi','https://placekitten.com/834/301','87669429296','konovalovazoja@example.com','IBQIQqmB'),
+	('Константинов Влас Елисеевич','1967-08-09','SWTvfS','https://dummyimage.com/981x177','89692209948','demid_27@example.com','YdnKxbYJ'),
+	('Лихачева Зинаида Натановна','1986-01-18','kTXqgG','https://placekitten.com/387/468','89995399345','sergeevveniamin@example.org','dkLVNzgZ'),
+	('Кондратьев Василий Ефимьевич','1981-01-17','MppFKS','https://dummyimage.com/614x517','89976206480','andreevavgust@example.net','ZEflakfC'),
+	('Шашков Всемил Антипович','1976-10-12','RSwHnv','https://placekitten.com/602/100','87043382883','pblinova@example.net','WZsFxdky'),
+	('Лукия Николаевна Беспалова','1979-11-09','VpOGnR','https://placekitten.com/44/764','84211477645','irina_66@example.org','YoCxMiuG'),
+	('Суханов Федот Феофанович','1973-06-08','fSKvip','https://picsum.photos/777/521','87563776848','shcherbakovvladimir@example.net','MxqrLXdL'),
+	('Терентьева Марфа Вениаминовна','1973-01-07','hdvswR','https://picsum.photos/780/517','84784532668','kornilovavarvara@example.com','LPhLbMsb'),
+	('Уваров Архип Владиславович','1970-07-15','FZIZdn','https://placekitten.com/667/467','82403002850','lev1999@example.net','IIrEhbmN'),
+	('Одинцов Изяслав Изотович','1998-02-07','tNlldQ','https://dummyimage.com/458x173','81378045284','vissarion_13@example.com','EPFjklAy'),
+	('Копылов Самуил Эдуардович','2000-10-03','QNjWam','https://picsum.photos/602/444','87722550058','bolshakovapolina@example.net','UNLzYezo'),
+	('Елизавета Тимофеевна Овчинникова','1981-04-23','XPfgyg','https://dummyimage.com/71x994','84668988514','ostromir_38@example.net','nqorKizE'),
+	('Бирюкова Лора Ивановна','1959-08-19','UepqAW','https://dummyimage.com/391x954','84908363259','sisoevmilovan@example.org','iifoWFlB'),
+	('Антонина Матвеевна Хохлова','2004-06-04','llpXgO','https://picsum.photos/780/246','84728898889','emmanuilantonov@example.com','zmWyukvl'),
+	('Мясников Остромир Чеславович','2002-11-25','lLERjU','https://placekitten.com/1018/326','87775865041','anike22@example.org','KXgKGGQS'),
+	('Тихонова Эмилия Вячеславовна','1984-12-03','zgDHnz','https://dummyimage.com/856x961','84297505724','afinogen1986@example.net','tckFPaip'),
+	('Зуева Ангелина Дмитриевна','2001-03-17','CSQpxf','https://dummyimage.com/248x1011','86219148874','maksimiljan_2004@example.org','oILQykoD'),
+	('Петухова Зоя Степановна','2001-11-09','bRXQqF','https://picsum.photos/799/1023','89991468967','bogdan87@example.org','XTFtThzq'),
+	('Терентьева Анастасия Альбертовна','1978-12-27','FimVdq','https://dummyimage.com/263x234','83337589771','ignatevairina@example.org','RaCBwqMb'),
+	('Спиридон Брониславович Сорокин','1978-07-10','XYEExN','https://dummyimage.com/936x93','87253075953','firs_04@example.org','TmlIxGsj'),
+	('Лидия Алексеевна Шубина','2000-06-12','KccOLM','https://dummyimage.com/495x418','82384371007','sorokinkallistrat@example.net','mHKPRaHi'),
+	('Белозеров Афанасий Аксёнович','1970-10-03','QhWJGu','https://picsum.photos/490/992','86404735575','svjatopolk21@example.com','zeJRQqgF'),
+	('Афанасьева Майя Анатольевна','1986-08-23','DlVCZP','https://dummyimage.com/127x601','87301494706','tsvetkovradovan@example.org','YMHqCUWK'),
+	('Аристарх Гордеевич Евдокимов','1976-07-22','pKUVhF','https://dummyimage.com/709x437','83083373513','qgordeev@example.net','qeHmvjtK'),
+	('Соколова Дарья Макаровна','1973-10-11','voAQYk','https://placekitten.com/190/934','83028242177','stepanovoleg@example.net','CuThAlwa'),
+	('Миронова Элеонора Борисовна','1991-05-24','CxdBAO','https://dummyimage.com/241x328','81269013015','fokinvissarion@example.net','YAyclxsY'),
+	('Агата Вадимовна Зыкова','1988-02-21','vUSepG','https://placekitten.com/397/263','84800530718','serafim_1996@example.com','VuqaFbEH'),
+	('Эмилия Константиновна Дмитриева','1970-02-10','SPvVXh','https://dummyimage.com/765x499','88409657858','konstantinmuhin@example.com','rXnGYvqa'),
+	('Алексеева Галина Феликсовна','1983-10-07','QWbnyX','https://placekitten.com/454/192','83556754628','avde_14@example.org','eBKGBCKb'),
+	('Якушева Дарья Антоновна','1980-12-22','BLSbWz','https://placekitten.com/30/29','85594135498','dementi_32@example.com','mNrzKSso'),
+	('Карпов Владимир Теймуразович','1993-08-06','pamTfO','https://placekitten.com/542/588','85232324235','iraida07@example.org','vYqaxNXH'),
+	('Богданов Януарий Васильевич','1982-11-07','aFREQM','https://placekitten.com/35/847','81984151432','efimovavalentina@example.com','LKfsgIwv'),
+	('Власова Дарья Геннадиевна','1996-01-19','zcDMtl','https://placekitten.com/829/308','83513983224','drozdovalekse@example.com','TZcKnkFj'),
+	('Дмитриев Лазарь Эдуардович','2002-11-13','axuNHK','https://picsum.photos/744/858','85047710098','osipovmakar@example.com','uUSFpzBW'),
+	('Епифан Демьянович Попов','2001-06-15','lWzWIa','https://dummyimage.com/299x293','82660352442','galina1984@example.com','BMfHTSDf'),
+	('Жанна Сергеевна Фомичева','1970-07-15','dMWZrA','https://picsum.photos/872/945','85716691872','nikiforsokolov@example.org','ybXstffI'),
+	('Элеонора Рудольфовна Третьякова','1967-12-20','gxKoPe','https://dummyimage.com/1x317','87612481402','zuevfrol@example.org','KmynLPGJ'),
+	('Азарий Борисович Прохоров','1993-04-02','bYmNCu','https://placekitten.com/405/694','83189126916','nikodim1992@example.org','bFwYRRwU'),
+	('Никифорова Эмилия Афанасьевна','1996-04-06','KBtRQc','https://picsum.photos/331/496','89253151746','bespalovzosima@example.com','DwkwHlIX'),
+	('Котов Панкрат Ефстафьевич','1965-01-26','JgVrGg','https://placekitten.com/615/850','86510313923','wturova@example.com','NlkvdmHO'),
+	('Егоров Мирон Марсович','1998-05-12','CSEvlC','https://placekitten.com/473/524','84486427110','xhohlov@example.com','BFLmVrod'),
+	('Селиван Игнатьевич Соболев','1959-05-20','rUQaFP','https://dummyimage.com/747x671','86002875148','elizar2023@example.net','QJZXozMm'),
+	('Август Матвеевич Устинов','1974-06-15','mrWLjt','https://dummyimage.com/820x256','89867321708','samson_2019@example.com','eCOijzXK'),
+	('Белов Родион Гаврилович','1963-05-09','oWqWDs','https://picsum.photos/872/326','83223515925','nmuravev@example.org','lRUuItOM'),
+	('Архипов Моисей Гордеевич','1963-08-27','ZtSZOw','https://dummyimage.com/550x947','88196645802','margarita1985@example.net','uvseCIKK'),
+	('Тихонова Майя Аскольдовна','1982-11-08','awmUEz','https://picsum.photos/325/567','89418228014','olimpi_32@example.net','GUthLcdw'),
+	('Мстислав Георгиевич Никифоров','1985-06-18','WqfaQy','https://picsum.photos/786/127','81280270790','prokofikomarov@example.com','aMhSMtYr'),
+	('Журавлева Фёкла Игоревна','1984-09-10','ijMLZs','https://picsum.photos/869/656','82998734892','nlitkina@example.org','GcFXnqbe'),
+	('Терентьева Майя Рудольфовна','1965-06-19','FoizBf','https://placekitten.com/214/267','83180836832','ippolit1977@example.net','ldFBKrwC'),
+	('Денис Эдгардович Дорофеев','1996-07-06','SIjJGI','https://dummyimage.com/560x232','88399257693','anisimovjaropolk@example.com','HUscTCVt'),
+	('Симонов Святослав Юльевич','1979-06-21','UjFeqe','https://dummyimage.com/956x671','86980805560','valerija1997@example.com','vebajAUx'),
+	('Пестов Максим Исидорович','1987-05-08','MZFbYY','https://picsum.photos/234/972','88555174541','olimpiada_1974@example.org','ExlnpnAc'),
+	('Савелий Аксёнович Нестеров','1990-01-25','noAgko','https://picsum.photos/251/312','85229556771','julian1987@example.net','hTyQvVTx'),
+	('Мартынова Лукия Леоновна','1977-03-03','kEMEoM','https://dummyimage.com/134x364','87054317593','timofe1973@example.net','tZZOEIxP'),
+	('Лебедев Елисей Августович','1965-12-18','SjjLGd','https://dummyimage.com/511x255','82853095316','titovaevgenija@example.net','rnquafRb'),
+	('Селиверстова Ульяна Владимировна','1987-03-10','jqiJMn','https://dummyimage.com/490x276','81638477695','kir_2008@example.org','IdsvXAjK'),
+	('Стрелкова Фаина Харитоновна','1997-06-03','cuCuVf','https://picsum.photos/195/106','82550656366','seliverst_89@example.org','FakWrHKq'),
+	('Каллистрат Матвеевич Ермаков','1975-08-04','hVXWNY','https://placekitten.com/784/141','83842927826','nikola_2018@example.com','yVcObxeu'),
+	('Олимпиада Егоровна Герасимова','1984-12-15','ttEXCr','https://picsum.photos/122/398','87976835667','samsonovspiridon@example.net','ejdNXSMF'),
+	('Самуил Власович Мишин','1980-10-28','EOVXcp','https://dummyimage.com/998x222','89365629065','sidor1990@example.org','CJojeeun'),
+	('тов. Дементьев Натан Игоревич','1989-10-27','XxPDUl','https://picsum.photos/81/144','81252278240','tihonovaraisa@example.org','VRuJvkiA'),
+	('Полякова Анжела Матвеевна','2001-04-27','sVVseJ','https://placekitten.com/946/784','89494739198','andreevadarja@example.com','dpNabHVG'),
+	('Зыкова Октябрина Анатольевна','1971-07-13','VwaOjO','https://placekitten.com/933/618','84232325763','tihonovizot@example.org','cizvOLop'),
+	('Доронин Конон Исидорович','1985-01-22','kTeuVZ','https://placekitten.com/858/361','88387368487','tverdislav_87@example.com','xLmpeGdK'),
+	('Синклитикия Феликсовна Архипова','1977-12-18','YecUiS','https://dummyimage.com/521x675','85426938146','gushchinaelizaveta@example.org','xLnJKeZb'),
+	('Вероника Эльдаровна Мамонтова','1989-01-14','IapiPF','https://dummyimage.com/790x745','87356618617','eleonora_1986@example.com','DfZNTmNJ'),
+	('Раиса Макаровна Борисова','1966-07-14','qacgTM','https://picsum.photos/265/912','83305897600','bojan_1973@example.com','zSroKQKl'),
+	('Жанна Богдановна Назарова','1984-01-06','mpVmpP','https://picsum.photos/1016/910','83774209882','emeljan_1975@example.net','rvHGCQyP'),
+	('Любовь Матвеевна Захарова','1970-09-14','mFNddv','https://placekitten.com/301/947','85095134575','vorobevsamuil@example.org','UxJQUdJN'),
+	('Алевтина Аркадьевна Никитина','1977-07-02','atAVkE','https://picsum.photos/292/416','84618069410','bsafonova@example.net','cdINycXK'),
+	('Анна Дмитриевна Осипова','1977-04-06','PraLZz','https://picsum.photos/926/856','83689049584','qsokolov@example.org','OmAeYwwM'),
+	('Юлия Егоровна Самойлова','1994-12-11','WDENhP','https://picsum.photos/184/788','82285490557','arefifomichev@example.com','VMBsJLEM'),
+	('Носова Таисия Павловна','1980-07-13','pVSbVx','https://placekitten.com/429/979','84051573363','savinamilitsa@example.com','OXWrspYQ'),
+	('Владимиров Евгений Демидович','1963-05-14','vErGeS','https://dummyimage.com/162x434','81660022595','nikandr1982@example.net','cdHfszwN'),
+	('Ермил Викторович Ситников','1967-01-17','dohLSy','https://dummyimage.com/435x39','86525312554','fortunat78@example.org','ewXbosAJ'),
+	('Валентина Александровна Быкова','1971-03-28','QpaJbk','https://dummyimage.com/687x84','83411501588','nikiforrjabov@example.org','DtvcDeqa'),
+	('Стрелков Исидор Артёмович','1984-10-10','lcJyEF','https://dummyimage.com/398x301','84050837295','tit_39@example.com','YXGoQknV'),
+	('Фёкла Захаровна Рогова','1994-01-24','lemTBD','https://dummyimage.com/30x179','82078533633','savva2015@example.com','EEJMikry'),
+	('Голубева Светлана Болеславовна','1960-10-12','SSfqmG','https://dummyimage.com/725x637','87576389892','csisoev@example.org','lhJNdGOD'),
+	('Носкова Ирина Альбертовна','1988-01-25','MQOtNv','https://picsum.photos/931/326','81487476356','agata1982@example.com','eIoUxOqX'),
+	('Мишин Митофан Эдгардович','1974-02-01','IgEqBq','https://picsum.photos/964/111','84080882644','sorokinvsemil@example.net','IeYUwyUE'),
+	('Лукьян Георгиевич Муравьев','1984-02-13','vDAEHY','https://picsum.photos/424/435','82710186508','zhuravlevlukjan@example.org','EqOGaqam'),
+	('Кузнецова Глафира Эдуардовна','1975-02-03','izMrcT','https://picsum.photos/817/103','82773869663','pankrat_05@example.net','wFxhkScn'),
+	('Медведева Марина Ильинична','1995-06-28','jRjLPF','https://dummyimage.com/11x726','84859473087','iljavasilev@example.com','JCXAQgww'),
+	('Януарий Вилорович Федосеев','1972-07-14','MWfNqn','https://picsum.photos/989/766','82310942488','lobanovaelizaveta@example.org','uWdHJWsM'),
+	('Прохоров Степан Архипович','2004-07-19','DGCAeq','https://dummyimage.com/909x63','84445759205','rusakovemil@example.net','GkgBrWrY'),
+	('Марина Юльевна Боброва','1980-07-16','meCWDL','https://picsum.photos/504/902','87891951890','valerjan02@example.net','PmireOrF'),
+	('Милица Павловна Зыкова','2003-06-05','Thhykq','https://picsum.photos/636/103','85973689009','varfolome_1993@example.org','RDXpACrj'),
+	('Ирина Кузьминична Овчинникова','1985-08-20','waqmKe','https://dummyimage.com/896x409','81778634497','kuprijan48@example.org','FwFlGdXH'),
+	('Белозерова Ангелина Ниловна','1974-11-11','TNqqUO','https://placekitten.com/500/890','83328246922','akabanova@example.org','XAAOtmKI'),
+	('Осипов Любомир Устинович','1998-08-09','XPZiti','https://placekitten.com/340/661','84378761361','mstislav21@example.net','VTzONEOH'),
+	('Глафира Альбертовна Беспалова','1999-09-21','QHIYwk','https://picsum.photos/648/957','83048075904','tvorimir2013@example.com','NJQFPVTY'),
+	('Федосеева Нонна Александровна','1969-07-20','ntsTnc','https://picsum.photos/840/492','89353665179','leonid1992@example.org','exYGzVBl');
 
 
 DO $$
