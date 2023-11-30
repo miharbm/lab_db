@@ -14,6 +14,7 @@
 \usepackage{listings}
 %\usepackage{minted}
 \usepackage{xcolor}
+\usepackage[T1]{fontenc}
 %\usepackage{inconsolata}
 %\renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
 %\usepackage[T1]{fontenc}
@@ -28,7 +29,7 @@
 
 \sloppy
 
-\usepackage{geometry}
+%\usepackage{geometry}
 \geometry{top=2cm}
 \geometry{bottom=2cm}
 \geometry{left=2.5cm}
@@ -89,7 +90,7 @@
 		\begin{flushright}
 			\begin{tabular}{|l|c|}
 				\hline
-				Выполнил      & Рокин О.Д.      \\ \hline
+				Выполнил      & Бородин М.С.      \\ \hline
 				Группа        & Б21-215         \\ \hline
 				Вариант 	  & \begin{tabular}[c]{@{}c@{}}Онлайн кассы для\\ сети кинотеатров\end{tabular} \\ \hline
 				Преподаватель & Миркасымов Р.Б. \\ \hline
@@ -113,27 +114,43 @@
 	\newpage
 	
 	\section{Формулировка задания}
+
+	Спроектировать базу данных для онлайн кассы сети кинотеатров, находящейся в разных городах России и осуществляющую
+	продажу билетов на показы кино.
+	База данных должна содержать информацию о клиентах, сотрудниках, кино, существующих в прокате.
+	В ней так же должны отображаться билеты, производимые транзакции и подробная информация о проходящем кино.	\newpage
 	
-	\newpage
-	
-	\section{Концептуальная модель базы данных}
-	
+	\section{Концептуальная модель базы данных}\label{sec:---}
+
 	После проведения анализа предметной области была спроектирована следующая концептуальная модель:
 	
 	\begin{figure}[h]
 		\hspace{-1.75cm}
 		\includegraphics[scale=0.094,page=1]{Концептуальная модель.pdf}
-		\caption{Концептуальная модель базы данных}
+		\caption{Концептуальная модель базы данных}\label{fig:figure}
 	\end{figure}
 	
 	\newpage
 	
-	\subsection{Конкретизация предметной области}
-	
+	\subsection{Конкретизация предметной области}\label{subsec:--2}
+
+	Необходимо создать систему, отражающую информацию о билетах на сеансы кино, производящую отметку об оплате конкретному клиенту.
+	База данных должна содержать подробную информацию о кино и связанных с ней людях, должна отображать сотрудников каждого отдельного кинотеатра.
 	\newpage
 	
-	\subsection{Описание предметной области}
-	
+	\subsection{Описание предметной области}\label{subsec:--3}
+
+	Система ориентирована на зарегестрированных либо по почте либо по телефону пользователей.
+
+	Любой пользователь может узнать все о кинотеатрах: адрес, контакт, проходящие сеансы.
+	Клиент может узнать подробную информацию о кино, которое хочет посмотреть: его режиссера(ов), актеров, продюссеров, операторов и т.п.,
+	наличие номинаций или побед в номинациях различных кинопремий.
+	Можно так же посмотреть информацию о каждом из людей, что работают над фильмом, допустим узнать что-то про актера, что сыграл в данном кино
+	Килент может создать заказ с любым количеством билетов, забронировать и оплатить либо сразу онлайн, либо уже в кинотеатре.
+	Клиент может просмотреть историю заказов.
+
+	Сотрудники кинотеатров могут производить продажу билетов, анализировать продажи.
+
 	Таким образом, были выделены следующие сущности:
 	
 	\begin{itemize}
@@ -245,32 +262,32 @@
 	
 	\newpage
 	
-	\section{Логическое проектирование}
-	
+	\section{Логическое проектирование}\label{sec:-}
+
 	Следующим шагом на основе КМПО была разработана логическая модель базы данных, представленная ниже:
 	
 	\begin{figure}[h]
 		\hspace{-1.75cm}
 		\includegraphics[scale=0.19,page=1]{Логическая модель.png}
-		\caption{Логическая модель базы данных}
+		\caption{Логическая модель базы данных}\label{fig:figure2}
 	\end{figure}
 	
 	\newpage
 	
-	\section{Физическое проектирование}
-	
+	\section{Физическое проектирование}\label{sec:-2}
+
 	В качестве СУБД для реализации разработанной базы данных была выбрана PostgreSQL. В связи с проведённым анализом предметной области и была проработана следующая физическая схема базы данных. Она представлена на следующем рисунке:
 	
 	\begin{figure}[h]
 		\hspace{-1.75cm}
 		\includegraphics[scale=0.5,page=1]{Графическое представление.png}
-		\caption{Графическое представление базы данных}
+		\caption{Графическое представление базы данных}\label{fig:figure3}
 	\end{figure}
 	
 	\newpage
 	
-	\subsection{Создание таблиц}	
-	
+	\subsection{Создание таблиц}\label{subsec:-}
+
 	Ниже приведены скриптовый код на языке SQL (диалект PostgreSQL) для создания таблиц, описанных выше.
 	
 	\begin{itemize}
@@ -361,7 +378,7 @@
 	
 	\item Код для создания таблицы Movies
 		
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql}]
 		CREATE TABLE IF NOT EXISTS "public.Movies" (
 			"id" serial NOT NULL,
 			"name" varchar(255) NOT NULL,
@@ -380,7 +397,7 @@
 
 	\item Код для создания таблицы Genres
 
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql2}]
 		CREATE TABLE IF NOT EXISTS "public.Genres" (
 			"id" serial NOT NULL,
 			"name" varchar(50) UNIQUE NOT NULL,
@@ -392,7 +409,7 @@
 
 	\item Код для создания таблицы Movies\_genres
 
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql3}]
 		CREATE TABLE IF NOT EXISTS "public.Movies_genres" (
 			"movie_id" integer NOT NULL,
 			"genres_id" integer NOT NULL,
@@ -407,7 +424,7 @@
 
 	\item Код для создания таблицы Pictures\_movie
 
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql4}]
 		CREATE TABLE IF NOT EXISTS "public.Pictures_movie" (
 			"id" serial NOT NULL,
 			"movie_id" integer NOT NULL,
@@ -424,7 +441,7 @@
 	
 	\item Код для создания таблицы Film\_crew\_members
 	
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql5}]
 		CREATE TABLE IF NOT EXISTS "public.Film_crew_members" (
 			"id" serial NOT NULL,
 			"name" varchar(255) NOT NULL,
@@ -439,7 +456,7 @@
 
 	\item Код для создания таблицы Films\_positions
 
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql6}]
 		CREATE TABLE IF NOT EXISTS "public.Films_positions" (
 			"id" serial NOT NULL,
 			"movie_id" integer NOT NULL,
@@ -457,7 +474,7 @@
 	
 	\item Код для создания таблицы Nominees
 	
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql7}]
 		CREATE TABLE IF NOT EXISTS "public.Nominees" (
 			"id" serial NOT NULL,
 			"movie_id" integer,
@@ -474,7 +491,7 @@
 	
 	\item Код для создания таблицы Primes
 	
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql8}]
 		CREATE TABLE IF NOT EXISTS "public.Primes" (
 			"id" serial NOT NULL,
 			"name" varchar(50) NOT NULL UNIQUE,
@@ -486,7 +503,7 @@
 
 	\item Код для создания таблицы Prime\_nominations
 
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql9}]
 		CREATE TABLE IF NOT EXISTS "public.Prime_nominations" (
 			"id" serial NOT NULL,
 			"nominee_id" integer NOT NULL,
@@ -505,7 +522,7 @@
 	
 	\item Код для создания таблицы Cinemas
 	
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql10}]
 		CREATE TABLE IF NOT EXISTS "public.Cinemas" (
 			"id" serial NOT NULL,
 			"name" varchar(50) NOT NULL UNIQUE,
@@ -519,7 +536,7 @@
 	
 	\item Код для создания таблицы Halls
 	
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql11}]
 		CREATE TABLE IF NOT EXISTS "public.Halls" (
 			"id" serial NOT NULL,
 			"name" varchar(255) NOT NULL,
@@ -535,7 +552,7 @@
 
 	\item Код для создания таблицы Sessions
 
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql12}]
 		CREATE TABLE IF NOT EXISTS "public.Sessions" (
 			"id" serial NOT NULL,
 			"movie_id" serial NOT NULL ,
@@ -554,7 +571,7 @@
 	
 	\item Код для создания таблицы Seats
 	
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql13}]
 		CREATE TABLE IF NOT EXISTS "public.Seats" (
 			"id" serial NOT NULL,
 			"row" smallint NOT NULL,
@@ -571,7 +588,7 @@
 
 	\item Код для создания таблицы Customers
 
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql14}]
 		CREATE TABLE IF NOT EXISTS "public.Customers" (
 			"id" serial NOT NULL,
 			"name" varchar(255),
@@ -589,7 +606,7 @@
 
 	\item Код для создания таблицы Orders
 
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql15}]
 		CREATE TABLE IF NOT EXISTS "public.Orders" (
 			"id" serial NOT NULL,
 			"customer_id" integer NOT NULL,
@@ -605,7 +622,7 @@
 	
 	\item Код для создания таблицы Payment
 
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql16}]
 		CREATE TABLE IF NOT EXISTS "public.Payment" (
 			"id" serial NOT NULL,
 			"type" varchar(50) NOT NULL,
@@ -621,7 +638,7 @@
 
 	\item Код для создания таблицы Tickets
 
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql17}]
 		CREATE TABLE IF NOT EXISTS "public.Tickets" (
 			"id" serial NOT NULL,
 			"seat_id" integer NOT NULL,
@@ -642,7 +659,7 @@
 
 	\item Код для создания таблицы Cinemas\_positions
 
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql18}]
 		CREATE TABLE IF NOT EXISTS "public.Cinemas_positions" (
 			"id" serial NOT NULL,
 			"position" varchar(255) NOT NULL UNIQUE,
@@ -654,7 +671,7 @@
 	
 	\item Код для создания таблицы Staff
 	
-	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql19}]
 		CREATE TABLE IF NOT EXISTS "public.Staff" (
 			"id" serial NOT NULL,
 			"cinema_id" integer NOT NULL,
@@ -679,8 +696,8 @@
 		
 	\newpage
 	
-	\subsection{Заполнение базы данных}
-	
+	\subsection{Заполнение базы данных}\label{subsec:--}
+
 	%\newpage
 	
 	\subsubsection{Подготовка данных}
@@ -764,7 +781,7 @@
 	Ниже приведён пример Python-кода, который принимает данные из Excel-таблицы и генерирует SQL-запрос на заполнение данными таблицы Tickets.
 	
 	\begin{figure}[h]
-		\hspace{-0.5cm}\includegraphics[scale=0.6,page=1]{sql_tickets_insert.pdf}
+		\hspace{-0.5cm}\includegraphics[scale=0.6,page=1]{sql_tickets_insert.pdf}\label{fig:figure4}
 	\end{figure}
 
 	Все генерируемые подобным образом SQL-запросы направлены на то, чтобы искать id нужных таблиц и заполнять нужные данные на основе данных из Excel-таблиц. Причём нужные id в таком запросе ищутся ровно один раз даже в случае, если в Excel-таблице на один и тот же id ссылаются несколько раз.
@@ -890,7 +907,37 @@
 	
 	\newpage
 	
-	\section{Выполнение запросов}
-	
-	
+	\section{Выполнение запросов}\label{sec:-3}
+
+	\begin{enumerate} 
+		\item Получить неоплаченные заказы и тех, кто не оплатил
+  
+			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql20}]
+				SELECT o.id, c.name
+				FROM "public.Orders" o
+				JOIN "public.Customers" c ON c.id = o.customer_id
+				JOIN "public.Payment" p ON o.id = p.order_id
+				WHERE p.payment_time IS NULL;
+			\end{lstlisting}
+
+  			\includegraphics[scale=0.6,page=1]{queries/1}
+			$\\$
+  
+  
+		\item Получить все сеансы на день в кинотеатре
+
+			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql21}]
+				SELECT m.id, m.name, m.duration, s.time_start, h.type
+				FROM "public.Sessions" s
+				JOIN "public.Movies" m on m.id = s.movie_id
+				JOIN "public.Halls" h on s.hall_id = h.id
+				JOIN "public.Cinemas" c on h.cinema_id = c.id
+				WHERE s.time_start::date = '2023-11-05'
+    			AND c.name = 'Четвертый';
+			\end{lstlisting}
+
+			\includegraphics[scale=0.6,page=1]{queries/}
+		$\\$
+	\end{enumerate}
+
 \end{document}

@@ -222,7 +222,7 @@ WITH paid_total AS (
 
 SELECT paid_online.count AS online_count, paid_total.count AS total_count,
     100 * paid_online.count / paid_total.count AS online_percentage
-FROM paid_total, paid_online
+FROM paid_total, paid_online;
 
 
 -- Вывести число свободных сидений в кинотеатрах на определённую дату
@@ -249,3 +249,6 @@ SELECT seats_total.cinema_name, seats_taken.movie_name, seats_taken.time_start, 
 FROM seats_total
 JOIN seats_taken ON seats_total.hall_id = seats_taken.hall_id
 ORDER BY free;
+
+
+SELECT
