@@ -114,15 +114,17 @@
 	
 	\section{Формулировка задания}
 	
-	\newpage
+	Спроектировать базу данных для онлайн кассы сети кинотеатров, находящейся в разных городах России и осуществляющую продажу билетов на показы кино. База данных должна содержать информацию о клиентах, сотрудниках, кино, существующих в прокате. В ней так же должны отображаться билеты, производимые транзакции и подробная информация о проходящем кино.
+	
+	%\newpage
 	
 	\section{Концептуальная модель базы данных}
 	
 	После проведения анализа предметной области была спроектирована следующая концептуальная модель:
 	
 	\begin{figure}[h]
-		\hspace{-1.75cm}
-		\includegraphics[scale=0.094,page=1]{Концептуальная модель.pdf}
+		%\hspace{-1.75cm}
+		\includegraphics[scale=0.081,page=1]{Концептуальная модель.pdf}
 		\caption{Концептуальная модель базы данных}
 	\end{figure}
 	
@@ -130,9 +132,18 @@
 	
 	\subsection{Конкретизация предметной области}
 	
-	\newpage
+	Необходимо создать систему, отражающую информацию о билетах на сеансы кино, производящую отметку об оплате конкретному клиенту. База данных должна содержать подробную информацию о кино и связанных с ней людях, должна отображать сотрудников каждого отдельного кинотеатра.
+	
+	%\newpage
 	
 	\subsection{Описание предметной области}
+	
+	Система ориентирована на зарегестрированных либо по почте либо по телефону пользователей.
+	
+	Любой пользователь может узнать все о кинотеатрах: адрес, контакт, проходящие сеансы. Клиент может узнать подробную информацию о кино, которое хочет посмотреть: его режиссера(ов), актеров, продюссеров, операторов и т.п., наличие номинаций или побед в номинациях различных кинопремий. Можно так же посмотреть информацию о каждом из людей, что работают над фильмом, допустим, узнать что-то про актера, что сыграл в данном кино. Клиент может создать заказ с любым количеством билетов, забронировать и оплатить либо сразу онлайн, либо уже в кинотеатре.
+	Клиент может просмотреть историю заказов.
+	
+	Сотрудники кинотеатров могут производить продажу билетов, анализировать продажи.
 	
 	Таким образом, были выделены следующие сущности:
 	
@@ -172,7 +183,7 @@
 		\item Должности в кинотеатре
 	\end{itemize}
 	
-	\newpage
+	%\newpage
 	
 	\subsection{Описание атрибутов}
 	
@@ -194,15 +205,15 @@
 			Жанры	& Название	& Название жанра фильма	\\ \hline
 			Члены съёмочной группы	& Имя	& Полное имя члена съёмочной группы (необязательно уникальное)	\\ \hline
 			Члены съёмочной группы	& Дата рождения	& Дата рождения члена съёмочной группы	\\ \hline
-			Члены съёмочной группы	& Место рождения	& Место рождения члена съёмочной группы	\\ \hline
-			Члены съёмочной группы	& Рост	& Рост члена съёмочной группы (важно для актёров)	\\ \hline
-			Номинации	& Название	& Название номинации (за лучшую мужскую роль, за лучшую роль второго плана и т.п.)	\\ \hline
 		\end{tabular}
 	\end{center}
 
 	\begin{center}
 		\begin{tabular}{|p{4cm}|p{4cm}|p{7cm}|}
 			\hline
+			Члены съёмочной группы	& Место рождения	& Место рождения члена съёмочной группы	\\ \hline
+			Члены съёмочной группы	& Рост	& Рост члена съёмочной группы (важно для актёров)	\\ \hline
+			Номинации	& Название	& Название номинации (за лучшую мужскую роль, за лучшую роль второго плана и т.п.)	\\ \hline
 			Номинации	& Статус	& Отвечает, оказался ли номинант победителем	\\ \hline
 			Номинации	& Год	& Год выдвижения номинации	\\ \hline
 			Награды	& Название	& Название награды (Оскар, Золотой глобус и т.п.)	\\ \hline
@@ -219,6 +230,14 @@
 			Пользователи	& Пароль	& Пароль пользователя	\\ \hline
 			Пользователи	& Телефон	& Номер телефона пользователя	\\ \hline
 			Пользователи	& Почта	& Электронная почта пользователя	\\ \hline
+			
+
+		\end{tabular}
+	\end{center}
+
+	\begin{center}
+		\begin{tabular}{|p{4cm}|p{4cm}|p{7cm}|}
+			\hline
 			Пользователи	& Аватар	& Ссылка на изображение, являющееся аватаром пользователя	\\ \hline
 			Залы	& Название/Номер	& Название/Номер зала	\\ \hline
 			Залы	& Тип	& Тип зала (стандартный, VIP и т.п.)	\\ \hline
@@ -226,12 +245,6 @@
 			Сиденья	& Место	& Место сиденья	\\ \hline
 			Кинотеатры	& Название	& Название кинотеатра	\\ \hline
 			Кинотеатры	& Адрес	& Адрес кинотеатра	\\ \hline
-		\end{tabular}
-	\end{center}
-
-	\begin{center}
-		\begin{tabular}{|p{4cm}|p{4cm}|p{7cm}|}
-			\hline
 			Кинотеатры	& Телефон	& Официальный номер телефона кинотеатра	\\ \hline
 			Сотрудники	& Имя	& Полное имя сотрудника (необязательно уникальное)	\\ \hline
 			Сотрудники	& Дата рождения	& Дата рождения сотрудника	\\ \hline
@@ -254,6 +267,10 @@
 		\includegraphics[scale=0.19,page=1]{Логическая модель.png}
 		\caption{Логическая модель базы данных}
 	\end{figure}
+
+	Все связи типа «Многие ко многим» были реализованы через отдельные таблицы.
+	
+	Все таблицы базы данных находятся в 3НФ, т.к. все атрибуты являются простыми, отсутствуют функциональные зависимости между неключевыми атрибутами и первичными ключами, а также нет транзитивных зависимостей.
 	
 	\newpage
 	
@@ -778,16 +795,18 @@
 	\item Фрагмент таблицы Movies
 
 	\includegraphics[scale=0.55,page=1]{Movies.png}
+	$\\$
 	
 	
 	\item Таблица Genres
 	
-	\includegraphics[scale=0.3,page=1]{Genres.png}
+	\includegraphics[scale=0.29,page=1]{Genres.png}
+	$\\$
 	
 	
 	\item Фрагмент таблицы Movies\_genres
 	
-	\includegraphics[scale=0.3,page=1]{Movies_genres.png}
+	\includegraphics[scale=0.29,page=1]{Movies_genres.png}
 	
 	\newpage
 	
@@ -795,11 +814,13 @@
 	\item Таблица Pictures\_movie
 	
 	\includegraphics[scale=0.3,page=1]{Pictures_movie.png}
+	$\\$
 	
 	
 	\item Фрагмент таблицы Film\_crew\_members
 	
 	\includegraphics[scale=0.3,page=1]{Film_crew_members.png}
+	$\\$
 	
 	
 	\item Фрагмент таблицы Films\_positions
@@ -892,5 +913,351 @@
 	
 	\section{Выполнение запросов}
 	
+	В этом разделе приведены различные запросы к реализованной базе данных — их краткие описания, непосредственно запрос на SQL языке и результат выполнения.
+	
+	\begin{enumerate}
+	\item Вывести фильмы, на которые есть билеты стоимостью не выше 450 (выводится минимальная цена)
+	
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+		SELECT m.name, MIN(t.price)
+		FROM "public.Tickets" t
+		JOIN "public.Sessions" s on t.session_id = s.id
+		JOIN "public.Movies" m on s.movie_id = m.id
+		WHERE t.price <= 450
+		GROUP BY m.name;
+	\end{lstlisting}
+
+	\includegraphics[scale=0.6,page=1]{query_1.png}
+	$\\$
+	
+	
+	\item Вывести количество фильмов по жанрам
+	
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+		SELECT g.name, COUNT(m.id) AS movies_count
+		FROM "public.Movies" m
+		JOIN "public.Movies_genres" mg ON m.id = mg.movie_id
+		JOIN "public.Genres" g ON mg.genres_id = g.id
+		GROUP BY g.name
+		ORDER BY movies_count DESC;
+	\end{lstlisting}
+
+	\includegraphics[scale=0.6,page=1]{query_2.png}
+	$\\$
+	
+	
+	\item Вывести фильмы в порядке убывания количества купленных билетов на определённый день
+	
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+		SELECT m.id, m.name, COUNT(t.id) AS tickets_count
+		FROM "public.Movies" m
+		JOIN "public.Sessions" s ON m.id = s.movie_id
+		JOIN "public.Tickets" t ON s.id = t.session_id
+		JOIN "public.Orders" o ON o.id = t.order_id
+		JOIN "public.Payment" p ON o.id = p.order_id
+		WHERE s.time_start::date = '2023-11-05'
+			AND p.payment_time IS NOT NULL
+		GROUP BY m.id
+		ORDER BY tickets_count DESC;
+	\end{lstlisting}
+	
+	\includegraphics[scale=0.6,page=1]{query_3.png}
+	$\\$
+	
+	
+	\item Вывести округлённую среднюю заплаченную пользователями сумму за сеанс
+	
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+		SELECT ROUND(AVG(o.total_price))
+		FROM "public.Customers" c
+		JOIN "public.Orders" o ON o.customer_id = c.id
+		JOIN "public.Payment" p ON p.order_id = o.id
+		WHERE p.payment_time IS NOT NULL
+	\end{lstlisting}
+	
+	\includegraphics[scale=0.8,page=1]{query_4.png}
+	$\\$
+	
+	
+	\item Вывести фильмы в заданном кинотеатре, где снимался оскароносный актёр
+	
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+		SELECT m.id, m.name, fcm.name
+		FROM "public.Sessions" s
+		JOIN "public.Movies" m ON m.id = s.movie_id
+		JOIN "public.Halls" h ON s.hall_id = h.id
+		JOIN "public.Cinemas" c ON h.cinema_id = c.id
+		JOIN "public.Films_positions" fp On m.id = fp.movie_id
+		JOIN "public.Film_crew_members" fcm ON fp.member_id = fcm.id
+		JOIN "public.Nominees" n ON fcm.id = n.film_crew_members_id
+		JOIN "public.Prime_nominations" pn ON n.id = pn.nominee_id
+		JOIN "public.Primes" p ON pn.prime_id = p.id
+		WHERE c.name = 'Пятый'
+			AND fp.name = 'Актер'
+			AND p.name = 'Оскар'
+			AND pn."isWon" = True;
+	\end{lstlisting}
+	
+	\includegraphics[scale=0.8,page=1]{query_5.png}
+	$\\$
+	
+	
+	\item Вывести людей, оплативших билеты не ранее, чем за час до начала сеанса
+	
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+		SELECT DISTINCT c.name, p.payment_time, s.time_start
+		FROM "public.Customers" c
+		JOIN "public.Orders" o ON c.id = o.customer_id
+		JOIN "public.Payment" p ON o.id = p.order_id
+		JOIN "public.Tickets" t ON o.id = t.order_id
+		JOIN "public.Sessions" s ON s.id = t.session_id
+		WHERE p.payment_time >= s.time_start - INTERVAL '1 hour';
+	\end{lstlisting}
+	
+	\includegraphics[scale=0.6,page=1]{query_6.png}
+	$\\$
+	
+	
+	\item Вывести людей, суммарно заплативших за заказы 3000 и больше
+	
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+		SELECT c.name, SUM(o.total_price) AS total_paid
+		FROM "public.Customers" c
+		JOIN "public.Orders" o ON c.id = o.customer_id
+		JOIN "public.Payment" p ON o.id = p.order_id
+		WHERE p.payment_time IS NOT NULL
+		GROUP BY c.name
+		HAVING SUM(o.total_price) >= 3000
+		ORDER BY total_paid DESC;
+	\end{lstlisting}
+	
+	\includegraphics[scale=0.6,page=1]{query_7.png}
+	$\\$
+	
+	
+	\item Всем пользователям, которые забронировали, но не оплатили места, поставить на аватары клоунов
+	
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+		UPDATE "public.Customers"
+		SET avatar_ref = 'https://icons.iconarchive.com/icons/google/noto-emoji-smileys/256/10094-clown-face-icon.png'
+		FROM "public.Orders" o
+		JOIN "public.Payment" p ON o.id = p.order_id
+		WHERE "public.Customers".id = o.customer_id
+			AND o."isBooked" = True
+			AND p.payment_time IS NULL;
+	\end{lstlisting}
+	\newpage
+	
+	Было (выведены люди, забронировавшие, но не оплатившие места):
+	
+	\includegraphics[scale=0.6,page=1]{query_8_1.png}
+	
+	Стало (выведены люди, забронировавшие, но не оплатившие места):
+	
+	\includegraphics[scale=0.6,page=1]{query_8_2.png}
+	$\\$
+	
+	
+	\item Вывести самый кассовый фильм с возрастным рейтингом R
+	
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+		SELECT m.id, m.name, SUM(o.total_price) AS total_pay
+		FROM "public.Movies" m
+		JOIN "public.Sessions" s ON m.id = s.movie_id
+		JOIN "public.Tickets" t ON s.id = t.session_id
+		JOIN "public.Orders" o ON o.id = t.order_id
+		JOIN "public.Payment" p ON o.id = p.order_id
+		WHERE p.payment_time IS NOT NULL
+			AND m.mpaa = 'R'
+		GROUP BY m.id
+		ORDER BY total_pay DESC
+		LIMIT 1;
+	\end{lstlisting}
+
+	\includegraphics[scale=0.8,page=1]{query_9.png}
+	%$\\$
+	
+	
+	\item Вывести самый прибыльный за всё время кинотеатр
+	
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+		SELECT c.name, SUM(o.total_price) AS total_pay
+		FROM "public.Cinemas" c
+		JOIN "public.Halls" h ON h.cinema_id = c.id 
+		JOIN "public.Sessions" s ON s.hall_id = h.id
+		JOIN "public.Tickets" t ON t.session_id = s.id
+		JOIN "public.Orders" o ON o.id = t.order_id
+		JOIN "public.Payment" p ON p.order_id = o.id
+		WHERE p.payment_time IS NOT NULL
+		GROUP BY c.name
+		ORDER BY total_pay DESC
+		LIMIT 1;
+	\end{lstlisting}
+	
+	\includegraphics[scale=0.8,page=1]{query_10.png}
+	$\\$
+	
+	
+	\item Вывести фильмы вместе со средним возрастом их аудитории
+	
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+		SELECT m.id, m.name, m.release_date, ROUND(AVG(DATE_PART('YEAR', AGE(c.birthday)))::numeric) AS average_age
+		FROM "public.Movies" m
+		JOIN "public.Sessions" s ON s.movie_id = m.id
+		JOIN "public.Tickets" t ON t.session_id = s.id
+		JOIN "public.Orders" o ON o.id = t.order_id
+		JOIN "public.Payment" p ON p.order_id = o.id
+		JOIN "public.Customers" c ON c.id = o.customer_id
+		WHERE p.payment_time IS NOT NULL
+		GROUP BY m.id
+		ORDER BY m.release_date
+	\end{lstlisting}
+	
+	\includegraphics[scale=0.6,page=1]{query_11.png}
+	$\\$
+	
+	
+	\item Вывести процент оплат наличными за месяц
+	
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+		WITH paid_cash AS (
+			SELECT COUNT(p.id)
+			FROM "public.Payment" p
+			WHERE EXTRACT(YEAR FROM p.payment_time) = EXTRACT(YEAR FROM CURRENT_DATE)
+			AND EXTRACT(MONTH FROM p.payment_time) = EXTRACT(MONTH FROM CURRENT_DATE)
+			AND p.type = 'Оплата наличными на месте'
+		),
+		paid_total AS (
+			SELECT COUNT(p.id)
+			FROM "public.Payment" p
+			WHERE EXTRACT(YEAR FROM p.payment_time) = EXTRACT(YEAR FROM CURRENT_DATE)
+			AND EXTRACT(MONTH FROM p.payment_time) = EXTRACT(MONTH FROM CURRENT_DATE)
+		)
+		
+		SELECT ROUND(100 * paid_cash.count / paid_total.count) AS cash_percentage
+		FROM paid_cash, paid_total
+	\end{lstlisting}
+	
+	\includegraphics[scale=0.8,page=1]{query_12.png}
+	$\\$
+	
+	
+	\item Повысить на 0.1 рейтинг пяти самых прибыльных фильмов (если их рейтинг меньше 10)
+	
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+		WITH top_movies AS (
+			SELECT m.id AS movie_id
+			FROM "public.Movies" m
+			JOIN "public.Sessions" s ON m.id = s.movie_id
+			JOIN "public.Tickets" t ON s.id = t.session_id
+			JOIN "public.Orders" o ON o.id = t.order_id
+			JOIN "public.Payment" p ON o.id = p.order_id
+			WHERE p.payment_time IS NOT NULL
+			GROUP BY m.id
+			ORDER BY SUM(o.total_price) DESC
+			LIMIT 5
+		)
+		
+		UPDATE "public.Movies"
+		SET rating = LEAST(rating + 0.1, 10)
+		FROM top_movies
+		WHERE id = top_movies.movie_id;
+	\end{lstlisting}
+	
+	Было (выведены фильмы с рейтингами в порядке убывания кассовых сборов):
+	
+	\includegraphics[scale=0.6,page=1]{query_13_1.png}
+	
+	Стало (выведены фильмы с рейтингами в порядке убывания кассовых сборов):
+	
+	\includegraphics[scale=0.6,page=1]{query_13_2.png}
+	$\\$
+	
+	
+	\item Вывести число свободных сидений к сеансам за определённое число в порядке их убывания
+	
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+		WITH seats_total AS (
+			SELECT h.id AS hall_id, c.name AS cinema_name, COUNT((st.row,st.place)) AS count
+			FROM "public.Seats" st
+			JOIN "public.Halls" h ON st.hall_id = h.id
+			JOIN "public.Cinemas" c ON h.cinema_id = c.id
+			GROUP BY h.id, c.name
+		),
+		seats_taken AS (
+			SELECT h.id AS hall_id, m.name AS movie_name, s.time_start::time  AS time_start, COUNT(t.id) AS count
+			FROM "public.Sessions" s
+			LEFT JOIN "public.Tickets" t ON t.session_id = s.id
+			JOIN "public.Movies" m ON m.id = s.movie_id
+			JOIN "public.Halls" h ON s.hall_id = h.id
+			JOIN "public.Cinemas" c ON h.cinema_id = c.id
+			WHERE s.time_start::date = '2023-11-05'
+			GROUP BY h.id, m.name, s.time_start
+		)
+		
+		SELECT seats_total.cinema_name, seats_taken.movie_name, seats_taken.time_start, seats_total.count as total, seats_total.count - seats_taken.count AS free
+		FROM seats_total
+		JOIN seats_taken ON seats_total.hall_id = seats_taken.hall_id
+		ORDER BY free;
+	\end{lstlisting}
+	
+	\includegraphics[scale=0.6,page=1]{query_14.png}
+	$\\$
+	
+	\item Данная задача сформулирована преподавателем и не касается реализованной базы данных. Её формулировка:
+	
+	\begin{lstlisting}[style=vscode-dark]
+		Факториал числа n определён как произведение всех чисел от 1 до n.
+		Например, факториал числа 5 равен 1*2*3*4*5=120. 
+		
+		Ваша задача состоит в том, чтобы написать SQL запрос, который будет использовать рекурсию для расчёта факториала заданного числа.
+		
+		Инициализация таблицы:
+		
+		CREATE TABLE factorials (
+			n INT PRIMARY KEY,
+			factorial BIGINT
+		);
+		
+		INSERT INTO factorials (n, factorial)
+		VALUES (0, 1),
+			   (1, 1);
+		
+		Результат выполнения запроса будет следующим:
+		n | factorial
+		--+-----------
+		1 |         1
+		2 |         2
+		3 |         6
+		4 |        24
+		5 |       120
+	\end{lstlisting}
+
+	Решение:
+	
+	\begin{lstlisting}[style=vscode-dark, language=SQL, label={code:sql}]
+		WITH RECURSIVE f AS (
+			WITH f_max AS (
+				SELECT MAX(n) AS n
+				FROM factorials
+			)
+			
+			SELECT * FROM factorials
+			
+			UNION ALL
+			
+			SELECT f.n+1 AS n,
+				f.factorial*(f.n+1) AS factorial
+			FROM f, f_max
+			WHERE f.n >= f_max.n AND f.n < 5
+		)
+		
+		SELECT * FROM f
+	\end{lstlisting}
+
+	\includegraphics[scale=0.8,page=1]{query_15.png}
+	
+	
+	\end{enumerate}
 	
 \end{document}
