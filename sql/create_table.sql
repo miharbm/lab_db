@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS "public.Movies" (
 	"description" TEXT,
 	CONSTRAINT "Movies_pk" PRIMARY KEY ("id")
 ) WITH (
+
   OIDS=FALSE
 );
 

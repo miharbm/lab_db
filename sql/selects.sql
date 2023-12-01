@@ -66,19 +66,19 @@ GROUP BY g.name
 ORDER BY movies_count DESC;
 
 
--- -- получить количество занятых мест в зале на сеансе
--- SELECT COUNT(t.id)
--- FROM "public.Tickets" t
--- JOIN "public.Sessions" s ON t.session_id = s.id
--- JOIN "public.Movies" m ON m.id = s.movie_id
--- JOIN "public.Halls" h ON s.hall_id = h.id
--- JOIN "public.Cinemas" c on h.cinema_id = c.id
--- JOIN "public.Orders" o ON t.order_id = o.id
--- WHERE m.name = 'Мировая сумка-машина'
---     AND s.time_start::date = '2023-11-05'
---     AND c.name = 'Семьдесять девятый'
---     AND h.type = 'VIP'
---     AND o."isBooked" = True;
+-- получить количество занятых мест в зале на сеансе
+SELECT COUNT(t.id)
+FROM "public.Tickets" t
+JOIN "public.Sessions" s ON t.session_id = s.id
+JOIN "public.Movies" m ON m.id = s.movie_id
+JOIN "public.Halls" h ON s.hall_id = h.id
+JOIN "public.Cinemas" c on h.cinema_id = c.id
+JOIN "public.Orders" o ON t.order_id = o.id
+WHERE m.name = 'Мировая сумка-машина'
+    AND s.time_start::date = '2023-11-05'
+    AND c.name = 'Семьдесять девятый'
+    AND h.type = 'VIP'
+    AND o."isBooked" = True;
 
 
 -- -- количество мест на сеансе
@@ -124,10 +124,13 @@ WHERE c.name = 'Пятый'
     AND pn."isWon" = True;
 
 
--- -- обновление пароля клиента по почте
--- UPDATE "public.Customers"
--- SET password = 'updatedpass'
--- WHERE mail = 'bobrovaraisa@example.org';
+-- обновление пароля клиента по почте
+UPDATE "public.Customers"
+SET password = 'updatedpass'
+WHERE mail = 'bobrovaraisa@example.org';
+
+SELECT id, mail, password FROM "public.Customers"
+WHERE mail = 'bobrovaraisa@example.org';
 
 
 -- удаление всех сеансов с этим фильмом
@@ -251,4 +254,36 @@ JOIN seats_taken ON seats_total.hall_id = seats_taken.hall_id
 ORDER BY free;
 
 
-SELECT
+-- Получить средний возраст зрителей фильмов с рейтингом R
+SELECT avg(age(c.birthday))
+FROM "public.Customers" c
+JOIN "public.Orders" o ON c.id = o.customer_id
+JOIN "public.Tickets" t ON o.id = t.order_id
+JOIN "public.Sessions" s ON t.session_id = s.id
+JOIN "public.Movies" m ON s.movie_id = m.id
+JOIN "public.Payment" p ON o.id = p.order_id
+WHERE m.mpaa = 'R'
+    AND p.payment_time IS NOT NULL;
+
+
+-- Получить выручу по месяцам
+SELECT  extract(month from p.payment_time), sum(o.total_price)
+FROM "public.Orders" o
+JOIN "public.Payment" p On o.id = p.order_id
+WHERE p.payment_time IS NOT NULL
+    AND extract(year from p.payment_time) = extract(year from current_timestamp)
+GROUP BY extract(month from p.payment_time);
+
+-- процент фильмов, которые есть в базе, но не были в прокате
+WITH movies_null AS (
+    SELECT count(m.id) AS count
+    FROM "public.Movies" m
+    LEFT JOIN "public.Sessions" s on m.id = s.movie_id
+    WHERE s.id is NULL
+),
+    movies_all AS (
+    SELECT count(*) AS count
+    FROM "public.Movies"
+)
+SELECT 100 * movies_null.count / movies_all.count AS percentage
+FROM movies_null, movies_all;

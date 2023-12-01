@@ -22725,4 +22725,5 @@ SET total_price = (
     SELECT COALESCE(SUM(t.price), 0)
     FROM "public.Tickets" t
     WHERE t.order_id = o.id
-);
+)
+WHERE o.total_price = 0;

@@ -112,21 +112,21 @@
 	\setcounter{page}{2}
 	
 	\newpage
-	
-	\section{Формулировка задания}
+	\section{Формулировка задания}\label{sec:-4}
 
 	Спроектировать базу данных для онлайн кассы сети кинотеатров, находящейся в разных городах России и осуществляющую
 	продажу билетов на показы кино.
 	База данных должна содержать информацию о клиентах, сотрудниках, кино, существующих в прокате.
-	В ней так же должны отображаться билеты, производимые транзакции и подробная информация о проходящем кино.	\newpage
-	
+	В ней так же должны отображаться билеты, производимые транзакции и подробная информация о проходящем кино.
+
+	\newpage
 	\section{Концептуальная модель базы данных}\label{sec:---}
 
 	После проведения анализа предметной области была спроектирована следующая концептуальная модель:
 	
 	\begin{figure}[h]
 		\hspace{-1.75cm}
-		\includegraphics[scale=0.094,page=1]{Концептуальная модель.pdf}
+		\includegraphics[scale=0.094,page=1]{Концептуальная_модель}
 		\caption{Концептуальная модель базы данных}\label{fig:figure}
 	\end{figure}
 	
@@ -136,8 +136,8 @@
 
 	Необходимо создать систему, отражающую информацию о билетах на сеансы кино, производящую отметку об оплате конкретному клиенту.
 	База данных должна содержать подробную информацию о кино и связанных с ней людях, должна отображать сотрудников каждого отдельного кинотеатра.
+
 	\newpage
-	
 	\subsection{Описание предметной области}\label{subsec:--3}
 
 	Система ориентирована на зарегестрированных либо по почте либо по телефону пользователей.
@@ -191,8 +191,8 @@
 	
 	\newpage
 	
-	\subsection{Описание атрибутов}
-	
+	\subsection{Описание атрибутов}\label{subsec:-2}
+
 	В процессе анализа были выделены следующие атрибуты, название и описание которых приведены в таблице ниже.
 	
 	\begin{center}
@@ -268,7 +268,7 @@
 	
 	\begin{figure}[h]
 		\hspace{-1.75cm}
-		\includegraphics[scale=0.19,page=1]{Логическая модель.png}
+		\includegraphics[scale=0.19,page=1]{Логическая_модель}
 		\caption{Логическая модель базы данных}\label{fig:figure2}
 	\end{figure}
 	
@@ -280,7 +280,7 @@
 	
 	\begin{figure}[h]
 		\hspace{-1.75cm}
-		\includegraphics[scale=0.5,page=1]{Графическое представление.png}
+		\includegraphics[scale=0.5,page=1]{Графическое_представление}
 		\caption{Графическое представление базы данных}\label{fig:figure3}
 	\end{figure}
 	
@@ -708,69 +708,69 @@
 	
 	\item Фрагмент сгенерированной Excel-таблицы для заполнения Movies
 	
-	\includegraphics[scale=0.7,page=1]{movies_random.pdf}
+	\includegraphics[scale=0.7,page=1]{table_inserts_excel/movies_random}
 	
 
 	\item Фрагмент сгенерированной Excel-таблицы для заполнения Movies\_genres
 	
-	\includegraphics[scale=0.7,page=1]{movies_genres_random.pdf}
+	\includegraphics[scale=0.7,page=1]{table_inserts_excel/movies_genres_random}
 	
 
 	\item Фрагмент сгенерированной Excel-таблицы для заполнения Pictures\_movie
 	
-	\includegraphics[scale=0.7,page=1]{movie_pictures_random.pdf}
+	\includegraphics[scale=0.7,page=1]{table_inserts_excel/movie_pictures_random}
 	
 
 	\item Фрагмент сгенерированной Excel-таблицы для заполнения Film\_crew\_members
 	
 	
-	\includegraphics[scale=0.7,page=1]{members_random.pdf}
+	\includegraphics[scale=0.7,page=1]{table_inserts_excel/members_random}
 	
 
 	\item Фрагмент сгенерированной Excel-таблицы для заполнения Films\_positions
 	
-	\includegraphics[scale=0.7,page=1]{members_movies_random.pdf}
+	\includegraphics[scale=0.7,page=1]{table_inserts_excel/members_movies_random}
 	$\\$
 	
 	\item Фрагмент сгенерированной Excel-таблицы для заполнения Prime\_nominations
 	
-	\includegraphics[scale=0.7,page=1]{prime_nominations_random.pdf}
+	\includegraphics[scale=0.7,page=1]{table_inserts_excel/prime_nominations_random}
 	
 
 	\item Фрагмент сгенерированной Excel-таблицы для заполнения Cinemas
 	
-	\includegraphics[scale=0.7,page=1]{cinemas_random.pdf}
+	\includegraphics[scale=0.7,page=1]{table_inserts_excel/cinemas_random}
 	
 
 	\item Фрагмент сгенерированной Excel-таблицы для заполнения Halls
 	
-	\includegraphics[scale=0.7,page=1]{halls_random.pdf}
+	\includegraphics[scale=0.7,page=1]{table_inserts_excel/halls_random}
 	$\\$
 	
 	\item Фрагмент сгенерированной Excel-таблицы для заполнения Sessions
 	
-	\includegraphics[scale=0.7,page=1]{sessions_random.pdf}
+	\includegraphics[scale=0.7,page=1]{table_inserts_excel/sessions_random}
 	
 	
 	\item Фрагмент сгенерированной Excel-таблицы для заполнения Customers
 	
-	\includegraphics[scale=0.7,page=1]{customers_random.pdf}
+	\includegraphics[scale=0.7,page=1]{table_inserts_excel/customers_random}
 	
 	
 	\item Фрагмент сгенерированной Excel-таблицы для заполнения Payment
 	
-	\includegraphics[scale=0.7,page=1]{payment_random.pdf}
+	\includegraphics[scale=0.7,page=1]{table_inserts_excel/payment_random}
 	$\\$
 	
 	
 	\item Фрагмент сгенерированной Excel-таблицы для заполнения Tickets
 	
-	\includegraphics[scale=0.7,page=1]{tickets_random.pdf}
+	\includegraphics[scale=0.7,page=1]{table_inserts_excel/tickets_random}
 	
 	
 	\item Фрагмент сгенерированной Excel-таблицы для заполнения Staff
 	
-	\includegraphics[scale=0.7,page=1]{staff_random.pdf}
+	\includegraphics[scale=0.7,page=1]{table_inserts_excel/staff_random}
 	
 	\end{itemize}
 	
@@ -781,7 +781,7 @@
 	Ниже приведён пример Python-кода, который принимает данные из Excel-таблицы и генерирует SQL-запрос на заполнение данными таблицы Tickets.
 	
 	\begin{figure}[h]
-		\hspace{-0.5cm}\includegraphics[scale=0.6,page=1]{sql_tickets_insert.pdf}\label{fig:figure4}
+		\hspace{-0.5cm}\includegraphics[scale=0.6,page=1]{table_inserts_excel/sql_tickets_insert}\label{fig:figure4}
 	\end{figure}
 
 	Все генерируемые подобным образом SQL-запросы направлены на то, чтобы искать id нужных таблиц и заполнять нужные данные на основе данных из Excel-таблиц. Причём нужные id в таком запросе ищутся ровно один раз даже в случае, если в Excel-таблице на один и тот же id ссылаются несколько раз.
@@ -794,112 +794,112 @@
 		
 	\item Фрагмент таблицы Movies
 
-	\includegraphics[scale=0.55,page=1]{Movies.png}
+	\includegraphics[scale=0.55,page=1]{table_inserts_examples/Movies}
 	
 	
 	\item Таблица Genres
 	
-	\includegraphics[scale=0.3,page=1]{Genres.png}
+	\includegraphics[scale=0.3,page=1]{table_inserts_examples/Genres}
 	
 	
 	\item Фрагмент таблицы Movies\_genres
 	
-	\includegraphics[scale=0.3,page=1]{Movies_genres.png}
+	\includegraphics[scale=0.3,page=1]{table_inserts_examples/Movies_genres}
 	
 	\newpage
 	
 	
 	\item Таблица Pictures\_movie
 	
-	\includegraphics[scale=0.3,page=1]{Pictures_movie.png}
+	\includegraphics[scale=0.3,page=1]{table_inserts_examples/Pictures_movie}
 	
 	
 	\item Фрагмент таблицы Film\_crew\_members
 	
-	\includegraphics[scale=0.3,page=1]{Film_crew_members.png}
+	\includegraphics[scale=0.3,page=1]{table_inserts_examples/Film_crew_members}
 	
 	
 	\item Фрагмент таблицы Films\_positions
 	
-	\includegraphics[scale=0.3,page=1]{Films_positions.png}
+	\includegraphics[scale=0.3,page=1]{table_inserts_examples/Films_positions}
 	
 	\newpage
 	
 	\item Фрагмент таблицы Nominees
 	
-	\includegraphics[scale=0.3,page=1]{Nominees.png}
+	\includegraphics[scale=0.3,page=1]{table_inserts_examples/Nominees}
 	$\\$
 	
 	
 	\item Таблица Primes
 	
-	\includegraphics[scale=0.4,page=1]{Primes.png}
+	\includegraphics[scale=0.4,page=1]{table_inserts_examples/Primes}
 	$\\$
 	
 	
 	\item Фрагмент таблицы Prime\_nominations
 	
-	\includegraphics[scale=0.3,page=1]{Prime_nominations.png}
+	\includegraphics[scale=0.3,page=1]{table_inserts_examples/Prime_nominations}
 
 	
 	
 	\item Фрагмент таблицы Cinemas
 	
-	\includegraphics[scale=0.3,page=1]{Cinemas.png}
+	\includegraphics[scale=0.3,page=1]{table_inserts_examples/Cinemas}
 	$\\$
 	
 	
 	\item Фрагмент таблицы Halls
 	
-	\includegraphics[scale=0.3,page=1]{Halls.png}
+	\includegraphics[scale=0.3,page=1]{table_inserts_examples/Halls}
 	$\\$
 	
 	
 	\item Фрагмент таблицы Sessions
 	
-	\includegraphics[scale=0.3,page=1]{Sessions.png}
+	\includegraphics[scale=0.3,page=1]{table_inserts_examples/Sessions}
 	$\\$
 
 	
 	\item Фрагмент таблицы Seats
 	
-	\includegraphics[scale=0.32,page=1]{Seats.png}
+	\includegraphics[scale=0.32,page=1]{table_inserts_examples/Seats}
 	$\\$
 	
 	
 	\item Фрагмент таблицы Customers
 	
-	\includegraphics[scale=0.24,page=1]{Customers.png}
+	\includegraphics[scale=0.24,page=1]{table_inserts_examples/Customers}
 	$\\$
 	
 	
 	\item Фрагмент таблицы Orders
 	
-	\includegraphics[scale=0.32,page=1]{Orders.png}
+	\includegraphics[scale=0.32,page=1]{table_inserts_examples/Orders}
 	$\\$
 	
 	
 	\item Фрагмент таблицы Payment
 	
-	\includegraphics[scale=0.3,page=1]{Payment.png}
+	\includegraphics[scale=0.3,page=1]{table_inserts_examples/Payment}
 	$\\$
 	
 	
 	\item Фрагмент таблицы Tickets
 	
-	\includegraphics[scale=0.3,page=1]{Tickets.png}
+	\includegraphics[scale=0.3,page=1]{table_inserts_examples/Tickets}
 	$\\$
 	
 	
 	\item Таблица Cinemas\_positions
 	
-	\includegraphics[scale=0.3,page=1]{Cinemas_positions.png}
+	\includegraphics[scale=0.3,page=1]{table_inserts_examples/Cinemas_positions}
 	$\\$
 	
 	
 	\item Фрагмент таблицы Staff
 	
-	\includegraphics[scale=0.24,page=1]{Staff.png}
+	\includegraphics[scale=0.24,page=1]{table_inserts_examples/Staff}
 	
 	
 		
@@ -911,7 +911,6 @@
 
 	\begin{enumerate} 
 		\item Получить неоплаченные заказы и тех, кто не оплатил
-  
 			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql20}]
 				SELECT o.id, c.name
 				FROM "public.Orders" o
@@ -919,13 +918,11 @@
 				JOIN "public.Payment" p ON o.id = p.order_id
 				WHERE p.payment_time IS NULL;
 			\end{lstlisting}
-
-  			\includegraphics[scale=0.6,page=1]{queries/1}
+  			\includegraphics[scale=0.6,page=1]{queries/q1}
 			$\\$
   
   
 		\item Получить все сеансы на день в кинотеатре
-
 			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql21}]
 				SELECT m.id, m.name, m.duration, s.time_start, h.type
 				FROM "public.Sessions" s
@@ -935,8 +932,227 @@
 				WHERE s.time_start::date = '2023-11-05'
     			AND c.name = 'Четвертый';
 			\end{lstlisting}
+			\includegraphics[scale=0.6,page=1]{queries/q2}
+			$\\$
 
-			\includegraphics[scale=0.6,page=1]{queries/}
+		\item Получить почты клиентов, родившихся в 90е (для какой-нибудь рассылки)
+			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql22}]
+				SELECT c.mail, c.birthday
+				FROM "public.Customers" c
+				WHERE c.mail IS NOT NULL
+					AND c.birthday < '2000-01-01'
+					AND c.birthday >= '1990-01-01';
+			\end{lstlisting}
+			\includegraphics[scale=0.6,page=1]{queries/q3}
+			$\\$
+
+		\item Получить всех актеров какого-нибудь фильма, сортированных по убыванию возраста
+			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql23}]
+				SELECT fcm.id, fcm.name, fcm.birthday
+				FROM "public.Film_crew_members" fcm
+				JOIN "public.Films_positions" fp ON fcm.id = fp.member_id
+				JOIN "public.Movies" m ON fp.movie_id = m.id
+				WHERE m.name = 'Тип семейства'
+					AND fp.name = 'Актер'
+				ORDER BY fcm.birthday;
+			\end{lstlisting}
+			\includegraphics[scale=0.6,page=1]{queries/q4}
+			$\\$
+
+		\item Получить фильмы, которые идут в этом кинотеатре в жанре Мультфильмы
+			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql24}]
+				SELECT m.id, m.name, s.time_start
+				FROM "public.Sessions" s
+				JOIN "public.Movies" m ON m.id = s.movie_id
+				JOIN "public.Movies_genres" mg ON m.id = mg.movie_id
+				JOIN "public.Genres" g ON mg.genres_id = g.id
+				JOIN "public.Halls" h ON s.hall_id = h.id
+				JOIN "public.Cinemas" c ON h.cinema_id = c.id
+				WHERE s.time_start::date = '2023-11-05'
+					AND g.name = 'Мультфильмы'
+					AND c.name = 'Одиннадцатый';
+			\end{lstlisting}
+			\includegraphics[scale=0.6,page=1]{queries/q5}
+			$\\$
+
+		\item Получить количество занятых мест в зале на сеансе
+			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql25}]
+				SELECT COUNT(t.id)
+				FROM "public.Tickets" t
+				JOIN "public.Sessions" s ON t.session_id = s.id
+				JOIN "public.Movies" m ON m.id = s.movie_id
+				JOIN "public.Halls" h ON s.hall_id = h.id
+				JOIN "public.Cinemas" c on h.cinema_id = c.id
+				JOIN "public.Orders" o ON t.order_id = o.id
+				WHERE m.name = 'Мировая сумка-машина'
+					AND s.time_start::date = '2023-11-05'
+					AND c.name = 'Сотый'
+					AND h.type = 'VIP'
+					AND o."isBooked" = True;
+			\end{lstlisting}
+			\includegraphics[scale=0.6,page=1]{queries/q6}
+			$\\$
+
+		\item Узнать сумму цен на забронированные, но не проданные билеты
+			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql26}]
+				SELECT SUM(t.price)
+				FROM "public.Tickets" t
+				JOIN "public.Orders" o ON t.order_id = o.id
+				JOIN "public.Payment" p ON o.id = p.order_id
+				WHERE o."isBooked" = True
+					AND p.payment_time IS NULL;
+			\end{lstlisting}
+			\includegraphics[scale=0.6,page=1]{queries/q7}
+			$\\$
+
+		\item Обновление пароля клиента по почте
+			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql27}]
+				UPDATE "public.Customers"
+				SET password = 'updatedpass'
+				WHERE mail = 'bobrovaraisa@example.org';
+			\end{lstlisting}
+			\includegraphics[scale=0.6,page=1]{queries/q8before}
+			\includegraphics[scale=0.6,page=1]{queries/q8after}
+			$\\$
+
+		\item Удаление всех сеансов с этим фильмом
+			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql28}]
+				DELETE FROM "public.Sessions" s
+				WHERE s.movie_id = (SELECT m.id FROM "public.Movies" m
+                           			 WHERE m.name = 'Помнить'
+									);
+			\end{lstlisting}
+			\includegraphics[scale=0.6,page=1]{queries/q9before}\\
+			\includegraphics[scale=0.6,page=1]{queries/q9after}
+			$\\$
+
+		\item Вывести фильмы в порядке убывания количества сеансов в определённый день
+			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql29}]
+				SELECT m.id, m.name, COUNT(s.id) AS session_count
+				FROM "public.Movies" m
+				JOIN "public.Sessions" s ON m.id = s.movie_id
+				WHERE s.time_start::date = '2023-11-05'
+				GROUP BY m.id
+				ORDER BY session_count DESC;
+			\end{lstlisting}
+			\includegraphics[scale=0.6,page=1]{queries/q10}
+			$\\$
+
+
+		\item Вывести отношение билетов, проданных онлайн, ко всем проданным билетам
+			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql32}]
+				WITH paid_total AS (
+					SELECT count(t.id) AS count
+					FROM "public.Tickets" t
+					JOIN "public.Orders" o ON o.id = t.order_id
+					JOIN "public.Payment" p ON o.id = p.order_id
+						WHERE p.payment_time IS NOT NULL
+				),
+				paid_online AS (
+					SELECT count(t.id) AS count
+					FROM "public.Tickets" t
+					JOIN "public.Orders" o ON o.id = t.order_id
+					JOIN "public.Payment" p ON o.id = p.order_id
+					WHERE p.payment_time IS NOT NULL
+						AND (p.type = 'Оплата онлайн переводом'
+						OR p.type = 'Оплата банковской картой онлайн')
+				)
+				SELECT paid_online.count AS online_count, paid_total.count AS total_count,
+    					100 * paid_online.count / paid_total.count AS online_percentage
+				FROM paid_total, paid_online
+			\end{lstlisting}
+			\includegraphics[scale=0.6,page=1]{queries/q11}
+			$\\$
+
+
+		\item Получить средний возраст зрителей фильмов с рейтингом R
+			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql30}]
+				SELECT avg(age(c.birthday))
+				FROM "public.Customers" c
+				JOIN "public.Orders" o ON c.id = o.customer_id
+				JOIN "public.Tickets" t ON o.id = t.order_id
+				JOIN "public.Sessions" s ON t.session_id = s.id
+				JOIN "public.Movies" m ON s.movie_id = m.id
+				JOIN "public.Payment" p ON o.id = p.order_id
+				WHERE m.mpaa = 'R'
+   					 AND p.payment_time IS NOT NULL;
+			\end{lstlisting}
+			\includegraphics[scale=0.6,page=1]{queries/q12}
+			$\\$
+
+
+		\item Получить выручку по месяцам этого года
+			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql31}]
+				SELECT extract(month from p.payment_time), sum(o.total_price)
+				FROM "public.Orders" o
+				JOIN "public.Payment" p On o.id = p.order_id
+				WHERE p.payment_time IS NOT NULL
+					AND extract(year from p.payment_time) = extract(year from current_timestamp)
+				GROUP BY extract(month from p.payment_time);
+			\end{lstlisting}
+			\includegraphics[scale=0.6,page=1]{queries/q13}
+			$\\$
+
+
+		\item Процент фильмов, которые есть в базе, но не были в прокате
+			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql35}]
+				WITH movies_null AS (
+					SELECT count(m.id) AS count
+					FROM "public.Movies" m
+					LEFT JOIN "public.Sessions" s on m.id = s.movie_id
+					WHERE s.id is NULL
+				),
+					movies_all AS (
+					SELECT count(*) AS count
+					FROM "public.Movies"
+				)
+				SELECT 100 * movies_null.count / movies_all.count AS percentage
+				FROM movies_null, movies_all;
+			\end{lstlisting}
+			\includegraphics[scale=0.6,page=1]{queries/q14}
+			$\\$
+
+
+		\item Поиск всех подкатегорий
+			\\Инициализация таблицы
+		\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql33}]
+
+			CREATE TABLE categories (
+				id INT PRIMARY KEY,
+				name VARCHAR(100),
+				parent_id INT REFERENCES categories(id)
+			);
+
+			INSERT INTO categories (id, name, parent_id)
+			VALUES (1, 'Electronics', NULL),
+				   (2, 'Computers', 1),
+				   (3, 'Laptops', 2),
+				   (4, 'Gaming Laptops', 3),
+				   (5, 'Ultrabooks', 3),
+				   (6, 'Desktops', 2),
+				   (7, 'Phones', 1),
+				   (8, 'Smartphones', 7),
+				   (9, 'Feature Phones', 7);
+		\end{lstlisting}
+		Поиск всех подкатегорий для категории Computers
+		\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql34}]
+			WITH RECURSIVE r AS (
+				SELECT id, name, parent_id
+				FROM categories
+				WHERE name = 'Computers'
+
+				UNION
+
+				SELECT categories.id, categories.name, categories.parent_id
+				FROM categories
+				JOIN r ON categories.parent_id = r.id
+			)
+			SELECT r.name
+			FROM r
+			WHERE r.name != 'Computers'
+			ORDER BY r.id;
+		\end{lstlisting}
+		\includegraphics[scale=0.6,page=1]{queries/q_rec}
 		$\\$
 	\end{enumerate}
 
