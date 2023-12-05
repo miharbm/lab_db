@@ -126,18 +126,16 @@
 	
 	\begin{figure}[h]
 		\hspace{-1.75cm}
-		\includegraphics[scale=0.094,page=1]{Концептуальная_модель}
+		\includegraphics[scale=0.081,page=1]{Концептуальная_модель}
 		\caption{Концептуальная модель базы данных}\label{fig:figure}
 	\end{figure}
-	
-	\newpage
+
 	
 	\subsection{Конкретизация предметной области}\label{subsec:--2}
 
 	Необходимо создать систему, отражающую информацию о билетах на сеансы кино, производящую отметку об оплате конкретному клиенту.
 	База данных должна содержать подробную информацию о кино и связанных с ней людях, должна отображать сотрудников каждого отдельного кинотеатра.
 
-	\newpage
 	\subsection{Описание предметной области}\label{subsec:--3}
 
 	Система ориентирована на зарегестрированных либо по почте либо по телефону пользователей.
@@ -785,8 +783,8 @@
 	\end{figure}
 
 	Все генерируемые подобным образом SQL-запросы направлены на то, чтобы искать id нужных таблиц и заполнять нужные данные на основе данных из Excel-таблиц. Причём нужные id в таком запросе ищутся ровно один раз даже в случае, если в Excel-таблице на один и тот же id ссылаются несколько раз.
-	
-	\newpage
+
+	Ссылка на используемый Python-код \href{https://github.com/miharbm/lab_db/blob/main/ipynb/sql_insert.ipynb}{здесь}.
 	
 	\subsubsection{Результаты заполнения}
 	
@@ -918,7 +916,7 @@
 				JOIN "public.Payment" p ON o.id = p.order_id
 				WHERE p.payment_time IS NULL;
 			\end{lstlisting}
-  			\includegraphics[scale=1,page=1]{queries/q1}
+  			\includegraphics[scale=0.8,page=1]{queries/q1}
 			$\\$
   
   
@@ -932,7 +930,7 @@
 				WHERE s.time_start::date = '2023-11-05'
     			AND c.name = 'Четвертый';
 			\end{lstlisting}
-			\includegraphics[scale=1,page=1]{queries/q2}
+			\includegraphics[scale=0.8,page=1]{queries/q2}
 			$\\$
 
 		\item Получить почты клиентов, родившихся в 90е (для какой-нибудь рассылки)
@@ -943,7 +941,7 @@
 					AND c.birthday < '2000-01-01'
 					AND c.birthday >= '1990-01-01';
 			\end{lstlisting}
-			\includegraphics[scale=1,page=1]{queries/q3}
+			\includegraphics[scale=0.8,page=1]{queries/q3}
 			$\\$
 
 		\item Получить всех актеров какого-нибудь фильма, сортированных по убыванию возраста
@@ -956,7 +954,7 @@
 					AND fp.name = 'Актер'
 				ORDER BY fcm.birthday;
 			\end{lstlisting}
-			\includegraphics[scale=1,page=1]{queries/q4}
+			\includegraphics[scale=0.8,page=1]{queries/q4}
 			$\\$
 
 		\item Получить фильмы, которые идут в этом кинотеатре в жанре Мультфильмы
@@ -972,7 +970,7 @@
 					AND g.name = 'Мультфильмы'
 					AND c.name = 'Одиннадцатый';
 			\end{lstlisting}
-			\includegraphics[scale=1,page=1]{queries/q5}
+			\includegraphics[scale=0.8,page=1]{queries/q5}
 			$\\$
 
 		\item Получить количество занятых мест в зале на сеансе
@@ -990,7 +988,7 @@
 					AND h.type = 'VIP'
 					AND o."isBooked" = True;
 			\end{lstlisting}
-			\includegraphics[scale=1,page=1]{queries/q6}
+			\includegraphics[scale=0.8,page=1]{queries/q6}
 			$\\$
 
 		\item Узнать сумму цен на забронированные, но не проданные билеты
@@ -1002,7 +1000,7 @@
 				WHERE o."isBooked" = True
 					AND p.payment_time IS NULL;
 			\end{lstlisting}
-			\includegraphics[scale=1,page=1]{queries/q7}
+			\includegraphics[scale=0.8,page=1]{queries/q7}
 			$\\$
 
 		\item Обновление пароля клиента по почте
@@ -1011,8 +1009,8 @@
 				SET password = 'updatedpass'
 				WHERE mail = 'bobrovaraisa@example.org';
 			\end{lstlisting}
-			\includegraphics[scale=1,page=1]{queries/q8before}
-			\includegraphics[scale=1,page=1]{queries/q8after}
+			\includegraphics[scale=0.8,page=1]{queries/q8before}
+			\includegraphics[scale=0.8,page=1]{queries/q8after}
 			$\\$
 
 		\item Удаление всех сеансов с этим фильмом
@@ -1022,8 +1020,8 @@
                            			 WHERE m.name = 'Помнить'
 									);
 			\end{lstlisting}
-			\includegraphics[scale=1,page=1]{queries/q9before}\\
-			\includegraphics[scale=1,page=1]{queries/q9after}
+			\includegraphics[scale=0.8,page=1]{queries/q9before}\\
+			\includegraphics[scale=0.8,page=1]{queries/q9after}
 			$\\$
 
 		\item Вывести фильмы в порядке убывания количества сеансов в определённый день
@@ -1035,7 +1033,7 @@
 				GROUP BY m.id
 				ORDER BY session_count DESC;
 			\end{lstlisting}
-			\includegraphics[scale=1,page=1]{queries/q10}
+			\includegraphics[scale=0.8,page=1]{queries/q10}
 			$\\$
 
 
@@ -1061,13 +1059,13 @@
     					100 * paid_online.count / paid_total.count AS online_percentage
 				FROM paid_total, paid_online
 			\end{lstlisting}
-			\includegraphics[scale=1,page=1]{queries/q11}
+			\includegraphics[scale=0.8,page=1]{queries/q11}
 			$\\$
 
 
 		\item Получить средний возраст зрителей фильмов с рейтингом R
 			\begin{lstlisting}[style=vscode-dark, language=SQL, label={lst:sql30}]
-				SELECT avg(age(c.birthday))
+				SELECT round(avg(date_part('year', age(c.birthday)))) AS avg_age
 				FROM "public.Customers" c
 				JOIN "public.Orders" o ON c.id = o.customer_id
 				JOIN "public.Tickets" t ON o.id = t.order_id
@@ -1077,7 +1075,7 @@
 				WHERE m.mpaa = 'R'
    					 AND p.payment_time IS NOT NULL;
 			\end{lstlisting}
-			\includegraphics[scale=1,page=1]{queries/q12}
+			\includegraphics[scale=0.8,page=1]{queries/q12}
 			$\\$
 
 
@@ -1090,7 +1088,7 @@
 					AND extract(year from p.payment_time) = extract(year from current_timestamp)
 				GROUP BY extract(month from p.payment_time);
 			\end{lstlisting}
-			\includegraphics[scale=1,page=1]{queries/q13}
+			\includegraphics[scale=0.8,page=1]{queries/q13}
 			$\\$
 
 
@@ -1109,7 +1107,7 @@
 				SELECT 100 * movies_null.count / movies_all.count AS percentage
 				FROM movies_null, movies_all;
 			\end{lstlisting}
-			\includegraphics[scale=1,page=1]{queries/q14}
+			\includegraphics[scale=0.8,page=1]{queries/q14}
 			$\\$
 
 
@@ -1152,7 +1150,7 @@
 			WHERE r.name != 'Computers'
 			ORDER BY r.id;
 		\end{lstlisting}
-		\includegraphics[scale=1,page=1]{queries/q_rec}
+		\includegraphics[scale=0.8,page=1]{queries/q_rec}
 		$\\$
 	\end{enumerate}
 
